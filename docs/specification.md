@@ -1,10 +1,10 @@
-Version 0.1 Draft
+Version 0.2 Draft
 
 # ua-parser Specification
 
-This document describes the specification on how a parser should implement the `regexes.yaml` file for correctly parsing user-agent strings on basis of that file. 
+This document describes the specification on how a parser must implement the `regexes.yaml` file for correctly parsing user-agent strings on basis of that file. 
 
-This specification shall help maintainers and contributors to correctly use the provided information within the `regexes,yaml` file for obtaining information from the different user-agent strings. Furthermore this specification shall be the basis for discussions on evolving the projects and the needed parsing algorithms.
+This specification intends to help maintainers and contributors to correctly use the provided information within the `regexes,yaml` file for obtaining information from the different user-agent strings. Furthermore this specification tries to be the basis for discussions on evolving the projects and the needed parsing algorithms.
 
 This document will not provide any information on how to implement the ua-parser project on your server and how to retreive the user-agent string for further processing. 
 
@@ -28,7 +28,7 @@ Each parser contains a list of regular-expressions which are named `regex`. For 
 
 ## user_agent_parsers
 
-The `user_agent_parsers` shall return information of the `family` type of the User-Agent.
+The `user_agent_parsers` returns information of the `family` type of the User-Agent.
 If available the version infomation specifying the `family` may be extracted as well if available.
 Here major, minor and patch version information can be addressed or overwritten.
 
@@ -67,7 +67,7 @@ the matching `regex`:
     family_replacement: 'Firefox ($1)'
 ````
 
-shall be resolved to:
+resolves to:
 
 ````
   family: Firefox (Minefield)
@@ -78,7 +78,7 @@ shall be resolved to:
 
 ## os_parsers
 
-The `os_parsers` shall return information of the `os` type of the Operating System (OS) the User-Agent runs.
+The `os_parsers` return information of the `os` type of the Operating System (OS) the User-Agent runs.
 If available the version information specifying the `os` may be extracted as well if available.
 Here major, minor and patch version information can be addressed or overwritten.
 
@@ -119,7 +119,7 @@ the matching `regex`:
     os_replacement: 'Windows $1'
 ````
 
-shall be resolved to:
+resolves to:
 
 ````
   os: Windows 95
@@ -127,9 +127,9 @@ shall be resolved to:
 
 ## device_parsers 
 
-The `device_parsers` shall return information of the device `family` the User-Agent runs.
+The `device_parsers` return information of the device `family` the User-Agent runs on.
 Furthermore `brand` and `model` of the device can be specified.
-`brand` shall name the manufacturer of the device, where model shall specify the model of the device.
+`brand` names the manufacturer of the device, where model specifies the model of the device.
 
 | match in regex | default replacement | placeholder in replacement | note   |
 | ---- | ------------------ | ------- | ---------------------------------------- |
@@ -141,6 +141,8 @@ In case that no replacement is specified the association is given by order of th
 If in the `regex` no first match (within normal brackets) is given the `family_replacement` together with the `model_replacement` shall be specified!
 To overwrite the respective value the replacement value needs to be named for a given `regex`.
 
+For the `device_parsers` some `regex` require case insensitive parsing for proper matching. (E.g. Generic Feature Phones). To distinguish this from the case sensitive default case, the value `regex_flag: 'i'` is used to indicate that the regular-expression matching shall be case-insensitive for this regular expression. 
+
 **Parser Implementation:**
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
@@ -151,6 +153,7 @@ If a `*_replacement` string is specified it shall overwrite or replace the match
 As placeholder for inserting matched characters $1 to $9 can be used to insert the matched characters from the regex into the replacement string.
 
 In case that no matching `regex` is found the value for `family` shall be "Other". `brand` and `model` shall not be defined.
+Leading and tailing whitespaces shall be trimmed from the result. 
 
 **Example:**
 
@@ -164,7 +167,7 @@ the matching `regex`:
     model_replacement: '$1 $2 $3'
 ````
 
-shall be resolved to:
+resolves to:
 
 ````
   family: 'PEDI_PLUS_W' 
@@ -172,6 +175,29 @@ shall be resolved to:
   model: 'PEDI PLUS W'
 ````
 
-# For discussion
+# Parser Output
 
-For the `device_parsers` some `regex` require case insensitive parsing for proper matching. (E.g. Generic Feature Phones). To distinguish this from the case sensitive default case it is proposed to introduce the value `regex_flag: 'i'` to indicate that the regular-expression matching shall be case-insensitive. 
+To allow interoperability with code that builds upon ua-parser, it is recommended to provide the parser output in a standardized way. The structure defined in [WebIDL](http://www.w3.org/TR/WebIDL/) may follow:
+
+````
+interface ua-parser-output {
+  attribute string string;      // The "user-agent" string 
+  object ua: {                  // The "user_agent_parsers" result
+    attribute string family;
+    attribute string major;
+    attribute string minor;
+    attribute string patchMinor;
+  };
+  object os: {                 	// The "os_parsers" result
+    attribute string family;
+    attribute string major;
+    attribute string minor;
+  };
+  object device: {              // The "device_parsers" result
+    attribute string family;
+    attribute string brand;
+    attribute string model;
+  };
+};
+
+````
