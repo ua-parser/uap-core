@@ -2,7 +2,7 @@
   "name": "ua-parser",
   "description": "The regex file necessary to build language ports of Browserscope's user agent parser.",
   "main": "./js/index",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "maintainers": [
     {
       "name": "Tobie Langel",

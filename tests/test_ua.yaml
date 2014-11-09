@@ -12,12 +12,6 @@ test_cases:
     minor: '1'
     patch: '0-80'
 
-  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
-    family: 'Amazon Silk'
-    major: '1'
-    minor: '1'
-    patch: '0-80'
-
   - user_agent_string: 'Mozilla/5.0 (Linux; U; en-us; KFTT Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Silk/2.0 Safari/535.19 Silk-Accelerated=false'
     family: 'Amazon Silk'
     major: '2'
@@ -34,6 +28,12 @@ test_cases:
     family: 'Amazon Silk'
     major: '2'
     minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-gb; KFTT Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Silk/3.25 like Chrome/34.0.1847.137 Mobile Safari/537.36'
+    family: 'Amazon Silk'
+    major: '3'
+    minor: '25'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.2; en-gb; HTC Desire Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
@@ -102,6 +102,48 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.15 Safari/535.11 QQBrowser/6.13.13719.201'
+    family: 'QQ Browser'
+    major: '6'
+    minor: '13'
+    patch: '13719'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0; QQBrowser/7.6.21433.400)'
+    family: 'QQ Browser'
+    major: '7'
+    minor: '6'
+    patch: '21433'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; zh-cn; MI 2S Build/JRO03L) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 MQQBrowser/5.0 Mobile Safari/537.36'
+    family: 'QQ Browser Mobile'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone 5; CPU iPhone OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.5 Mobile/11B651 Safari/8536.25'
+    family: 'QQ Browser Mobile'
+    major: '5'
+    minor: '0'
+    patch: '5'
+
+  - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
+    family: 'QQ Browser Mobile'
+    major: '371'
+    minor:
+    patch:
+
+  - user_agent_string: 'MQQBrowser/1.0/Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; NOKIA; RM-910apacprc200)'
+    family: 'QQ Browser Mobile'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'QQBrowser (Linux; U; zh-cn; HTC Hero Build/FRF91)'
+    family: 'QQ Browser'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (BB10; Touch) AppleWebKit/537.3+ (KHTML, like Gecko) Version/10.0.9.388 Mobile Safari/537.3+'
     family: 'BlackBerry WebKit'
     major:
@@ -163,12 +205,18 @@ test_cases:
     major: '18'
     minor: '0'
     patch: '1025'
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SPH-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Chrome Mobile'
     major: '18'
     minor: '0'
     patch: '1025'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36'
+    family: 'Chrome Mobile'
+    major: '35'
+    minor: '0'
+    patch: '1916'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.133 Chrome/10.0.648.133 Safari/534.16'
     family: 'Chromium'
@@ -210,6 +258,12 @@ test_cases:
     family: 'LinkedInBot'
     major: '1'
     minor: '0'
+    patch:
+
+  - user_agent_string: 'Google (+https://developers.google.com/+/web/snippet/)'
+    family: 'GooglePlusBot'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.1pre) Gecko/20090717 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1pre'
@@ -260,6 +314,12 @@ test_cases:
     minor: '1'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (DTV) AppleWebKit/531.2+ (KHTML, like Gecko) Espial/6.1.6 AQUOSBrowser/2.0 (US01DTV;V;0001;0001)'
+    family: 'Espial'
+    major: '6'
+    minor: '1'
+    patch: '6'
+
   - user_agent_string: 'iBrowser/Mini2.8 (Nokia5130c-2/07.97)'
     family: 'iBrowser Mini'
     major: '2'
@@ -287,12 +347,6 @@ test_cases:
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; SAMSUNG; SGH-i917)'
     family: 'IE Mobile'
     major: '7'
-    minor: '0'
-    patch:
-
-  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; SAMSUNG; SGH-i917)'
-    family: 'IE Mobile'
-    major: '9'
     minor: '0'
     patch:
 
@@ -394,6 +448,12 @@ test_cases:
     minor: '0'
     patch: '2'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
+    family: 'Mobile Safari'
+    major: '7'
+    minor: '1'
+    patch: '2'
+
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.3a1) Gecko/20100208 MozillaDeveloperPreview/3.7a1 (.NET CLR 3.5.30729)'
     family: 'MozillaDeveloperPreview'
     major: '3'
@@ -435,7 +495,7 @@ test_cases:
     major: '3'
     minor: '3'
     patch:
-        
+
   - user_agent_string: 'Mozilla/5.0 (Nintendo 3DS; U; ; en) Version/1.7498.US'
     family: 'NetFront NX'
     major:
@@ -452,12 +512,6 @@ test_cases:
     family: 'NetFront'
     major: '3'
     minor: '2'
-    patch:
-
-  - user_agent_string: 'Mozilla/4.0 (compatible; Linux 2.6.10) NetFront/3.3 Kindle/1.0 (screen 600x800)'
-    family: 'NetFront'
-    major: '3'
-    minor: '3'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (BREW 3.1.5; U; en-us; Sanyo; NetFront/3.5.1/AMB) Boost SCP3810'
@@ -483,7 +537,7 @@ test_cases:
     major: '4'
     minor: '1'
     patch:
-    
+
   - user_agent_string: 'NetFront/4.2 (BMP 1.0.4; U; en-us; LG; NetFront/4.2/AMB) Boost LG272 MMP/2.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
     family: 'NetFront'
     major: '4'
@@ -525,7 +579,7 @@ test_cases:
     major:
     minor:
     patch:
- 
+
   - user_agent_string: 'Huawei/1.0/0HuaweiG2800/WAP2.0/Obigo-Browser/Q03C MMS/Obigo-MMS/1.2'
     family: 'Obigo'
     major:
@@ -567,7 +621,7 @@ test_cases:
     major: '5'
     minor: '1'
     patch:
-         
+
   - user_agent_string: 'Opera/9.80 (Series 60; Opera Mini/6.24455/25.677; U; fr) Presto/2.5.25 Version/10.54'
     family: 'Opera Mini'
     major: '6'
@@ -579,7 +633,7 @@ test_cases:
     major: '7'
     minor: '0'
     patch:
-              
+
   - user_agent_string: 'Opera/9.80 (S60; SymbOS; Opera Mobi/275; U; es-ES) Presto/2.4.13 Version/10.00'
     family: 'Opera Mobile'
     major: '10'
@@ -676,18 +730,6 @@ test_cases:
     minor: '14'
     patch:
 
-  - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
-    family: 'QQ Browser'
-    major:
-    minor:
-    patch:
-
-  - user_agent_string: 'QQBrowser (Linux; U; zh-cn; HTC Hero Build/FRF91)'
-    family: 'QQ Browser'
-    major:
-    minor:
-    patch:
-
   - user_agent_string: 'Mozilla/5.0 (X11i; Linux; C) AppleWebKikt/533.3 (KHTML, like Gecko) QtCarBrowser Safari/533.3'
     family: 'QtCarBrowser'
     major: '1'
@@ -762,19 +804,19 @@ test_cases:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; MSOffice 12)'
     family: 'Outlook'
-    major:  '2007'
+    major: '2007'
     minor:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0; InfoPath.2; MSOffice 14)'
     family: 'Outlook'
-    major:  '2010'
+    major: '2010'
     minor:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Trident/6.0; Microsoft Outlook 15.0.4420)'
     family: 'Outlook'
-    major:  '2013'
+    major: '2013'
     minor:
     patch:
 
@@ -837,12 +879,6 @@ test_cases:
     major: '6'
     minor: '1'
     patch: '0'
-    
-  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22'
-    family: 'WebKit Nightly'
-    major: '534'
-    minor:
-    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22'
     family: 'WebKit Nightly'
@@ -873,7 +909,7 @@ test_cases:
     major: '1'
     minor: '2'
     patch:
-        
+
   - user_agent_string: 'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0'
     family: 'webOS Browser'
     major: '3'
@@ -945,3 +981,529 @@ test_cases:
     major: '11'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/4.0 (Vodafone/1.0/LG-GU280/v10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
+    family: 'Obigo'
+    major: '7'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) Vodafone/1.0/HTC_Elf/1.11.164.2'
+    family: 'IE Mobile'
+    major: '6'
+    minor: '12'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0) Vodafone/1.0/HTC_HD2/1.44.162.6 (70494)'
+    family: 'IE Mobile'
+    major: '8'
+    minor: '12'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920)'
+    family: 'IE Mobile'
+    major: '11'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Vodafone/1.0/SamsungSGHi560/I560AEHB1 Profile/MIDP-2.0 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
+    family: 'Nokia OSS Browser'
+    major: '3'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Vodafone/1.0/LG-KC910/V08h Browser/Teleca-Q7.1 MMS/LG-MMS-V1.0/1.2 MediaPlayer/LGPlayer/1.0 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
+    family: 'Teleca Browser'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Vodafone/1.0/0Vodafone715/B116 Browser/Obigo-Browser/Q04A MMS/Obigo-MMS/Q04A SyncML/HW-SyncML/1.0 Java/QVM/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    family: 'Obigo'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Opera/9.80 (Android 1.6; Linux; Opera Mobi/ADR-1107051709; U; en) Presto/2.8.149 Version/11.10'
+    family: 'Opera Mobile'
+    major: '11'
+    minor: '10'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Opera/9.80 (Windows Mobile; WCE; Opera Mobi/WMD-50430; U; en) Presto/2.4.13 Version/10.00'
+    family: 'Opera Mobile'
+    major: '10'
+    minor: '00'
+    patch:
+    patch_minor:
+
+  - user_agent_string: '(Opera) Vodafone/1.0/HPiPAQDataMessenger/1.00.00 Browser/Opera/9.5 Profile/MIDP-2.0 Configuration/CLDC-1.1 Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/15142; U; en)'
+    family: 'Opera Mobile'
+    major: '9'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'HTC MAX 4G Opera/9.5 (Microsoft Windows; PPC; Opera Mobi/1409; U; ru)'
+    family: 'Opera Mobile'
+    major: '9'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iBrowser/3.0/Mozilla/5.0 (Linux; U; Android 2.3.6; yy-yy; Karbonn A2 Build/GRK39F) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    family: 'Android'
+    major: '2'
+    minor: '3'
+    patch: '6'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Series40; NokiaC3-01/05.60; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.2.0.0.31'
+    family: 'Ovi Browser'
+    major: '2'
+    minor: '2'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'iRAPP/1.16.0 NokiaN95_8GB/31.0.015; Series60/3.1 Profile/MIDP-2.0 Configuration/CLDC-1.'
+    family: 'iRAPP'
+    major: '1'
+    minor: '16'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iRAPP/1.3.0 Nokia5230/50.0.101 Series60/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1 3gpp-gba'
+    family: 'iRAPP'
+    major: '1'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iRAPP/3.5.0 NokiaN8-00/111.040.1511 Series60/5.3 Profile/MIDP-2.1 Configuration/CLDC-1.1 3gpp-gba'
+    family: 'iRAPP'
+    major: '3'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'LG-GD710/V10f; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.14812; U; en) Opera 9.50'
+    family: 'Opera Mini'
+    major: '4'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'SAMSUNG-SGH-A897/A897UCJC1; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.15304; U; fr-US) Opera 9.50'
+    family: 'Opera Mini'
+    major: '4'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MQQBrowser/39 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
+    family: 'QQ Browser Mobile'
+    major: '39'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MQQBrowser/391 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334 Safari/7534.48.3'
+    family: 'QQ Browser Mobile'
+    major: '391'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MQQBrowser/20 (Linux; U; 2.3.3; en-us; HTC Desire S Build/GRI40;480*800)'
+    family: 'QQ Browser Mobile'
+    major: '20'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MQQBrowser/Mini2.8 (ZTE-X990/X990_V2_Z12_ESFR_D18F100)'
+    family: 'QQ Browser Mini'
+    major: '2'
+    minor: '8'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MQQBrowser/Mini3.1 (SonyEricssonJ105i/R1HA035)'
+    family: 'QQ Browser Mini'
+    major: '3'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'QQBrowser/14 (Linux; U; 2.2.2; en-us; Motorola XT316 BUILD/FRG83G) Mobile/0050'
+    family: 'QQ Browser'
+    major: '14'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Dolphin 6.5.1 (iPad; iPhone OS 6.1.3; de_DE)'
+    family: 'Dolphin'
+    major: '6'
+    minor: '5'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Dolphin 7.4 (iPhone; iPhone OS 7.0.2; de_DE)'
+    family: 'Dolphin'
+    major: '7'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Dolphin 7.5.1 (iPhone; iPhone OS 7.0.3; de_DE)'
+    family: 'Dolphin'
+    major: '7'
+    minor: '5'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; zh-cn; XT701 Build/STCU_31.05.4) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 DolphinHDCN/7.0.1'
+    family: 'Dolphin'
+    major: '7'
+    minor: '0'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-P1000 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 DolphinHDCN/6.3.1'
+    family: 'Dolphin'
+    major: '6'
+    minor: '3'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; Nexus 7 Build/JRO03D) AppleWebKit/534.30 (KHTML, like Gecko) Dolphin/INT-1.0.4 Mobile Safari/534.30'
+    family: 'Dolphin'
+    major: '1'
+    minor: '0'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 DolphinHDCN/6.1.0'
+    family: 'Dolphin'
+    major: '6'
+    minor: '1'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0(miniGUI/3.x; U; Linux i686; en-US) AppleWebKit/534.26 (KHTML, like Gecko) mDolphin/3.0 chrome/10.0 Safria/534.26'
+    family: 'mDolphin'
+    major: '3'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0(miniGUI/3.x; U; Linux i686; en; ) AppleWebKit/533.9.0 (KHTML, like Gecko) mDolphin/3.0.0 Safria/533.9.0'
+    family: 'mDolphin'
+    major: '3'
+    minor: '0'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'CFNetwork, iPhone OS 5.1.1, iPhone4,1'
+    family: 'CFNetwork'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'CFNetwork, iPhone OS 7.0.4, iPhone5,2'
+    family: 'CFNetwork'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'CFNetwork, iPhone OS 7.0, iPhone4,1'
+    family: 'CFNetwork'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Safari5530.17 CFNetwork/438.12 Darwin/9.7.0 (i386) (Macmini2,1)'
+    family: 'CFNetwork'
+    major: '438'
+    minor: '12'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Safari/6533.18.5 CFNetwork/454.9.8 Darwin/10.4.0 (i386) (MacBookPro7,1)'
+    family: 'CFNetwork'
+    major: '454'
+    minor: '9'
+    patch: '8'
+    patch_minor:
+
+  - user_agent_string: 'Safari/7536.30.1 CFNetwork/520.5.1 Darwin/11.4.2 (i386) (MacBook3,1)'
+    family: 'CFNetwork'
+    major: '520'
+    minor: '5'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Reader Notifier/5 CFNetwork/596.3.3 Darwin/12.3.0 (x86_64) (MacBookPro7,1)'
+    family: 'CFNetwork'
+    major: '596'
+    minor: '3'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'Safari/9537.71 CFNetwork/673.0.2 Darwin/13.0.1 (x86_64) (MacBookPro11,1)'
+    family: 'CFNetwork'
+    major: '673'
+    minor: '0'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'DEPoker-iPad/1.0.2 CFNetwork/548.1.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'JDSports-iPad/1.1 CFNetwork/672.0.8 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '8'
+    patch_minor:
+
+  - user_agent_string: 'AngryBirdsBlack-iPhone/1.1.0 CFNetwork/548.1.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Bing for iPad/1.1.2 CFNetwork/485.13.9 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '485'
+    minor: '13'
+    patch: '9'
+    patch_minor:
+
+  - user_agent_string: 'NightstandPaid-iPad/1.3.1 CFNetwork/548.1.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Glo-De-iPad/1.4.7 CFNetwork/672.0.2 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Island for iPhone/1.95 CFNetwork/672.0.2 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'WormsiPhone-iPad/2.3 CFNetwork/548.1.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Rummy LITE iPad/2.3.0 CFNetwork/609.1.4 Darwin/13.0.0'
+    family: 'CFNetwork'
+    major: '609'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'MobileRSSFree-iPad/3.1 CFNetwork/467.12 Darwin/10.3.1'
+    family: 'CFNetwork'
+    major: '467'
+    minor: '12'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MobileRSSFree-iPad/3.1.4 CFNetwork/485.13.9 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '485'
+    minor: '13'
+    patch: '9'
+    patch_minor:
+
+  - user_agent_string: 'babbelIndonesian-iPad/4.0.1 CFNetwork/672.0.8 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '8'
+    patch_minor:
+
+  - user_agent_string: 'WeltMobile-iPad/4.2 CFNetwork/609.1.4 Darwin/13.0.0'
+    family: 'CFNetwork'
+    major: '609'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'IMPlusFull-iPad/7.9.1 CFNetwork/548.0.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '0'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Cooliris/1.3 CFNetwork/342.1 Darwin/9.4.1'
+    family: 'CFNetwork'
+    major: '342'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Poof/1.0 CFNetwork/485.12.7 Darwin/10.4.0'
+    family: 'CFNetwork'
+    major: '485'
+    minor: '12'
+    patch: '7'
+    patch_minor:
+
+  - user_agent_string: 'Parking Mania Free/1.9.5.0 CFNetwork/548.0.4 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '548'
+    minor: '0'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Planet Boing!/1.4.8 CFNetwork/609.1.4 Darwin/13.0.0'
+    family: 'CFNetwork'
+    major: '609'
+    minor: '1'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'PlayTube/1.7 CFNetwork/672.0.2 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; es-us) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.2913S Mobile Safari/534.12'
+    family: 'Puffin'
+    major: '1'
+    minor: '3'
+    patch: '2913'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 3.2.1; es-es) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.6440M Mobile'
+    family: 'Puffin'
+    major: '2'
+    minor: '0'
+    patch: '6440'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 3.2; en-gb) AppleWebKit/534.35 (KHTML, like Gecko) Chrome/11.0.696.65 Safari/534.35 Puffin/2.0.5932M Mobile'
+    family: 'Puffin'
+    major: '2'
+    minor: '0'
+    patch: '5932'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.9909AT Mobile'
+    family: 'Puffin'
+    major: '2'
+    minor: '9909'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AT Mobile'
+    family: 'Puffin'
+    major: '3'
+    minor: '11558'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558AP Mobile'
+    family: 'Puffin'
+    major: '3'
+    minor: '11558'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; th-TH@calendar=gregorian) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.2665MS Safari/534.12'
+    family: 'Puffin'
+    major: '1'
+    minor: '3'
+    patch: '2665'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; ar-AE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.10990IT'
+    family: 'Puffin'
+    major: '3'
+    minor: '10990'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; ar-SA) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11546IP'
+    family: 'Puffin'
+    major: '3'
+    minor: '11546'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; ar-ae) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AP'
+    family: 'Puffin'
+    major: '2'
+    minor: '10977'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; de-at) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/2.10977AT'
+    family: 'Puffin'
+    major: '2'
+    minor: '10977'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 7_0_6 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IT Mobile'
+    family: 'Puffin'
+    major: '3'
+    minor: '11558'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 7_0_6 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.11558IP Mobile'
+    family: 'Puffin'
+    major: '3'
+    minor: '11558'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_5 like Mac OS X; en-US) AppleWebKit/534.12 (KHTML, like Gecko) Puffin/1.3.3102MS Mobile Safari/534.12'
+    family: 'Puffin'
+    major: '1'
+    minor: '3'
+    patch: '3102'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPod; U; CPU iPhone OS 5_1_1 like Mac OS X; de-DE) AppleWebKit/534.35 (KHTML, like Gecko)  Chrome/11.0.696.65 Safari/534.35 Puffin/3.9174IP Mobile'
+    family: 'Puffin'
+    major: '3'
+    minor: '9174'
+    patch:
+    patch_minor:
+
