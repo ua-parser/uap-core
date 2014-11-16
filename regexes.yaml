@@ -222,6 +222,10 @@ user_agent_parsers:
   - regex: '(Thunderbird)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Thunderbird'
 
+  #New IE version uses "Edge"
+  - regex: '(Edge)/(\d+)\.(\d+)'
+    family_replacement: 'IE'
+
   # Chrome/Chromium/major_version.minor_version.beta_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)\.(\d+)'
 
@@ -235,10 +239,10 @@ user_agent_parsers:
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
   # Browser major_version.minor_version (space instead of slash)
   - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris) (\d+)\.(\d+)\.?(\d+)?'
-  
+
   # Kindle WebKit
   - regex: '(Kindle)/(\d+)\.(\d+)'
-  
+
   # weird android UAs
   - regex: '(Android) Donut'
     v1_replacement: '1'
@@ -288,7 +292,7 @@ user_agent_parsers:
     family_replacement: 'NetFront'
   - regex: '(PlayStation Vita)'
     family_replacement: 'NetFront NX'
-  
+
   - regex: 'AppleWebKit.+ (NX)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'NetFront NX'
   - regex: '(Nintendo 3DS)'
@@ -418,7 +422,7 @@ user_agent_parsers:
 
   - regex: '(Teleca)'
     family_replacement: 'Teleca Browser'
-    
+
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
 
