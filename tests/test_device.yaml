@@ -25,7 +25,7 @@ test_cases:
     family: 'Galaxy Nexus'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 3.0.1; en-us; GT-P7510 Build/HRI83) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
-    family: 'GT-P7510'
+    family: 'Samsung GT-P7510'
 
   - user_agent_string: 'Mozilla/5.0 (hp-tablet; Linux; hpwOS/3.0.5; U; en-US) AppleWebKit/534.6 (KHTML, like Gecko) wOSBrowser/234.83 Safari/534.6 TouchPad/1.0'
     family: 'HP TouchPad'
@@ -113,6 +113,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 920)'
     family: 'Lumia 920'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36'
+    family: 'Nexus 5'
 
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Nintendo DS'
@@ -237,6 +240,9 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (PlayStation Vita 1.81) AppleWebKit/531.22.8 (KHTML, like Gecko) Silk/3.2'
     family: 'PlayStation Vita'
 
+  - user_agent_string: 'Mozilla/5.0 (PlayStation 4 1.75) AppleWebKit/536.26 (KHTML, like Gecko)'
+    family: 'PlayStation 4'
+
   - user_agent_string: 'SAMSUNG-C3053/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
     family: 'Samsung C3053'
 
@@ -247,7 +253,16 @@ test_cases:
     family: 'Sega Dreamcast'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SPH-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    family: 'SPH-L710'
+    family: 'Samsung SPH-L710'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SCH-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
+    family: 'Samsung SCH-L710'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SGH-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
+    family: 'Samsung SGH-L710'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SM-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
+    family: 'Samsung SM-L710'
 
   - user_agent_string: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     family: 'Spider'
@@ -270,8 +285,11 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; en-us) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7 (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
     family: 'Spider'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
+    family: 'Spider'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-; GT-N7000 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    family: 'GT-N7000'
+    family: 'Samsung GT-N7000'
 
   - user_agent_string: 'HbbTV/1.1.1 (;Panasonic;VIERA 2012;1.261;0071-3103 2000-0000;)'
     family: 'HbbTV'
@@ -329,3 +347,126 @@ test_cases:
 
   - user_agent_string: 'HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.1.20'
     family: 'HbbTV'
+
+  - user_agent_string: 'Netvibes (http://www.netvibes.com)'
+    family: 'Spider'
+
+  - user_agent_string: 'Sogou Pic Spider/3.0(+http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Spider'
+
+  - user_agent_string: 'ICC-Crawler/2.0 (Mozilla-compatible; ; http://kc.nict.go.jp/project1/crawl.html; zurukko1552995316;)'
+    family: 'Spider'
+
+  - user_agent_string: 'Innovazion Crawler/Nutch-1.7'
+    family: 'Spider'
+
+  - user_agent_string: 'NING/1.0'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) MsnBot-Media /1.0b'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http://tab.search.daum.net/aboutWebSearch.html) Daumoa/3.0'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; EtaoSpider/1.0; http://open.etao.com/dev/EtaoSpider)'
+    family: 'Spider'
+
+  - user_agent_string: 'A6-Indexer/1.0 (http://www.a6corp.com/a6-web-scraping-policy/)'
+    family: 'Spider'
+
+  - user_agent_string: 'YisouSpider'
+    family: 'Spider'
+
+  - user_agent_string: 'Riddler (http://riddler.io/about.html)'
+    family: 'Spider'
+  
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; SAMSUNG-SGH-I717 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36'
+    family: 'Samsung SGH-I717'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; SAMSUNG GT-I9100/I9100XWLSY Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'Samsung GT-I9100'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SCH-I605 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 Mobile Safari/537.36'
+    family: 'Samsung SCH-I605'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 3.2; en-us; SGH-T869 Build/HTJ85B) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
+    family: 'Samsung SGH-T869'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; PantechP8010 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 ACHEETAHI/2100050072'
+    family: 'Pantech P8010'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; lk-a,; F-10D Build/V12R44A) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'F-10D'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4; zh-cn; sprd-SPHS-on-Hsdroid/1.0 Android/4.4 Release/06.03.2013 Browser/AppleWebKit533.1 Build/MocorDroid2.3.5) AppleWebKit533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    family: 'sprd-SPHS-on-Hsdroid/1.0'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; in-id; SonyLT30p Build/9.1.A.0.489) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'Sony LT30p'
+
+  - user_agent_string: 'Mozilla/5.1 (compatible; DBot/7.5.6; +http://a14download.com)'
+    family: 'Spider'
+
+  - user_agent_string: 'wsr-agent/1.0'
+    family: 'Spider'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; ZTE-Z830 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'ZTE Z830'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; ZTE Z830 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'ZTE Z830'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; ZTE_Z830 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'ZTE Z830'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; ja-jp; SBM200SH Build/S1006) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 YJApp-ANDROID jp.co.yahoo.android.yjtop/2.4.10'
+    family: 'SBM200SH'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; DROID RAZR HD Build/KDA20.62-10.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 ACHEETAHI/2100050068'
+    family: 'Motorola DROID RAZR HD'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; DROID BIONIC 4G Build/5.5.1_84_DBN-71) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    family: 'Motorola DROID BIONIC 4G'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; DROID RAZR Build/9.8.2O-72_VZW-16-5) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16'
+    family: 'Motorola DROID RAZR'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; DROID2 Build/4.5.1_57_DR4-52) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1' 
+    family: 'Motorola DROID2'
+
+  - user_agent_string: 'Xenu Link Sleuth/1.3.8'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PaperLiBot/2.1; http://support.paper.li/entries/20023257-what-is-paper-li)'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SputnikBot/2.3; +http://corp.sputnik.ru/webmaster)'
+    family: 'Spider'
+
+  - user_agent_string: 'CCBot/2.0 (http://commoncrawl.org/faq/)'
+    family: 'Spider'
+
+  - user_agent_string: 'ProoXiBot'
+    family: 'Spider'
+
+  - user_agent_string: 'Scrapy/0.20.1 (+http://scrapy.org)'
+    family: 'Spider'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html)'
+    family: 'Spider'
+
+  - user_agent_string: 'Screaming Frog SEO Spider/2,55'
+    family: 'Spider'
+
+  - user_agent_string: 'YahooCacheSystem'
+    family: 'Spider'
+
+  - user_agent_string: 'CiBra Data Collector (http://cibra.de/)'
+    family: 'Spider'
+
+  - user_agent_string: 'agent6/Nutch-1.1'
+    family: 'Spider'

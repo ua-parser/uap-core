@@ -14,7 +14,7 @@ function msg(name, actual, expected) {
   return "Expected " + name + " to be " + JSON.stringify(expected) + " got " + JSON.stringify(actual) + " instead.";
 }
 
-['../test_resources/firefox_user_agent_strings.yaml', '../tests/test_ua.yaml', '../test_resources/pgts_browser_list.yaml'].forEach(function(fileName) {
+['../tests/test_ua.yaml', '../test_resources/firefox_user_agent_strings.yaml', '../test_resources/pgts_browser_list.yaml'].forEach(function(fileName) {
   var fixtures = readYAML(fileName).test_cases;
   suite(fileName, function() {
     fixtures.forEach(function(f) {
