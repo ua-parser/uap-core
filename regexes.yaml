@@ -1203,7 +1203,7 @@ device_parsers:
     device_replacement: 'Asus $1'
     brand_replacement: 'Asus'
     model_replacement: '$1'
-  - regex: '; *ASUS *([^;/]+) Build'
+  - regex: '; *ASUS[ _]*([^;/]+) Build'
     device_replacement: 'Asus $1'
     brand_replacement: 'Asus'
     model_replacement: '$1'
@@ -4248,11 +4248,11 @@ device_parsers:
     device_replacement: 'DoCoMo $1'
     brand_replacement: 'DoCoMo'
     model_replacement: '$1'
-  - regex: '([A-Za-z0-9]+)_W\;FOMA'
+  - regex: '([A-Za-z0-9]+)_W;FOMA'
     device_replacement: 'DoCoMo $1'
     brand_replacement: 'DoCoMo'
     model_replacement: '$1'
-  - regex: '([A-Za-z0-9]+)\;FOMA'
+  - regex: '([A-Za-z0-9]+);FOMA'
     device_replacement: 'DoCoMo $1'
     brand_replacement: 'DoCoMo'
     model_replacement: '$1'
@@ -4492,7 +4492,7 @@ device_parsers:
   ##########
   # SonyEricsson
   ##########
-  - regex: 'SonyEricsson([A-Za-z0-9]+)/'
+  - regex: 'SonyEricsson ?([A-Za-z0-9\-]+)'
     device_replacement: 'Ericsson $1'
     brand_replacement: 'SonyEricsson'
     model_replacement: '$1'
@@ -4500,7 +4500,11 @@ device_parsers:
   ##########
   # Sony
   ##########
-  - regex: '(Sony)([^ ]+) '
+  - regex: 'Android [^;]+; ([^ ]+) (Sony)/'
+    device_replacement: '$2 $1'
+    brand_replacement: '$2'
+    model_replacement: '$1'
+  - regex: '(Sony)(?:BDP\/|\/)?([^ /;\)]+)[ /;\)]'
     device_replacement: '$1 $2'
     brand_replacement: '$1'
     model_replacement: '$2'

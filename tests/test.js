@@ -98,4 +98,7 @@ suite('device_parsers', function(){
   suite('test_device', function(){
     deviceTests('../tests/test_device.yaml');
   });
+  suite('test_device_brandmodel', function(){
+    deviceTests('../tests/test_device_brandmodel.yaml');
+  });
 });
