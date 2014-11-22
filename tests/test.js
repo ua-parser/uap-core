@@ -48,7 +48,7 @@ function msg(name, actual, expected) {
   });
 });
 
-['../tests/test_device.yaml'].forEach(function(fileName) {
+['../tests/test_device.yaml', '../tests/test_device_brandmodel.yaml'].forEach(function(fileName) {
   var fixtures = readYAML(fileName).test_cases;
   suite(fileName, function() {
     fixtures.forEach(function(f) {
