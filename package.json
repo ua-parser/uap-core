@@ -1,16 +1,9 @@
 {
   "name": "ua-parser",
-  "description": "A port of Browserscope's user agent parser.",
+  "description": "The regex file necessary to build language ports of Browserscope's user agent parser.",
   "main": "./js/index",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "maintainers": [
-    {
-      "name": "Tobie Langel",
-      "email": "tobie.langel@gmail.com",
-      "web": "http://tobielangel.com"
-    }
-  ],
-  "contributors": [
     {
       "name": "Tobie Langel",
       "email": "tobie.langel@gmail.com",
@@ -20,39 +13,24 @@
       "name": "Lindsey Simon",
       "email": "lsimon@commoner.com",
       "web": "http://www.idreamofuni.com"
-    },
-    {
-      "name": "Philip Tellis",
-      "email": "philip@bluesmoon.info",
-      "web": "http://bluesmoon.info"
-    },
-    {
-      "name": "Dave Olsen",
-      "email": "dmolsen@gmail.com",
-      "web": "http://dmolsen.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tobie/ua-parser.git"
+    "url": "http://github.com/ua-parser/uap-core.git"
   },
   "licenses": [
     {
-      "type": "MIT",
-      "url": "https://raw.github.com/tobie/ua-parser/master/js/LICENSE"
-    },
-    {
       "type": "Apache-2.0",
-      "url": "https://raw.github.com/tobie/ua-parser/master/js/LICENSE"
+      "url": "https://raw.github.com/ua-parser/uap-core/master/LICENSE"
     }
   ],
-  "dependencies": {
-    "yamlparser": ">=0.0.2"
-  },
   "devDependencies": {
-    "mocha": "*"
+    "yamlparser": ">=0.0.2",
+    "mocha": "*",
+	"uap-ref-impl": "*"
   },
   "scripts": {
-    "test": "mocha -u tdd -R dot ./js/test/*.js"
+    "test": "mocha -u tdd -R dot ./tests/test.js"
   }
 }
