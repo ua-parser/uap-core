@@ -30,6 +30,6 @@
 	"uap-ref-impl": "*"
   },
   "scripts": {
-    "test": "mocha -u tdd ./tests/test.js"
+    "test": "mocha -u tdd -R min ./tests/test.js"
   }
 }
