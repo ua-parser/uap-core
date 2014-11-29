@@ -14,7 +14,7 @@ Maintainers
 Communication channels
 -----------------------
 
-* \#ua-parser on freenode <irc://chat.freenode.net#ua-parser>
+* \#ua-parser on freenode <irc://chat.freenode.net#ua-parser>.
 * [mailing list](https://groups.google.com/forum/#!forum/ua-parser)
 
 Contributing Changes to regexes.yaml
