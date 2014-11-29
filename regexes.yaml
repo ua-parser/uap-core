@@ -126,24 +126,14 @@ user_agent_parsers:
 
   - regex: '(Minimo)'
 
-  - regex: 'PLAYSTATION 3.+WebKit'
-    family_replacement: 'NetFront NX'
-  - regex: 'PLAYSTATION 3'
-    family_replacement: 'NetFront'
-  - regex: '(PlayStation Portable)'
-    family_replacement: 'NetFront'
+  # Needs to be before Amazon Silk 
+  # @ref: http://console.maban.co.uk/device/psvita/
   - regex: '(PlayStation Vita)'
-    family_replacement: 'NetFront NX'
-
-  - regex: 'AppleWebKit.+ (NX)/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'NetFront NX'
-  - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
 
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+))?'
     family_replacement: 'Amazon Silk'
-
 
   # @ref: http://www.puffinbrowser.com
   - regex: '(Puffin)/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -330,6 +320,18 @@ user_agent_parsers:
     family_replacement: 'Maxthon'
   - regex: '(Maxthon|MyIE2|Uzbl|Shiira)'
     v1_replacement: '0'
+
+  - regex: 'PLAYSTATION 3.+WebKit'
+    family_replacement: 'NetFront NX'
+  - regex: 'PLAYSTATION 3'
+    family_replacement: 'NetFront'
+  - regex: '(PlayStation Portable)'
+    family_replacement: 'NetFront'
+
+  - regex: 'AppleWebKit.+ (NX)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'NetFront NX'
+  - regex: '(Nintendo 3DS)'
+    family_replacement: 'NetFront NX'
 
   - regex: '(BrowseX) \((\d+)\.(\d+)\.(\d+)'
 
