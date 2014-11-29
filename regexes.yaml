@@ -126,7 +126,7 @@ user_agent_parsers:
 
   - regex: '(Minimo)'
 
-  # Needs to be before Amazon Silk
+  # Needs to be before Amazon Silk 
   # @ref: http://console.maban.co.uk/device/psvita/
   - regex: '(PlayStation Vita)'
     family_replacement: 'NetFront NX'
@@ -270,7 +270,11 @@ user_agent_parsers:
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; Orange)...
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; Vodafone)...
   ##########
-
+  
+  # IE Xbox
+  # @ref: http://msdn.microsoft.com/en-us/library/ie/dn532261(v=vs.85).aspx#uaheader
+  - regex: '(MSIE) (\d+)\.(\d+).*\bXbox'
+    family_replacement: 'IE Xbox'
   # IE Mobile
   - regex: '(IEMobile)[ /](\d+)\.(\d+)'
     family_replacement: 'IE Mobile'
@@ -464,7 +468,7 @@ user_agent_parsers:
     family_replacement: 'IE'
 
   # Espial
-  - regex: '(Espial)/(\d+)(?:\.(\d+))?(?:\.(\d+))?'
+  - regex: '(Espial)/(\d+)(?:\.(\d+))?(?:\.(\d+))?'  
 
  # Apple Mail
 
@@ -544,13 +548,16 @@ os_parsers:
   - regex: 'HbbTV/\d+\.\d+\.\d+ \(.*; ?([a-zA-Z]+) ?;.*(201[1-9]).*\)'
 
   ##########
+  # @note: Xbox also spoofs NT 6.1/Windows Phone (see http://msdn.microsoft.com/en-us/library/ie/jj883728(v=vs.85).aspx)
+  - regex: '(?:MSIE|XBMC).*\b(Xbox(?: One)?)'
+
+  ##########
   # @note: Windows Phone needs to come before Windows NT 6.1 *and* before Android to catch cases such as:
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920)...
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; ANZ821)...
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; Orange)...
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920; Vodafone)...
   ##########
-
   - regex: '(Windows Phone) (?:OS[ /])?(\d+)\.(\d+)'
 
   ##########
@@ -558,7 +565,7 @@ os_parsers:
   # can actually detect rooted android os. do we care?
   ##########
   - regex: '(Android)[ \-/](\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?'
-
+ 
   - regex: '(Android) Donut'
     os_v1_replacement: '1'
     os_v2_replacement: '2'
@@ -608,6 +615,7 @@ os_parsers:
   # spoofs nt 6.1. must come before windows 7
   - regex: '(XBLWP7)'
     os_replacement: 'Windows Phone'
+
 
   # @note: This needs to come before Windows NT 6.1
   - regex: '(Windows ?Mobile)'
@@ -749,7 +757,7 @@ os_parsers:
     os_replacement: 'iOS'
     os_v1_replacement: '8'
     os_v2_replacement: '0.b5'
-
+  
   ##########
   # CFNetwork iOS Apps
   # @ref: https://en.wikipedia.org/wiki/Darwin_(operating_system)#Release_history
@@ -3999,7 +4007,7 @@ device_parsers:
   #########
   # Microsoft Windows Phones
   #########
-  - regex: 'Windows Phone [^;]+; (?:(?!IEMobile/).)*IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?)?(?:Microsoft(?: Corporation)?)[^;]*; *([^;,\)]+)'
+  - regex: 'Windows Phone [^;]+; (?:(?!IEMobile/).)*IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?)?(?:Microsoft(?: Corporation)?|Xbox)[^;]*; *([^;,\)]+)'
     device_replacement: 'Microsoft $1'
     brand_replacement: 'Microsoft'
     model_replacement: '$1'
@@ -4386,7 +4394,7 @@ device_parsers:
     device_replacement: 'Microsoft $1'
     brand_replacement: 'Microsoft'
     model_replacement: '$1'
-  - regex: '(?:MSIE|XBMC).*\b(Xbox)\b'
+  - regex: '(?:MSIE|XBMC).*\b(Xbox(?: One)?)'
     device_replacement: '$1'
     brand_replacement: 'Microsoft'
     model_replacement: '$1'

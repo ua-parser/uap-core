@@ -1536,3 +1536,52 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Xbox; Xbox One)'
+    family: 'IE Xbox'
+    major: '10'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; Xbox)'
+    family: 'IE Xbox'
+    major: '9'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Xbox; Xbox One)'
+    family: 'IE Xbox'
+    major: '10'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; Xbox)'
+    family: 'IE Xbox'
+    major: '7'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; Xbox)'
+    family: 'IE Xbox'
+    major: '9'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; LG-P700 Build/IML74K) My Xbox LIVE/1.6'
+    family: 'Android'
+    major: '4'
+    minor: '0'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'Xbox%20LIVE/1.6.2906 CFNetwork/485.13.9 Darwin/11.0.0'
+    family: 'CFNetwork'
+    major: '485'
+    minor: '13'
+    patch: '9'
+    patch_minor:
+

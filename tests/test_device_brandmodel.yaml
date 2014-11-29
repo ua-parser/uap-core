@@ -76371,8 +76371,8 @@ test_cases:
     model: 'Zielo Q40'
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; Xbox; Xbox One)'
-    family: 'Xbox Xbox One'
-    brand: 'Xbox'
+    family: 'Microsoft Xbox One'
+    brand: 'Microsoft'
     model: 'Xbox One'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.9; de-de; iphone Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'

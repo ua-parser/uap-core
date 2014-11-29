@@ -4,7 +4,7 @@
 /*globals suite,test*/
 
 var assert = require('assert'),
-    path = require('path'), 
+    path = require('path'),
     fs = require('fs'),
     yaml = require('yamlparser'),
     refImpl = require('uap-ref-impl')(readYAML('../regexes.yaml'));
