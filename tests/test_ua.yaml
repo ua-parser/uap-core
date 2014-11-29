@@ -1585,3 +1585,134 @@ test_cases:
     patch: '9'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (S60V3; U; en-us; Nokia5730S-1)/UC Browser8.5.0.183/28/352/UCWEB Mobile'
+    family: 'UC Browser'
+    major: '8'
+    minor: '5'
+    patch: '0'
+
+  - user_agent_string: 'Nokia302/5.0 (14.26) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia302/UC Browser7.8.0.95/69/400 UNTRUSTED/1.0'
+    family: 'UC Browser'
+    major: '7'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Nokia6303iclassic/5.0 (10.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokia6303iclassic/UC Browser8.0.3.107/70/355'
+    family: 'UC Browser'
+    major: '8'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'NokiaC2-01/5.0 (11.10) Profile/MIDP-2.1 Configuration/CLDC-1.1 nokiac2-01/UC Browser8.0.3.107/69/444 UNTRUSTED/1.0'
+    family: 'UC Browser'
+    major: '8'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Symbian/3; Series60/5.3 NokiaN8-00/111.040.1511; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/8.3.1.4 Mobile Safari/535.1 3gpp-gba 3gpp-gba'
+    family: 'Nokia Browser'
+    major: '8'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Nokia500/011.033 (Symbian/3; Series60/5.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.37 Mobile Safari/533.4 3gpp-gba'
+    family: 'Nokia Browser'
+    major: '7'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Nokia702T_TD/021.005 (SymbianOS/3; Series60/5.2 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.1.22 Mobile Safari/533.4 3gpp-gba'
+    family: 'Nokia Browser'
+    major: '7'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'NokiaX7-00/111.030.0609 (Symbian/3; Series60/5.3 Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 NokiaBrowser/7.4.2.6 3gpp-gba'
+    family: 'Nokia Browser'
+    major: '7'
+    minor: '4'
+    patch: '2'
+
+  - user_agent_string: 'NokiaN97i/21.0.045 (SymbianOS/9.4 Series60/5.0 Mozilla/5.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    family: 'Nokia Browser'
+    major: '7'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Series40/3.0FP1; Nokia2730c-1/07.70; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/0.8.3'
+    family: 'Ovi Browser'
+    major: '0'
+    minor: '8'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Series40; Nokia311/03.81; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.2.'
+    family: 'Ovi Browser'
+    major: '2'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Nokia114/2.0 (03.33) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 (Series40; Nokia114/03.33; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.3.0.0.49'
+    family: 'Ovi Browser'
+    major: '2'
+    minor: '3'
+    patch: '0'
+
+  - user_agent_string: 'Series60/5.0/50.0.005a.com/uaprof/Nokia5800d-1r100-3G.xml\"\"ration/CLDC-1.1/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/413 (KHTML, like Gecko) Safari/413'
+    family: 'Nokia OSS Browser'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Nokia6700s/062.001 (SymbianOS/9.3; U; Series60/3.2; Mozilla/5.0; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/525 (KHTML,like Gecko) Safari/525 3gpp-gba'
+    family: 'Nokia OSS Browser'
+    major: '3'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Series40; Nokia303/13.44; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401'
+    family: 'Nokia Services (WAP) Browser'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.0; Series60/2.6 Nokia6630/3.45.111 Profile/MIDP-2.0 Configuration/CLDC-1.1)'
+    family: 'Nokia Services (WAP) Browser'
+    major: '2'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (SymbianOS/9.2; U; Series60/3.1 Nokia6290/3.06; Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    family: 'Nokia Services (WAP) Browser'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0'
+    family: 'Nokia Services (WAP) Browser'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Nokia3650/1.0 (4.13) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/6.3.0.0.0'
+    family: 'Nokia Services (WAP) Browser'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'NokiaN-Gage/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
+    family: 'Nokia Services (WAP) Browser'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'NokiaN-GageQD/2.0 (04.10) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
+    family: 'Nokia Services (WAP) Browser'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Nokia7610/2.0 (6.0522.0) SymbianOS/7.0s Series60/2.1 Profile/MIDP-2.0 Configuration/CLDC-1.0 UP.Link/6.3.1.13.0'
+    family: 'Nokia Services (WAP) Browser'
+    major: '2'
+    minor: '1'
+    patch:

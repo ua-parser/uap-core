@@ -67526,32 +67526,32 @@ test_cases:
 
   - user_agent_string: 'Nokia3650/1.0 (4.13) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '1'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Nokia3650/1.0 (4.17) SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '1'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '1'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '1'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Nokia3650/1.0 SymbianOS/6.1 Series60/1.2 Profile/MIDP-1.0 Configuration/CLDC-1.0 UP.Link/5.1.2.7 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '1'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Nokia6010/1.0 (8.18) Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
@@ -67592,26 +67592,26 @@ test_cases:
 
   - user_agent_string: 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Nokia6600/1.0 (3.42.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Nokia6600/1.0 (4.09.1) SymbianOS/7.0s Series60/2.0 Profile/MIDP-2.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Nokia6600/1.0 SymbianOS'
@@ -67646,8 +67646,8 @@ test_cases:
 
   - user_agent_string: 'Nokia6630/1.0 (3.45.113) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '2'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Nokia6800'
@@ -67682,14 +67682,14 @@ test_cases:
 
   - user_agent_string: 'Nokia7650/1.0 SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0 (Google WAP Proxy/1.0)'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '0'
+    minor: '9'
     patch:
 
   - user_agent_string: 'NokiaN-Gage/1.0 (4.03) SymbianOS/6.1 Series60/0.9 Profile/MIDP-1.0 Configuration/CLDC-1.0'
     family: 'Nokia Services (WAP) Browser'
-    major:
-    minor:
+    major: '0'
+    minor: '9'
     patch:
 
   - user_agent_string: 'NP/0.1 (NP; http://www.nameprotect.com; npbot@nameprotect.com)'
@@ -74257,7 +74257,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'SymbianOS/6.1 Series60/1.2 Profile/MIDP-'
-    family: 'Nokia OSS Browser'
+    family: 'Nokia Services (WAP) Browser'
     major: '1'
     minor: '2'
     patch:
