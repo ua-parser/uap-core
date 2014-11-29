@@ -1746,3 +1746,15 @@ test_cases:
     major: '3'
     minor: '3'
     patch: 'DEV'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Coast/1.0.2.63118 Mobile/10A523 Safari/7534.48.3'
+    family: 'Coast'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Coast/3.0.0.74604 Mobile/10B500 Safari/7534.48.3'
+    family: 'Coast'
+    major: '3'
+    minor: '0'
+    patch: '0'
