@@ -1,7 +1,6 @@
 {
-  "name": "ua-parser",
+  "name": "uap-core",
   "description": "The regex file necessary to build language ports of Browserscope's user agent parser.",
-  "main": "./js/index",
   "version": "0.4.0",
   "maintainers": [
     {
@@ -31,6 +30,6 @@
 	"uap-ref-impl": "*"
   },
   "scripts": {
-    "test": "mocha -u tdd -R dot ./tests/test.js"
+    "test": "mocha -u tdd ./tests/test.js"
   }
 }
