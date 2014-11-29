@@ -1716,3 +1716,33 @@ test_cases:
     major: '2'
     minor: '1'
     patch:
+
+  - user_agent_string: 'XBMC/11.0 Git:20120321-14feb09 (Windows NT 5.1; http://www.xbmc.org)'
+    family: 'XBMC'
+    major: '11'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'XBMC/12.2 Git:d1002b4 (Linux; OpenELEC (official) - Version: 3.2.4; 3.10.20 x86_64; http://www.xbmc.org)'
+    family: 'XBMC'
+    major: '12'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'XBMC/13.0-BETA2 Git:20140315-a1cab7a (Linux; Android; 3.0.36+ armv7l; http://xbmc.org)'
+    family: 'XBMC'
+    major: '13'
+    minor: '0'
+    patch: 'BETA2'
+
+  - user_agent_string: 'XBMC/13.0-RC1 Git:20140427-2372235 (Linux; Android; 3.1.10-g05b777c armv7l; http://xbmc.org)'
+    family: 'XBMC'
+    major: '13'
+    minor: '0'
+    patch: 'RC1'
+
+  - user_agent_string: 'XBMC/3.3-DEV-r31572 (Xbox; http://www.xbmc.org)'
+    family: 'XBMC'
+    major: '3'
+    minor: '3'
+    patch: 'DEV'
