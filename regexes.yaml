@@ -126,7 +126,7 @@ user_agent_parsers:
 
   - regex: '(Minimo)'
 
-  # Needs to be before Amazon Silk 
+  # Needs to be before Amazon Silk
   # @ref: http://console.maban.co.uk/device/psvita/
   - regex: '(PlayStation Vita)'
     family_replacement: 'NetFront NX'
@@ -246,7 +246,7 @@ user_agent_parsers:
   - regex: '(Thunderbird)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Thunderbird'
 
-  # IE TechPreview uses "Edge"
+  #New IE version uses "Edge"
   - regex: '(Edge)/(\d+)\.(\d+)'
     family_replacement: 'IE'
 
@@ -258,7 +258,7 @@ user_agent_parsers:
   - regex: '\b(Dolphin)(?: |HDCN/|/INT\-)(\d+)\.(\d+)\.?(\d+)?'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Chrome|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin)/(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(bingbot|Bolt|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Chrome|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|OpenWave|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin)/(\d+)\.(\d+)\.?(\d+)?'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)'

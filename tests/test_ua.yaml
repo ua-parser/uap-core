@@ -182,17 +182,19 @@ test_cases:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; chromeframe; SLCC1; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729)'
     js_ua: "{'js_user_agent_string': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1'}"
-    family: 'Chrome Frame (IE 8)'
-    major: '2'
+    family: 'IE'
+    major: '8'
     minor: '0'
-    patch: '169'
+    patch:
+    patch_minor:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; chromeframe; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; Sleipnir 2.8.5)3.0.30729)'
     js_ua: "{'js_user_agent_string': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/530.1 (KHTML, like Gecko) Chrome/2.0.169.1 Safari/530.1'}"
-    family: 'Chrome Frame (Sleipnir 2)'
+    family: 'Sleipnir'
     major: '2'
-    minor: '0'
-    patch: '169'
+    minor: '8'
+    patch: '5'
+    patch_minor:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; chromeframe/11.0.660.0)'
     family: 'Chrome Frame'
@@ -369,11 +371,11 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6; .NET CLR 2.0.50727; .NET CLR 1.1.4322)'
-    js_ua: "{'js_user_agent_string': 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 1.1.4322)', 'js_user_agent_family': 'IE Platform Preview', 'js_user_agent_v1': '9', 'js_user_agent_v2': '0', 'js_user_agent_v3': '1'}"
-    family: 'IE Platform Preview'
-    major: '9'
+    family: 'IE'
+    major: '8'
     minor: '0'
-    patch: '1'
+    patch:
+    patch_minor:
 
   - user_agent_string: 'Mozilla/4.0 WebTV/2.6 (compatible; MSIE 4.0)'
     family: 'IE'
@@ -982,12 +984,6 @@ test_cases:
     minor: '0'
     patch:
 
-  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
-    family: 'IE'
-    major: '12'
-    minor: '0'
-    patch:
-
   - user_agent_string: 'Mozilla/4.0 (Vodafone/1.0/LG-GU280/v10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     family: 'Obigo'
     major: '7'
@@ -1510,6 +1506,33 @@ test_cases:
     family: 'Puffin'
     major: '3'
     minor: '9174'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
+    family: 'IE'
+    major: '12'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'SAMSUNG-SGH-F258/1.0 RTK-E/1.0 DF/1.0 Release/07.04.2007 Browser/OpenWave6.2.3.3.c.1.101 Profile/MIDP-2.0 Configuration/CLDC-1.1/*MzU5MzM4MDE2ODI2OTEw UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
+    family: 'UP.Browser'
+    major: '6'
+    minor: '2'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'SonyEricssonW302/R1DB Browser/OpenWave/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    family: 'OpenWave'
+    major: '1'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'SonyEricssonW395/R1FB Browser/OpenWave/1.0 Profile/MIDP-2.1 Configuration/CLDC-1.1'
+    family: 'OpenWave'
+    major: '1'
+    minor: '0'
     patch:
     patch_minor:
 
