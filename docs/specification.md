@@ -187,6 +187,7 @@ interface ua-parser-output {
     attribute string major;
     attribute string minor;
     attribute string patch;
+    attribute string patchMinor;
   };
   object os: {                 	// The "os_parsers" result
     attribute string family;
