@@ -186,12 +186,14 @@ interface ua-parser-output {
     attribute string family;
     attribute string major;
     attribute string minor;
-    attribute string patchMinor;
+    attribute string patch;
   };
   object os: {                 	// The "os_parsers" result
     attribute string family;
     attribute string major;
     attribute string minor;
+    attribute string patch;
+    attribute string patchMinor;
   };
   object device: {              // The "device_parsers" result
     attribute string family;
