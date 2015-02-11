@@ -1549,3 +1549,4551 @@ test_cases:
     minor: '0'
     patch: '1'
 
+  - user_agent_string: 'Ant/Ant-Nutch-1.1 (Ant Nutch Crawler; http://www.ant.com; crawler@ant.com)'
+    family: 'Ant-Nutch'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Axtaris Web Crawler/Axtaris-1.0.1 (Hello from Axtaris.org | Web-Crawler; http://axtaris.org; crawler at axtaris dot org)'
+    family: 'Axtaris'
+    major: '1'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'CazoodleBot/CazoodleBot-0.1 (CazoodleBot Crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)'
+    family: 'CazoodleBot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Isara-Search/Isara-1.0 (A non-profit web crawler operated by a charity organization.; www.isara.org; webmaster@isara.org)'
+    family: 'Isara'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'noobot Spider/Noobot-1.2 (noobot-bot; http://www.noobot.fr)'
+    family: 'Noobot'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'asked/Nutch-0.8 (web crawler; http://asked.jp; epicurus at gmail dot com)'
+    family: 'Nutch'
+    major: '0'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'nutch crawler/Nutch-2.2'
+    family: 'Nutch'
+    major: '2'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Spider/Nutch-2.3-SNAPSHOT (Webcrawler)'
+    family: 'Nutch'
+    major: '2'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'SheenBot/SheenBot-1.0.4 (Sheen web crawler)'
+    family: 'SheenBot'
+    major: '1'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'SaladSpoon/ShopSalad 1.0 (Search Engine crawler for ShopSalad.com; http://shopsalad.com/en/partners.html; crawler AT shopsalad.com)'
+    family: 'ShopSalad'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'TailsweepBlogCrawler/Tailsweep-2.9-SNAPSHOT (http://www.tailsweep.com/; bot at [tailsweep] dot com)'
+    family: 'Tailsweep'
+    major: '2'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'SAE/fetchurl-22wy0njxnm WordPress/3.2.1; http://1.webfront.sinaapp.com'
+    family: 'fetchurl'
+    major: '22'
+    minor:
+    patch:
+
+  - user_agent_string: 'RedBot/redbot-1.0 (Rediff.com Crawler; redbot at rediff dot com)'
+    family: 'redbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IS Alpha/zcspider-0.1'
+    family: 'zcspider'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; 008/0.85; http://www.80legs.com/webcrawler.html) Gecko/2008032620'
+    family: '008'
+    major: '0'
+    minor: '85'
+    patch:
+
+  - user_agent_string: 'Altresium/4.6 (+http://www.altresium.com/bot.html)'
+    family: 'Altresium'
+    major: '4'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'Argus/1.1 (Nutch; http://www.simpy.com/bot.html; feedback at simpy dot com)'
+    family: 'Argus'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Argus/2.8.65 CFNetwork/609 Darwin/13.0.0'
+    family: 'CFNetwork'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DoCoMo/2.0 P05A(c100;TB;W24H15) (compatible; BaiduMobaider/1.0;  http://www.baidu.jp/spider/)'
+    family: 'BaiduMobaider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BoardReader/1.0 (http://boardreader.com/info/robots.htm)-Machine1'
+    family: 'BoardReader'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'DNSGroup/0.1 (DNS Group Crawler; http://www.dnsgroup.com/; crawler@dnsgroup.com)'
+    family: 'DNSGroup'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'DataparkSearch/4.35-02122005 ( http://www.dataparksearch.org/)'
+    family: 'DataparkSearch'
+    major: '4'
+    minor: '35'
+    patch:
+
+  - user_agent_string: 'EDI/1.6.0 (Edacious & Intelligent Web Crawler)'
+    family: 'EDI'
+    major: '1'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Goodzer/2.0; crawler@goodzer.com)'
+    family: 'Goodzer'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Grub/2.0 (Grub.org crawler; http://www.grub.org/; bot@grub.org)'
+    family: 'Grub'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'INGRID/2.0 (http://spsearch.ilse.nl/; Startpagina dochter links spider)'
+    family: 'INGRID'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'INGRID/3.0 MT (webcrawler@NOSPAMexperimental.net; http://aanmelden.ilse.nl/?aanmeld_mode=webhints)'
+    family: 'INGRID'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Infohelfer/1.2.0; +http://www.infohelfer.de/crawler.php)'
+    family: 'Infohelfer'
+    major: '1'
+    minor: '2'
+    patch: '0'
+
+  - user_agent_string: 'LOOQ/0.1 alfa (LOOQ Crawler for european sites; http://looq.eu; root (at) looq dot eu)'
+    family: 'LOOQ'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1  http://www.linkedin.com)'
+    family: 'LinkedInBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PathDefender/1.0; +http://www.pathdefender.com/help/crawler)'
+    family: 'PathDefender'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Peew/1.0; http://www.peew.de/crawler/)'
+    family: 'Peew'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PostPost/1.0 ( http://postpo.st/crawlers)'
+    family: 'PostPost'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Steeler/1.3 (http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)'
+    family: 'Steeler'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Steeler/3.3 (http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)'
+    family: 'Steeler'
+    major: '3'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Steeler/3.5; http://www.tkl.iis.u-tokyo.ac.jp/~crawler/)'
+    family: 'Steeler'
+    major: '3'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'VSE/1.0 (testcrawler@hotmail.com)'
+    family: 'VSE'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'VSE/1.0 (vsecrawler@hotmail.com)'
+    family: 'VSE'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; WebCrunch/1.2; +http://webcrunch.net/crawler)'
+    family: 'WebCrunch'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'WebZIP/7.0 (http://www.spidersoft.com)'
+    family: 'WebZIP'
+    major: '7'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Y!J-BRI/0.0.1 crawler ( http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html )'
+    family: 'Y!J-BRI'
+    major: '0'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Y!J-BRW/1.0 crawler (http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html)'
+    family: 'Y!J-BRW'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'YahooSeeker/1.0 (compatible; Mozilla 4.0; MSIE 5.5; http://help.yahoo.com/help/us/shop/merchant/)'
+    family: 'YahooSeeker'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'envolk/1.7 ( http://www.envolk.com/envolkspider.html)'
+    family: 'envolk'
+    major: '1'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'sproose/1.0beta (sproose bot; http://www.sproose.com/bot.html; crawler@sproose.com)'
+    family: 'sproose'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'wminer/1.2 (North America Web Crawler; http://www.wminer.com/bot; info at wminer dot com)'
+    family: 'wminer'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 4.0; MSIECrawler; Windows 95)'
+    family: 'MSIECrawler'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/4.0; FDM; MSIECrawler; Media Center PC 5.0)'
+    family: 'MSIECrawler'
+    major: '9'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Apache-HttpClient/4.0-beta2 (java 1.5)'
+    family: 'Apache-HttpClient'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; de-de; E10i Build/2.1.1.C.0.0) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 Google-HTTP-Java-Client/1.10.3-beta (gzip)'
+    family: 'Google-HTTP-Java-Client'
+    major: '1'
+    minor: '10'
+    patch: '3'
+
+  - user_agent_string: 'Google-HTTP-Java-Client/1.13.1-beta (gzip)'
+    family: 'Google-HTTP-Java-Client'
+    major: '1'
+    minor: '13'
+    patch: '1'
+
+  - user_agent_string: 'Google-YouTubeSample/1.0 Google-HTTP-Java-Client/1.7.0-beta (gzip) Google-HTTP-Java-Client/1.7.0-beta (gzip)'
+    family: 'Google-HTTP-Java-Client'
+    major: '1'
+    minor: '7'
+    patch: '0'
+
+  - user_agent_string: 'JNLP/1.7.0 javaws/10.17.2.02 (<internal>) Java/1.7.0_17'
+    family: 'JNLP'
+    major: '1'
+    minor: '7'
+    patch: '0'
+
+  - user_agent_string: 'JNLP/6.0 javaws/1.6.0_14 (b08) Java/1.6.0_14'
+    family: 'JNLP'
+    major: '6'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Python-urllib2)'
+    family: 'Python-urllib'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Python-urllib/1.15'
+    family: 'Python-urllib'
+    major: '1'
+    minor: '15'
+    patch:
+
+  - user_agent_string: 'IMVU Client/498.0 Python-urllib/2.7'
+    family: 'Python-urllib'
+    major: '2'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'Python-urllib/3.4'
+    family: 'Python-urllib'
+    major: '3'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'TLSProber/0.8'
+    family: 'TLSProber'
+    major: '0'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'Asynchronous WinHTTP/1.0'
+    family: 'WinHTTP'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: '1470.net crawler'
+    family: '1470.net crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: '50.nu/0.01 (  http://50.nu/bot.html )'
+    family: '50.nu'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: '8bo Crawler Bot'
+    family: '8bo Crawler Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Aboundex/0.2 (http://www.aboundex.com/crawler/)'
+    family: 'Aboundex'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Accoona-AI-Agent/1.1.1 (crawler at accoona dot com)'
+    family: 'Accoona-AI-Agent'
+    major: '1'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'Accoona-Biz-Agent/1.1.1 crawler@accoona.com'
+    family: 'Accoona-Biz-Agent'
+    major: '1'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'AdsBot-Google'
+    family: 'AdsBot-Google'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'AppEngine-Google; ( http://code.google.com/appengine)'
+    family: 'AppEngine-Google'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Inne: Mozilla/2.0 (compatible; Ask Jeeves/Teoma;  http://sp.ask.com/docs/about/tech_crawling.html)'
+    family: 'Ask Jeeves'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BaiDuSpider'
+    family: 'BaiDuSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Baiduspider'
+    family: 'Baiduspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "'Mozilla/5.0 (compatible; Baiduspider/2.0; +ht'"
+    family: 'Baiduspider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Baiduspider-cpro; +http://www.baidu.com/search/spider.html)'
+    family: 'Baiduspider-cpro'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Baiduspider-image ( http://www.baidu.com/search/spider.htm)'
+    family: 'Baiduspider-image'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Baiduspider-testbranch'
+    family: 'Baiduspider-testbranch'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534  (KHTML, like Gecko) BingPreview/1.0b'
+    family: 'BingPreview'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BlogBridge 6.7 (http://www.blogbridge.com/) 1.6.0_18'
+    family: 'BlogBridge'
+    major: '6'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'BoardReader Blog Indexer(http://boardreader.com)'
+    family: 'BoardReader Blog Indexer'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BoardReader Favicon Fetcher /1.0 info@boardreader.com'
+    family: 'BoardReader Favicon Fetcher'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla 4.0(compatible; BotSeer/1.0;  http://botseer.ist.psu.edu)'
+    family: 'BotSeer'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'CRAWL-E/0.6.4'
+    family: 'CRAWL-E'
+    major: '0'
+    minor: '6'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Charlotte/1.0b; charlotte@beta.spider.com)'
+    family: 'Charlotte'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Checklinks/1.3 (pywikipedia robot; http://toolserver.org/~dispenser/view/Checklinks)'
+    family: 'Checklinks'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Comodo HTTP(S) Crawler - http://www.instantssl.com/crawler'
+    family: 'Comodo HTTP(S) Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Comodo-Webinspector-Crawler 2.1'
+    family: 'Comodo-Webinspector-Crawler'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Comodo-Webinspector-Crawler 2.2.2, http://www.comodorobot.com'
+    family: 'Comodo-Webinspector-Crawler'
+    major: '2'
+    minor: '2'
+    patch: '2'
+
+  - user_agent_string: 'ConveraCrawler/0.9c ( http://www.authoritativeweb.com/crawl)'
+    family: 'ConveraCrawler'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'CrawlConvera0.1 (CrawlConvera@yahoo.com)'
+    family: 'CrawlConvera'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE or Firefox mutant; not on Windows server; + http://tab.search.daum.net/aboutWebSearch.html) Daumoa/3.0'
+    family: 'Daumoa'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Firefox compatible; MS IE compatible;  http://search.daum.net/) Daumoa-feedfetcher/2.0'
+    family: 'Daumoa-feedfetcher'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Feed Seeker Bot (RSS Feed Seeker http://www.MyNewFavoriteThing.com/fsb.php)'
+    family: 'Feed Seeker Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Flamingo_SearchEngine (+http://www.flamingosearch.com/bot)'
+    family: 'Flamingo_SearchEngine'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'FollowSite Bot ( http://www.followsite.com/bot.html )'
+    family: 'FollowSite Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Genieo/1.0 http://www.genieo.com/webfilter.html'
+    family: 'Genieo'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible;  MSIE 5.01; GomezAgent 2.0; Windows NT)'
+    family: 'GomezAgent'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Googlebot v2.1 (+http://www.google.com/bot.html) (http://www.openwebspider.org/)'
+    family: 'Googlebot'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Googlebot/2.1;  http://www.google.com/bot.html)'
+    family: 'Googlebot'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Googlebot/2.2'
+    family: 'Googlebot'
+    major: '2'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; Mozilla 4.0(compatible; Googlebot/5.0;  http://www.google.com/googlebot); en-US;)'
+    family: 'Googlebot'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Googlebot-Image/1.0'
+    family: 'Googlebot-Image'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Googlebot-Mobile (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
+    family: 'Googlebot-Mobile'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DoCoMo//2.0 N905i(c100;TB;W24H16) (compatible; Googlebot-Mobile/2.1; +http://www.google.com/bot.html)'
+    family: 'Googlebot-Mobile'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Googlebot-News'
+    family: 'Googlebot-News'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Googlebot-Video/1.0'
+    family: 'Googlebot-Video'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Googlebot-richsnippets'
+    family: 'Googlebot-richsnippets'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'HiddenMarket-1.0-beta (www.hiddenmarket.net/crawler.php)'
+    family: 'HiddenMarket'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'HooWWWer/2.1.0 ( http://cosco.hiit.fi/search/hoowwwer/ | mailto:crawler-info<at>hiit.fi)'
+    family: 'HooWWWer'
+    major: '2'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'ICC-Crawler(Mozilla-compatible; http://kc.nict.go.jp/icc/crawl.html; icc-crawl(at)ml(dot)nict(dot)go(dot)jp)'
+    family: 'ICC-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ICC-Crawler/2.0 (Mozilla-compatible; ; http://kc.nict.go.jp/project1/crawl.html)'
+    family: 'ICC-Crawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IconSurf/2.0 favicon finder (see http://iconsurf.com/robot.html)'
+    family: 'IconSurf'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IlTrovatore/1.2 (IlTrovatore; http://www.iltrovatore.it/bot.html; bot@iltrovatore.it)'
+    family: 'IlTrovatore'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'IlTrovatore-Setaccio ( http://www.iltrovatore.it)'
+    family: 'IlTrovatore-Setaccio'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; InfuzApp/1.0; +http://www.infuz.com/bot.html)'
+    family: 'InfuzApp'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'InternetArchive-1.0'
+    family: 'InternetArchive'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'InternetArchive/0.8-dev (Nutch; http://lucene.apache.org/nutch/bot.html; nutch-agent@lucene.apache.org)'
+    family: 'InternetArchive'
+    major: '0'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'KDDI-CA34 UP.Browser/6.2.0.10.2.2(GUI)MMP/2.0 (compatible; KDDI-Googlebot-Mobile/2.1; http://www.google.com/bot.html)'
+    family: 'KDDI-Googlebot-Mobile'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'kalooga/KaloogaBot (Kalooga; http://www.kalooga.com/info.html?page=crawler)'
+    family: 'KaloogaBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Kraken/0.1; http://linkfluence.net/; bot@linkfluence.net)'
+    family: 'Kraken'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Kurzor/1.0 (Kurzor; http://adcenter.hu/docs/en/bot.html; cursor@easymail.hu)'
+    family: 'Kurzor'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'LEIA/3.01pr (LEIAcrawler; leia@gseek.com; http://www.gseek.com)'
+    family: 'LEIA'
+    major: '3'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows compatible LesnikBot)'
+    family: 'LesnikBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Linguee Bot (bot@linguee.com)'
+    family: 'Linguee Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LinkAider (http://linkaider.com/crawler/)'
+    family: 'LinkAider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Lite Bot0316B'
+    family: 'Lite Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Llaut/1.0 (http://mnm.uib.es/~gallir/llaut/bot.html)'
+    family: 'Llaut'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/Fast/2.0; +http://go.mail.ru/help/robots)'
+    family: 'Mail.RU_Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)'
+    family: 'Mail.RU_Bot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mediapartners-Google'
+    family: 'Mediapartners-Google'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DoCoMo/2.0 SH905i(c100;TB;W24H16) (compatible; Mediapartners-Google/2.1; +http://www.google.com/bot.html)'
+    family: 'Mediapartners-Google'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Microsoft Bing Mobile SocialStreams Bot'
+    family: 'Microsoft Bing Mobile SocialStreams Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Microsoft MSN SocialStreams Bot,gzip(gfe),gzip(gfe)'
+    family: 'Microsoft MSN SocialStreams Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'NING/1.0'
+    family: 'NING'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Netvibes (http://www.netvibes.com)'
+    family: 'Netvibes'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'NewsGator/2.0 Bot (http://www.newsgator.com)'
+    family: 'NewsGator'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NewsGator/3.0,gzip(gfe),gzip(gfe)'
+    family: 'NewsGator'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NewsGator FetchLinks extension/0.2.0 (http://graemef.com)'
+    family: 'NewsGator FetchLinks extension'
+    major: '0'
+    minor: '2'
+    patch: '0'
+
+  - user_agent_string: 'NewsGatorOnline/2.0 (http://www.newsgator.com)'
+    family: 'NewsGatorOnline'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'SapphireWebCrawler/1.0 (Sapphire Web Crawler using Nutch; http://boston.lti.cs.cmu.edu/crawler/; mhoy@cs.cmu.edu)'
+    family: 'Nutch; http:'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'NutchCVS/0.06-dev (Nutch running at UW; http://www.nutch.org/docs/en/bot.html; sycrawl@cs.washington.edu)'
+    family: 'NutchCVS'
+    major: '0'
+    minor: '06'
+    patch:
+
+  - user_agent_string: 'NutchOSUOSL/0.05-dev (Nutch; http://www.nutch.org/docs/en/bot.html; nutch-agent@lists.sourceforge.net)'
+    family: 'NutchOSUOSL'
+    major: '0'
+    minor: '05'
+    patch:
+
+  - user_agent_string: 'NutchOrg/0.03-dev (Nutch; http://www.nutch.org/docs/bot.html; nutch-agent@lists.sourceforge.net)'
+    family: 'NutchOrg'
+    major: '0'
+    minor: '03'
+    patch:
+
+  - user_agent_string: 'ObjectsSearch/0.2 (ObjectsSearch; http://www.ObjectsSearch.com/bot.html; support@thesoftwareobjects.com)'
+    family: 'ObjectsSearch'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Orbiter ( http://www.dailyorbit.com/bot.htm)'
+    family: 'Orbiter'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'PagePeeker.com'
+    family: 'PagePeeker'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'PagesInventory (robot +http://www.pagesinventory.com)'
+    family: 'PagesInventory'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PaxleFramework/0.1.1;  http://www.paxle.net/en/bot)'
+    family: 'PaxleFramework'
+    major: '0'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'Peeplo Screenshot Bot/0.20 ( abuse at peeplo dot_com )'
+    family: 'Peeplo Screenshot Bot'
+    major: '0'
+    minor: '20'
+    patch:
+
+  - user_agent_string: 'PlantyNet_WebRobot_V1.9 babo@plantynet.com'
+    family: 'PlantyNet_WebRobot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Pompos/1.2 http://pompos.iliad.fr'
+    family: 'Pompos'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Reaper/1.3.6 (Linux; U; Android 4.3; de-DE; GT-I9300 Build/JSS15J)'
+    family: 'Reaper'
+    major: '1'
+    minor: '3'
+    patch: '6'
+
+  - user_agent_string: 'Reaper/2.07 ( http://www.sitesearch.ca/reaper)'
+    family: 'Reaper'
+    major: '2'
+    minor: '07'
+    patch:
+
+  - user_agent_string: 'RedCarpet/1.0 (http://www.redcarpet-inc.com/robots.html)'
+    family: 'RedCarpet'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'RedCarpet/2.1 CFNetwork/672.0.2 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Riddler (http://riddler.io/about.html)'
+    family: 'Riddler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Scrapy/0.16.4 (+http://scrapy.org)'
+    family: 'Scrapy'
+    major: '0'
+    minor: '16'
+    patch: '4'
+
+  - user_agent_string: 'Scrapy/0.22.2 (+http://scrapy.org)'
+    family: 'Scrapy'
+    major: '0'
+    minor: '22'
+    patch: '2'
+
+  - user_agent_string: 'Simpy/1.1 (Simpy; http://www.simpy.com/?ref=bot; feedback at simpy dot com)'
+    family: 'Simpy'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/3.0 (Slurp.so/1.0; slurp@inktomi.com; http://www.inktomi.com/slurp.html)'
+    family: 'Slurp'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Slurp/2.0'
+    family: 'Slurp'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Yahoo!; U; Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp) Mozilla/5.0 ()'
+    family: 'Slurp'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Speedy Spider; http://www.entireweb.com/about/search_tech/speedy_spider/)'
+    family: 'Speedy Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Squrl Java/1.6.0_22'
+    family: 'Squrl Java'
+    major: '1'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'TheUsefulbot_2.3.62 (bot@theusefulnet.com)'
+    family: 'TheUsefulbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux x86_64; de-DE; rv:1.9.0.19) Gecko/2010091808 ThumbShotsBot (KFSW 3.0.6-3)'
+    family: 'ThumbShotsBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Thumbshots.ru; +http://thumbshots.ru/bot) Firefox/3'
+    family: 'Thumbshots.ru'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Vagabondo/Wapspider; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)'
+    family: 'Vagabondo'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Vagabondo/2.1; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)'
+    family: 'Vagabondo'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible;  Vagabondo/2.2; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)'
+    family: 'Vagabondo'
+    major: '2'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible;  Vagabondo/2.3; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)'
+    family: 'Vagabondo'
+    major: '2'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible;  Vagabondo/4.0Beta; webcrawler at wise-guys dot nl; http://webagent.wise-guys.nl/)'
+    family: 'Vagabondo'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 95) VoilaBot BETA 1.2 (http://www.voila.com/)'
+    family: 'VoilaBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Votay bot/4.0;  http://www.votay.com/arts/comics/)'
+    family: 'Votay bot'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; WASALive Bot ; http://blog.wasalive.com/wasalive-bots/)'
+    family: 'WASALive Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU iPhone OS 7_0 like Mac OS X; de-DE) WIRED/3.2.3.11.87970'
+    family: 'WIRE'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WIRE/0.11 (Linux; i686; Robot,Spider,Crawler,aromano@cli.di.unipi.it)'
+    family: 'WIRE'
+    major: '0'
+    minor: '11'
+    patch:
+
+  - user_agent_string: 'WIRE/1.0 (Linux;i686;Bot,Robot,Spider,Crawler)'
+    family: 'WIRE'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; Windows NT 6.1; WOW64; rv:2.0b8pre; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; MS-RTC LM 8; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; SLCC1; SLCC2; Media Center PC 6.0; GTB6.4; InfoPath.2; en-US; FunWebProducts; Zango 10.1.181.0; SV1; PRTG Network Monitor (www.paessler.com)) Gecko/20101114 Firefox/4.0b8pre QuickTime/7.6.2 Songbird/1.1.2 Web-sniffer/1.0.36 lftp/3.7.4 libwww-perl/5.820 GSiteCrawler/v1.12 rev. 260 Snoopy v1.2'
+    family: 'Web-sniffer'
+    major: '1'
+    minor: '0'
+    patch: '36'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; WebThumbnail/2.2; Website Thumbnail Generator; +http://webthumbnail.org)'
+    family: 'WebThumb'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686 (x86_64); en-US; rv:1.9.0.17) Gecko WebThumb/1.0'
+    family: 'WebThumb'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WhatWeb/0.4.8'
+    family: 'WhatWeb'
+    major: '0'
+    minor: '4'
+    patch: '8'
+
+  - user_agent_string: 'Jetpack by WordPress.com'
+    family: 'WordPress'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WordPress/1.2.1 PHP/4.3.9-1'
+    family: 'WordPress'
+    major: '1'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Pachacutec/0.5 (qpImageBuilders.com); WordPress/3.1; http://contacto-latino.com/news'
+    family: 'WordPress'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Wotbox/0.7-alpha (bot@wotbox.com; http://www.wotbox.com)'
+    family: 'Wotbox'
+    major: '0'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'Wotbox/2.01 ( http://www.wotbox.com/bot/)'
+    family: 'Wotbox'
+    major: '2'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'Xenu Link Sleuth 1.1f'
+    family: 'Xenu Link Sleuth'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: "Xenu's Link Sleuth 1.0p"
+    family: "Xenu's Link Sleuth"
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Xerka WebBot v1.0.0 [AIDO_CREA_ab]'
+    family: 'Xerka WebBot'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Yahoo! Slurp China; http://misc.yahoo.com.cn/help.html)'
+    family: 'Yahoo! Slurp'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Yahoo! Slurp/3.0 ; http://help.yahoo.com/help/us/ysearch/slurp)'
+    family: 'Yahoo! Slurp'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'LG-C1500 UP.Browser/6.2.3 (GUI) MMP/1.0 (compatible;YahooSeeker/M1A1-R2D2; http://help.yahoo.com/help/us/ysearch/crawling/crawling-01.html)'
+    family: 'YahooSeeker'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots),gzip(gfe) AppEngine-Google; (+http://code.google.com/appengine; appid: twitter-mirror),gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'YandexBot'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Yeti-FeedItemCrawler/1.0 (NHN Corp.;+http://help.naver.com/robots/)'
+    family: 'Yeti'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; YodaoBot/1.0; http://www.yodao.com/help/webmaster/spider/; )'
+    family: 'YodaoBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible;YodaoBot-Image/1.0;http://www.youdao.com/help/webmaster/spider/;)'
+    family: 'YodaoBot-Image'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'YowedoBot/Yowedo 1.0 (Search Engine crawler for yowedo.com; http://yowedo.com/en/partners.html; crawler@yowedo.com)'
+    family: 'Yowedo'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Zao-Crawler'
+    family: 'Zao'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZeBot_www.ze.bz (ze.bz@hotmail.com)'
+    family: 'ZeBot_www.ze.bz'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZooShot 0.42'
+    family: 'ZooShot'
+    major: '0'
+    minor: '42'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE; ZyBorg; Win32)'
+    family: 'ZyBorg'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 compatible ZyBorg/1.0 (ZyBorg@WISEnutbot.com; http://www.WISEnutbot.com)'
+    family: 'ZyBorg'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'AltaVista Intranet V2.0 Compaq Altavista Eval sveand@altavista.net'
+    family: 'altavista'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; archive.bibalex.org_bot; +http://www.test.com)'
+    family: 'archive.bibalex.org_bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; archive.org_bot/heritrix-1.15.1-x  http://pandora.nla.gov.au/crawl.html)'
+    family: 'archive.org_bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; special_archiver/3.2.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)'
+    family: 'archiver'
+    major: '3'
+    minor: '2'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50215; baiduspider)'
+    family: 'baiduspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'baiduspider-mobile-gate'
+    family: 'baiduspider-mobile-gate'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'bingbot'
+    family: 'bingbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; bingbot/2.0  http://www.bing.com/bingbot.htm)'
+    family: 'bingbot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'boitho.com-dc/0.4 ( http://www.boitho.com/dcbot.html )'
+    family: 'boitho.com-dc'
+    major: '0'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'boitho.com-dc/0.86 ( http://www.boitho.com/dcbot.html )'
+    family: 'boitho.com-dc'
+    major: '0'
+    minor: '86'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; clumboot; +http://localhost/clumpit/bot.php)'
+    family: 'clumboot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'findlinks/2.6 ( http://wortschatz.uni-leipzig.de/findlinks/)'
+    family: 'findlinks'
+    major: '2'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 compatible FurlBot/Furl Search 2.0 (FurlBot; http://www.furl.net; wn.furlbot@looksmart.net)'
+    family: 'furlbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'gonzo1[D] mailto:crawleradmin.t-info@telekom.de'
+    family: 'gonzo1'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'grub-client-1.5.3; (grub-client-1.5.3; Crawl your own stuff with http://grub.org)'
+    family: 'grub-client'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'gsa-crawler'
+    family: 'gsa-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; cdlwas_bot; heritrix/1.14.1 +http://webarchives.cdlib.org/p/webmasters)'
+    family: 'heritrix'
+    major: '1'
+    minor: '14'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; heritrix/3.2.0 +http://suki.ling.helsinki.fi/eng/project.html)'
+    family: 'heritrix'
+    major: '3'
+    minor: '2'
+    patch: '0'
+
+  - user_agent_string: 'holmes/2.3'
+    family: 'holmes'
+    major: '2'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'holmes/3.12.4 (http://morfeo.centrum.cz/bot)'
+    family: 'holmes'
+    major: '3'
+    minor: '12'
+    patch: '4'
+
+  - user_agent_string: 'htdig/3.1.6 (romieu@bastide-medical.fr)'
+    family: 'htdig'
+    major: '3'
+    minor: '1'
+    patch: '6'
+
+  - user_agent_string: 'ia_archiver/8.7 (Windows NT 5.0; )'
+    family: 'ia_archiver'
+    major: '8'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'ichiro/1.0 (ichiro@nttr.co.jp)'
+    family: 'ichiro'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'ichiro/5.0 (http://help.goo.ne.jp/door/crawler.html)'
+    family: 'ichiro'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'DoCoMo/2.0 P900i(c100;TB;W24H11)(compatible; ichiro/mobile goo;  http://help.goo.ne.jp/door/crawler.html)'
+    family: 'ichiro/mobile'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: '08_800w_web1 (larbin2.6.3@unspecified.mail)'
+    family: 'larbin'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; LYCOSA;+http://lycosa.se)'
+    family: 'lycos'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'masidani_bot_v0.3 (info@masidani.com)'
+    family: 'masidani_bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'mozDex/0.05-dev (mozDex; http://www.mozdex.com/bot.html; spider@mozdex.com)'
+    family: 'mozDex'
+    major: '0'
+    minor: '05'
+    patch:
+
+  - user_agent_string: 'msnbot/2.0 (+http://search.msn.com/msnbot.htm)'
+    family: 'msnbot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.13) Gecko/20101203 Firefox/3.6.13 (.NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; msnbot/2.1) Jakarta Commons-HttpClient/3.0-rc3 PHPCrawl GStreamer souphttpsrc libsoup/2.27.4 PycURL/7.19.0 XML-RPC for PHP 2.2.1 GoogleFriendConnect/1.0 HTMLParser/1.6 gPodder/0.15.2 ( http://gpodder.org/) anw webtool LoadControl/1.3 WinHttp urlgrabber/3.1.0'
+    family: 'msnbot'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'msnbot-media/1.0 ( http://search.msn.com/msnbot.htm)'
+    family: 'msnbot-media'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'msnbot-media/2.0b (+http://search.msn.com/msnbot.htm)'
+    family: 'msnbot-media'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'MSRBOT (http://research.microsoft.com/research/sv/msrbot)'
+    family: 'msrbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; scooter; .NET CLR 1.0.3705)'
+    family: 'scooter'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; focuseekbot)'
+    family: 'seekbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'semanticdiscovery/0.2(http://www.semanticdiscovery.com/sd/robot.html)'
+    family: 'semanticdiscovery'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'semanticdiscovery/2.0(http://www.semanticdiscovery.com/robot.html)'
+    family: 'semanticdiscovery'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'voyager/1.0'
+    family: 'voyager'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'voyager/2.0 (http://www.kosmix.com/crawler.html)'
+    family: 'voyager'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'http://www.almaden.ibm.com/cs/crawler'
+    family: 'www.almaden.ibm.com'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: '449 Overture-WebCrawler/3.8/Fresh (atw-crawler at fast dot no; http://fast.no/support/crawler.asp'
+    family: '449 Overture-WebCrawler'
+    major: '3'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; 80bot/0.71; http://www.80legs.com/spider.html;) Gecko/2008032620'
+    family: '80bot'
+    major: '0'
+    minor: '71'
+    patch:
+
+  - user_agent_string: 'A6-Indexer/1.0 (http://www.a6corp.com/a6-web-scraping-policy/)'
+    family: 'A6-Indexer'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'AcquiloSpider/1.0,gzip(gfe),gzip(gfe)'
+    family: 'AcquiloSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Aleksika Spider/1.0 ( http://www.aleksika.com/)'
+    family: 'Aleksika Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'AmorankSpider/0.1; +http://amorank.com/webcrawler.html'
+    family: 'AmorankSpider'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'AnomaliesBot/0.06-dev (The Anomalies Network Search Spider; http://www.anomalies.net; info@anomalies.net)'
+    family: 'AnomaliesBot'
+    major: '0'
+    minor: '06'
+    patch:
+
+  - user_agent_string: 'Automattic Analytics Crawler/0.1; http://wordpress.com/crawler/'
+    family: 'Automattic Analytics Crawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Automattic Analytics Crawler/0.2;+http://wordpress.com/crawler/'
+    family: 'Automattic Analytics Crawler'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup.com/crawler.html)'
+    family: 'BLEXBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BabalooSpider/1.2 (BabalooSpider; http://www.babaloo.si; spider@babaloo.si)'
+    family: 'BabalooSpider'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'BabalooSpider/1.3 (BabalooSpider; http://www.babaloo.si; spider@babaloo.si)'
+    family: 'BabalooSpider'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'BebopBot/2.5.1 (compatible; media crawler V1;  http://www.apassion4jazz.net/bebopbot.html;)'
+    family: 'BebopBot'
+    major: '2'
+    minor: '5'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; BlinkaCrawler/1.0;  http://www.blinka.jp/crawler/)'
+    family: 'BlinkaCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BlogRangerCrawler/1.0'
+    family: 'BlogRangerCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Brekiri crawler/1.0'
+    family: 'Brekiri crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BurstFindCrawler/1.1 (crawler.burstfind.com; http://crawler.burstfind.com; crawler@burstfind.com)'
+    family: 'BurstFindCrawler'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'CCBot/1.0 ( http://www.commoncrawl.org/bot.html)'
+    family: 'CCBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'CCBot/2.0 (http://commoncrawl.org/faq/)'
+    family: 'CCBot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'CamontSpider/1.0  http://epweb2.ph.bham.ac.uk/user/slater/camont/info.html'
+    family: 'CamontSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'CazoodleBot/0.1 (CazoodleBot Crawler; http://www.cazoodle.com; mqbot@cazoodle.com)'
+    family: 'CazoodleBot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; CloudServerMarketSpider/1.0; +http://www.cloudservermarket.com/spider.html)'
+    family: 'CloudServerMarketSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; CompSpyBot/1.0; +http://www.compspy.com/spider.html)'
+    family: 'CompSpyBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'ConveraMultiMediaCrawler/0.1 ( http://www.authoritativeweb.com/crawl)'
+    family: 'ConveraMultiMediaCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'CosmixCrawler/0.1'
+    family: 'CosmixCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Crawl/0.1 langcrawl/0.1'
+    family: 'Crawl'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; CrawlBot/1.0.0)'
+    family: 'CrawlBot'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Crawllybot/0.1/0.1 (Crawllybot/0.1; http://www.crawlly.com; crawler@crawlly.com)'
+    family: 'Crawllybot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Crawly/1.9;  http://92.51.162.40/crawler.html)'
+    family: 'Crawly'
+    major: '1'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Crawlzilla/1.0 (Crawlzilla; http://www.crawlzilla.com; crawler@crawlzilla.com)'
+    family: 'Crawlzilla'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'CydralSpider/3.2 (Cydral Image Search; http://www.cydral.com)'
+    family: 'CydralSpider'
+    major: '3'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'DealGates Bot/1.1 by Luc Michalski (http://spider.dealgates.com/bot.html)'
+    family: 'DealGates Bot'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Denodo IECrawler/4.5,gzip(gfe),gzip(gfe)'
+    family: 'Denodo IECrawler'
+    major: '4'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'Diffbot/0.1'
+    family: 'Diffbot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'DomainCrawler/2.0 (info@domaincrawler.com; http://www.domaincrawler.com/bot'
+    family: 'DomainCrawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'DotBot/1.0.1 (http://www.dotnetdotcom.org/, crawler@dotnetdotcom.org)'
+    family: 'DotBot'
+    major: '1'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DotBot/1.1; http://www.dotnetdotcom.org/, crawler@dotnetdotcom.org)'
+    family: 'DotBot'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'DotSpotsBot/0.2 (crawler; support at dotspots.com)'
+    family: 'DotSpotsBot'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'ERACrawler/1.0'
+    family: 'ERACrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; EventGuruBot/1.0; +http://www.eventguru.com/spider.html)'
+    family: 'EventGuruBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Ex-Crawler/0.1.5a; powered by ex-crawler; +http://www.ex-crawler.de/) Java/1.6.0_20,gzip(gfe),gzip(gfe)'
+    family: 'Ex-Crawler'
+    major: '0'
+    minor: '1'
+    patch: '5'
+
+  - user_agent_string: 'ExactSeek Crawler/0.1'
+    family: 'ExactSeek Crawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'ExactSeekCrawler/1.0'
+    family: 'ExactSeekCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'FANGCrawl/0.01'
+    family: 'FANGCrawl'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'FAST Enterprise Crawler/6 (www.fastsearch.com)'
+    family: 'FAST Enterprise Crawler'
+    major: '6'
+    minor:
+    patch:
+
+  - user_agent_string: 'FAST-WebCrawler/2.2.11 (crawler@fast.no; http://www.fast.no/faq/faqfastwebsearch/faqfastwebcrawler.html)'
+    family: 'FAST-WebCrawler'
+    major: '2'
+    minor: '2'
+    patch: '11'
+
+  - user_agent_string: 'FAST-WebCrawler/3.7 (atw-crawler at fast dot no; http://fast.no/support/crawler.asp)'
+    family: 'FAST-WebCrawler'
+    major: '3'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'NokiaN70/. FASTMobileCrawl/6.6 Profile/MIDP-2.0 Configuration/CLDC-1.1'
+    family: 'FASTMobileCrawl'
+    major: '6'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'FlaxCrawler/1.0,gzip(gfe),gzip(gfe)'
+    family: 'FlaxCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'FyberSpider/1.3 (http://www.fybersearch.com/fyberspider.php)'
+    family: 'FyberSpider'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'GarlikCrawler/1.2 (http://garlik.com/'
+    family: 'GarlikCrawler'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'GematchCrawler/2.1 (http://www.gematch.com/crawler.html)'
+    family: 'GematchCrawler'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Gigabot/2.0/gigablast.com/spider.html'
+    family: 'Gigabot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Gigabot/3.0 (http://www.gigablast.com/spider.html)'
+    family: 'Gigabot'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'GingerCrawler/1.0 (Language Assistant for Dyslexics; www.gingersoftware.com/crawler_agent.htm; support at ginger software dot com)'
+    family: 'GingerCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'GoGuidesBot/0.0.1 (GoGuides Indexing Spider; http://www.goguides.org/spider.html)'
+    family: 'GoGuidesBot'
+    major: '0'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; GrapeshotCrawler/2.0; +http://www.grapeshot.co.uk/crawler.php)'
+    family: 'GrapeshotCrawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'HPI FeedCrawler/0.1 (+http://www.hpi.uni-potsdam.de/meinel/bross/feedcrawler)'
+    family: 'HPI FeedCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'HRCrawler/2.0 (XF86; MacOS x86_64) AppleWebKit/537.31 (KHTML, like Gecko)'
+    family: 'HRCrawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Hailoobot/1.2;  http://www.hailoo.com/spider.html)'
+    family: 'Hailoobot'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Hatena::Crawler/0.01'
+    family: 'Hatena::Crawler'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; HiveCrawler/1.2 http://www.businessinsider.com)'
+    family: 'HiveCrawler'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Host-Spy Crawler/1.2; +http://www.host-spy.com/)'
+    family: 'Host-Spy Crawler'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'HttpSpider/0.91'
+    family: 'HttpSpider'
+    major: '0'
+    minor: '91'
+    patch:
+
+  - user_agent_string: 'HuaweiSymantecSpider/1.0 DSE-support@huaweisymantec.com (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR ; http://www.huaweisymantec.com/cn/IRL/spider)'
+    family: 'HuaweiSymantecSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IRLbot/1.0 ( http://irl.cs.tamu.edu/crawler)'
+    family: 'IRLbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IRLbot/3.0 (compatible; MSIE 6.0; http://irl.cs.tamu.edu/crawler)'
+    family: 'IRLbot'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; Iplexx Spider/1.1)'
+    family: 'Iplexx Spider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Jambot/0.1.1 (Jambot; http://www.jambot.com/blog; crawler@jambot.com)'
+    family: 'Jambot'
+    major: '0'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'Jomjaibot/1.0 Crawl (+http://www.jomjaibot.com/)'
+    family: 'Jomjaibot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'KIT webcrawler/0.2.4'
+    family: 'KIT webcrawler'
+    major: '0'
+    minor: '2'
+    patch: '4'
+
+  - user_agent_string: 'Kyoto-Crawler/2.0 (Mozilla-compatible; kyoto-crawler-contact(at)nlp(dot)kuee(dot)kyoto-u(dot)ac(dot)jp; http://nlp.ist.i.kyoto-u.ac.jp/)'
+    family: 'Kyoto-Crawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'LB-Crawler/1.0'
+    family: 'LB-Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'LSSRocketCrawler/1.0 LightspeedSystems'
+    family: 'LSSRocketCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7) Gecko/20040707 Lightningspider/0.9.2'
+    family: 'Lightningspider'
+    major: '0'
+    minor: '9'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; LikaholixCrawler/1.0; +http://mylikes.com/about/crawler)'
+    family: 'LikaholixCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Logict IPv6 Crawler/1.0 (http://ipv6search.logict.net),gzip(gfe),gzip(gfe)'
+    family: 'Logict IPv6 Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'MPICrawler/0.1 +http://kermit.news.cs.nyu.edu/crawler.html,gzip(gfe),gzip(gfe)'
+    family: 'MPICrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Opera/8.01 (J2ME/MIDP; MXit WebBot/1.8.3.119) Opera Mini/3.1'
+    family: 'MXit WebBot'
+    major: '1'
+    minor: '8'
+    patch: '3'
+
+  - user_agent_string: 'MetaGeneratorCrawler/1.3.8 (www.metagenerator.info)'
+    family: 'MetaGeneratorCrawler'
+    major: '1'
+    minor: '3'
+    patch: '8'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MetamojiCrawler/1.0; +http://www.metamoji.com/jp/crawler.html'
+    family: 'MetamojiCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'MonkeyCrawl/0.05 (MonkeyCrawl; http://www.monkeymethods.org;  )'
+    family: 'MonkeyCrawl'
+    major: '0'
+    minor: '05'
+    patch:
+
+  - user_agent_string: 'Mozilla crawl/5.0 (compatible; fairshare.cc +http://fairshare.cc)'
+    family: 'Mozilla crawl'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; NLCrawler/2.0.15; Linux 2.6.3-7; i686; en_US)KHTML/3.4.89 (like Gecko)'
+    family: 'NLCrawler'
+    major: '2'
+    minor: '0'
+    patch: '15'
+
+  - user_agent_string: 'NMG Spider/0.3 (szukanko.com)'
+    family: 'NMG Spider'
+    major: '0'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'NalezenCzBot/1.0 (http://www.nalezen.cz/about-crawler)'
+    family: 'NalezenCzBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NationalDirectory-WebSpider/1.3'
+    family: 'NationalDirectory-WebSpider'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; NetSeer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com)'
+    family: 'NetSeer crawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NetWhatCrawler/0.06-dev (NetWhatCrawler from NetWhat.com; http://www.netwhat.com; support@netwhat.com)'
+    family: 'NetWhatCrawler'
+    major: '0'
+    minor: '06'
+    patch:
+
+  - user_agent_string: 'compatible; Netseer crawler/2.0; +http://www.netseer.com/crawler.html; crawler@netseer.com'
+    family: 'Netseer crawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'New-Sogou-Spider/1.0 (compatible; MSIE 5.5; Windows 98)'
+    family: 'New-Sogou-Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NewzCrawler/1.9 (compatible; MSIE 6.00; Newz Crawler 1.9; http://www.newzcrawler.com/ )'
+    family: 'NewzCrawler'
+    major: '1'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'NodejsSpider/1.0'
+    family: 'NodejsSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; .None-Crawler/0.1 +http://domains.ericbinek.None/)'
+    family: 'None-Crawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'OmniExplorer_Bot/6.70 ( http://www.omni-explorer.com) WorldIndexer'
+    family: 'OmniExplorer_Bot'
+    major: '6'
+    minor: '70'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; OpenCrawler/0.1.6.6; http://code.google.com/p/opencrawler/),gzip(gfe),gzip(gfe)'
+    family: 'OpenCrawler'
+    major: '0'
+    minor: '1'
+    patch: '6'
+
+  - user_agent_string: 'OpenWebSpider/0.6 (http://www.openwebspider.org)'
+    family: 'OpenWebSpider'
+    major: '0'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'Overture-WebCrawler/3.8/Fresh (atw-crawler at fast dot no; http://fast.no/support/crawler.asp)'
+    family: 'Overture-WebCrawler'
+    major: '3'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'PArchiveCrawler/1.0'
+    family: 'PArchiveCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PercolateCrawler/4 (ops@percolate.com)'
+    family: 'PercolateCrawler'
+    major: '4'
+    minor:
+    patch:
+
+  - user_agent_string: 'Pete-Spider/1.1'
+    family: 'Pete-Spider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'PicSpider/1.1 (spider@217-20-118-26.internetserviceteam.com; http://www.bildkiste.de)'
+    family: 'PicSpider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'PluckItCrawler/1.0 (compatible; Mozilla 4.0; MSIE 5.5; http://www.pluck.com;)'
+    family: 'PluckItCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PornSpider/1.0; +http://www.pornspider.net)'
+    family: 'PornSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PortalBSpider/2.0 (spider@portalb.com)'
+    family: 'PortalBSpider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ProCogBot/1.0; +http://www.procog.com/spider.html)'
+    family: 'ProCogBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'ProloCrawler/1.0 (http://www.prolo.com)'
+    family: 'ProloCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PsSpider/0.7 (spider@bildkiste.de)'
+    family: 'PsSpider'
+    major: '0'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'RSSIncludeBot/1.0 (http://www.rssinclude.com/spider)'
+    family: 'RSSIncludeBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ;  Embedded Web Browser from: http://bsalsa.com/; RSScrawler/4.0 (compatible; MSIE 6.0; Windows NT 5.0); .NET CLR 2.0.50727'
+    family: 'RSScrawler'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'RSpider/1.0'
+    family: 'RSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'RyzeCrawler/1.1.0 (+http://www.ryze.nl/crawler/)'
+    family: 'RyzeCrawler'
+    major: '1'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'SMXCrawler/1.0 (www.socialmetrix.com)'
+    family: 'SMXCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SRCCN!Spider/1.1; +http://site.srccn.com/spider.html)'
+    family: 'SRCCN!Spider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SWEBot/1.0; +http://swebot-crawler.net)'
+    family: 'SWEBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sangfor Spider/0.7'
+    family: 'Sangfor Spider'
+    major: '0'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'ScSpider/0.2'
+    family: 'ScSpider'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'ScollSpider/2.0 ( http://www.webwobot.com/ScollSpider.php)'
+    family: 'ScollSpider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Screaming Frog SEO Spider/1.10'
+    family: 'Screaming Frog SEO Spider'
+    major: '1'
+    minor: '10'
+    patch:
+
+  - user_agent_string: 'Screaming Frog SEO Spider/2,01'
+    family: 'Screaming Frog SEO Spider'
+    major: '2'
+    minor:
+    patch:
+
+  - user_agent_string: 'SearchSpider/1.2.10'
+    family: 'SearchSpider'
+    major: '1'
+    minor: '2'
+    patch: '10'
+
+  - user_agent_string: 'Searchspider/1.2 (SearchSpider; http://www.searchspider.com; webmaster@searchspider.com)'
+    family: 'Searchspider'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'SimpleCrawler/0.1'
+    family: 'SimpleCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'SlugBug Spider/0.1 beta (SlugBug.com search engine; http://www.slugbug.com)'
+    family: 'SlugBug Spider'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'SmartAndSimpleWebCrawler/1.3 (https://crawler.dev.java.net),gzip(gfe),gzip(gfe)'
+    family: 'SmartAndSimpleWebCrawler'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux; Socialradarbot/2.0; en-US; crawler@infegy.com)'
+    family: 'Socialradarbot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou Orion spider/4.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou Orion spider'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou Pic Spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou Pic Spider'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou Push Spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou Push Spider'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou develop spider/4.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou develop spider'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou head spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou head spider'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou web spider/3.0( http://www.sogou.com/docs/help/webmasters.htm#07)'
+    family: 'Sogou web spider'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Sogou-Test-Spider/4.0 (compatible; MSIE 5.5; Windows 98)'
+    family: 'Sogou-Test-Spider'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Sosoimagespider/2.0; +http://help.soso.com/soso-image-spider.htm)'
+    family: 'Sosoimagespider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Sosospider/2.0; +http://help.soso.com/webspider.htm)'
+    family: 'Sosospider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Spider/5.0'
+    family: 'Spider'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'SpokeSpider/1.0 (http://support.spoke.com/webspider/) Mozilla/5.0 (not really)'
+    family: 'SpokeSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; StoneSunSpider/1.1)'
+    family: 'StoneSunSpider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; StreamScraper/1.0; +http://code.google.com/p/streamscraper/)'
+    family: 'StreamScraper'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; SuperSpider/139; Windows 98; Win 9x 4.90)'
+    family: 'SuperSpider'
+    major: '139'
+    minor:
+    patch:
+
+  - user_agent_string: 'T3census-Crawler/1.0'
+    family: 'T3census-Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'TECOMAC-Crawler/0.3'
+    family: 'TECOMAC-Crawler'
+    major: '0'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Tasapspider/0.9'
+    family: 'Tasapspider'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'TinEye-bot/0.02 (see http://www.tineye.com/crawler.html)'
+    family: 'TinEye-bot'
+    major: '0'
+    minor: '02'
+    patch:
+
+  - user_agent_string: 'Top10Ranking Spider/3.1 ( http://www.top10Ranking.nl/, Top10ranking.nl heeft op een aantal woorden uw posities in Google gecheckt)'
+    family: 'Top10Ranking Spider'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'TouTrix crawler/1.0'
+    family: 'TouTrix crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; TridentSpider/3.1)'
+    family: 'TridentSpider'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'TurnitinBot/1.5 (http://www.turnitin.com/robot/crawlerinfo.html)'
+    family: 'TurnitinBot'
+    major: '1'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'TurnitinBot/3.0 (http://www.turnitin.com/robot/crawlerinfo.html)'
+    family: 'TurnitinBot'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux i686; en-US; URLfilterDB-crawler/1.0) ufdb/1.0'
+    family: 'URLfilterDB-crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (URLfilterDB-crawler/1.1) ufdb/1.0'
+    family: 'URLfilterDB-crawler'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'VinjaVideoSpider/1.1'
+    family: 'VinjaVideoSpider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'VisBot/2.0 (Visvo.com Crawler; http://www.visvo.com/bot.html; bot@visvo.com)'
+    family: 'VisBot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; VodpodCrawler/1.0; +http://vodpod.com/site/help)'
+    family: 'VodpodCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WSDLSpider/1.0 (http://www.wsdlworld.com)'
+    family: 'WSDLSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; WangIDSpider/1.0; +http://www.wangid.com/spider.html)'
+    family: 'WangIDSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Web-Robot/5.0 (en-US; web-robot.com/policy.html) Web-Robot Crawler/2.0.3'
+    family: 'Web-Robot'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WebAlta Crawler/1.3.18 (http://www.webalta.net/ru/about_webmaster.html) (Windows; U; Windows NT 5.1; ru-RU)'
+    family: 'WebAlta Crawler'
+    major: '1'
+    minor: '3'
+    patch: '18'
+
+  - user_agent_string: 'WebAlta Crawler/2.0 (http://www.webalta.net/ru/about_webmaster.html) (Windows; U; Windows NT 5.1; ru-RU)'
+    family: 'WebAlta Crawler'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WebIndexer/1-dev (Web Indexer; mailto://webindexerv1@yahoo.com; webindexerv1@yahoo.com)'
+    family: 'WebIndexer'
+    major: '1'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Webbot/0.1; http://www.webbot.ru/bot.html)'
+    family: 'Webbot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Webspider/1.0 (web spider;  )'
+    family: 'Webspider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WinWebBot/1.0; (Balaena Ltd, UK); http://www.balaena.com/winwebbot.html; winwebbot@balaena.com;)'
+    family: 'WinWebBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'WinkBot/0.06 (Wink.com search engine web crawler; http://www.wink.com/Wink:WinkBot; winkbot@wink.com)'
+    family: 'WinkBot'
+    major: '0'
+    minor: '06'
+    patch:
+
+  - user_agent_string: 'Yahoo-MMCrawler/3.x (mm dash crawler at trd dot overture dot com)'
+    family: 'Yahoo-MMCrawler'
+    major: '3'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Yahoo-MMCrawler/4.0; mailto:vertical-crawl-support@yahoo-inc.com)'
+    family: 'Yahoo-MMCrawler'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Yahoo-Newscrawler/3.9 (news-search-crawler at yahoo-inc dot com)'
+    family: 'Yahoo-Newscrawler'
+    major: '3'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Yahoo-VerticalCrawler-FormerWebCrawler/3.9 crawler at trd dot overture dot com; http://www.alltheweb.com/help/webmaster/crawler'
+    family: 'Yahoo-VerticalCrawler-FormerWebCrawler'
+    major: '3'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'YoonoCrawler/1.0 (crawler@yoono.com)'
+    family: 'YoonoCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; YoudaoBot/1.0; http://www.youdao.com/help/webmaster/spider/; )'
+    family: 'YoudaoBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ZemlyaCrawl/1.0; +http://zemlyaozer.com/bot)'
+    family: 'ZemlyaCrawl'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: "Zeusbot/0.8.1 (Ulysseek's web-crawling robot; http://www.zeusbot.com; agent@zeusbot.com)"
+    family: 'Zeusbot'
+    major: '0'
+    minor: '8'
+    patch: '1'
+
+  - user_agent_string: 'agbot/1.0 (AgHaven.com search engine crawler; http://search.aghaven.com; bot@aghaven.com)'
+    family: 'agbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; archive_crawler/3.0.0-SNAPSHOT-20091205.013431  http://www.archive.org/details/archive_crawler)'
+    family: 'archive_crawler'
+    major: '3'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'audioCrawlerBot/1.0 (http://www.audiocrawler.com/)'
+    family: 'audioCrawlerBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'awesomebar_scraper/1.0'
+    family: 'awesomebar_scraper'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'blog_crawler/1.0'
+    family: 'blog_crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ca-crawler/1.0)'
+    family: 'ca-crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'crawl/0.4 langcrawl/0.1'
+    family: 'crawl'
+    major: '0'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; crawler/3.0.0 +http://www.notconfigured.com/)'
+    family: 'crawler'
+    major: '3'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'dCrawlBot/1.0.1120'
+    family: 'dCrawlBot'
+    major: '1'
+    minor: '0'
+    patch: '1120'
+
+  - user_agent_string: 'deepcrawler/3.1 (http://www.queusearch.com/whatis_deepcrawler.php),gzip(gfe),gzip(gfe)'
+    family: 'deepcrawler'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'envolk[ITS]spider/1.6 ( http://www.envolk.com/envolkspider.html)'
+    family: 'envolk[ITS]spider'
+    major: '1'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'fastlwspider/1.0'
+    family: 'fastlwspider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'i1searchbot/2.0 (i1search web crawler; http://www.i1search.com; crawler@i1search.com)'
+    family: 'i1searchbot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; iaskspider/1.0; MSIE 6.0)'
+    family: 'iaskspider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'iaskspider/2.0( http://iask.com/help/help_index.html)'
+    family: 'iaskspider'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Liquida.it-Crawler/1.0 ( crawler@liquida.it +http://www.liquida.it )'
+    family: 'it-Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'it2media-domain-crawler/1.0 on crawler-prod.it2media.de'
+    family: 'it2media-domain-crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'jrCrawler/1.0b'
+    family: 'jrCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; loc-crawl/1.10.1 +http://www.google.com)'
+    family: 'loc-crawl'
+    major: '1'
+    minor: '10'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; loc-crawler/0.11.0 +http://loc.gov),gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'loc-crawler'
+    major: '0'
+    minor: '11'
+    patch: '0'
+
+  - user_agent_string: 'DoCoMo/2.0 P904i( m65bot/0.1; c; http://m65.jp/bot.html )'
+    family: 'm65bot'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'magpie-crawler/1.1 (U; Linux amd64; en-GB;  http://www.brandwatch.net)'
+    family: 'magpie-crawler'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'noxtrumbot/1.0 (crawler@noxtrum.com)'
+    family: 'noxtrumbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'nyobot/1.1 (Noyb.com search engine crawler; http://www.noyb.com; bot@noyb.com),gzip(gfe),gzip(gfe)'
+    family: 'nyobot'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)'
+    family: 'oBot'
+    major: '2'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'omgilibot/0.3 +http://www.omgili.com/Crawler.html'
+    family: 'omgilibot'
+    major: '0'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; rogerBot/1.0; UrlCrawler; http://www.seomoz.org/dp/rogerbot)'
+    family: 'rogerBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'rogerbot/1.1 (http://moz.com/help/pro/what-is-rogerbot-, rogerbot-crawler+pr1-crawler-14@moz.com)'
+    family: 'rogerbot'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'semantics webbot/1.0'
+    family: 'semantics webbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; socialbm_bot/1.0; +http://spider.socialbm.net)'
+    family: 'socialbm_bot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'tCrawler/0.1,gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'tCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'tivraSpider/1.0 (crawler@tivra.com)'
+    family: 'tivraSpider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'webscraper/1.0'
+    family: 'webscraper'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'wume_crawler/1.1 (http://wume.cse.lehigh.edu/~xiq204/crawler/)'
+    family: 'wume_crawler'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Abrave Spider v5.3 Robot 2 (http://robot.abrave.com)'
+    family: '3 Robot'
+    major: '2'
+    minor:
+    patch:
+
+  - user_agent_string: 'Apexoo Spider 1.1'
+    family: 'Apexoo Spider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'BT Crawler 1.0,gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'BT Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Bot Blocker Crawler 1.0 (btw, IncrediBILL says "HI!")'
+    family: 'Bot Blocker Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'BurstFind Crawler 1.1 - www.burstfind.com'
+    family: 'BurstFind Crawler'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Comodo Spider 1.1'
+    family: 'Comodo Spider'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Comodo Spider 1.2'
+    family: 'Comodo Spider'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Crawler 0.1,gzip(gfe),gzip(gfe)'
+    family: 'Crawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'ExB Language Crawler 2.1.5 (+http://www.exb.de/crawler)'
+    family: 'ExB Language Crawler'
+    major: '2'
+    minor: '1'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; FAST Crawler 6.3)'
+    family: 'FAST Crawler'
+    major: '6'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'FAST EnterpriseCrawler 6'
+    family: 'FAST EnterpriseCrawler'
+    major: '6'
+    minor:
+    patch:
+
+  - user_agent_string: 'schibstedsokbot (compatible; Mozilla/5.0; MSIE 5.0; FAST FreshCrawler 6; Contact: webcrawl@schibstedsok.no;)'
+    family: 'FAST FreshCrawler'
+    major: '6'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; FatBot 2.0; http://www.thefind.com/crawler)'
+    family: 'FatBot'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Feedjit Favicon Crawler 1.0'
+    family: 'Feedjit Favicon Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'HubSpot Crawler 1.0 http://www.hubspot.com/'
+    family: 'HubSpot Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Jaxified Crawler 1.0a (+http://www.jaxified.com/),gzip(gfe),gzip(gfe)'
+    family: 'Jaxified Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'LinksCrawler 0.1beta'
+    family: 'LinksCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Liquida Spider 1.0 +http://liquida.com/'
+    family: 'Liquida Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'My Spider 1.0,gzip(gfe),gzip(gfe)'
+    family: 'My Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NWSpider 0.9'
+    family: 'NWSpider'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Netchart Adv Crawler 1.0'
+    family: 'Netchart Adv Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (NimbleCrawler 0.1) obeys NimbleCrawler directive contact jpump@looksmart.net'
+    family: 'NimbleCrawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows;) NimbleCrawler 2.0.1 obeys UserAgent NimbleCrawler For problems contact: crawler@healthline.com'
+    family: 'NimbleCrawler'
+    major: '2'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'OMGCrawler 1.0'
+    family: 'OMGCrawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'SeekOn Spider 1.9(+http://www.seekon.com/spider.html)'
+    family: 'SeekOn Spider'
+    major: '1'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Toms Spider 0.3'
+    family: 'Toms Spider'
+    major: '0'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Tutorial Crawler 1.4'
+    family: 'Tutorial Crawler'
+    major: '1'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'RB2B-bot v0.1 (Using Fast Enterprise Crawler 6 search@reedbusiness.com)'
+    family: 'Using Fast Enterprise Crawler'
+    major: '6'
+    minor:
+    patch:
+
+  - user_agent_string: 'WocBot/Mozilla/5.0 (Wocodi Web Crawler 1.0; http://www.wocodi.com/crawler; crawler@wocodi.com)'
+    family: 'Wocodi Web Crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; WordSurfer Spider 2.2;))'
+    family: 'WordSurfer Spider'
+    major: '2'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'XSpider 0.01;http://uncool.oicp.net/spider.html'
+    family: 'XSpider'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 7.0) XSpider 7'
+    family: 'XSpider'
+    major: '7'
+    minor:
+    patch:
+
+  - user_agent_string: 'Xaldon WebSpider 2.7.b6'
+    family: 'Xaldon WebSpider'
+    major: '2'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'echocrawl 2.0'
+    family: 'echocrawl'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'enicura crawler 1.0,gzip(gfe),gzip(gfe)'
+    family: 'enicura crawler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; lworld spider 1.0; Windows NT 5.1)'
+    family: 'lworld spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'FAST-mSEARCH Crawler 0.1 (bergum@fast.no)'
+    family: 'mSEARCH Crawler'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: '123metaspider-Bot (Version: 1.04, powered by www.123metaspider.com)'
+    family: '123metaspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: '360Spider'
+    family: '360Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.8webcrawler) http://skateboarddirectory.com'
+    family: '8webcrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'AESOP_com_SpiderMan'
+    family: 'AESOP_com_SpiderMan'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "AISearchBot (Email: aisearchbot@gmail.com; If your web site doesn't want to be crawled, please send us a email.)"
+    family: 'AISearchBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; DAWINCI ANTIPLAG SPIDER)'
+    family: 'ANTIPLAG SPIDER'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'AcquiaCrawler,gzip(gfe),gzip(gfe)'
+    family: 'AcquiaCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Adaxas Spider (http://www.adaxas.net/)'
+    family: 'Adaxas Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0) AddSugarSpiderBot www.idealobserver.com'
+    family: 'AddSugarSpiderBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'AdnormCrawler www.adnorm.com/crawler'
+    family: 'AdnormCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'www.website-analyzer.net Website Analyzer Crawler'
+    family: 'Analyzer Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Apexoo Spider (http://www.apexoo.com/spider/)'
+    family: 'Apexoo Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'AppCodes crawler - looking for iOS app mentions. More info: support@appcodes.com. Robots.txt id: AppCodesCrawler'
+    family: 'AppCodes crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ArchitextSpider'
+    family: 'ArchitextSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Arikus_Spider'
+    family: 'Arikus_Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0 compatible; Asterias Crawler v4;  http://www.singingfish.com/help/spider.html; webmaster@singingfish.com); SpiderThread  Revision: 3.0'
+    family: 'Asterias Crawler'
+    major: '4'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible: AstraSpider V.2.1 : astrafind.com)'
+    family: 'AstraSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Autonomy Spider'
+    family: 'Autonomy Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'axadine/  (Axadine Crawler; http://www.axada.de/;  )'
+    family: 'Axadine Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; BIXOCRAWLER; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)'
+    family: 'BIXOCRAWLER'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; BOTW Spider;  http://botw.org)'
+    family: 'BOTW Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BacklinkCrawler (http://www.backlinktest.com/crawler.html)'
+    family: 'BacklinkCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BaiduImagespider ( http://help.baidu.jp/system/05.html)'
+    family: 'BaiduImagespider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BarraHomeCrawler (albertof@barrahome.org)'
+    family: 'BarraHomeCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZoomInfo::Beehive Crawler'
+    family: 'Beehive Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BeijingCrawler'
+    family: 'BeijingCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BejiBot Crawler (BNL Services; http://www.bejjan.net/crawler/)'
+    family: 'BejiBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BravoBrian SpiderEngine MarcoPolo'
+    family: 'BravoBrian SpiderEngine'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BrightCrawler (http://www.brightcloud.com/brightcrawler.asp)'
+    family: 'BrightCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BuildCMS crawler (http://www.buildcms.com/crawler)'
+    family: 'BuildCMS crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ByWebSite-Search-Spider,gzip(gfe),gzip(gfe)'
+    family: 'ByWebSite-Search-Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CFG_SPIDER_USER_AGENT'
+    family: 'CFG_SPIDER_USER_AGENT'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (CMS Crawler: http://www.cmscrawler.com)'
+    family: 'CMS Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CMS crawler ( http://buytaert.net/crawler/)'
+    family: 'CMS crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CRAZYWEBCRAWLER 0.9.0, http://www.crazywebcrawler.com'
+    family: 'CRAZYWEBCRAWLER'
+    major: '0'
+    minor: '9'
+    patch: '0'
+
+  - user_agent_string: 'CSimpleSpider Robot'
+    family: 'CSimpleSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Cityreview Robot (+http://www.cityreview.org/crawler/)'
+    family: 'Cityreview Robot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Exalead Cloudview Crawler,gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'Cloudview Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Comodo-Certificates-Spider'
+    family: 'Comodo-Certificates-Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Computer_and_Automation_Research_Institute_Crawler (crawler@info.ilab.sztaki.hu)'
+    family: 'Computer_and_Automation_Research_Institute_Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Http Connector Spider, contact Alcatel-Lucent IDOL Search'
+    family: 'Connector Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Content Crawler'
+    family: 'Content Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CowCrawler/CowCrawler-dev (+http://beta.cow.com),gzip(gfe),gzip(gfe)'
+    family: 'CowCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; CrawlDaddy v0.3.0 abot v1.1.1.0 http://code.google.com/p/abot)'
+    family: 'CrawlDaddy'
+    major: '0'
+    minor: '3'
+    patch: '0'
+
+  - user_agent_string: 'CrawlFire - you can disable this Robot: http://pastebin.de/25277'
+    family: 'CrawlFire'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CrawlWave/1.2 (crawlwave[at]circular.gr http://www.spiderwave.aueb.gr/'
+    family: 'CrawlWave'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'CrawlerBoy Pinpoint.com'
+    family: 'CrawlerBoy'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.0; Windows 98; DigExt; Crayon Crawler)'
+    family: 'Crayon Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DRKSpider - Website link validator - http://www.drk.com.ar/spider/,gzip(gfe),gzip(gfe),gzip(gfe)'
+    family: 'DRKSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DefaultCrawlTest/0.6 (Ram Crawl Test; devarajaswami at yahoo dot com)'
+    family: 'DefaultCrawlTest'
+    major: '0'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'FFC Trap Door Spider'
+    family: 'Door Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DoubleVerify Crawler'
+    family: 'DoubleVerify Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'EasouSpider'
+    family: 'EasouSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'EcoGrader Crawler: Beta'
+    family: 'EcoGrader Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Adknowledge Engage Crawler'
+    family: 'Engage Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ByWebSite Search Engine Spider'
+    family: 'Engine Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'EverbeeCrawler'
+    family: 'EverbeeCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Ex-Crawler/v0.1.5ALPHA SVN rev58; powered by ex-crawler; +http://www.ex-crawler.de/) Java/1.6.0_20,gzip(gfe),gzip(gfe)'
+    family: 'Ex-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ExactSeek_Spider'
+    family: 'ExactSeek_Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; FastCrawler3, support-fastcrawler3@fast.no)'
+    family: 'FastCrawler3'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Finderbots finder bot; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)'
+    family: 'Finderbots'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Findexa Crawler (http://www.findexa.no/gulesider/article26548.ece)'
+    family: 'Findexa Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/3.0 (compatible; Fluffy the spider; http://www.searchhippo.com/; info@searchhippo.com)'
+    family: 'Fluffy the spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0) (Atsameip FreeCrawl!)'
+    family: 'FreeCrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Fujiko Spider (fujiko@inelegant.org)'
+    family: 'Fujiko Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; FunkyCrawler; )'
+    family: 'FunkyCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'GSiteCrawler/v1.12 rev. 260 (http://gsitecrawler.com/)'
+    family: 'GSiteCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'GeekTools Crawler - http://domains.geek-tools.org'
+    family: 'GeekTools Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla 4.0 - GetMeLinked Spider www.GetMeLinked.com Web Directory'
+    family: 'GetMeLinked Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Gnam Gnam Spider'
+    family: 'Gnam Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; GoGuidesBot; http://www.goguides.org/spider.html)'
+    family: 'GoGuidesBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'GoScraper'
+    family: 'GoScraper'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'GrowerIdeas Crawler/GrowerIdeas-nutch-1.6 (Crawls URLs for indexing content for our new search startup which aims to provide simple and smart search across curated content. For more info please contact helloworld@growerideas.com. If you think'
+    family: 'GrowerIdeas Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Huaweisymantecspider (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727),gzip(gfe)'
+    family: 'Huaweisymantecspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'BlogPulse (ISSpider-3.0)'
+    family: 'ISSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'IWE Spider v.01 - www.pavka.com.au'
+    family: 'IWE Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'IXE Crawler'
+    family: 'IXE Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Imperia-LinkSpider,gzip(gfe),gzip(gfe)'
+    family: 'Imperia-LinkSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'netEstate Impressumscrawler (+http://www.netestate.de/De/Loesungen/Impressumscrawler)'
+    family: 'Impressumscrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Inar_spider2 (tspyyp@tom.com)'
+    family: 'Inar_spider2'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'IOI/2.0 (ISC Open Index crawler; http://index.isc.org/; bot@index.isc.org)'
+    family: 'Index crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; Infocrawler; Alexa Toolbar)'
+    family: 'Infocrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; Inspyder-Crawler; http://www.inspyder.com)'
+    family: 'Inspyder-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Willow Internet Crawler by Twotrees V2.1'
+    family: 'Internet Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (SKIZZLE! Distributed Internet Spider v1.0 - www.SKIZZLE.com)'
+    family: 'Internet Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'IssueCrawler'
+    family: 'IssueCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'JUST-CRAWLER( http://www.justsystems.com/jp/tech/crawler/)'
+    family: 'JUST-CRAWLER'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Jayde Crawler. http://www.jayde.com'
+    family: 'Jayde Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'JikeSpider; +http://shoulu.jike.com/spider.html'
+    family: 'JikeSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible;WI Job Roboter Spider Version 3;+http://www.webintegration.at)'
+    family: 'Job Roboter'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'JobSpider_BA/1.1'
+    family: 'JobSpider_BA'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'KiwiStatus (NZS.com)/0.2 (NZS.com KiwiStatus Spider,  Local Search New Zealand; http://www.nzs.com; bot-at-nzs dot com)'
+    family: 'KiwiStatus Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Kotoss Crawler http://hitokoto.kotoss.com,gzip(gfe),gzip(gfe)'
+    family: 'Kotoss Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Kyluka crawl; crawl@kyluka.com; http://www.kyluka.com/static/crawl.html)'
+    family: 'Kyluka crawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LNSpiderguy'
+    family: 'LNSpiderguy'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LarbinWebCrawler (internet@bredband.net)'
+    family: 'LarbinWebCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LargeSmall Crawler'
+    family: 'LargeSmall Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Lijit Crawler (+http://www.lijit.com/robot/crawler)'
+    family: 'Lijit Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DocWeb Link Crawler (http://doc.php.net)'
+    family: 'Link Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Lipperhey Spider; http://www.lipperhey.com/)'
+    family: 'Lipperhey Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LookUpCrawler - lookupcanada.ca [ZSEBOT]'
+    family: 'LookUpCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Lycos_Spider_(modspider)'
+    family: 'Lycos_Spider_'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) METASpider'
+    family: 'METASpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'MQbot http://metaquerier.cs.uiuc.edu/crawler'
+    family: 'MQbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'MSIndianWebcrawl'
+    family: 'MSIndianWebcrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'MSR-ISRCCrawler'
+    family: 'MSR-ISRCCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'MedSpider v0.0.1'
+    family: 'MedSpider'
+    major: '0'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Social Media Crawler using your Home URL on Twitter,Facebook,Myspace,Linkedin by ProfileCapture - contact profilecapture@gmail.com to report any problems with my crawling. http://profilecapture.com'
+    family: 'Media Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible); MSIE 5.0; Medialab Spider'
+    family: 'Medialab Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DomainsDB.net MetaCrawler v.0.9.7b (http://domainsdb.net/)'
+    family: 'MetaCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'FAST MetaWeb Crawler (helpdesk at fastsearch dot com)'
+    family: 'MetaWeb Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CC Metadata Scaper http://wiki.creativecommons.org/Metadata_Scraper'
+    family: 'Metadata_Scraper'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "MicrosoftPrototypeCrawler (How's my crawling? mailto:newbiecrawler@hotmail.com)"
+    family: 'MicrosoftPrototypeCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MixrankBot; crawler@mixrank.com)'
+    family: 'MixrankBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Sogou Mobile Spider1.0 (http://wap.sogou.com)'
+    family: 'Mobile Spider1'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla-Firefox-Spider(Wenanry)'
+    family: 'Mozilla-Firefox-Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'MultiCrawler, http://sw.deri.org/2006/04/multicrawler/robots.html'
+    family: 'MultiCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3; MySpaceScraper) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)'
+    family: 'MySpaceScraper'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Norbert the Spider(Burf.com)'
+    family: 'Norbert the Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'NuSearch Spider www.nusearch.com'
+    family: 'NuSearch Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Nusearch Spider (compatible; MSIE 6.0)'
+    family: 'Nusearch Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'OpenWebSpider (link collector; http://links.port30.se/cia.html) v (http://www.openwebspider.org/)'
+    family: 'OpenWebSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; OpenX Spider; http://www.openx.org)'
+    family: 'OpenX Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; OpenindexSpider; +http://www.openindex.io/en/webmasters/spider.html)'
+    family: 'OpenindexSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Orgbybot/OrgbyBot v1.2 (Spidering the net for Orgby; http://www.orgby.com/  ; Orgby.com Search Engine)'
+    family: 'Orgbybot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'PDFBot (crawler@pdfind.com)'
+    family: 'PDFBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; InfoPath.2; .NET CLR 3.5.21022; .NET CLR 3.5.30729; MS-RTC LM 8; OfficeLiveConnector.1.4; OfficeLivePatch.1.3; .NET CLR 3.0.30729) Jakarta Commons-HttpClient/3.0-rc3 PHPCrawl GStreamer souphttpsrc libsoup/2.27.4 PycURL/7.19.0 XML-RPC for PHP 2.2.1 GoogleFriendConnect/1.0 HTMLParser/1.6 gPodder/0.15.2 ( http://gpodder.org/) anw webtool LoadControl/1.3 WinHttp urlgrabber/3.1.0'
+    family: 'PHPCrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Fast PartnerSite Crawler'
+    family: 'PartnerSite Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Patwebbot (http://www.herz-power.de/technik.html)'
+    family: 'Patwebbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'PeerFactor Crawler'
+    family: 'PeerFactor Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'PhoenixWebBot Beta'
+    family: 'PhoenixWebBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'pipeLiner/0.10 (PipeLine Spider; http://www.pipeline-search.com/webmaster.html)'
+    family: 'PipeLine Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ProjectWF-java-test-crawler'
+    family: 'ProjectWF-java-test-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Punk Spider/PunkSPIDER-v0.1'
+    family: 'Punk Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'QuerySeekerSpider ( http://queryseeker.com/bot.html )'
+    family: 'QuerySeekerSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'QuickFinder Crawler'
+    family: 'QuickFinder Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'OpenLink Virtuoso RDF crawler'
+    family: 'RDF crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Jaxified Public RSS Crawler ( http://www.jaxified.com/)'
+    family: 'RSS Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'RSS-SPIDER (RSS Feed Seeker http://www.MyNewFavoriteThing.com/fsb.php)'
+    family: 'RSS-SPIDER'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'RavenCrawler'
+    family: 'RavenCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ReadPath_Spider'
+    family: 'ReadPath_Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'LinkStar Research Crawler (http://linkstar.com/),gzip(gfe),gzip(gfe)'
+    family: 'Research Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Research spider - ak1835@albany.edu'
+    family: 'Research spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'RoboCrawl (www.canadiancontent.net)'
+    family: 'RoboCrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) Runet-Research-Crawler (itrack.ru/research/cmsrate; rating@itrack.ru)'
+    family: 'Runet-Research-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Teragram/SAS Crawler'
+    family: 'SAS Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SCrawlTest/CR1 (CWD; http://sproose.com; crawl@sproose.com)'
+    family: 'SCrawlTest'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)'
+    family: 'SISTRIX Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36; SSL-Crawler: http://crawler.dcsec.uni-hannover.de'
+    family: 'SSL-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SWAT Crawler. AGH University project. In case of problem contact: opal@tempus.metal.agh.edu.pl. Thanks.'
+    family: 'SWAT Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SandCrawler - Compatibility Testing'
+    family: 'SandCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Sangfor Spider'
+    family: 'Sangfor Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/3.0 (compatible; ScollSpider; http://www.webwobot.com)'
+    family: 'ScollSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ScreenerBot Crawler Beta 2.0 (+http://www.ScreenerBot.com)'
+    family: 'ScreenerBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SearchSpider.com/1.1'
+    family: 'SearchSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ownCloud Server Crawler'
+    family: 'Server Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Shim-Crawler'
+    family: 'Shim-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ShowyouBot (http://showyou.com/crawler)'
+    family: 'ShowyouBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.0) SiteCheck-sitecrawl by Siteimprove.com'
+    family: 'SiteCheck-sitecrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SiteCrawler,gzip(gfe),gzip(gfe)'
+    family: 'SiteCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.5 (compatible; MSIE 5.5; Windows NT 5.1) Sitespider+ b432.1'
+    family: 'Sitespider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SocialSpider-Finder/0.2'
+    family: 'SocialSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Sosoblogspider+(+http://help.soso.com/soso-blog-spider.htm)'
+    family: 'Sosoblogspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Sosoimagespider ( http://help.soso.com/soso-image-spider.htm)'
+    family: 'Sosoimagespider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Sosospider+(+help.soso.com/webspider.htm)'
+    family: 'Sosospider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; SpeedySpider; www.entireweb.com)'
+    family: 'SpeedySpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SpiderKU/0.9'
+    family: 'SpiderKU'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SpiderLing (a SPIDER for LINGustic research); +http://nlp.fi.muni.cz/projects/biwec/)'
+    family: 'SpiderLing'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SpiderMan 3.0.1-2-11-111 (CP/M;8-bit)'
+    family: 'SpiderMan'
+    major: '3'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; SpiderView 1.0;unix)'
+    family: 'SpiderView'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Spider_Monkey/7.06 (SpiderMonkey.ca info at http://SpiderMonkey.ca /sm.shtml)'
+    family: 'Spider_Monkey'
+    major: '7'
+    minor: '06'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Spiderlytics/1.0; +spider@spiderlytics.com)'
+    family: 'Spiderlytics'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PKU Student Spider'
+    family: 'Student Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Symfony Spider (http://symfony.com/spider)'
+    family: 'Symfony Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Synthesio Crawler release MonaLisa (contact at synthesio dot fr)'
+    family: 'Synthesio Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'TAMU_CS_IRL_CRAWLER/1.0'
+    family: 'TAMU_CS_IRL_CRAWLER'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'TTop-Crawler,gzip(gfe),gzip(gfe)'
+    family: 'TTop-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'TayaCrawler (Beta; v0.1; tayadev@nexdegree.com)'
+    family: 'TayaCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'TelemetrySpider2/0.1 linux'
+    family: 'TelemetrySpider2'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Theme Spider ( http://www.themespider.com/spider.html)'
+    family: 'Theme Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Thesis_php_crawler'
+    family: 'Thesis_php_crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Trends Crawler, Real time trends bot (info@trendscrawler.com)'
+    family: 'Trends Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'TwitSpider'
+    family: 'TwitSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Twitmunin Crawler http://www.twitmunin.com'
+    family: 'Twitmunin Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; TwitterCrawler)'
+    family: 'TwitterCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'UCMore Crawler App'
+    family: 'UCMore Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'UOLCrawler (soscrawler@uol.com.br)'
+    family: 'UOLCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Links4US-Crawler, ( http://links4us.com/)'
+    family: 'US-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'USyd-NLP-Spider (http://www.it.usyd.edu.au/~vinci/bot.html)'
+    family: 'USyd-NLP-Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; UnisterBot; crawler@unister.de)'
+    family: 'UnisterBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0, VM-Crawler/cs version info  ofni noisrev sc'
+    family: 'VM-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WEBB Crawler - see: http://badcheese.com/robots.html'
+    family: 'WEBB Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WSDL Crawler'
+    family: 'WSDL Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'EmeraldShield.com WebBot'
+    family: 'WebBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WebCompanyCrawler'
+    family: 'WebCompanyCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'WebCrawler v1.3'
+    family: 'WebCrawler'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'WebVulnCrawl.blogspot.com/1.0 libwww-perl/5.803'
+    family: 'WebVulnCrawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CyberPatrol SiteCat Webbot (http://www.cyberpatrol.com/cyberpatrolcrawler.asp)'
+    family: 'Webbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'EricssonR320/R1A (Fast Wireless Crawler)'
+    family: 'Wireless Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'X-Crawler'
+    family: 'X-Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'XYZ Spider'
+    family: 'XYZ Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Y!J-BRJ/YATS crawler (http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html)'
+    family: 'YATS crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Y!J-BRO/YFSJ crawler (compatible; Mozilla 4.0; MSIE 5.5; http://help.yahoo.co.jp/help/jp/search/indexing/indexing-15.html; YahooFeedSeekerJp/2.0)'
+    family: 'YFSJ crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'YRL_ODP_CRAWLER'
+    family: 'YRL_ODP_CRAWLER'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Android 3.0; YRSpider; +http://www.yunrang.com/yrspider.html)'
+    family: 'YRSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "YebolBot (Email: yebolbot@gmail.com; If the web crawling affects your web service, or you don't like to be crawled by us, please email us. We'll stop crawling immediately.)"
+    family: 'YebolBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; Yet-Another-Spider; )'
+    family: 'Yet-Another-Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'YisouSpider'
+    family: 'YisouSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; YoudaoBot-rts/1.0; http://www.youdao.com/help/webmaster/spider/; )'
+    family: 'YoudaoBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZIBB Crawler (email address / WWW address)'
+    family: 'ZIBB Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZillaCrawler'
+    family: 'ZillaCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ZoomSpider - wrensoft.com'
+    family: 'ZoomSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Zspider (+http://www.zhanzhangsou.com/index.htm)'
+    family: 'Zspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; acedo crawler extension)'
+    family: 'acedo crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'acquia-crawler (detected bad behaviour? please tell us at it@acquia.com),gzip(gfe),gzip(gfe)'
+    family: 'acquia-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.21 (KHTML, like Gecko) adspider Safari/537.21'
+    family: 'adspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'amphetameme crawler (crawler@amphetameme.com)'
+    family: 'amphetameme crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ayna-crawler  http://www.ayna.com)'
+    family: 'ayna-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Bender; http://sites.google.com/site/bendercrawler)'
+    family: 'bendercrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'snap.com beta crawler v0'
+    family: 'beta crawler'
+    major: '0'
+    minor:
+    patch:
+
+  - user_agent_string: 'blackspider'
+    family: 'blackspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; bmdspider; windows 5.1)'
+    family: 'bmdspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'boitho crawler'
+    family: 'boitho crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'cis455crawler'
+    family: 'cis455crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'http://www.Syntryx.com/ ANT Chassis 9.27; Mozilla/4.0 compatible crawler'
+    family: 'compatible crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'crawler4j (http://code.google.com/p/crawler4j/)'
+    family: 'crawler4j'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'dtSearchSpider'
+    family: 'dtSearchSpider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Enterprise_Search/1.0 110 (http://www.innerprise.net/es-spider.asp)'
+    family: 'es-spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'eseek-crawler.0.5 (crawler@exactseek.com)'
+    family: 'eseek-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'exooba/exooba crawler (exooba; exooba)'
+    family: 'exooba crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'flatlandbot/allspark (Flatland Industries Web Spider; http://www.flatlandindustries.com/flatlandbot; jason@flatlandindustries.com)'
+    family: 'flatlandbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'haupia-crawler'
+    family: 'haupia-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'hitcrawler_0.1 (ringken@gmail.com)'
+    family: 'hitcrawler_0'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'iaskspider2 (iask@staff.sina.com.cn)'
+    family: 'iaskspider2'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'visaduhoc.info Crawler'
+    family: 'info Crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ip-web-crawler.com'
+    family: 'ip-web-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'jikespider "Mozilla/5.0'
+    family: 'jikespider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 5.0) compatible; kototoi-crawl@yl.is.s.u-tokyo.ac.jp'
+    family: 'kototoi-crawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'lb-spider'
+    family: 'lb-spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ldspider (BTC 2011 crawl, harth@kit.edu, http://code.google.com/p/ldspider/wiki/Robots)'
+    family: 'ldspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; lemurwebcrawler admin@lemurproject.org; +http://boston.lti.cs.cmu.edu/crawler_12/)'
+    family: 'lemurwebcrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'lmspider (lmspider@scansoft.com)'
+    family: 'lmspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'lworldspider'
+    family: 'lworldspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'trunk.ly spider contact@trunk.ly'
+    family: 'ly spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Vodafone mCrawler (bergum@fast.no)'
+    family: 'mCrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'media-percbotspider <ops@percolate.com>'
+    family: 'media-percbotspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'DoCoMo/2.0 N902iS(c100;TB;W24H12)(compatible; moba-crawler; http://crawler.dena.jp/)'
+    family: 'moba-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Nokia6680/1.0 ((4.04.07) SymbianOS/8.0 Series60/2.6 Profile/MIDP-2.0 Configuration/CLDC-1.1 (for mobile crawler) )'
+    family: 'mobile crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'n4p_bot (crawler@n4p.com)'
+    family: 'n4p_bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'na-Webcrawler (helpdesk@newsaktuell.de)'
+    family: 'na-Webcrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: "nuSearch Spider <a href='http://www.nusearch.com'>www.nusearch.com</a> (compatible; MSIE 4.01; Windows NT)"
+    family: 'nuSearch Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'parallelContextFocusCrawler1.1parallelContextFocusCrawler1.1'
+    family: 'parallelContextFocusCrawler1'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'persomm-spider/v1.0'
+    family: 'persomm-spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; http://www.pregnancycrawler.com)'
+    family: 'pregnancycrawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ptd-crawler;  http://bixolabs.com/crawler/ptd/; crawler@bixolabs.com)'
+    family: 'ptd-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; pub-crawler; +http://wiki.github.com/bixo/bixo/bixocrawler; bixo-dev@yahoogroups.com)'
+    family: 'pub-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'pythonic-crawler (suzuki@tkl.iis.u-tokyo.ac.jp)'
+    family: 'pythonic-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) Russian CMS rating crawler (itrack.ru/cmsrate, avlasov@itrack.ru)'
+    family: 'rating crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'camoca/camoca-n.1.2 (super-agent; search crawler; info at does not exist dot com)'
+    family: 'search crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; sgbot v0.01a, sgcrawlerbot@gmail.com)'
+    family: 'sgbot'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'spiderpig/0.1,gzip(gfe),gzip(gfe)'
+    family: 'spiderpig'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'ssearch_bot (sSearch Crawler; http://www.semantissimo.de)'
+    family: 'ssearch_bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; suggybot v0.01a, http://blog.suggy.com/was-ist-suggy/suggy-webcrawler/)'
+    family: 'suggybot'
+    major: '0'
+    minor: '01'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; uMBot-FC/1.0; mailto: crawling@ubermetrics-technologies.com)'
+    family: 'uMBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'unchaos_crawler_2.0.2 (search.engine@unchaos.com)'
+    family: 'unchaos_crawler_2'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'updated/0.1-alpha (updated crawler; http://www.updated.com; crawler@updated.com)'
+    family: 'updated crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Yahoo-Test/4.0 mailto:vertical-crawl-support@yahoo-inc.com)'
+    family: 'vertical-crawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'yp-crawl@attinteractive.com'
+    family: 'yp-crawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'yrspider (Mozilla/5.0 (compatible; YRSpider;  http://www.yunrang.com/yrspider.html))'
+    family: 'yrspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Yahoo-Test/4.0 ysm-keystone-crawl-support@yahoo-inc.com)'
+    family: 'ysm-keystone-crawl'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; zyklop; +http://www.seoratio.de/zyklop-crawler/)'
+    family: 'zyklop-crawler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.1; en-gb; CUBOT ONE Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'Android'
+    major: '4'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
+    family: 'Rival IQ'
+    major:
+    minor:
+    patch:
+
