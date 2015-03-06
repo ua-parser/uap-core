@@ -544,7 +544,7 @@ os_parsers:
   # can actually detect rooted android os. do we care?
   ##########
 
-  - regex: '(Android)[ \-/](\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?'
+  - regex: '(Android)[ \-/](\d+)\.(\d+W?)(?:[.\-]([a-z0-9]+))?'
 
   # Code name & API level based on data retrieved from
   # https://en.wikipedia.org/wiki/Android_version_history#Version_history_by_API_level
