@@ -901,11 +901,13 @@ device_parsers:
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Smartphone'
+    device_type: 'mobile'
   - regex: '(?:DoCoMo|\bMOT\b|\bLG\b|Nokia|Samsung|SonyEricsson).*(?:(?:Bot|Yeti)-Mobile|bots?/\d|(?:bot|crawler)\.html|(?:jump|google|Wukong)bot|ichiro/mobile|/spider|YahooSeeker)'
     regex_flag: 'i'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Feature Phone'
+    device_type: 'mobile'
 
   #########
   # WebBrowser for SmartWatch
@@ -915,6 +917,7 @@ device_parsers:
     device_replacement: '$1 $2'
     brand_replacement: '$1'
     model_replacement: '$2'
+    device_type: 'mobile'
 
   ######################################################################
   # Android parsers
