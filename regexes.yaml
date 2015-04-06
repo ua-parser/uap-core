@@ -5,314 +5,235 @@ user_agent_parsers:
   # but it's like targeting "HTML5 browsers", effective browser support depends on the model
   # See os_parsers if you want to target a specific TV
   - regex: '(HbbTV)/(\d+)\.(\d+)\.(\d+) \('
-    device_type: 'other'
 
   # must go before Firefox to catch Chimera/SeaMonkey/Camino
   - regex: '(Chimera|SeaMonkey|Camino)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
-    device_type: 'desktop'
 
   # Firefox
   - regex: '(Pale[Mm]oon)/(\d+)\.(\d+)\.?(\d+)?'
     family_replacement: 'Pale Moon (Firefox Variant)'
-    device_type: 'desktop'
   - regex: '(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
     family_replacement: 'Firefox Mobile'
-    device_type: 'mobile'
   - regex: '(Fennec)/(\d+)\.(\d+)(pre)'
     family_replacement: 'Firefox Mobile'
-    device_type: 'mobile'
   - regex: '(Fennec)/(\d+)\.(\d+)'
     family_replacement: 'Firefox Mobile'
-    device_type: 'mobile'
   - regex: 'Mobile.*(Firefox)/(\d+)\.(\d+)'
     family_replacement: 'Firefox Mobile'
-    device_type: 'mobile'
   - regex: '(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Firefox ($1)'
-    device_type: 'desktop'
   - regex: '(Firefox)/(\d+)\.(\d+)(a\d+[a-z]*)'
     family_replacement: 'Firefox Alpha'
-    device_type: 'desktop'
   - regex: '(Firefox)/(\d+)\.(\d+)(b\d+[a-z]*)'
     family_replacement: 'Firefox Beta'
-    device_type: 'desktop'
   - regex: '(Firefox)-(?:\d+\.\d+)?/(\d+)\.(\d+)(a\d+[a-z]*)'
     family_replacement: 'Firefox Alpha'
-    device_type: 'desktop'
   - regex: '(Firefox)-(?:\d+\.\d+)?/(\d+)\.(\d+)(b\d+[a-z]*)'
     family_replacement: 'Firefox Beta'
-    device_type: 'desktop'
   - regex: '(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)([ab]\d+[a-z]*)?'
     family_replacement: 'Firefox ($1)'
-    device_type: 'desktop'
   - regex: '(Firefox).*Tablet browser (\d+)\.(\d+)\.(\d+)'
     family_replacement: 'MicroB'
-    device_type: 'tablet'
   - regex: '(MozillaDeveloperPreview)/(\d+)\.(\d+)([ab]\d+[a-z]*)?'
-    device_type: 'desktop'
 
   # e.g.: Flock/2.0b2
   - regex: '(Flock)/(\d+)\.(\d+)(b\d+?)'
-    device_type: 'desktop'
 
   # RockMelt
   - regex: '(RockMelt)/(\d+)\.(\d+)\.(\d+)'
-    device_type: 'desktop'
 
   # e.g.: Fennec/0.9pre
   - regex: '(Navigator)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Netscape'
-    device_type: 'desktop'
 
   - regex: '(Navigator)/(\d+)\.(\d+)([ab]\d+)'
     family_replacement: 'Netscape'
-    device_type: 'desktop'
 
   - regex: '(Netscape6)/(\d+)\.(\d+)\.?([ab]?\d+)?'
     family_replacement: 'Netscape'
-    device_type: 'desktop'
 
   - regex: '(MyIBrow)/(\d+)\.(\d+)'
     family_replacement: 'My Internet Browser'
-    device_type: 'desktop'
 
   # Opera will stop at 9.80 and hide the real version in the Version string.
   # see: http://dev.opera.com/articles/view/opera-ua-string-changes/
   - regex: '(Opera Tablet).*Version/(\d+)\.(\d+)(?:\.(\d+))?'
-    device_type: 'tablet'
   - regex: '(Opera)/.+Opera Mobi.+Version/(\d+)\.(\d+)'
     family_replacement: 'Opera Mobile'
-    device_type: 'mobile'
   - regex: '(Opera)/(\d+)\.(\d+).+Opera Mobi'
     family_replacement: 'Opera Mobile'
-    device_type: 'mobile'
   - regex: 'Opera Mobi.+(Opera)(?:/|\s+)(\d+)\.(\d+)'
     family_replacement: 'Opera Mobile'
-    device_type: 'mobile'
   - regex: 'Opera Mobi'
     family_replacement: 'Opera Mobile'
-    device_type: 'mobile'
   - regex: '(Opera Mini)(?:/att)?/(\d+)\.(\d+)'
-    device_type: 'mobile'
   - regex: '(Opera)/9.80.*Version/(\d+)\.(\d+)(?:\.(\d+))?'
-    device_type: 'desktop'
 
   # Opera 14 for Android uses a WebKit render engine.
   - regex: '(?:Mobile Safari).*(OPR)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Opera Mobile'
-    device_type: 'mobile'
 
   # Opera >=15 for Desktop is similar to Chrome but includes an "OPR" Version string.
   - regex: '(?:Chrome).*(OPR)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Opera'
-    device_type: 'desktop'
 
   # Opera Coast
   - regex: '(Coast)/(\d+).(\d+).(\d+)'
     family_replacement: 'Opera Coast'
-    device_type: 'mobile'
 
   # Opera Mini for iOS (from version 8.0.0)
   - regex: '(OPiOS)/(\d+).(\d+).(\d+)'
     family_replacement: 'Opera Mini'
-    device_type: 'mobile'
 
   # Palm WebOS looks a lot like Safari.
   - regex: '(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'webOS Browser'
-    device_type: 'mobile'
 
   # LuaKit has no version info.
   # http://luakit.org/projects/luakit/
   - regex: '(luakit)'
     family_replacement: 'LuaKit'
-    device_type: 'other'
 
   # Snowshoe
   - regex: '(Snowshoe)/(\d+)\.(\d+).(\d+)'
-    device_type: 'desktop'
 
   # Lightning (for Thunderbird)
   # http://www.mozilla.org/projects/calendar/lightning/
   - regex: '(Lightning)/(\d+)\.(\d+)\.?((?:[ab]?\d+[a-z]*)|(?:\d*))'
-    device_type: 'desktop'
 
   # Swiftfox
   - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+(?:pre)?) \(Swiftfox\)'
     family_replacement: 'Swiftfox'
-    device_type: 'desktop'
   - regex: '(Firefox)/(\d+)\.(\d+)([ab]\d+[a-z]*)? \(Swiftfox\)'
     family_replacement: 'Swiftfox'
-    device_type: 'desktop'
 
   # Rekonq
   - regex: '(rekonq)/(\d+)\.(\d+)\.?(\d+)? Safari'
     family_replacement: 'Rekonq'
-    device_type: 'desktop'
   - regex: 'rekonq'
     family_replacement: 'Rekonq'
-    device_type: 'desktop'
 
   # Conkeror lowercase/uppercase
   # http://conkeror.org/
   - regex: '(conkeror|Conkeror)/(\d+)\.(\d+)\.?(\d+)?'
     family_replacement: 'Conkeror'
-    device_type: 'desktop'
 
   # catches lower case konqueror
   - regex: '(konqueror)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Konqueror'
-    device_type: 'desktop'
 
   - regex: '(WeTab)-Browser'
-    device_type: 'desktop'
 
   - regex: '(Comodo_Dragon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Comodo Dragon'
-    device_type: 'desktop'
 
   # Bots
   - regex: '(YottaaMonitor|BrowserMob|HttpMonitor|YandexBot|Slurp|BingPreview|PagePeeker|ThumbShotsBot|WebThumb|URL2PNG|ZooShot|GomezA|Catchpoint bot|Willow Internet Crawler|Google SketchUp|Read%20Later)'
-    device_type: 'bot'
 
   - regex: '(Symphony) (\d+).(\d+)'
-    device_type: 'desktop'
 
   - regex: '(Minimo)'
-    device_type: 'mobile'
 
   - regex: 'PLAYSTATION 3.+WebKit'
     family_replacement: 'NetFront NX'
-    device_type: 'other'
   - regex: 'PLAYSTATION 3'
     family_replacement: 'NetFront'
-    device_type: 'other'
   - regex: '(PlayStation Portable)'
     family_replacement: 'NetFront'
-    device_type: 'other'
   - regex: '(PlayStation Vita)'
     family_replacement: 'NetFront NX'
-    device_type: 'other'
 
   - regex: 'AppleWebKit.+ (NX)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'NetFront NX'
-    device_type: 'other'
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
-    device_type: 'other'
 
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+))?'
     family_replacement: 'Amazon Silk'
-    device_type: 'mobile'
 
 
   # @ref: http://www.puffinbrowser.com
   - regex: '(Puffin)/(\d+)\.(\d+)(?:\.(\d+))?'
-    device_type: 'mobile'
 
   # Chrome Mobile
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
-    device_type: 'mobile'
   - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile iOS'
-    device_type: 'mobile'
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile'
     family_replacement: 'Chrome Mobile'
-    device_type: 'mobile'
 
   # Chrome Frame must come before MSIE.
   - regex: '(chromeframe)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Frame'
-    device_type: 'desktop'
 
   # UC Browser
   - regex: '(UCBrowser)[ /](\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
-    device_type: 'mobile'
   - regex: '(UC Browser)[ /](\d+)\.(\d+)\.(\d+)'
-    device_type: 'mobile'
   - regex: '(UC Browser|UCBrowser|UCWEB)(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
-    device_type: 'mobile'
 
   # Tizen Browser (second case included in browser/major.minor regex)
   - regex: '(SLP Browser)/(\d+)\.(\d+)'
     family_replacement: 'Tizen Browser'
-    device_type: 'mobile'
 
   # Sogou Explorer 2.X
   - regex: '(SE 2\.X) MetaSr (\d+)\.(\d+)'
     family_replacement: 'Sogou Explorer'
-    device_type: 'desktop'
 
   # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
   - regex: '(baidubrowser)[/\s](\d+)'
     family_replacement: 'Baidu Browser'
-    device_type: 'desktop'
   - regex: '(FlyFlow)/(\d+)\.(\d+)'
     family_replacement: 'Baidu Explorer'
-    device_type: 'desktop'
 
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
     family_replacement: 'QQ Browser Mini'
-    device_type: 'mobile'
   - regex: '(MQQBrowser)(?:/(\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
     family_replacement: 'QQ Browser Mobile'
-    device_type: 'mobile'
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+))?)?)?'
     family_replacement: 'QQ Browser'
-    device_type: 'mobile'
 
   # Pingdom
   - regex: '(Pingdom.com_bot_version_)(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
-    device_type: 'bot'
 
   # Facebook
   - regex: '(facebookexternalhit)/(\d+)\.(\d+)'
     family_replacement: 'FacebookBot'
-    device_type: 'bot'
 
   # LinkedIn
   - regex: '(LinkedInBot)/(\d+)\.(\d+)'
     family_replacement: 'LinkedInBot'
-    device_type: 'bot'
 
   # Twitterbot
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
     family_replacement: 'TwitterBot'
-    device_type: 'bot'
 
   # Google Plus
   - regex: 'Google.*/\+/web/snippet'
     family_replacement: 'GooglePlusBot'
-    device_type: 'bot'
 
   # Rackspace Monitoring
   - regex: '(Rackspace Monitoring)/(\d+)\.(\d+)'
     family_replacement: 'RackspaceBot'
-    device_type: 'bot'
 
   # PyAMF
   - regex: '(PyAMF)/(\d+)\.(\d+)\.(\d+)'
-    device_type: 'other'
 
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
-    device_type: 'mobile'
 
   # Mail.ru Amigo/Internet Browser (Chromium-based)
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+).* MRCHROME'
     family_replacement: 'Mail.ru Chromium Browser'
-    device_type: 'desktop'
 
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
-    device_type: 'desktop'
 
   #### END SPECIAL CASES TOP ####
 
