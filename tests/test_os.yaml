@@ -735,6 +735,34 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36 Edge/12.0'
+    family: 'Windows 10'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; Trident/7.0; rv:11.0) like Gecko'
+    family: 'Windows 10'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
+    family: 'Windows 10'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; WOW64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    family: 'Windows 10'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows 8.1'
     major:
