@@ -550,6 +550,11 @@ test_cases:
     brand:
     model: 'HbbTV'
 
+  - user_agent_string: 'Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOMSON;SW-Version/V8-MT51F01-LF1V325;Cnt/HRV;Lan/swe; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0) Presto/2.12.362 Version/12.11'
+    family: 'HbbTV'
+    brand: 'Thomson'
+    model:
+
   - user_agent_string: 'Netvibes (http://www.netvibes.com)'
     family: 'Spider'
     brand: 'Spider'
