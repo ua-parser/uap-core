@@ -264,6 +264,9 @@ user_agent_parsers:
   - regex: '(Thunderbird)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Thunderbird'
 
+  # Vivaldi uses "Vivaldi"
+  - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
+
   # IE TechPreview uses "Edge"
   - regex: '(Edge)/(\d+)\.(\d+)'
     family_replacement: 'IE'
