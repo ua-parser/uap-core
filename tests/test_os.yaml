@@ -2100,3 +2100,31 @@ test_cases:
     patch: '2'
     patch_minor:
 
+  - user_agent_string: 'MacAppStore/2.0 (Macintosh; OS X 10.10.2; 14C81f) AppleWebKit/0600.3.10.2'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '10'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '9'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; MacOS X 10_10_2; en-US; Valve Steam Client/1424305157; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '10'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0'
+    family: 'Mac OS X'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
