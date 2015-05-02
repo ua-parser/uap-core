@@ -304,26 +304,6 @@ user_agent_parsers:
   # Kindle WebKit
   - regex: '(Kindle)/(\d+)\.(\d+)'
 
-  # weird android UAs
-  - regex: '(Android) Donut'
-    v1_replacement: '1'
-    v2_replacement: '2'
-
-  - regex: '(Android) Eclair'
-    v1_replacement: '2'
-    v2_replacement: '1'
-
-  - regex: '(Android) Froyo'
-    v1_replacement: '2'
-    v2_replacement: '2'
-
-  - regex: '(Android) Gingerbread'
-    v1_replacement: '2'
-    v2_replacement: '3'
-
-  - regex: '(Android) Honeycomb'
-    v1_replacement: '3'
-
   # desktop mode
   # http://www.anandtech.com/show/3982/windows-phone-7-review
   - regex: '(MSIE) (\d+)\.(\d+).*XBLWP7'
@@ -566,26 +546,166 @@ os_parsers:
   # Android
   # can actually detect rooted android os. do we care?
   ##########
-  - regex: '(Android)[ \-/](\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?'
 
+  - regex: '(Android)[ \-/](\d+)\.(\d+W?)(?:[.\-]([a-z0-9]+))?'
+
+  # Code name & API level based on data retrieved from
+  # https://en.wikipedia.org/wiki/Android_version_history#Version_history_by_API_level
+  # on March 6, 2015
+
+  # Code names not used prior to 1.5
+
+  # Cupcake = 1.5
+  - regex: '(Android) Cupcake'
+    os_v1_replacement: '1'
+    os_v2_replacement: '5'
+
+  # Donut = 1.6
   - regex: '(Android) Donut'
     os_v1_replacement: '1'
-    os_v2_replacement: '2'
+    os_v2_replacement: '6'
 
+  # Eclair = 2.0, 2.0.1, 2.1
   - regex: '(Android) Eclair'
     os_v1_replacement: '2'
-    os_v2_replacement: '1'
 
+  # Froyo = 2.2-2.2.3
   - regex: '(Android) Froyo'
     os_v1_replacement: '2'
     os_v2_replacement: '2'
 
+  # Gingerbread = 2.3-2.3.2, 2.3.3-2.3.7
   - regex: '(Android) Gingerbread'
     os_v1_replacement: '2'
     os_v2_replacement: '3'
 
+  # Honeycomb = 3.0, 3.1, 3.2
   - regex: '(Android) Honeycomb'
     os_v1_replacement: '3'
+
+  # Ice Cream Sandwich = 4.0-4.0.2, 4.0.3-4.0.4
+  - regex: '(Android) Ice Cream Sandwich'
+    os_v1_replacement: '4'
+    os_v2_replacement: '0'
+
+  # Jelly Bean = 4.1, 4.2, 4.3
+  - regex: '(Android) Jelly Bean'
+    os_v1_replacement: '4'
+
+  # KitKat = 4.4, 4.4W
+  - regex: '(Android) KitKat'
+    os_v1_replacement: '4'
+
+  # Lollipop = 5.0-5.0.2
+  - regex: '(Android) Lollipop'
+    os_v1_replacement: '5'
+    os_v2_replacement: '0'
+
+  # API level 1 = 1.0
+  - regex: '(Android) 1(?!\.|\d)'
+    os_v1_replacement: '1'
+    os_v2_replacement: '0'
+
+  # API level 2 = 1.1
+  - regex: '(Android) 2(?!\.|\d)'
+    os_v1_replacement: '1'
+    os_v2_replacement: '1'
+
+  # API level 3 = 1.5
+  - regex: '(Android) 3(?!\.|\d)'
+    os_v1_replacement: '1'
+    os_v2_replacement: '5'
+
+  # API level 4 = 1.6
+  - regex: '(Android) 4(?!\.|\d)'
+    os_v1_replacement: '1'
+    os_v2_replacement: '6'
+
+  # API level 5 = 2.0
+  - regex: '(Android) 5(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '0'
+
+  # API level 6 = 2.0.1
+  - regex: '(Android) 6(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '0'
+    os_v3_replacement: '1'
+
+  # API level 7 = 2.1
+  - regex: '(Android) 7(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '1'
+
+  # API level 8 = 2.2-2.2.3
+  - regex: '(Android) 8(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '2'
+
+  # API level 9 = 2.3-2.3.2
+  - regex: '(Android) 9(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '3'
+
+  # API level 10 = 2.3.3-2.3.7
+  - regex: '(Android) 10(?!\.|\d)'
+    os_v1_replacement: '2'
+    os_v2_replacement: '3'
+
+  # API level 11 = 3.0
+  - regex: '(Android) 11(?!\.|\d)'
+    os_v1_replacement: '3'
+    os_v2_replacement: '0'
+
+  # API level 12 = 3.1
+  - regex: '(Android) 12(?!\.|\d)'
+    os_v1_replacement: '3'
+    os_v2_replacement: '1'
+
+  # API level 13 = 3.2
+  - regex: '(Android) 13(?!\.|\d)'
+    os_v1_replacement: '3'
+    os_v2_replacement: '2'
+
+  # API level 14 = 4.0-4.0.2
+  - regex: '(Android) 14(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '0'
+
+  # API level 15 = 4.0.3-4.0.4
+  - regex: '(Android) 15(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '0'
+
+  # API level 16 = 4.1
+  - regex: '(Android) 16(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '1'
+
+  # API level 17 = 4.2
+  - regex: '(Android) 17(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '2'
+
+  # API level 18 = 4.3
+  - regex: '(Android) 18(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '3'
+
+  # API level 19 = 4.4
+  - regex: '(Android) 19(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '4'
+
+  # API level 20 = 4.4W
+  - regex: '(Android) 20(?!\.|\d)'
+    os_v1_replacement: '4'
+    os_v2_replacement: '4W'
+
+  # API level 21 = 5.0-5.0.2
+  - regex: '(Android) 21(?!\.|\d)'
+    os_v1_replacement: '5'
+    os_v2_replacement: '0'
 
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?;'
