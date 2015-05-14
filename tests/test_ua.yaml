@@ -1542,4 +1542,10 @@ test_cases:
     major: '2'
     minor: '0'
     patch:
+  
+  - user_agent_string: 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9'
+    family: 'iTunes'
+    major: '12'
+    minor: '0'
+    patch: '1'
 

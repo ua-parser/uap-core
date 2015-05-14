@@ -2899,15 +2899,15 @@ test_cases:
     patch:
 
   - user_agent_string: 'iTunes/4.2 (Macintosh; U; PPC Mac OS X 10.2)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'iTunes'
+    major: '4'
+    minor: '2'
     patch:
 
   - user_agent_string: 'iTunes/4.7 (Macintosh; U; PPC Mac OS X 10.2)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'iTunes'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Jakarta Commons-HttpClient/2.0final'
