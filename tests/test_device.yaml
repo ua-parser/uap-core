@@ -79670,3 +79670,68 @@ test_cases:
     brand: 'Prestigio'
     model: 'PMP7280C3G'
 
+  - user_agent_string: 'BlogBridge 6.7 (http://www.blogbridge.com/) 1.6.0_18'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'IlTrovatore-Setaccio ( http://www.iltrovatore.it)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'InternetArchive-1.0'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/4.0 (compatible;  MSIE 5.01; GomezAgent 2.0; Windows NT)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; WebThumbnail/2.2; Website Thumbnail Generat'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; heritrix/3.2.0 +http://suki.ling.helsinki.f'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'NewsGator FetchLinks extension/0.2.0 (http://graemef.com)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'NewsGator/3.0,gzip(gfe),gzip(gfe)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'NewsGatorOnline/2.0 (http://www.newsgator.com)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'PagePeeker.com'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Reaper/2.07 ( http://www.sitesearch.ca/reaper)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'ZooShot 0.42'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'holmes/2.3'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
