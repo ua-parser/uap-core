@@ -555,10 +555,15 @@ test_cases:
     brand:
     model: 'HbbTV'
 
+  - user_agent_string: 'Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOM;SW-Version/V8-MT51F01-LF1V307;Cnt/DEU;Lan/bul) Presto/2.12.362 Version/12.11'
+    family: 'HbbTV'
+    brand: 'Thomson'
+    model: 'LF1V307'
+
   - user_agent_string: 'Opera/9.80 (Linux armv7l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;Vendor/THOMSON;SW-Version/V8-MT51F01-LF1V325;Cnt/HRV;Lan/swe; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0) Presto/2.12.362 Version/12.11'
     family: 'HbbTV'
     brand: 'Thomson'
-    model:
+    model: 'LF1V325'
 
   - user_agent_string: 'Netvibes (http://www.netvibes.com)'
     family: 'Spider'
@@ -75362,17 +75367,17 @@ test_cases:
 
   - user_agent_string: 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOM LF1V373; en) Presto/2.10.250 Version/11.60'
     family: 'HbbTV'
-    brand: 'THOM'
+    brand: 'Thomson'
     model: 'LF1V373'
 
   - user_agent_string: 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V394; en) Presto/2.10.250 Version/11.60'
     family: 'HbbTV'
-    brand: 'THOMSON'
+    brand: 'Thomson'
     model: 'LF1V394'
 
   - user_agent_string: 'Opera/9.80 (Linux armv6l; U; NETRANGEMMH;HbbTV/1.1.1;CE-HTML/1.0;THOMSON LF1V401; en) Presto/2.10.250 Version/11.60'
     family: 'HbbTV'
-    brand: 'THOMSON'
+    brand: 'Thomson'
     model: 'LF1V401'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.6; en-us; T-Mobile myTouch Build/HuaweiU8680) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
