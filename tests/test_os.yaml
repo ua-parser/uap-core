@@ -1799,6 +1799,41 @@ test_cases:
     patch: '0'
     patch_minor:
 
+  - user_agent_string: 'Mail/53 CFNetwork/711.2.23 Darwin/14.0.0'
+    family: 'iOS'
+    major: '8'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Safari/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '10'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'com.apple.geod/1077.0.18 CFNetwork/720.4 Darwin/14.4.0 (x86_64)'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '10'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Mac OS X/10.10.4 (14E11f)'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '10'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'AppleCoreMedia/1.0.0.12F69 (Apple TV; U; CPU OS 8_3 like Mac OS X; en_us)'
+    family: 'ATV OS X'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'DEPoker-iPad/1.0.2 CFNetwork/548.1.4 Darwin/11.0.0'
     family: 'iOS'
     major: '5'

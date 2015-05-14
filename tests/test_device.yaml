@@ -15,6 +15,11 @@ test_cases:
     brand: 'HTC'
     model: 'Amaze 4G'
 
+  - user_agent_string: 'AppleCoreMedia/1.0.0.12F69 (Apple TV; U; CPU OS 8_3 like Mac OS X; en_us)'
+    family: 'AppleTV'
+    brand: 'Apple'
+    model: 'AppleTV'
+
   - user_agent_string: 'Opera/9.80 (BlackBerry; Opera Mini/7.0.31437/28.3030; U; en) Presto/2.8.119 Version/11.10'
     family: 'BlackBerry'
     brand: 'BlackBerry'

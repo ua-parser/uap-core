@@ -680,7 +680,7 @@ os_parsers:
   # @ref: http://en.wikipedia.org/wiki/Mac_OS_X#Versions
   # @ref: http://www.puredarwin.org/curious/versions
   ##########
-  - regex: '(Mac OS X) (\d+)[_.](\d+)(?:[_.](\d+))?'
+  - regex: '(Mac OS X)[\s/](\d+)[_.](\d+)(?:[_.](\d+))?'
   # Leopard
   - regex: ' (Dar)(win)/(9).(\d+).*\((?:i386|x86_64|Power Macintosh)\)'
     os_replacement: 'Mac OS X'
@@ -706,6 +706,8 @@ os_parsers:
     os_replacement: 'Mac OS X'
     os_v1_replacement: '10'
     os_v2_replacement: '9'
+  # Yosemite is Darwin/14.x but patch versions are inconsistent in the Darwin string;
+  # more accurately covered by CFNetwork regexes downstream
 
   # IE on Mac doesn't specify version number
   - regex: 'Mac_PowerPC'
@@ -720,6 +722,10 @@ os_parsers:
   # iOS
   # http://en.wikipedia.org/wiki/IOS_version_history
   ##########
+  # keep this above generic iOS, since AppleTV UAs contain 'CPU OS'
+  - regex: '(Apple\s?TV)(?:/(\d+)\.(\d+))?'
+    os_replacement: 'ATV OS X'
+
   - regex: '(CPU OS|iPhone OS|CPU iPhone) +(\d+)[_\.](\d+)(?:[_\.](\d+))?'
     os_replacement: 'iOS'
 
@@ -730,9 +736,6 @@ os_parsers:
   # few more stragglers
   - regex: '(iPhone|iPad|iPod).*Mac OS X.*Version/(\d+)\.(\d+)'
     os_replacement: 'iOS'
-
-  - regex: '(AppleTV)/(\d+)\.(\d+)'
-    os_replacement: 'ATV OS X'
 
   # CFNetwork/Darwin - The specific CFNetwork or Darwin version determines
   # whether the os maps to Mac OS, or iOS, or just Darwin.
@@ -763,6 +766,13 @@ os_parsers:
     os_replacement: 'iOS'
     os_v1_replacement: '8'
     os_v2_replacement: '0.b5'
+  - regex: '(CF)(Network)/711\.(\d)'
+    os_replacement: 'iOS'
+    os_v1_replacement: '8'
+  - regex: '(CF)(Network)/(720)\.(\d)'
+    os_replacement: 'Mac OS X'
+    os_v1_replacement: '10'
+    os_v2_replacement: '10'
 
   ##########
   # CFNetwork iOS Apps
@@ -4156,10 +4166,10 @@ device_parsers:
   # No built in browser that I can tell
   # Stack Overflow indicated iTunes-AppleTV/4.1 as a known UA for app available and I'm seeing it in live traffic
   ##########
-  - regex: '(AppleTV)'
+  - regex: '(Apple\s?TV)'
     device_replacement: 'AppleTV'
     brand_replacement: 'Apple'
-    model_replacement: '$1'
+    model_replacement: 'AppleTV'
 
   #########
   # Tesla Model S
