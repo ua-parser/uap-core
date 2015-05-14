@@ -1537,3 +1537,9 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'MacAppStore/2.0 (Macintosh; OS X 10.10.2; 14C81f) AppleWebKit/0600.3.10.2'
+    family: 'MacAppStore'
+    major: '2'
+    minor: '0'
+    patch:
+
