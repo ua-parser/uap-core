@@ -2,11 +2,11 @@
 
 Version 0.2 Draft
 
-This document describes the specification on how a parser must implement the `regexes.yaml` file for correctly parsing user-agent strings on basis of that file. 
+This document describes the specification on how a parser must implement the `regexes.yaml` file for correctly parsing user-agent strings on basis of that file.
 
 This specification intends to help maintainers and contributors to correctly use the provided information within the `regexes.yaml` file for obtaining information from the different user-agent strings. Furthermore this specification tries to be the basis for discussions on evolving the projects and the needed parsing algorithms.
 
-This document will not provide any information on how to implement the ua-parser project on your server and how to retreive the user-agent string for further processing. 
+This document will not provide any information on how to implement the ua-parser project on your server and how to retreive the user-agent string for further processing.
 
 # `regexes.yaml`
 
@@ -35,8 +35,8 @@ Here major, minor and patch version information can be addressed or overwritten.
 | match in regex | default replacement | placeholder in replacement | note    |
 | ---- | ------------------- | ---- | --------------------------------------- |
 | 1    | family_replacement  | $1   | specifies the User-Agents family        |
-| 2    | v1_replacement      | $2   | major version number/info of the family | 
-| 3    | v2_replacement      | $3   | minor version number/info of the family | 
+| 2    | v1_replacement      | $2   | major version number/info of the family |
+| 3    | v2_replacement      | $3   | minor version number/info of the family |
 | 4    | v3_replacement      | $4   | patch version number/info of the family |
 
 In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within normal brackets) is given, the `family_replacement` shall be specified!
@@ -46,10 +46,10 @@ To overwrite the respective value the replacement value needs to be named for a 
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
 
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the forth `patch` information. 
-If a `*_replacement` string is specified it shall overwrite or replace the match. 
+In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the forth `patch` information.
+If a `*_replacement` string is specified it shall overwrite or replace the match.
 
-As placeholder for inserting matched characters use within 
+As placeholder for inserting matched characters use within
 * `family_replacement`: `$1`
 * `v1_replacement`: `$2`
 * `v2_replacement`: `$3`
@@ -85,8 +85,8 @@ Here major, minor and patch version information can be addressed or overwritten.
 | match in regex | default replacement | placeholder in replacement | note   |
 | ---- | ----------------- | ---- | ---------------------------------------- |
 | 1    | os_replacement    | $1   | specifies the OS                         |
-| 2    | os_v1_replacement | $2   | major version number/info of OS          | 
-| 3    | os_v2_replacement | $3   | minor version number/info of the OS      | 
+| 2    | os_v1_replacement | $2   | major version number/info of OS          |
+| 3    | os_v2_replacement | $3   | minor version number/info of the OS      |
 | 4    | os_v3_replacement | $4   | patch version number/info of the OS      |
 | 5    | os_v4_replacement | $5   | patchMinor version number/info of the OS |
 
@@ -97,10 +97,10 @@ To overwrite the respective value the replacement value needs to be named for a 
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
 
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `os` family, the second `major`, the third `minor`, the forth `patch` and the fifth `patchMinor` version information. 
-If a `*_replacement` string is specified it shall overwrite or replace the match. 
+In case that no replacement for a match is specified for a `regex`-item, the first match defines the `os` family, the second `major`, the third `minor`, the forth `patch` and the fifth `patchMinor` version information.
+If a `*_replacement` string is specified it shall overwrite or replace the match.
 
-As placeholder for inserting matched characters use within 
+As placeholder for inserting matched characters use within
 * `os_replacement`: `$1`
 * `os_v1_replacement`: `$2`
 * `os_v2_replacement`: `$3`
@@ -133,27 +133,27 @@ Furthermore `brand` and `model` of the device can be specified.
 
 | match in regex | default replacement | placeholder in replacement | note   |
 | ---- | ------------------ | ------- | ---------------------------------------- |
-| 1    | family_replacement | $1...$9 | specifies the device family              |
-| any  | brand_replacement  | $1...$9 | major version number/info of OS          | 
-| 1    | model_replacement  | $1...$9 | minor version number/info of the OS      | 
+| 1    | device_replacement | $1...$9 | specifies the device family              |
+| any  | brand_replacement  | $1...$9 | major version number/info of OS          |
+| 1    | model_replacement  | $1...$9 | minor version number/info of the OS      |
 
-In case that no replacement is specified the association is given by order of the match. 
-If in the `regex` no first match (within normal brackets) is given the `family_replacement` together with the `model_replacement` shall be specified!
+In case that no replacement is specified the association is given by order of the match.
+If in the `regex` no first match (within normal brackets) is given the `device_replacement` together with the `model_replacement` shall be specified!
 To overwrite the respective value the replacement value needs to be named for a given `regex`.
 
-For the `device_parsers` some `regex` require case insensitive parsing for proper matching. (E.g. Generic Feature Phones). To distinguish this from the case sensitive default case, the value `regex_flag: 'i'` is used to indicate that the regular-expression matching shall be case-insensitive for this regular expression. 
+For the `device_parsers` some `regex` require case insensitive parsing for proper matching. (E.g. Generic Feature Phones). To distinguish this from the case sensitive default case, the value `regex_flag: 'i'` is used to indicate that the regular-expression matching shall be case-insensitive for this regular expression.
 
 **Parser Implementation:**
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
 
-In case that no replacement for a match is given, the first match defines the `family` and the `model`. 
-If a `*_replacement` string is specified it shall overwrite or replace the match. 
+In case that no replacement for a match is given, the first match defines the `family` and the `model`.
+If a `*_replacement` string is specified it shall overwrite or replace the match.
 
 As placeholder for inserting matched characters `$1` to `$9` can be used to insert the matched characters from the regex into the replacement string.
 
 In case that no matching `regex` is found the value for `family` shall be “Other”. `brand` and `model` shall not be defined.
-Leading and tailing whitespaces shall be trimmed from the result. 
+Leading and tailing whitespaces shall be trimmed from the result.
 
 **Example:**
 
@@ -161,8 +161,8 @@ For the User-Agent: `Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; PEDI_PLUS_W Bu
 the matching `regex`:
 
 ```
-  - regex: '; (PEDI)_(PLUS)_(W) Build/'
-    device_replacement: '$1_$2_$3'
+  - regex: '; *(PEDI)_(PLUS)_(W) Build'
+    device_replacement: 'Odys $1 $2 $3'
     brand_replacement: 'Odys'
     model_replacement: '$1 $2 $3'
 ```
@@ -170,7 +170,7 @@ the matching `regex`:
 resolves to:
 
 ```
-  family: 'PEDI_PLUS_W' 
+  family: 'Odys PEDI PLUS W'
   brand: 'Odys'
   model: 'PEDI PLUS W'
 ```
@@ -181,7 +181,7 @@ To allow interoperability with code that builds upon ua-parser, it is recommende
 
 ```
 interface ua-parser-output {
-  attribute string string;      // The "user-agent" string 
+  attribute string string;      // The "user-agent" string
   object ua: {                  // The "user_agent_parsers" result
     attribute string family;
     attribute string major;
