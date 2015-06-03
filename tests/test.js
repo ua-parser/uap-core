@@ -18,7 +18,6 @@ function msg(name, actual, expected) {
   var fixtures = readYAML(fileName).test_cases;
   suite(fileName, function() {
     fixtures.forEach(function(f) {
-      if (f.js_ua) return;
       test(f.user_agent_string, function() {
         var ua = refImpl.parse(f.user_agent_string).ua;
         fixFixture(f, ['major', 'minor', 'patch']);
