@@ -504,7 +504,7 @@ user_agent_parsers:
   - regex: '(python-requests)/(\d+)\.(\d+)'
     family_replacement: 'Python Requests'
 
-  - regex: '(Java)/\d+\\.(\d+)\\.(\d+)_(\d+)'
+  - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+)*'
 
 os_parsers:
   ##########
