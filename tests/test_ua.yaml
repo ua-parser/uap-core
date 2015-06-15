@@ -396,6 +396,24 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Java/1.6.0_43'
+    family: 'Java'
+    major: '6'
+    minor: '0'
+    patch: '43'
+
+  - user_agent_string: 'Java/1.7.0_71'
+    family: 'Java'
+    major: '7'
+    minor: '0'
+    patch: '71'
+
+  - user_agent_string: 'Java/1.8.0_25'
+    family: 'Java'
+    major: '8'
+    minor: '0'
+    patch: '25'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)'
     family: 'Kindle'
     major: '3'
@@ -6092,3 +6110,16 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
+    family: 'Rival IQ'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
+    family: 'Rival IQ'
+    major:
+    minor:
+    patch:
+
