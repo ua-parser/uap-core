@@ -451,7 +451,7 @@ test_cases:
     patch:
 
   - user_agent_string: '$BotName/$BotVersion [en] (UNIX; U)'
-    family: 'Other'
+    family: 'BotName/$BotVersion'
     major:
     minor:
     patch:
@@ -1303,7 +1303,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'EasyDL/3.04  http://keywen.com/Encyclopedia/Bot'
-    family: 'Other'
+    family: 'Encyclopedia/Bot'
     major:
     minor:
     patch:
@@ -2968,7 +2968,7 @@ test_cases:
     family: 'Java'
     major: '1'
     minor: '8'
-    patch: null
+    patch:
 
   - user_agent_string: 'Java1.3.1_03'
     family: 'Java'
@@ -3010,7 +3010,7 @@ test_cases:
     family: 'Java'
     major: '4'
     minor: '2'
-    patch: null
+    patch:
 
   - user_agent_string: 'Java/1.4.2_01'
     family: 'Java'
@@ -3046,7 +3046,7 @@ test_cases:
     family: 'Java'
     major: '5'
     minor: '0'
-    patch: null
+    patch:
 
   - user_agent_string: 'Java/1.5.0_01'
     family: 'Java'
@@ -5329,7 +5329,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozdex/0.06-dev (Mozdex; http://www.mozdex.com/bot.html; spider@mozdex.com)'
-    family: 'spider'
+    family: 'com/bot'
     major:
     minor:
     patch:
@@ -48463,9 +48463,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; AskBar 3.00; .NET CLR 1.1.4322; Fluffi Bot+)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
+    family: 'Fluffi Bot'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; AskBar 3.00; SV1)'
@@ -63409,9 +63409,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows XP Professional Bot v.5.)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
+    family: 'XP Professional Bot'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 6.0; Windows 2000)'
