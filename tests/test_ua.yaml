@@ -4474,7 +4474,7 @@ test_cases:
     patch:
 
   - user_agent_string: '123metaspider-Bot (Version: 1.04, powered by www.123metaspider.com)'
-    family: '123metaspider'
+    family: '123metaspider-Bot'
     major:
     minor:
     patch:
@@ -5416,7 +5416,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'ShowyouBot (http://showyou.com/crawler)'
-    family: 'ShowyouBot'
+    family: 'crawler'
     major:
     minor:
     patch:
@@ -5632,7 +5632,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'EmeraldShield.com WebBot'
-    family: 'WebBot'
+    family: 'com WebBot'
     major:
     minor:
     patch:
@@ -5656,7 +5656,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'CyberPatrol SiteCat Webbot (http://www.cyberpatrol.com/cyberpatrolcrawler.asp)'
-    family: 'Webbot'
+    family: 'SiteCat Webbot'
     major:
     minor:
     patch:
@@ -6104,18 +6104,6 @@ test_cases:
     major: '4'
     minor: '2'
     patch: '1'
-
-  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
-    family: 'Rival IQ'
-    major:
-    minor:
-    patch:
-
-  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
-    family: 'Rival IQ'
-    major:
-    minor:
-    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9) AppleWebKit/537.71 (KHTML, like Gecko) Version/7.0 Safari/537.71 (Rival IQ, rivaliq.com)'
     family: 'Rival IQ'
