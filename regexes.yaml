@@ -73,6 +73,8 @@ user_agent_parsers:
   - regex: '(Firefox).*Tablet browser (\d+)\.(\d+)\.(\d+)'
     family_replacement: 'MicroB'
   - regex: '(MozillaDeveloperPreview)/(\d+)\.(\d+)([ab]\d+[a-z]*)?'
+  - regex: '(FxiOS)/(\d+)\.(\d+)(\.(\d+))?(\.(\d+))?'
+    family_replacement: 'Firefox iOS'
 
   # e.g.: Flock/2.0b2
   - regex: '(Flock)/(\d+)\.(\d+)(b\d+?)'
