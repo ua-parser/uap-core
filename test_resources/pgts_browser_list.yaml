@@ -451,7 +451,7 @@ test_cases:
     patch:
 
   - user_agent_string: '$BotName/$BotVersion [en] (UNIX; U)'
-    family: 'Other'
+    family: 'BotName/$BotVersion'
     major:
     minor:
     patch:
@@ -1303,7 +1303,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'EasyDL/3.04  http://keywen.com/Encyclopedia/Bot'
-    family: 'Other'
+    family: 'Encyclopedia/Bot'
     major:
     minor:
     patch:
@@ -2851,16 +2851,16 @@ test_cases:
     patch:
 
   - user_agent_string: 'ICE Browser/v5_4_3 (Java 1.4.2_01; Windows XP 5.1 x86)'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '01'
 
   - user_agent_string: 'ICE Browser/v5_4_3_1 (Java 1.4.2_01; Windows XP 5.1 x86)'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '01'
 
   - user_agent_string: 'IEAutoDiscovery'
     family: 'Other'
@@ -2965,100 +2965,100 @@ test_cases:
     patch:
 
   - user_agent_string: 'Java1.1.8'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Java'
+    major: '1'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Java1.3.1_03'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '3'
+    minor: '1'
+    patch: '03'
 
   - user_agent_string: 'Java1.4.0_02'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '0'
+    patch: '02'
 
   - user_agent_string: 'Java/1.4.1_01'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '1'
+    patch: '01'
 
   - user_agent_string: 'Java/1.4.1_02'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '1'
+    patch: '02'
 
   - user_agent_string: 'Java/1.4.1_04'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '1'
+    patch: '04'
 
   - user_agent_string: 'Java/1.4.1_05'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '1'
+    patch: '05'
 
   - user_agent_string: 'Java/1.4.2'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Java'
+    major: '4'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Java/1.4.2_01'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '01'
 
   - user_agent_string: 'Java/1.4.2_03'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '03'
 
   - user_agent_string: 'Java/1.4.2_04'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '04'
 
   - user_agent_string: 'Java/1.4.2_05'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '05'
 
   - user_agent_string: 'Java/1.4.2_06'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '06'
 
   - user_agent_string: 'Java/1.5.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Java'
+    major: '5'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Java/1.5.0_01'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '5'
+    minor: '0'
+    patch: '01'
 
   - user_agent_string: 'Java/1.5.0-beta2'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '5'
+    minor: '0'
+    patch: 'beta2'
 
   - user_agent_string: 'jBrowser'
     family: 'Other'
@@ -5329,7 +5329,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozdex/0.06-dev (Mozdex; http://www.mozdex.com/bot.html; spider@mozdex.com)'
-    family: 'spider'
+    family: 'com/bot'
     major:
     minor:
     patch:
@@ -6139,22 +6139,22 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Java 1.4.1_05; Windows XP 5.1 x86; en) ICEbrowser/v6_0_0'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '1'
+    patch: '05'
 
   - user_agent_string: 'Mozilla/5.0 (Java 1.4.2_02; Windows XP 5.1 x86; en) ICEbrowser/v6_0_0'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '02'
 
   - user_agent_string: 'Mozilla/5.0 (Java 1.4.2_05; Windows XP 5.1 x86; en) ICEbrowser/v5_2'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Java'
+    major: '4'
+    minor: '2'
+    patch: '05'
 
   - user_agent_string: 'Mozilla/5.0 (kombpartilb; Verhsun; Plasdfjoi; SV1; .NET CLR 1.1.4322)'
     family: 'Other'
@@ -48463,9 +48463,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; AskBar 3.00; .NET CLR 1.1.4322; Fluffi Bot+)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
+    family: 'Fluffi Bot'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; AskBar 3.00; SV1)'
@@ -63409,9 +63409,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows XP Professional Bot v.5.)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
+    family: 'XP Professional Bot'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 6.0; Windows 2000)'

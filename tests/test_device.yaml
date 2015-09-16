@@ -5517,7 +5517,7 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; T-02D Build/V15R47B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'T-02D'
-    brand: 'Audiosonic'
+    brand: 'Toshiba'
     model: 'T-02D'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; T-07B Build/IMM76D) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.169 Safari/537.22'
@@ -13116,9 +13116,9 @@ test_cases:
     model: 'One X'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC One X - 4.1.1 - API 16 - 720x1280 Build/JRO03S) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    family: 'HTC One X -'
+    family: 'HTC One X'
     brand: 'HTC'
-    model: 'One X -'
+    model: 'One X'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; de-de; HTC/One_XL/1.82.162.5 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     family: 'HTC One XL'
@@ -13486,9 +13486,9 @@ test_cases:
     model: 'Accord'
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; ACD_U)'
-    family: 'HTC ACD U'
+    family: 'HTC ACD_U'
     brand: 'HTC'
-    model: 'ACD U'
+    model: 'ACD_U'
 
   - user_agent_string: 'MobilePlugin (Linux; U; Android 2.3.5; HTC htc_ace; GRJ90)'
     family: 'HTC ace'
@@ -13546,9 +13546,9 @@ test_cases:
     model: 'Amaze 4G'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; HTC Aria\" Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mob'
-    family: 'HTC Aria'
+    family: 'HTC Aria\"'
     brand: 'HTC'
-    model: 'Aria'
+    model: 'Aria\"'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-au; HTC_Aria_A6380 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     family: 'HTC Aria A6380'
@@ -14091,9 +14091,9 @@ test_cases:
     model: 'Endeavoru'
 
   - user_agent_string: 'Tristit Push System;htc;endeavoru;HTC;HTC One X;o2_de;unknown;JDQ39;4.2.2'
-    family: 'HTC endeavoru'
+    family: 'HTC One X'
     brand: 'HTC'
-    model: 'endeavoru'
+    model: 'One X'
 
   - user_agent_string: 'VKAndroidApp/3.3.3-266 (Android 4.3.1; SDK 18; armeabi-v7a; HTC EndeavorU; de)'
     family: 'HTC EndeavorU'
@@ -14126,9 +14126,9 @@ test_cases:
     model: 'europe'
 
   - user_agent_string: 'search.ch/2.8 Android/4.0.3; htc_europe:HTC One V; Mozilla/5.0 (Linux; U; Android-universal)'
-    family: 'HTC europe:'
+    family: 'HTC europe:HTC One V'
     brand: 'HTC'
-    model: 'europe:'
+    model: 'europe:HTC One V'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.3; HTC EVA_UL Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'HTC EVA UL'
@@ -14656,9 +14656,9 @@ test_cases:
     model: 'inspire 4G'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.8; zh-cn; HTC Inspire 4G (LTE) Build/GRJ23) UC AppleWebKit/530+ (KHTML, like Gecko) Mobile Safari/530'
-    family: 'HTC Inspire 4G  (LTE'
+    family: 'HTC Inspire 4G (LTE'
     brand: 'HTC'
-    model: 'Inspire 4G  (LTE'
+    model: 'Inspire 4G (LTE'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.9; zh-cn; HTC Inspire 4G For AT&T Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'HTC Inspire 4G For AT&T'
@@ -14816,9 +14816,9 @@ test_cases:
     model: 'Lumia 900'
 
   - user_agent_string: 'Tristit Push System;htc;m7;HTC;HTC One;htc_europe;unknown;JSS15J;4.3'
-    family: 'HTC m7'
+    family: 'HTC One'
     brand: 'HTC'
-    model: 'm7'
+    model: 'One'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; HTC_M8x Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.59 Mobile Safari/0DFCBB'
     family: 'HTC M8x'
@@ -15046,9 +15046,9 @@ test_cases:
     model: 'one'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; HTC One - 4.3 - API 18 - 1080x1920 Build/JLS36G) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    family: 'HTC One - 4.3 - API 18 - 1080x1920'
+    family: 'HTC One'
     brand: 'HTC'
-    model: 'One - 4.3 - API 18 - 1080x1920'
+    model: 'One'
 
   - user_agent_string: 'Evernote Android/AM_571_655.1057103 (ru_RU); Android/4.3; HTC One/18;'
     family: 'HTC One 18'
@@ -15551,9 +15551,9 @@ test_cases:
     model: 'Rhyme S510b'
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; HTC; RIO_U)'
-    family: 'HTC RIO U'
+    family: 'HTC RIO_U'
     brand: 'HTC'
-    model: 'RIO U'
+    model: 'RIO_U'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; HTC Ruby Build/Speed Rom 7.8 By EclipzeRemix) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'HTC Ruby'
@@ -16201,9 +16201,9 @@ test_cases:
     model: 'TyTN'
 
   - user_agent_string: 'HTC_Hermes Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; IEMobile 6.12) PPC; 240x320; HTC_TyTN1.0 ProfileMIDP-2.0 ConfigurationCLDC-1.1'
-    family: 'HTC TyTN1.0 ProfileMIDP-2.0 ConfigurationCLDC-1.1'
+    family: 'HTC Hermes'
     brand: 'HTC'
-    model: 'TyTN1.0 ProfileMIDP-2.0 ConfigurationCLDC-1.1'
+    model: 'Hermes'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.5; Trident/3.1; IEMobile/7.0; HTC; Ultimate)'
     family: 'HTC Ultimate'
@@ -16286,9 +16286,9 @@ test_cases:
     model: 'vodafone de'
 
   - user_agent_string: 'Instagram 5.0.7 Android (8/2.2.2; 240dpi; 480x800; HTC/vodafone_uk; HTC Desire; bravo; bravo; en_GB)'
-    family: 'HTC vodafone uk'
+    family: 'HTC Desire'
     brand: 'HTC'
-    model: 'vodafone uk'
+    model: 'Desire'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-us; HTC Vogue Build/EPE54B) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     family: 'HTC Vogue'
@@ -16361,9 +16361,9 @@ test_cases:
     model: 'Windows Phone'
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0; HTC; Windows Phone 8 / HTC Mozart)'
-    family: 'HTC Windows Phone 8'
+    family: 'HTC Windows Phone 8 / HTC Mozart'
     brand: 'HTC'
-    model: 'Windows Phone 8'
+    model: 'Windows Phone 8 / HTC Mozart'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows Phone OS 7.0; Trident/3.1; IEMobile/7.0; HTC; Windows Phone 8S By HTC)'
     family: 'HTC Windows Phone 8S By HTC'
@@ -16866,9 +16866,9 @@ test_cases:
     model: 'Artist'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; zh-cn; HTC Build/MIUI) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    family: 'HTC Build'
+    family: 'HTC Build MIUI'
     brand: 'HTC'
-    model: 'Build'
+    model: 'Build MIUI'
 
   - user_agent_string: 'HTC Butterfly; 4.1.1; JRO03C; de-de'
     family: 'HTC Butterfly'
@@ -16956,9 +16956,9 @@ test_cases:
     model: 'Desire-A8181'
 
   - user_agent_string: 'HTC_Desire-orange-LS_Build'
-    family: 'HTC Desire-orange-LS_Build'
+    family: 'HTC Desire-orange-LS_'
     brand: 'HTC'
-    model: 'Desire-orange-LS_Build'
+    model: 'Desire-orange-LS_'
 
   - user_agent_string: 'com.smule.magicpiano/1.3.1 (2.2,HTC Desire,de_DE)'
     family: 'HTC Desire,de_DE'
@@ -18296,9 +18296,9 @@ test_cases:
     model: 'Z710a'
 
   - user_agent_string: 'HTC (compatible; MSIE 6.0; Windows CE; IEMobile 8.12; MSIEMobile 6.0)'
-    family: 'HTC'
+    family: 'HTC (compatible'
     brand: 'HTC'
-    model:
+    model: '(compatible'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 1.5; en-us; A6277 Build/CUPCAKE) AppleWebKit/528.5  (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1'
     family: 'HTC A6277'
@@ -18856,9 +18856,9 @@ test_cases:
     model: 'Sensation XE G18'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.3; Sensation XE with Beats Audio Z715e Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    family: 'HTC Sensation XE with Beats'
+    family: 'HTC Sensation XE with Beats Audio Z715e'
     brand: 'HTC'
-    model: 'Sensation XE with Beats'
+    model: 'Sensation XE with Beats Audio Z715e'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.2.2; Sensation XL Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.90 Mobile Safari/537.36'
     family: 'HTC Sensation XL'
@@ -18871,9 +18871,9 @@ test_cases:
     model: 'Sensation XL G21'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.3; Sensation XL with Beats Audio Build/IML74K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
-    family: 'HTC Sensation XL with Beats'
+    family: 'HTC Sensation XL with Beats Audio'
     brand: 'HTC'
-    model: 'Sensation XL with Beats'
+    model: 'Sensation XL with Beats Audio'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.3; Sensation Z710e Build/IML74K) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31'
     family: 'HTC Sensation Z710e'
@@ -18881,9 +18881,9 @@ test_cases:
     model: 'Sensation Z710e'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; -de; SensationXE_Beats_Z715e Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    family: 'HTC SensationXE Beats Z715e'
+    family: 'HTC SensationXE Beats_Z715e'
     brand: 'HTC'
-    model: 'SensationXE Beats Z715e'
+    model: 'SensationXE Beats_Z715e'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; en-us; SensationXE_Z715e Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     family: 'HTC SensationXE Z715e'
@@ -18891,9 +18891,9 @@ test_cases:
     model: 'SensationXE Z715e'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; ar-; SensationXL_Beats_X315e Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
-    family: 'HTC SensationXL Beats X315e'
+    family: 'HTC SensationXL Beats_X315e'
     brand: 'HTC'
-    model: 'SensationXL Beats X315e'
+    model: 'SensationXL Beats_X315e'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.7; de-de; Wildfire S Build/GRI40; CyanogenMod-7.2.0) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'HTC Wildfire S'
@@ -20076,9 +20076,9 @@ test_cases:
     model: 'Touch_Diamond2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch_Diamond2_T5353; Windows Phone 6.5)'
-    family: 'HTC Touch Diamond2 T5353'
+    family: 'HTC Touch_Diamond2_T5353'
     brand: 'HTC'
-    model: 'Touch Diamond2 T5353'
+    model: 'Touch_Diamond2_T5353'
 
   - user_agent_string: 'Mozilla/10.0 (compatible; MSIE 6.0; Windows CE; IEMobile 7.11) HTC_Touch_HD_T8282 Mozilla/4.0'
     family: 'HTC Touch_HD_T8282'
@@ -20111,9 +20111,9 @@ test_cases:
     model: 'Touch2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; HTC_Touch2_T3333; Windows Phone 6.5)'
-    family: 'HTC Touch2 T3333'
+    family: 'HTC Touch2_T3333'
     brand: 'HTC'
-    model: 'Touch2 T3333'
+    model: 'Touch2_T3333'
 
   - user_agent_string: 'Vodafone/1.0/HTC_Trinity/1.07.163.5/Mozilla/4.0 (compatible; MSIE 4.01; Windows CE; MIDP-2.0 Configuration/CLDC-1.1; PPC; 240x32'
     family: 'HTC Trinity'
@@ -27191,9 +27191,9 @@ test_cases:
     model: 'S960'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 3.1; en-us; Lenovo Build/LeOS-110802-R0018) AppleWebKit/534.13 (KHTML, like Gecko) Version/4.0 Safari/534.13'
-    family: 'Lenovo'
+    family: 'Lenovo Build'
     brand: 'Lenovo'
-    model:
+    model: 'Build'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.3; SmartTabII10 Build/IML74K) AppleWebKit/535.19 (KHTML, Like Gecko) Chrome/18.0.1025.166 Safari/535.19'
     family: 'Lenovo SmartTab II 10'
@@ -53711,9 +53711,9 @@ test_cases:
     model: 'GT-I9000B'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.3; en-us; GT-I9000Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
-    family: 'Samsung GT-I9000Build'
+    family: 'Samsung GT-I9000'
     brand: 'Samsung'
-    model: 'GT-I9000Build'
+    model: 'GT-I9000'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; en-ca; GT-I9000M Build/ECLAIR) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17'
     family: 'Samsung GT-I9000M'
@@ -54306,9 +54306,9 @@ test_cases:
     model: 'GT-P1000 Tablet'
 
   - user_agent_string: 'Mozilla/5.0(Linux;U;Android2.2;de-de;GT-P1000Build/FROYO)AppleWebKit/533.1(KHTML,likeGecko)Version/4.0MobileSafari/533.1'
-    family: 'Samsung GT-P1000Build'
+    family: 'Samsung GT-P1000'
     brand: 'Samsung'
-    model: 'GT-P1000Build'
+    model: 'GT-P1000'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; de-de; GT-P1000L Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'Samsung GT-P1000L'
@@ -79740,3 +79740,7 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.99; Build/MRA23D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.106 Mobile Safari/537.36'
+    family: 'Generic Smartphone'
+    brand: 'Generic'
+    model: 'Smartphone'

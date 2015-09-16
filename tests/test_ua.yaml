@@ -396,6 +396,24 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Java/1.6.0_43'
+    family: 'Java'
+    major: '6'
+    minor: '0'
+    patch: '43'
+
+  - user_agent_string: 'Java/1.7.0_71'
+    family: 'Java'
+    major: '7'
+    minor: '0'
+    patch: '71'
+
+  - user_agent_string: 'Java/1.8.0_25'
+    family: 'Java'
+    major: '8'
+    minor: '0'
+    patch: '25'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)'
     family: 'Kindle'
     major: '3'
@@ -1002,10 +1020,10 @@ test_cases:
     minor: '0'
     patch: '83'
 
-  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36 Edge/12.0'
-    family: 'IE'
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.9600'
+    family: 'Edge'
     major: '12'
-    minor: '0'
+    minor: '9600'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (Vodafone/1.0/LG-GU280/v10a Browser/Obigo-Q7.3 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
@@ -4456,7 +4474,7 @@ test_cases:
     patch:
 
   - user_agent_string: '123metaspider-Bot (Version: 1.04, powered by www.123metaspider.com)'
-    family: '123metaspider'
+    family: '123metaspider-Bot'
     major:
     minor:
     patch:
@@ -5398,7 +5416,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'ShowyouBot (http://showyou.com/crawler)'
-    family: 'ShowyouBot'
+    family: 'crawler'
     major:
     minor:
     patch:
@@ -5614,7 +5632,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'EmeraldShield.com WebBot'
-    family: 'WebBot'
+    family: 'com WebBot'
     major:
     minor:
     patch:
@@ -5638,7 +5656,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'CyberPatrol SiteCat Webbot (http://www.cyberpatrol.com/cyberpatrolcrawler.asp)'
-    family: 'Webbot'
+    family: 'SiteCat Webbot'
     major:
     minor:
     patch:
@@ -6092,3 +6110,4 @@ test_cases:
     major:
     minor:
     patch:
+
