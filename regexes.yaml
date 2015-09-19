@@ -2002,9 +2002,9 @@ device_parsers:
   #########
 
   - regex: '; *HTC[ _]([^;]+); Windows Phone'
-    device_replacement: 'HTC $1 $2'
+    device_replacement: 'HTC $1'
     brand_replacement: 'HTC'
-    model_replacement: '$1 $2'
+    model_replacement: '$1'
 
   # Android HTC with Version Number matcher
   # ; HTC_0P3Z11/1.12.161.3 Build
@@ -2036,9 +2036,9 @@ device_parsers:
     brand_replacement: 'HTC'
     model_replacement: '$1 $2'
   - regex: '; *(?:(?:HTC|htc)(?:_blocked)*[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/;\)]+))?)?(?: *Build|[;\)]| - )'
-    device_replacement: 'HTC $1 $2 $3 $4'
+    device_replacement: 'HTC $1 $2 $3'
     brand_replacement: 'HTC'
-    model_replacement: '$1 $2 $3 $4'
+    model_replacement: '$1 $2 $3'
   - regex: '; *(?:(?:HTC|htc)(?:_blocked)*[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ /;]+))?)?)?(?: *Build|[;\)]| - )'
     device_replacement: 'HTC $1 $2 $3 $4'
     brand_replacement: 'HTC'
@@ -2063,9 +2063,9 @@ device_parsers:
     model_replacement: '$1'
   - regex: '; *(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.+?)(?:[/;\)]|Build|MIUI|1\.0)'
     regex_flag: 'i'
-    device_replacement: 'HTC $1 $2 $3 $4'
+    device_replacement: 'HTC $1 $2'
     brand_replacement: 'HTC'
-    model_replacement: '$1 $2 $3 $4'
+    model_replacement: '$1 $2'
 
   #########
   # Hyundai
