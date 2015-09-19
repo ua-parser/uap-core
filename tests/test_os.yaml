@@ -2123,3 +2123,60 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/18.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '1'
+    minor: '0'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/18.1 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '1'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/26.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '1'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/28.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '1'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/30.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '1'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/32.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '2'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/34.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major: '2'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  # Test generic Firefox OS matching
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:26.0) Gecko/11.0 Firefox/26.0'
+    family: 'Firefox OS'
+    major:
+    minor:
+    patch:
+    patch_minor:

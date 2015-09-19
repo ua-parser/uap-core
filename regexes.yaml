@@ -73,6 +73,8 @@ user_agent_parsers:
   - regex: '(Firefox).*Tablet browser (\d+)\.(\d+)\.(\d+)'
     family_replacement: 'MicroB'
   - regex: '(MozillaDeveloperPreview)/(\d+)\.(\d+)([ab]\d+[a-z]*)?'
+  - regex: '(FxiOS)/(\d+)\.(\d+)(\.(\d+))?(\.(\d+))?'
+    family_replacement: 'Firefox iOS'
 
   # e.g.: Flock/2.0b2
   - regex: '(Flock)/(\d+)\.(\d+)(b\d+?)'
@@ -873,8 +875,46 @@ os_parsers:
   ##########
   # Firefox OS
   ##########
+  - regex: '\((?:Mobile|Tablet);.+Gecko/18.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '1'
+    os_v2_replacement: '0'
+    os_v3_replacement: '1'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/18.1 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '1'
+    os_v2_replacement: '1'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/26.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '1'
+    os_v2_replacement: '2'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/28.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '1'
+    os_v2_replacement: '3'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/30.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '1'
+    os_v2_replacement: '4'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/32.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '2'
+    os_v2_replacement: '0'
+
+  - regex: '\((?:Mobile|Tablet);.+Gecko/34.0 Firefox/\d+\.\d+'
+    os_replacement: 'Firefox OS'
+    os_v1_replacement: '2'
+    os_v2_replacement: '1'
+
+  # Firefox OS Generic
   - regex: '\((?:Mobile|Tablet);.+Firefox/\d+\.\d+'
     os_replacement: 'Firefox OS'
+
 
   ##########
   # BREW
