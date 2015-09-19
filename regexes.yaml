@@ -56,7 +56,7 @@ user_agent_parsers:
     family_replacement: 'Firefox Mobile'
   - regex: '(Fennec)/(\d+)\.(\d+)'
     family_replacement: 'Firefox Mobile'
-  - regex: 'Mobile.*(Firefox)/(\d+)\.(\d+)'
+  - regex: '(?:Mobile|Tablet);.*(Firefox)/(\d+)\.(\d+)'
     family_replacement: 'Firefox Mobile'
   - regex: '(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Firefox ($1)'
