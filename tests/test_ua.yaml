@@ -6128,3 +6128,34 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.9.133 Safari/537.36'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch: '9'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.9.133 Safari/537.36'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch: '9'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.4.90 Safari/537.36'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch: '4'
+
+   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.3.101 Safari/537.36'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch: '3'
+
+   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Spotify/1.0.8.59 Safari/537.36'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch: '8'
+
