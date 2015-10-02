@@ -6159,3 +6159,8 @@ test_cases:
     minor: '0'
     patch: '8'
 
+  - user_agent_string: 'Mozilla/5.0 (Android 5.0; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0'
+    family: 'Firefox Mobile'
+    major: '41'
+    minor: '0'
+    patch:
