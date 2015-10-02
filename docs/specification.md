@@ -93,6 +93,12 @@ Here major, minor and patch version information can be addressed or overwritten.
 In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within normal brackets) is given, the `os_replacement` shall be specified!
 To overwrite the respective value the replacement value needs to be named for a `regex`-item.
 
+Operating systems may define the superfamily_replacement field. A superfamily is a collection
+of operating system families. For example "Windows" is a superfamily of all the Windows operating
+systems. If an entry does not have a superfamily_replacement field defined then the parser
+should return the value of family when the superfamily is requested (ie. in many cases the
+family and superfamily are identical).
+
 **Parser Implementation:**
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.

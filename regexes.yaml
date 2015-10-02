@@ -584,6 +584,7 @@ os_parsers:
   ##########
 
   - regex: '(Windows Phone) (?:OS[ /])?(\d+)\.(\d+)'
+    superfamily_replacement: 'Windows'
 
   ##########
   # Android
@@ -617,6 +618,7 @@ os_parsers:
     os_replacement: 'iOS'
   - regex: '^UCWEB.*; (wds) (\d+)\.(\d+)(?:\.(\d+))?;'
     os_replacement: 'Windows Phone'
+    superfamily_replacement: 'Windows'
   # JUC
   - regex: '^(JUC).*; ?U; ?(?:Android)?(\d+)\.(\d+)(?:[\.\-]([a-z0-9]+))?'
     os_replacement: 'Android'
@@ -640,34 +642,47 @@ os_parsers:
   # spoofs nt 6.1. must come before windows 7
   - regex: '(XBLWP7)'
     os_replacement: 'Windows Phone'
+    superfamily_replacement: 'Windows'
 
   # @note: This needs to come before Windows NT 6.1
   - regex: '(Windows ?Mobile)'
     os_replacement: 'Windows Mobile'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows (?:NT 5\.2|NT 5\.1))'
     os_replacement: 'Windows XP'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows NT 6\.1)'
     os_replacement: 'Windows 7'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows NT 6\.0)'
     os_replacement: 'Windows Vista'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Win 9x 4\.90)'
     os_replacement: 'Windows ME'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows 98|Windows XP|Windows ME|Windows 95|Windows CE|Windows 7|Windows NT 4\.0|Windows Vista|Windows 2000|Windows 3.1)'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows NT 6\.2; ARM;)'
     os_replacement: 'Windows RT'
+    superfamily_replacement: 'Windows'
+
   - regex: '(Windows NT 6\.2)'
     os_replacement: 'Windows 8'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows NT 6\.3; ARM;)'
     os_replacement: 'Windows RT 8.1'
+    superfamily_replacement: 'Windows'
+
   - regex: '(Windows NT 6\.3)'
     os_replacement: 'Windows 8.1'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows NT 6\.4)'
     os_replacement: 'Windows 10'
@@ -676,21 +691,27 @@ os_parsers:
 
   - regex: '(Windows NT 5\.0)'
     os_replacement: 'Windows 2000'
+    superfamily_replacement: 'Windows'
 
   - regex: '(WinNT4.0)'
     os_replacement: 'Windows NT 4.0'
+    superfamily_replacement: 'Windows'
 
   - regex: '(Windows ?CE)'
     os_replacement: 'Windows CE'
+    superfamily_replacement: 'Windows'
 
   - regex: 'Win ?(95|98|3.1|NT|ME|2000)'
     os_replacement: 'Windows $1'
+    superfamily_replacement: 'Windows'
 
   - regex: 'Win16'
     os_replacement: 'Windows 3.1'
+    superfamily_replacement: 'Windows'
 
   - regex: 'Win32'
     os_replacement: 'Windows 95'
+    superfamily_replacement: 'Windows'
 
   ##########
   # Tizen OS from Samsung
@@ -846,8 +867,11 @@ os_parsers:
   ##########
   - regex: '([Dd]ebian)'
     os_replacement: 'Debian'
+    superfamily_replacement: 'Linux'
   - regex: '(Linux Mint)(?:/(\d+))?'
+    superfamily_replacement: 'Linux'
   - regex: '(Mandriva)(?: Linux)?/(?:[\d.-]+m[a-z]{2}(\d+).(\d))?'
+    superfamily_replacement: 'Linux'
 
   ##########
   # Symbian + Symbian OS
@@ -855,21 +879,30 @@ os_parsers:
   ##########
   - regex: '(Symbian[Oo][Ss])[/ ](\d+)\.(\d+)'
     os_replacement: 'Symbian OS'
+    superfamily_replacement: 'Symbian'
   - regex: '(Symbian/3).+NokiaBrowser/7\.3'
     os_replacement: 'Symbian^3 Anna'
+    superfamily_replacement: 'Symbian'
   - regex: '(Symbian/3).+NokiaBrowser/7\.4'
     os_replacement: 'Symbian^3 Belle'
+    superfamily_replacement: 'Symbian'
   - regex: '(Symbian/3)'
     os_replacement: 'Symbian^3'
+    superfamily_replacement: 'Symbian'
   - regex: '\b(Series 60|SymbOS|S60Version|S60V\d|S60\b)'
     os_replacement: 'Symbian OS'
+    superfamily_replacement: 'Symbian'
   - regex: '(MeeGo)'
+    superfamily_replacement: 'Symbian'
   - regex: 'Symbian [Oo][Ss]'
     os_replacement: 'Symbian OS'
+    superfamily_replacement: 'Symbian'
   - regex: 'Series40;'
     os_replacement: 'Nokia Series 40'
+    superfamily_replacement: 'Symbian'
   - regex: 'Series30Plus;'
     os_replacement: 'Nokia Series 30 Plus'
+    superfamily_replacement: 'Symbian'
 
   ##########
   # BlackBerry devices
@@ -882,8 +915,10 @@ os_parsers:
     os_replacement: 'BlackBerry OS'
   - regex: '(RIM Tablet OS) (\d+)\.(\d+)\.(\d+)'
     os_replacement: 'BlackBerry Tablet OS'
+    superfamily_replacement: 'BlackBerry OS'
   - regex: '(Play[Bb]ook)'
     os_replacement: 'BlackBerry Tablet OS'
+    superfamily_replacement: 'BlackBerry OS'
   - regex: '(Black[Bb]erry)'
     os_replacement: 'BlackBerry OS'
 
@@ -960,18 +995,26 @@ os_parsers:
   # Generic patterns
   # since the majority of os cases are very specific, these go last
   ##########
-  - regex: '(Fedora|Red Hat|PCLinuxOS|Puppy|Ubuntu|Kindle|Bada|Lubuntu|BackTrack|Slackware|(?:Free|Open|Net|\b)BSD)[/ ](\d+)\.(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+  - regex: '(Fedora|Red Hat|PCLinuxOS|Puppy|Ubuntu|Kindle|Bada|Lubuntu|BackTrack|Slackware)[/ ](\d+)\.(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    superfamily_replacement: 'Linux'
+
+  - regex: '((?:Free|Open|Net|\b)BSD)[/ ](\d+)\.(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    superfamily_replacement: 'BSD'
 
   # Gentoo Linux + Kernel Version
   - regex: '(Linux)[ /](\d+)\.(\d+)(?:\.(\d+))?.*gentoo'
     os_replacement: 'Gentoo'
+    superfamily_replacement: 'Linux'
 
   # Opera Mini Bada
   - regex: '\((Bada);'
 
   # just os
   - regex: '(Windows|Android|WeTab|Maemo)'
-  - regex: '(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Gentoo|Mageia|(?:Free|Open|Net|\b)BSD)'
+  - regex: '(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Gentoo|Mageia)'
+    superfamily_replacement: 'Linux'
+  - regex: '((?:Free|Open|Net|\b)BSD)'
+    superfamily_replacement: 'BSD'
   # Linux + Kernel Version
   - regex: '(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+))?)?'
   - regex: 'SunOS'
