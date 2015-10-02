@@ -51,6 +51,9 @@ user_agent_parsers:
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d)+)?)?'
     family_replacement: 'Facebook'
+  # Pinterest
+  - regex: '\[(Pinterest)/[^\]]+\]'
+  - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d)+)?)?'
 
   # Firefox
   - regex: '(Pale[Mm]oon)/(\d+)\.(\d+)\.?(\d+)?'
