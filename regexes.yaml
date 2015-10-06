@@ -489,9 +489,22 @@ user_agent_parsers:
 
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
-
-  - regex: 'Trident(.*)rv.(\d+)\.(\d+)'
+ 
+  - regex: '(Trident)/(7)\.(0)'
     family_replacement: 'IE'
+    v1_replacement: '11'
+
+  - regex: '(Trident)/(6)\.(0)'
+    family_replacement: 'IE'
+    v1_replacement: '10'
+
+  - regex: '(Trident)/(5)\.(0)'
+    family_replacement: 'IE'
+    v1_replacement: '9'
+
+  - regex: '(Trident)/(4)\.(0)'
+    family_replacement: 'IE'
+    v1_replacement: '8'
 
   # Espial
   - regex: '(Espial)/(\d+)(?:\.(\d+))?(?:\.(\d+))?'
