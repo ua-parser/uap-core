@@ -55,7 +55,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Alizee iPod 2005 (Beta; Mac OS X)'
-    family: 'Mobile Safari'
+    family: 'Mobile Safari UIWebView'
     major:
     minor:
     patch:
