@@ -201,6 +201,10 @@ user_agent_parsers:
   # @ref: http://www.puffinbrowser.com
   - regex: '(Puffin)/(\d+)\.(\d+)(?:\.(\d+))?'
 
+  # Edge Mobile
+  - regex: 'Windows Phone .*(Edge)/(\d+)\.(\d+)'
+    family_replacement: 'Edge Mobile'
+
   # Chrome Mobile
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
