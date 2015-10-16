@@ -463,7 +463,7 @@ test_cases:
     patch: '2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
-    family: 'Mobile Safari'
+    family: 'Mobile Safari UIWebView'
     major: '7'
     minor: '1'
     patch: '2'
@@ -6344,4 +6344,16 @@ test_cases:
     major: '0'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile'
+    family: 'Mobile Safari UIWebView'
+    major: '4'
+    minor: '3'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari'
+    family: 'Mobile Safari'
+    major: '5'
+    minor: '0'
+    patch: '2'
 
