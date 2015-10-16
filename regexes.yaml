@@ -433,11 +433,9 @@ user_agent_parsers:
   - regex: '(Nokia)[EN]?(\d+)'
 
   # BlackBerry devices
-  - regex: '(BB10);'
-    family_replacement: 'BlackBerry WebKit'
   - regex: '(PlayBook).+RIM Tablet OS (\d+)\.(\d+)\.(\d+)'
     family_replacement: 'BlackBerry WebKit'
-  - regex: '(Black[bB]erry).+Version/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Black[bB]erry|BB10).+Version/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'BlackBerry WebKit'
   - regex: '(Black[bB]erry)\s?(\d+)'
     family_replacement: 'BlackBerry'
