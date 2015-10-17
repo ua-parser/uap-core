@@ -77360,6 +77360,26 @@ test_cases:
     brand: 'XiaoMi'
     model: 'MI-ONE Plus'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; HM 2A Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi HM 2A'
+    brand: 'XiaoMi'
+    model: 'HM 2A'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; HM NOTE 1LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi HM NOTE 1LTE'
+    brand: 'XiaoMi'
+    model: 'HM NOTE 1LTE'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-cn; MI NOTE Pro Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi MI NOTE Pro'
+    brand: 'XiaoMi'
+    model: 'MI NOTE Pro'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 2 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 ssy={Android;ECalendar;V6.1.8;xiaomi;101181501;WIFI}'
+    family: 'XiaoMi Redmi Note 2'
+    brand: 'XiaoMi'
+    model: 'Redmi Note 2'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; XOLO A1000 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Xolo A1000'
     brand: 'Xolo'
