@@ -831,6 +831,12 @@ os_parsers:
     os_replacement: 'iOS'
 
   ##########
+  # Apple TV
+  ##########
+  - regex: '(tvOS)/(\d+).(\d+)'
+    os_replacement: 'tvOS'
+
+  ##########
   # Chrome OS
   # if version 0.0.0, probably this stuff:
   # http://code.google.com/p/chromium-os/issues/detail?id=11573
