@@ -2187,3 +2187,10 @@ test_cases:
     minor: '0'
     patch:
     patch_minor:
+
+  - user_agent_string: 'TestApp-tvOS/1.0-1'
+    family: 'tvOS'
+    major: '1'
+    minor: '0'
+    patch:
+    patch_minor:
