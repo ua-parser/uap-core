@@ -146,9 +146,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (BB10; Touch) AppleWebKit/537.3+ (KHTML, like Gecko) Version/10.0.9.388 Mobile Safari/537.3+'
     family: 'BlackBerry WebKit'
-    major:
-    minor:
-    patch:
+    major: '10'
+    minor: '0'
+    patch: '9'
 
   - user_agent_string: 'Mozilla/5.0 (PlayBook; U; RIM Tablet OS 1.0.0; en-US) AppleWebKit/534.8+ (KHTML, like Gecko) Version/0.0.1 Safari/534.8+'
     family: 'BlackBerry WebKit'
@@ -463,7 +463,7 @@ test_cases:
     patch: '2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
-    family: 'Mobile Safari'
+    family: 'Mobile Safari UIWebView'
     major: '7'
     minor: '1'
     patch: '2'
@@ -6162,5 +6162,263 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (Android 5.0; Tablet; rv:41.0) Gecko/41.0 Firefox/41.0'
     family: 'Firefox Mobile'
     major: '41'
+    minor: '0'
+    patch:
+
+  - user_agent_string: '[FBAN/FB4A;FBAV/3.4;FBBV/258875;FBDM/{density=0.75,width=240,height=320};FBLC/tr_TR;FBCR/o2 - de;FBPN/com.facebook.katana;FBDV/LG-E400;FBSV/2.3.6;]'
+    family: 'Facebook'
+    major: '3'
+    minor: '4'
+    patch:
+
+  - user_agent_string: '[FBAN/FB4A;FBAV/2.3;FBBV/149649;FBDM/{density=1.5,width=480,height=800};FBLC/es_ES;FBCR/;FBPN/com.facebook.katana;FBDV/LG-P920;FBSV/2.2.2;]'
+    family: 'Facebook'
+    major: '2'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.4; en-us; SCH-R720 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1 [FBAN/FB4A;FBAV/1.8.1;FBPN/com.facebook.katana;FBDV/SCH-R720;FBSV/2.3.4;FBDM/{density=1.0,width=320,height='
+    family: 'Facebook'
+    major: '1'
+    minor: '8'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; 706_v92_jbla_fhd Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 [FB_IAB/FB4A;FBAV/24.0.0.30.15;]'
+    family: 'Facebook'
+    major: '24'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 [FBAN/FBIOS;FBAV/6.5.1;FBBV/377040;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/6.1.3;FBSS/2; FBCR/Telekom.de;FBID/phone;FBLC/de_DE;'
+    family: 'Facebook'
+    major: '6'
+    minor: '5'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 [FBAN/FBIOS;FBAV/6.2;FBBV/228172;FBDV/iPhone5,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/6.1.3;FBSS/2; FBCR/o2-de;FBID/phone;FBLC/pt_BR;FBOP/1]'
+    family: 'Facebook'
+    major: '6'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9A334 [FBAN/FBIOS;FBAV/6.5.1;FBBV/377040;FBDV/iPad2,1;FBMD/iPad;FBSN/iPhone OS;FBSV/5.0;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBOP/1]'
+    family: 'Facebook'
+    major: '6'
+    minor: '5'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU iPhone OS 4_3_2 like Mac OS X; de_DE) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.0.2;FBBV/4020.0;FBDV/iPad1,1;FBMD/iPad;FBSN/iPhone OS;FBSV/4.3.2;FBSS/1; FBCR/;FBID/tablet;FBLC/de_DE;FBSF/1.0]'
+    family: 'Facebook'
+    major: '4'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU iPhone OS 4_3_5 like Mac OS X; de_DE) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.0.3;FBBV/4030.0;FBDV/iPad2,2;FBMD/iPad;FBSN/iPhone OS;FBSV/4.3.5;FBSS/1; FBCR/Telekom.de;FBID/tablet;FBLC/de_DE;FBS'
+    family: 'Facebook'
+    major: '4'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 [FBAN/FBIOS;FBAV/6.1;FBBV/201075;FBDV/iPhone3,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/Vodafone.de;FBID/phone;FBLC/en_US;FBOP/1]'
+    family: 'Facebook'
+    major: '6'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 [FBAN/GroupsForiOS;FBAV/9.0;FBBV/7752968;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/8.2;FBSS/2; FBCR/Telekom.de;FBID/phone;FBLC/de_'
+    family: 'Facebook'
+    major: '9'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; fr_FR) AppleWebKit (KHTML, like Gecko) Mobile [FBAN/FBForIPhone;FBAV/4.0;FBBV/4000.0;FBDV/iPhone1,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/4.1;FBSS/1; FBCR/Carrier;FBID/phone;FBLC/fr_FR;FBSF/1.'
+    family: 'Facebook'
+    major: '4'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Dalvik/1.2.0 (Linux; U; Android 2.2.2; HTC Desire Build/FRG83G) [FBAN/Orca-Android;FBAV/2.6.1-release;FBLC/de_DE;FBBV/288543;FBCR/o2 - de;FBMF/HTC;FBBD/htc_wwe;FBDV/HTC Desire;FBSV/2.2.2]'
+    family: 'Facebook'
+    major: '2'
+    minor: '6'
+    patch: '1'
+
+  - user_agent_string: '[FBAN/FB4A;FBAV/3.6;FBBV/330148;FBDM/{density=0.75,width=240,height=320};FBLC/de_DE;FBCR/o2 - de;FBPN/com.facebook.katana;FBDV/GT-S5570;FBSV/2.2.1;FBCA/armeabi:unknown;]'
+    family: 'Facebook'
+    major: '3'
+    minor: '6'
+    patch:
+
+  - user_agent_string: '[FBAN/PAAA;FBAV/1.7;FBDM/{density=2.0,width=720,height=1280};FBLC/es_ES;FB_FW/2;FBSN/Android;FBCR/FONIC;FBDV/GT-I9300;FBSV/4.1.2;]'
+    family: 'Facebook'
+    major: '1'
+    minor: '7'
+    patch:
+
+  - user_agent_string: '[FBAN/PAAA;FBAV/1.9;FBDM/{density=2.0,width=720,height=1280};FBLC/de_DE;FB_FW/2;FBSN/Android;FBCR/o2 - de;FBDV/GT-I9300;FBSV/4.3;]'
+    family: 'Facebook'
+    major: '1'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]'
+    family: 'Pinterest'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; A3-A11 Build/KOT49H) AppleWebKit/537.36 (KHTML like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 [Pinterest/Android]'
+    family: 'Pinterest'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A525 [Pinterest/iOS]'
+    family: 'Pinterest'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Pinterest for Android Tablet/1.8.4 (SGP321; 4.3)'
+    family: 'Pinterest'
+    major: '1'
+    minor: '8'
+    patch: '4'
+
+  - user_agent_string: 'Pinterest for Android Tablet/4.3.1 (A7600-H; 4.4.2)'
+    family: 'Pinterest'
+    major: '4'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Pinterest for Android/1.1.1 (endeavoru; 4.1.1)'
+    family: 'Pinterest'
+    major: '1'
+    minor: '1'
+    patch: '1'
+
+  - user_agent_string: 'Pinterest for Android/3.6.2 (klte; 4.4.2)'
+    family: 'Pinterest'
+    major: '3'
+    minor: '6'
+    patch: '2'
+
+  - user_agent_string: 'Pinterest/0.1'
+    family: 'Pinterest'
+    major: '0'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Pinterest/0.2 (+http://www.pinterest.com/)'
+    family: 'Pinterest'
+    major: '0'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Pinterest/3.2 CFNetwork/672.0.8 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '0'
+    patch: '8'
+
+  - user_agent_string: 'Pinterest/3.3.3 CFNetwork/609.1.4 Darwin/13.0.0'
+    family: 'CFNetwork'
+    major: '609'
+    minor: '1'
+    patch: '4'
+
+  - user_agent_string: 'Pinterest/3356 CFNetwork/711.0.6 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '711'
+    minor: '0'
+    patch: '6'
+
+  - user_agent_string: 'Pinterest/4.1.3 CFNetwork/672.1.14 Darwin/14.0.0'
+    family: 'CFNetwork'
+    major: '672'
+    minor: '1'
+    patch: '14'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) qutebrowser/0.2.1 Safari/538.1'
+    family: 'qutebrowser'
+    major: '0'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile'
+    family: 'Mobile Safari UIWebView'
+    major: '4'
+    minor: '3'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari'
+    family: 'Mobile Safari'
+    major: '5'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) QupZilla/1.6.3 Safari/538.1'
+    family: 'QupZilla'
+    major: '1'
+    minor: '6'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (OS/2 Warp 4.5) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.4 Safari/537.21'
+    family: 'QupZilla'
+    major: '1'
+    minor: '6'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (Unknown; UNIX BSD/SYSV system) AppleWebKit/534.34 (KHTML, like Gecko) QupZilla/1.7.0 Safari/534.34'
+    family: 'QupZilla'
+    major: '1'
+    minor: '7'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) QupZilla/1.6.1 Safari/537.21'
+    family: 'QupZilla'
+    major: '1'
+    minor: '6'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1'
+    family: 'Otter'
+    major: '0'
+    minor: '9'
+    patch: '03'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.04'
+    family: 'Otter'
+    major: '0'
+    minor: '9'
+    patch: '04'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.21 (KHTML, like Gecko) Otter/0.9.04-dev'
+    family: 'Otter'
+    major: '0'
+    minor: '9'
+    patch: '04'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.3.01-dev Safari/538.1'
+    family: 'Otter'
+    major: '0'
+    minor: '3'
+    patch: '01'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.03 beta 3 Safari/538.1'
+    family: 'Otter'
+    major: '0'
+    minor: '9'
+    patch: '03'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) Otter/0.9.05'
+    family: 'Otter'
+    major: '0'
+    minor: '9'
+    patch: '05'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; NOKIA; Lumia 930) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Mobile Safari/537.36 Edge/12.0'
+    family: 'Edge Mobile'
+    major: '12'
     minor: '0'
     patch:
