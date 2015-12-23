@@ -205,6 +205,10 @@ user_agent_parsers:
   - regex: 'Windows Phone .*(Edge)/(\d+)\.(\d+)'
     family_replacement: 'Edge Mobile'
 
+  # Samsung Internet (based on Chrome, but lacking some features)
+  - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
+    family_replacement: 'Samsung Internet'
+
   # Chrome Mobile
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
