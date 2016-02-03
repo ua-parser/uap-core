@@ -299,6 +299,10 @@ user_agent_parsers:
   # Edge/major_version.minor_version
   - regex: '(Edge)/(\d+)\.(\d+)'
 
+  # Brave Browser https://brave.com/
+  - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
+    family_replacement: 'Brave'
+
   # Chrome/Chromium/major_version.minor_version.beta_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)\.(\d+)'
 
