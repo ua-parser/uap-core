@@ -79764,3 +79764,8 @@ test_cases:
     family: 'Generic Smartphone'
     brand: 'Generic'
     model: 'Smartphone'
+
+  - user_agent_string: 'NerdyBot'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
