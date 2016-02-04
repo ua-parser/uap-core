@@ -6446,3 +6446,22 @@ test_cases:
     major: '12'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.11 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36'
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '11'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.12 Chrome/47.0.2526.110 Brave/0.36.7 Safari/537.36 '
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '12'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.10 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36'
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '10'
+
