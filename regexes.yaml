@@ -299,6 +299,10 @@ user_agent_parsers:
     family_replacement: 'Outlook'
     v1_replacement: '2016'
 
+  # Windows Live Mail
+  - regex: 'Outlook-Express\/7\.0.*'
+    family_replacement: 'Windows Live Mail'
+
   # Apple Air Mail
   - regex: '(Airmail) (\d+)\.(\d+)(?:\.(\d+))?'
 
