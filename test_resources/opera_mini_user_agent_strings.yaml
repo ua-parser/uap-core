@@ -1,5 +1,6 @@
 # Additional tests for opera mini detection.
 # List of user agent strings and corresponding versions is taken from http://www.useragentstring.com/pages/Opera%20Mini/
+# Some user agent string are from http://www.webapps-online.com/online-tools/user-agent-strings/dv/plugin55599/opera-mini
 
 test_cases:
 
@@ -1204,6 +1205,18 @@ test_cases:
     patch:
 
   - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini/(Windows; U; Windows NT 5.1; en-US) AppleWebKit/23.411; U; en) Presto/2.5.25 Version/10.54'
+    family: 'Opera Mini'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini; U; zh) Presto/2.8.119 Version/11.10'
+    family: 'Opera Mini'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini; U; en) Presto/2.8.119 Version/11.1019 Version/11.10.10'
     family: 'Opera Mini'
     major:
     minor:

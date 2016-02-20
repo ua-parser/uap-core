@@ -106,7 +106,7 @@ user_agent_parsers:
   # Opera will stop at 9.80 and hide the real version in the Version string.
   # see: http://dev.opera.com/articles/view/opera-ua-string-changes/
   - regex: '(Opera Tablet).*Version/(\d+)\.(\d+)(?:\.(\d+))?'
-  - regex: '(Opera Mini)(?:/att)?/(\d+)?(?:\.(\d+))?(?:\.(\d+))?'
+  - regex: '(Opera Mini)(?:/att)?/?(\d+)?(?:\.(\d+))?(?:\.(\d+))?'
   - regex: '(Opera)/.+Opera Mobi.+Version/(\d+)\.(\d+)'
     family_replacement: 'Opera Mobile'
   - regex: '(Opera)/(\d+)\.(\d+).+Opera Mobi'
