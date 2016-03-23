@@ -79764,3 +79764,19 @@ test_cases:
     family: 'Generic Smartphone'
     brand: 'Generic'
     model: 'Smartphone'
+
+  - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+
+  - user_agent_string: 'Roku/DVP-5.0 (025.00E08043A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+
+  - user_agent_string: 'Roku/DVP-5.1 (025.01E01195A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+

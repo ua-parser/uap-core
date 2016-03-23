@@ -522,6 +522,9 @@ user_agent_parsers:
 
   - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+)*'
 
+  # Roku Digital-Video-Players https://www.roku.com/
+  - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
+
 os_parsers:
   ##########
   # HbbTV vendors
@@ -988,6 +991,9 @@ os_parsers:
   - regex: '(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+))?)?'
   - regex: 'SunOS'
     os_replacement: 'Solaris'
+
+  # Roku Digital-Video-Players https://www.roku.com/
+  - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
 
 device_parsers:
 
@@ -4706,6 +4712,10 @@ device_parsers:
   # WebTV
   ##########
   - regex: '(WebTV)/\d+.\d+'
+    brand_replacement: 'Generic_Inettv'
+    model_replacement: '$1'
+  # Roku Digital-Video-Players https://www.roku.com/
+  - regex: '^(Roku)/DVP-\d+\.\d+'
     brand_replacement: 'Generic_Inettv'
     model_replacement: '$1'
 
