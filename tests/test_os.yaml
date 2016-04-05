@@ -2187,3 +2187,32 @@ test_cases:
     minor: '0'
     patch:
     patch_minor:
+
+  - user_agent_string: 'TestApp-tvOS/1.0-1'
+    family: 'tvOS'
+    major: '1'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
+    family: 'Roku'
+    major: '6'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Roku/DVP-5.0 (025.00E08043A)'
+    family: 'Roku'
+    major: '5'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Roku/DVP-5.1 (025.01E01195A)'
+    family: 'Roku'
+    major: '5'
+    minor: '1'
+    patch:
+    patch_minor:
+

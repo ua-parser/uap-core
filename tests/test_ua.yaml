@@ -634,7 +634,7 @@ test_cases:
     family: 'Opera Mini'
     major: '5'
     minor: '1'
-    patch:
+    patch: '191'
 
   - user_agent_string: 'Opera/9.80 (Series 60; Opera Mini/6.24455/25.677; U; fr) Presto/2.5.25 Version/10.54'
     family: 'Opera Mini'
@@ -646,7 +646,31 @@ test_cases:
     family: 'Opera Mini'
     major: '7'
     minor: '0'
+    patch: '31437'
+
+  - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (S60; SymbOS; Opera Mobi/23.348; U; en) Presto/2.5.25 Version/10.54'
+    family: 'Opera Mini'
+    major: '9'
+    minor: '80'
     patch:
+
+  - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini/9.80 (J2ME/22.478; U; en) Presto/2.5.25 Version/10.54'
+    family: 'Opera Mini'
+    major: '9'
+    minor: '80'
+    patch:
+
+  - user_agent_string: 'Opera/9.80 (J2ME/MIDP; Opera Mini/9 (Compatible; MSIE:9.0; iPhone; BlackBerry9700; AppleWebKit/24.746; U; en) Presto/2.5.25 Version/10.54'
+    family: 'Opera Mini'
+    major: '9'
+    minor:
+    patch:
+
+  - user_agent_string: 'Opera/9.80 (Android; Opera Mini/7.6.35766/35.5706; U; en) Presto/2.8.119 Version/11.10'
+    family: 'Opera Mini'
+    major: '7'
+    minor: '6'
+    patch: '35766'
 
   - user_agent_string: 'Opera/9.80 (S60; SymbOS; Opera Mobi/275; U; es-ES) Presto/2.4.13 Version/10.00'
     family: 'Opera Mobile'
@@ -1142,14 +1166,14 @@ test_cases:
     family: 'Opera Mini'
     major: '4'
     minor: '2'
-    patch:
+    patch: '14812'
     patch_minor:
 
   - user_agent_string: 'SAMSUNG-SGH-A897/A897UCJC1; Mozilla/5.0 (Profile/MIDP-2.0 Configuration/CLDC-1.1; Opera Mini/att/4.2.15304; U; fr-US) Opera 9.50'
     family: 'Opera Mini'
     major: '4'
     minor: '2'
-    patch:
+    patch: '15304'
     patch_minor:
 
   - user_agent_string: 'MQQBrowser/39 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
@@ -3709,6 +3733,30 @@ test_cases:
     family: 'Sangfor Spider'
     major: '0'
     minor: '7'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG GT-I9506-ORANGE Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36'
+    family: 'Samsung Internet'
+    major: '2'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T800 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.0 Chrome/38.0.2125.102 Safari/537.36'
+    family: 'Samsung Internet'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG SM-G920F Build/LMY47X) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.2 Chrome/38.0.2125.102 Mobile Safari/537.36'
+    family: 'Samsung Internet'
+    major: '3'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-T710 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/3.5 Chrome/38.0.2125.102 Safari/537.36'
+    family: 'Samsung Internet'
+    major: '3'
+    minor: '5'
     patch:
 
   - user_agent_string: 'ScSpider/0.2'
@@ -6422,3 +6470,40 @@ test_cases:
     major: '12'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.11 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36'
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '11'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.12 Chrome/47.0.2526.110 Brave/0.36.7 Safari/537.36 '
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '12'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.10 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36'
+    family: 'Brave'
+    major: '0'
+    minor: '7'
+    patch: '10'
+
+  - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
+    family: 'Roku'
+    major: '6'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Roku/DVP-5.0 (025.00E08043A)'
+    family: 'Roku'
+    major: '5'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Roku/DVP-5.1 (025.01E01195A)'
+    family: 'Roku'
+    major: '5'
+    minor: '1'
+    patch:
+
