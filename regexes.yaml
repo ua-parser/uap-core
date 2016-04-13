@@ -396,15 +396,15 @@ user_agent_parsers:
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.* Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?'
-    family_replacement: 'Mobile Safari UIWebView'
+    family_replacement: 'Mobile Safari UI/WKWebView'
   - regex: '(iPod|iPhone|iPad);.*CPU.*OS (\d+)_(\d+)(?:_(\d+))?.*Mobile.* Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPhone|iPad);.*CPU.*OS (\d+)_(\d+)(?:_(\d+))?.*Mobile'
-    family_replacement: 'Mobile Safari UIWebView'
+    family_replacement: 'Mobile Safari UI/WKWebView'
   - regex: '(iPod|iPhone|iPad).* Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPhone|iPad)'
-    family_replacement: 'Mobile Safari UIWebView'
+    family_replacement: 'Mobile Safari UI/WKWebView'
 
   - regex: '(AvantGo) (\d+).(\d+)'
 
