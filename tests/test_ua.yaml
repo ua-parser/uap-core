@@ -877,7 +877,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.14 (KHTML, like Gecko)'
-    family: 'AppleMail'
+    family: 'Apple Mail'
     major: '536'
     minor: '26'
     patch: '14'

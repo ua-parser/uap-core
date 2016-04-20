@@ -74989,13 +74989,13 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en) AppleWebKit/412.6.2 (KHTML, like Gecko)'
-    family: 'AppleMail'
+    family: 'Apple Mail'
     major: '412'
     minor: '6'
     patch: '2'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; es-es) AppleWebKit/531.22.7 (KHTML, like Gecko)'
-    family: 'AppleMail'
+    family: 'Apple Mail'
     major: '531'
     minor: '22'
     patch: '7'
