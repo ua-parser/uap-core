@@ -276,12 +276,12 @@ user_agent_parsers:
   - regex: '(AdobeAIR|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave)/(\d+)\.(\d+)\.(\d+)'
 
   # Outlook 2007
-  - regex: 'MSOffice 12'
+  - regex: 'Microsoft Office Outlook 12\.\d+\.\d+|MSOffice 12'
     family_replacement: 'Outlook'
     v1_replacement: '2007'
 
   # Outlook 2010
-  - regex: 'MSOffice 14'
+  - regex: 'Microsoft Outlook 14\.\d+\.\d+|MSOffice 14'
     family_replacement: 'Outlook'
     v1_replacement: '2010'
 
@@ -289,6 +289,11 @@ user_agent_parsers:
   - regex: 'Microsoft Outlook 15\.\d+\.\d+'
     family_replacement: 'Outlook'
     v1_replacement: '2013'
+
+  # Outlook 2016
+  - regex: 'Microsoft Outlook (?:Mail )?16\.\d+\.\d+'
+    family_replacement: 'Outlook'
+    v1_replacement: '2016'
 
   # Apple Air Mail
   - regex: '(Airmail) (\d+)\.(\d+)(?:\.(\d+))?'
