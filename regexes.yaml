@@ -2072,7 +2072,7 @@ device_parsers:
     device_replacement: 'Huawei Ideos$1'
     brand_replacement: 'Huawei'
     model_replacement: 'Ideos$1'
-  - regex: '; *(Orange Daytona|Pulse|Pulse Mini|Vodafone 858|C8500|C8600|C8650|C8660) Build'
+  - regex: '; *(Orange Daytona|Pulse|Pulse Mini|Vodafone 858|C8500|C8600|C8650|C8660|Nexus 6P) Build'
     device_replacement: 'Huawei $1'
     brand_replacement: 'Huawei'
     model_replacement: '$1'
@@ -2594,7 +2594,7 @@ device_parsers:
   # LG
   # @ref: http://www.lg.com/uk/mobile
   #########
-  - regex: '; *(E[34][0-9]{2}|LS[6-8][0-9]{2}|VS[6-9][0-9]+[^;/]+|Nexus [45]|GT540f?|Optimus (?:2X|G|4X HD)|OptimusX4HD) *(?:Build|;)'
+  - regex: '; *(E[34][0-9]{2}|LS[6-8][0-9]{2}|VS[6-9][0-9]+[^;/]+|Nexus 4|Nexus 5X?|GT540f?|Optimus (?:2X|G|4X HD)|OptimusX4HD) *(?:Build|;)'
     device_replacement: '$1'
     brand_replacement: 'LG'
     model_replacement: '$1'
