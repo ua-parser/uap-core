@@ -3864,7 +3864,7 @@ device_parsers:
   # XiaoMi
   # @ref: http://www.xiaomi.com/event/buyphone
   #########
-  - regex: '; *((MI|HM|MI-ONE|Redmi)[ -](NOTE |Note )?[^;/]*) Build/'
+  - regex: '; *((MI|HM|MI-ONE|Redmi)[ -](NOTE |Note )?[^;/]*) (Build|MIUI)/'
     device_replacement: 'XiaoMi $1'
     brand_replacement: 'XiaoMi'
     model_replacement: '$1'
