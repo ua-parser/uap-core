@@ -515,7 +515,7 @@ user_agent_parsers:
 
   # apple mail - not directly detectable, have it after Safari stuff
   - regex: '(AppleWebKit)/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'AppleMail'
+    family_replacement: 'Apple Mail'
 
   # AFTER THE EDGE CASES ABOVE!
   # AFTER IE11
