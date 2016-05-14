@@ -200,6 +200,11 @@ test_cases:
     brand: 'LG'
     model: 'Nexus 5'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36'
+    family: 'Nexus 5X'
+    brand: 'LG'
+    model: 'Nexus 5X'
+
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Nintendo DS'
     brand: 'Nintendo'
@@ -22714,6 +22719,11 @@ test_cases:
     family: 'Huawei P6'
     brand: 'Huawei'
     model: 'P6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MHC19Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36'
+    family: 'Huawei Nexus 6P'
+    brand: 'Huawei'
+    model: 'Nexus 6P'
 
   - user_agent_string: 'Huaweisymantecspider (compatible; MSIE 8.0; DSE-support@huaweisymantec.com)'
     family: 'Huawei symantecspider'
