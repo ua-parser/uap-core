@@ -79790,3 +79790,63 @@ test_cases:
     brand: 'Generic_Inettv'
     model: 'Roku'
 
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF2.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF3.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF5.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.11.28)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.12.19)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.8.22)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.16)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.23)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.9)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.10.22)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.10.8)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.11.1)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
