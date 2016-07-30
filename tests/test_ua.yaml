@@ -6621,3 +6621,9 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
+    family: 'Safari'
+    major:
+    minor:
+    patch:
+

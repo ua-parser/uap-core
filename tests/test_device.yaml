@@ -79850,3 +79850,8 @@ test_cases:
     brand: 'XiaoMi'
     model: 'MI PAD'
 
+  - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
+    family: 'LG Web0S SmartTV'
+    brand: 'LG'
+    model: 'Web0S SmartTV'
+

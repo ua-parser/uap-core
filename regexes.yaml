@@ -1000,7 +1000,7 @@ os_parsers:
   - regex: '\((Bada);'
 
   # just os
-  - regex: '(Windows|Android|WeTab|Maemo)'
+  - regex: '(Windows|Android|WeTab|Maemo|Web0S)'
   - regex: '(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Mageia|(?:Free|Open|Net|\b)BSD)'
   # Linux + Kernel Version
   - regex: '(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+))?)?'
@@ -2620,6 +2620,10 @@ device_parsers:
     device_replacement: '$1 $2'
     brand_replacement: 'LG'
     model_replacement: '$2'
+  - regex: '(Web0S); Linux/(SmartTV)'
+    device_replacement: 'LG $1 $2'
+    brand_replacement: 'LG'
+    model_replacement: '$1 $2'
 
   #########
   # Malata
