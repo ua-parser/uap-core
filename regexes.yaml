@@ -309,7 +309,7 @@ user_agent_parsers:
   - regex: '(Airmail) (\d+)\.(\d+)(?:\.(\d+))?'
 
   # Thunderbird
-  - regex: '(Thunderbird)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
+  - regex: '(Thunderbird)/(\d+)\.(\d+)(?:\.(\d+(?:pre)?))?'
     family_replacement: 'Thunderbird'
 
   # Vivaldi uses "Vivaldi"
