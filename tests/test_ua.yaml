@@ -912,6 +912,18 @@ test_cases:
     minor: '4'
     patch: '0'
 
+  - user_agent_string: 'UCWEB/3.0 (iPhone; CPU OS_6; en-US)AppleWebKit/534.1 U3/3.0.0 Mobile'
+    family: 'UC Browser'
+    major: '3'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'UCWEB/2.0 (Linux; U; Opera Mini/7.1.32052/30.2697; en-US; GT-S5302) U2/1.0.0 UCBrowser/9.3.0.440 Mobile'
+    family: 'UC Browser'
+    major: '9'
+    minor: '3'
+    patch: '0'
+
   - user_agent_string: 'IUC(U;iOS 5.1.1;Zh-cn;320*480;)/UCWEB7.9.0.94/41/997'
     family: 'UC Browser'
     major: '7'
