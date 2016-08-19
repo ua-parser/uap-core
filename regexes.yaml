@@ -107,6 +107,11 @@ user_agent_parsers:
   - regex: '(MyIBrow)/(\d+)\.(\d+)'
     family_replacement: 'My Internet Browser'
 
+  # UC Browser
+  # we need check it before opera. In other case case UC Browser detected look like Opera Mini
+  - regex: '(UC ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'UC Browser'
+
   # Opera will stop at 9.80 and hide the real version in the Version string.
   # see: http://dev.opera.com/articles/view/opera-ua-string-changes/
   - regex: '(Opera Tablet).*Version/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -226,13 +231,6 @@ user_agent_parsers:
   # Chrome Frame must come before MSIE.
   - regex: '(chromeframe)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Frame'
-
-  # UC Browser
-  - regex: '(UCBrowser)[ /](\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'UC Browser'
-  - regex: '(UC Browser)[ /](\d+)\.(\d+)\.(\d+)'
-  - regex: '(UC Browser|UCBrowser|UCWEB)(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'UC Browser'
 
   # Tizen Browser (second case included in browser/major.minor regex)
   - regex: '(SLP Browser)/(\d+)\.(\d+)'
