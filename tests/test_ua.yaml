@@ -468,6 +468,12 @@ test_cases:
     minor: '0'
     patch: '2'
 
+  - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69'
+    family: 'Mobile Safari UI/WKWebView'
+    major: '9'
+    minor: '3'
+    patch: '2'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
     family: 'Mobile Safari UI/WKWebView'
     major: '7'
@@ -6644,4 +6650,3 @@ test_cases:
     major:
     minor:
     patch:
-
