@@ -876,6 +876,48 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)'
+    family: 'Lotus Notes'
+    major: '6'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)'
+    family: 'YahooMobileMail'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Barca/2.8.2'
+    family: 'Barca'
+    major: '2'
+    minor: '8'
+    patch: '2'
+
+  - user_agent_string: 'BarcaPro/1.4.12'
+    family: 'Barca'
+    major: '1'
+    minor: '4'
+    patch: '12'
+
+  - user_agent_string: 'The Bat! 4.0.0.22'
+    family: 'The Bat!'
+    major: '4'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'MailBar/1.3.2 (Mac OS X Version 10.11.1 (Build 15B42))'
+    family: 'MailBar'
+    major: '1'
+    minor: '3'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) kmail2/4.14.2 Safari/534.34'
+    family: 'kmail2'
+    major: '4'
+    minor: '14'
+    patch: '2'
+
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; MSOffice 12)'
     family: 'Outlook'
     major: '2007'
