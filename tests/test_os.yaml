@@ -2202,6 +2202,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'TestApp/1.0 CFNetwork/808.0.2 Darwin/16.0.0'
+    family: 'iOS'
+    major: '10'
+    minor: '0'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'TestApp-tvOS/1.0-1'
     family: 'tvOS'
     major: '1'
