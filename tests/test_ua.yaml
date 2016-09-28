@@ -5841,6 +5841,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'NL-Crawler'
+    family: 'NL-Crawler'
+    major:
+    minor:
+    patch:
+    
   - user_agent_string: 'Mozilla/5.0 (compatible; YoudaoBot-rts/1.0; http://www.youdao.com/help/webmaster/spider/; )'
     family: 'YoudaoBot'
     major:
