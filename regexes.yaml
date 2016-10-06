@@ -310,6 +310,10 @@ user_agent_parsers:
   - regex: '(Thunderbird)/(\d+)\.(\d+)(?:\.(\d+(?:pre)?))?'
     family_replacement: 'Thunderbird'
 
+  # Postbox
+  - regex: '(Postbox)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Postbox'
+
   # Barca
   - regex: '(Barca(?:Pro)?)/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'Barca'
