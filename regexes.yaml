@@ -17,6 +17,10 @@ user_agent_parsers:
   - regex: 'Google.*/\+/web/snippet'
     family_replacement: 'GooglePlusBot'
 
+  # Gmail
+  - regex: 'via ggpht.com GoogleImageProxy'
+    family_replacement: 'GmailImageProxy'
+
   # Twitter
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
     family_replacement: 'TwitterBot'

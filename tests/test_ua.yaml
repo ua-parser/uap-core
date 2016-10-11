@@ -264,6 +264,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Firefox/11.0 (via ggpht.com GoogleImageProxy)'
+    family: 'GmailImageProxy'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Twitterbot/1.0'
     family: 'TwitterBot'
     major: '1'
