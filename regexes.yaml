@@ -506,6 +506,14 @@ user_agent_parsers:
   - regex: '(AppleWebKit)/(\d+)\.?(\d+)?\+ .* Safari'
     family_replacement: 'WebKit Nightly'
 
+  # LG
+  - regex: 'Mozilla\/\d+\.\d+ \((Web0S); .*\) .* Large Screen WebAppManager Safari\/\d+\.\d+'
+    family_replacement: 'LG'
+
+  # Enseo
+  - regex: 'Mozilla\/\d+\.\d+ \(.*(Enseo)\/.*\) Apple.*Safari\/\d+.\d+'
+    family_replacement: 'Enseo'
+
   # Safari
   - regex: '(Version)/(\d+)\.(\d+)(?:\.(\d+))?.*Safari/'
     family_replacement: 'Safari'
