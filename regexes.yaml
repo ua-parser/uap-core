@@ -113,7 +113,7 @@ user_agent_parsers:
 
   # UC Browser
   # we need check it before opera. In other case case UC Browser detected look like Opera Mini
-  - regex: '(UC ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
+  - regex: '(UC? ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
 
   # Opera will stop at 9.80 and hide the real version in the Version string.
