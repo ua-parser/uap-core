@@ -788,7 +788,7 @@ os_parsers:
   - regex: '(Apple\s?TV)(?:/(\d+)\.(\d+))?'
     os_replacement: 'ATV OS X'
 
-  - regex: '(CPU OS|iPhone OS|CPU iPhone) +(\d+)[_\.](\d+)(?:[_\.](\d+))?'
+  - regex: '(CPU OS|CPU\+OS|iPhone OS|iPhone\+OS|CPU iPhone|CPU\+iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+))?'
     os_replacement: 'iOS'
 
   # remaining cases are mostly only opera uas, so catch opera as to not catch iphone spoofs
