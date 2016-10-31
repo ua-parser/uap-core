@@ -6710,3 +6710,39 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'MacOutlook/15.27.0.161010 (Intelx64 Mac OS X Version 10.11.6 (Build 15G1108))'
+    family: 'MacOutlook'
+    major:  '15'
+    minor:  '27'
+    patch:  '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.8 (KHTML, like Gecko) Slack_SSB/2.0.3'
+    family: 'Slack Desktop Client'
+    major:  '2'
+    minor:  '0'
+    patch:  '3'
+
+  - user_agent_string: 'Microsoft-CryptoAPI/6.1'
+    family: 'Microsoft-CryptoAPI'
+    major:  '6'
+    minor:  '1'
+    patch:
+
+  - user_agent_string: 'Microsoft SkyDriveSync 17.3.6517.0809 ship; Windows NT 6.1 Service Pack 1 (7601)'
+    family: 'Microsoft SkyDriveSync'
+    major:  '17'
+    minor:  '3'
+    patch:  '6517'
+
+  - user_agent_string: 'ExchangeServicesClient/14.02.0051.000'
+    family: 'ExchangeServicesClient'
+    major:  '14'
+    minor:  '02'
+    patch:  '0051'
+
+  - user_agent_string: 'Mac OS X/10.11.6 (15G1004); ExchangeWebServices/6.0 (243); Mail/9.3 (3124)'
+    family: 'ExchangeWebServices'
+    major:  '6'
+    minor:  '0'
+    patch:

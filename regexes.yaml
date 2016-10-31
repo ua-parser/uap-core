@@ -281,7 +281,7 @@ user_agent_parsers:
   #### MAIN CASES - this catches > 50% of all browsers ####
 
   # Browser/major_version.minor_version.beta_version
-  - regex: '\b(MobileIron|Crosswalk|AdobeAIR|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '\b(MobileIron|Crosswalk|AdobeAIR|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave|MacOutlook)/(\d+)\.(\d+)\.(\d+)'
 
   # Outlook 2007
   - regex: 'Microsoft Office Outlook 12\.\d+\.\d+|MSOffice 12'
@@ -344,7 +344,7 @@ user_agent_parsers:
   - regex: '\b(Dolphin)(?: |HDCN/|/INT\-)(\d+)\.(\d+)\.?(\d+)?'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Chrome|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail)/(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(bingbot|Bolt|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Chrome|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Microsoft-CryptoAPI)/(\d+)\.(\d+)\.?(\d+)?'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)'
@@ -364,7 +364,7 @@ user_agent_parsers:
   # Browser major_version.minor_version.beta_version (space instead of slash)
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
   # Browser major_version.minor_version (space instead of slash)
-  - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris|The Bat!) (\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris|Microsoft SkyDriveSync|The Bat!) (\d+)\.(\d+)\.?(\d+)?'
 
   # Kindle WebKit
   - regex: '(Kindle)/(\d+)\.(\d+)'
@@ -393,6 +393,10 @@ user_agent_parsers:
   # http://www.anandtech.com/show/3982/windows-phone-7-review
   - regex: '(MSIE) (\d+)\.(\d+).*XBLWP7'
     family_replacement: 'IE Large Screen'
+
+  # Slack desktop client (needs to be before Apple Mail as it gets wrongly detected on Mac OS otherwise)
+  - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Slack Desktop Client'
 
   #### END MAIN CASES ####
 
