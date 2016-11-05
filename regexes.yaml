@@ -426,13 +426,13 @@ user_agent_parsers:
     family_replacement: 'Bon Echo'
 
   # @note: iOS / OSX Applications
-  - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.* Safari'
+  - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.*[ +]Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'Mobile Safari UI/WKWebView'
-  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS (\d+)_(\d+)(?:_(\d+))?.*Mobile.* Safari'
+  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+))?.*Mobile.*[ +]Safari'
     family_replacement: 'Mobile Safari'
-  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS (\d+)_(\d+)(?:_(\d+))?.*Mobile'
+  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+))?.*Mobile'
     family_replacement: 'Mobile Safari UI/WKWebView'
   - regex: '(iPod|iPhone|iPad).* Safari'
     family_replacement: 'Mobile Safari'
@@ -792,7 +792,7 @@ os_parsers:
   - regex: '(Apple\s?TV)(?:/(\d+)\.(\d+))?'
     os_replacement: 'ATV OS X'
 
-  - regex: '(CPU OS|iPhone OS|CPU iPhone) +(\d+)[_\.](\d+)(?:[_\.](\d+))?'
+  - regex: '(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+))?'
     os_replacement: 'iOS'
 
   # remaining cases are mostly only opera uas, so catch opera as to not catch iphone spoofs
