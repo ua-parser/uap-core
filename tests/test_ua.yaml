@@ -1013,6 +1013,12 @@ test_cases:
     major: '8'
     minor: '7'
     patch: '0'
+    
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.14488.1025 Safari/537.36'
+    family: 'UC Browser'
+    major: '5'
+    minor: '7'
+    patch: '14488'
 
   - user_agent_string: 'Alcatel-OH5/1.0 UP.Browser/6.1.0.7.7 (GUI) MMP/1.0'
     family: 'UP.Browser'
