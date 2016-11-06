@@ -79864,3 +79864,14 @@ test_cases:
     family: 'LG Web0S SmartTV'
     brand: 'LG'
     model: 'Web0S SmartTV'
+
+  - user_agent_string: 'Mozilla/5.0+(iPhone;+CPU+iPhone+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0+(iPad;+CPU+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iPad'
+    brand: 'Apple'
+    model: 'iPad'
+
