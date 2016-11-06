@@ -738,7 +738,7 @@ os_parsers:
   # Tizen OS from Samsung
   # spoofs Android so pushing it above
   ##########
-  - regex: '(Tizen)/(\d+)\.(\d+)'
+  - regex: '(Tizen)[/ ](\d+)\.(\d+)'
 
   ##########
   # Mac OS
