@@ -79890,3 +79890,13 @@ test_cases:
     brand: 'Spider'
     model: 'Smartphone'
 
+  - user_agent_string: 'Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Slack-ImgProxy 1.136 (+https://api.slack.com/robots)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+

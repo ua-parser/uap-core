@@ -6765,3 +6765,15 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
+    family: 'Slackbot-LinkExpanding'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Slack-ImgProxy 1.136 (+https://api.slack.com/robots)'
+    family: 'Slack-ImgProxy'
+    major: '1'
+    minor: '136'
+    patch:
+
