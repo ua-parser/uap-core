@@ -336,6 +336,10 @@ user_agent_parsers:
   - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
     family_replacement: 'Brave'
 
+  # Iron Browser ~since version 50
+  - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]* Iron[^/]'
+    family_replacement: 'Iron'
+
   # Chrome/Chromium/major_version.minor_version.beta_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)\.(\d+)'
 
