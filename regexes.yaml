@@ -4628,6 +4628,11 @@ device_parsers:
   ##########
   # Samsung
   ##########
+  # Samsung Smart-TV
+  - regex: '(SMART-TV); .* Tizen '
+    device_replacement: 'Samsung $1'
+    brand_replacement: 'Samsung'
+    model_replacement: '$1'
   # Samsung Symbian Devices
   - regex: 'SymbianOS/9\.\d.* Samsung[/\-]([A-Za-z0-9 \-]+)'
     device_replacement: 'Samsung $1'

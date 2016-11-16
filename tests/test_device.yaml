@@ -79900,3 +79900,8 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
+    family: 'Samsung SMART-TV'
+    brand: 'Samsung'
+    model: 'SMART-TV'
+
