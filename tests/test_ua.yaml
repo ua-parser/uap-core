@@ -865,10 +865,10 @@ test_cases:
     patch: '5'
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.2.0 Lightning/2.6.4'
-    family: 'Lightning'
-    major: '2'
-    minor: '6'
-    patch: '4'
+    family: 'Thunderbird'
+    major: '24'
+    minor: '2'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.2.0'
     family: 'Thunderbird'
