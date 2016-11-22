@@ -6806,3 +6806,22 @@ test_cases:
     major: '52'
     minor: '0'
     patch: '2750'
+
+  - user_agent_string: 'Mozilla/5.0 (Android; U; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/23.0'
+    family: 'AdobeAIR'
+    major: '23'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/19.0'
+    family: 'AdobeAIR'
+    major: '19'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iOS; U; en-US) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/19.0'
+    family: 'AdobeAIR'
+    major: '19'
+    minor: '0'
+    patch:
+
