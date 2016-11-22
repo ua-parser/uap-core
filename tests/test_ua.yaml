@@ -6489,6 +6489,12 @@ test_cases:
     minor: '2'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) pagedraw/0.1.0 Chrome/49.0.2623.75 Electron/0.37.8 Safari/537.36'
+    family: 'Electron'
+    major: '0'
+    minor: '37'
+    patch: '8'
+
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile'
     family: 'Mobile Safari UI/WKWebView'
     major: '4'
