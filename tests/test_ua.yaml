@@ -6825,3 +6825,14 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Kurio/3.0.8 Build 65303(Android Kitkat 4.4.4; Phone)'
+    family: 'Kurio App'
+    major: '3'
+    minor: '0'
+    patch: '8'
+
+  - user_agent_string: 'BacaBerita App/5.5.0 (Linux; U; Android 4.4.4; en-us) Mobile Safari'
+    family: 'BacaBerita App'
+    major: '5'
+    minor: '5'
+    patch: '0'
