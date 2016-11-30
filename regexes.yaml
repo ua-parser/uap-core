@@ -879,8 +879,9 @@ os_parsers:
     os_v1_replacement: '10'
     os_v2_replacement: '0'
   # iOS Apps
-  - regex: '\b(iOS[ /]|iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
+  - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
     os_replacement: 'iOS'
+  - regex: '\((iOS);'
 
   ##########
   # Apple TV
