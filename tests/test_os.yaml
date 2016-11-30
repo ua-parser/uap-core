@@ -2278,3 +2278,10 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'UCWEB/2.0 (iOS; U; iPd OS 7_0_4; zh-CN; iPd5,1) U2/1.0.0 UCBrowser/9.0.1.284 U2/1.0.0 Mobile'
+    family: 'iOS'
+    major: '7'
+    minor: '0'
+    patch: '4'
+    patch_minor:
