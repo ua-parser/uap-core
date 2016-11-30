@@ -6837,3 +6837,15 @@ test_cases:
     minor: '4'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.6 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.6 Midori/0.5'
+    family: 'Midori'
+    major: '0'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU like Mac OS X; FIT_LANG_REPLACE) AppleWebKit/532+ (KHTML, like Gecko) Version/3.0 Mobile/1A538b Safari/419.3 Midori/0.4'
+    family: 'Midori'
+    major: '0'
+    minor: '4'
+    patch:
+
