@@ -6825,3 +6825,15 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) MxBrowser/4.5.2.2000 Chrome/30.0.1551.0 Safari/537.36'
+    family: 'Maxthon'
+    major: '4'
+    minor: '5'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Maxthon/4.4.5.1000 Chrome/30.0.1599.101 Safari/537.36'
+    family: 'Maxthon'
+    major: '4'
+    minor: '4'
+    patch: '5'
+
