@@ -1,15 +1,6 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
-  # Kurio App News Reader https://kurio.co.id/
-  - regex: '(Kurio)\/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Kurio App'
-
-  # Baca Berita App News Reader
-  - regex: '(BacaBerita\sApp)\/(\d+)\.(\d+)\.(\d+)'
-    os_replacement: 'Android'
-    family_replacement: 'BacaBerita App'
-
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)\.?(\d+)?)?'
     family_replacement: 'CFNetwork'
@@ -374,6 +365,9 @@ user_agent_parsers:
   - regex: '(IEMobile)[ /](\d+)\.(\d+)'
     family_replacement: 'IE Mobile'
 
+  # Baca Berita App News Reader
+  - regex: '(BacaBerita App)\/(\d+)\.(\d+)\.(\d+)'
+
   # Browser major_version.minor_version.beta_version (space instead of slash)
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
   # Browser major_version.minor_version (space instead of slash)
@@ -570,6 +564,11 @@ user_agent_parsers:
 
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
+
+  # Kurio App News Reader https://kurio.co.id/
+  - regex: '(Kurio)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Kurio App'
+
 
 os_parsers:
   ##########
