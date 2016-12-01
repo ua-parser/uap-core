@@ -659,7 +659,7 @@ os_parsers:
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?;'
     os_replacement: 'Android'
-  - regex: '^UCWEB.*; (iPad OS|iPh OS) (\d+)_(\d+)(?:_(\d+))?;'
+  - regex: '^UCWEB.*; (iPad|iPh|iPd) OS (\d+)_(\d+)(?:_(\d+))?;'
     os_replacement: 'iOS'
   - regex: '^UCWEB.*; (wds) (\d+)\.(\d+)(?:\.(\d+))?;'
     os_replacement: 'Windows Phone'
