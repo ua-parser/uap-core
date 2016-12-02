@@ -276,6 +276,10 @@ user_agent_parsers:
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
 
+  # MxBrowser is Maxthon
+  - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Maxthon'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -340,18 +344,15 @@ user_agent_parsers:
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]* Iron[^/]'
     family_replacement: 'Iron'
 
-  # Chrome/Chromium/major_version.minor_version.beta_version
-  - regex: '(Chromium|Chrome)/(\d+)\.(\d+)\.(\d+)'
-
   # Dolphin Browser
   # @ref: http://www.dolphin.com
   - regex: '\b(Dolphin)(?: |HDCN/|/INT\-)(\d+)\.(\d+)\.?(\d+)?'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Chrome|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Microsoft-CryptoAPI)/(\d+)\.(\d+)(?:\.(\d+))?'
+  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Microsoft-CryptoAPI)/(\d+)\.(\d+)(?:\.(\d+))?'
 
   # Chrome/Chromium/major_version.minor_version
-  - regex: '(Chromium|Chrome)/(\d+)\.(\d+)'
+  - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+))?'
 
   ##########
   # IE Mobile needs to happen before Android to catch cases such as:
@@ -667,7 +668,7 @@ os_parsers:
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?;'
     os_replacement: 'Android'
-  - regex: '^UCWEB.*; (iPad OS|iPh OS) (\d+)_(\d+)(?:_(\d+))?;'
+  - regex: '^UCWEB.*; (iPad|iPh|iPd) OS (\d+)_(\d+)(?:_(\d+))?;'
     os_replacement: 'iOS'
   - regex: '^UCWEB.*; (wds) (\d+)\.(\d+)(?:\.(\d+))?;'
     os_replacement: 'Windows Phone'
@@ -887,8 +888,9 @@ os_parsers:
     os_v1_replacement: '10'
     os_v2_replacement: '0'
   # iOS Apps
-  - regex: '\b(iOS[ /]|iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
+  - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
     os_replacement: 'iOS'
+  - regex: '\((iOS);'
 
   ##########
   # Apple TV
