@@ -6825,6 +6825,18 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Kurio/3.0.8 Build 65303(Android Kitkat 4.4.4; Phone)'
+    family: 'Kurio App'
+    major: '3'
+    minor: '0'
+    patch: '8'
+
+  - user_agent_string: 'BacaBerita App/5.5.0 (Linux; U; Android 4.4.4; en-us) Mobile Safari'
+    family: 'BacaBerita App'
+    major: '5'
+    minor: '5'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) MxBrowser/4.5.2.2000 Chrome/30.0.1551.0 Safari/537.36'
     family: 'Maxthon'
     major: '4'
@@ -6848,4 +6860,3 @@ test_cases:
     major: '0'
     minor: '4'
     patch:
-
