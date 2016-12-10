@@ -887,7 +887,7 @@ test_cases:
     major: '4'
     minor: '0'
     patch: '8'
-    
+
   - user_agent_string: 'Mozilla/4.0 (compatible; Lotus-Notes/6.0; Windows-NT)'
     family: 'Lotus Notes'
     major: '6'
@@ -1013,7 +1013,7 @@ test_cases:
     major: '8'
     minor: '7'
     patch: '0'
-    
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 UBrowser/5.7.14488.1025 Safari/537.36'
     family: 'UC Browser'
     major: '5'
@@ -5864,7 +5864,7 @@ test_cases:
     major:
     minor:
     patch:
-    
+
   - user_agent_string: 'Mozilla/5.0 (compatible; YoudaoBot-rts/1.0; http://www.youdao.com/help/webmaster/spider/; )'
     family: 'YoudaoBot'
     major:
@@ -6860,3 +6860,93 @@ test_cases:
     major: '0'
     minor: '4'
     patch:
+
+  - user_agent_string: 'curl/7.29.0'
+    family: 'curl'
+    major: '7'
+    minor: '29'
+    patch: '0'
+
+  - user_agent_string: 'Debian APT-HTTP/1.3 (1.0.1ubuntu2)'
+    family: 'Debian APT-HTTP'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'jupdate'
+    family: 'jupdate'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'libcurl-agent/1.0'
+    family: 'libcurl-agent'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'libwww-perl/6.05'
+    family: 'libwww-perl'
+    major: '6'
+    minor: '05'
+    patch:
+
+  - user_agent_string: 'Microsoft-CryptoAPI/6.3'
+    family: 'Microsoft-CryptoAPI'
+    major: '6'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'OpenBSD ftp'
+    family: 'OpenBSD ftp'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SophosAgent/1.0 (type= spa )'
+    family: 'SophosAgent'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'SophosUpdateManager/1.5.7.50 SDDS/2.0 (u= EO2ANA123G c= 6342da15-f351-4ab7-9656-3f5f2d50885d )'
+    family: 'SophosUpdateManager'
+    major: '1'
+    minor: '5'
+    patch: '7'
+
+  - user_agent_string: 'Ubuntu APT-HTTP/1.3 (0.7.20.2ubuntu6)'
+    family: 'Ubuntu APT-HTTP'
+    major: '1'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'urlgrabber/3.10 yum/3.4.3'
+    family: 'urlgrabber'
+    major: '3'
+    minor: '10'
+    patch:
+
+  - user_agent_string: 'urlgrabber/3.9.1 yum/3.2.29'
+    family: 'urlgrabber'
+    major: '3'
+    minor: '9'
+    patch: '1'
+
+  - user_agent_string: 'Wget/1.14 (linux-gnu)'
+    family: 'Wget'
+    major: '1'
+    minor: '14'
+    patch:
+
+  - user_agent_string: 'Windows-Update-Agent/7.9.9600.17729 Client-Protocol/1.21'
+    family: 'Windows-Update-Agent'
+    major: '7'
+    minor: '9'
+    patch: '9600'
+
+  - user_agent_string: 'Windows-Update-Agent/7.9.9600.18094 Client-Protocol/1.21'
+    family: 'Windows-Update-Agent'
+    major: '7'
+    minor: '9'
+    patch: '9600'
