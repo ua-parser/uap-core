@@ -6963,3 +6963,9 @@ test_cases:
     minor: '1'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows CE 5.1; rv:1.8.1a3) Gecko/20060610 Minimo/0.016'
+    family: 'Minimo'
+    major: '0'
+    minor: '016'
+    patch:
+

@@ -190,8 +190,6 @@ user_agent_parsers:
 
   - regex: '(Symphony) (\d+).(\d+)'
 
-  - regex: '(Minimo)'
-
   - regex: 'PLAYSTATION 3.+WebKit'
     family_replacement: 'NetFront NX'
   - regex: 'PLAYSTATION 3'
