@@ -6969,3 +6969,15 @@ test_cases:
     minor: '016'
     patch:
 
+  - user_agent_string: 'Opera/9.80 (MAUI Runtime; Opera Mini/4.4.39008/37.9178; U; en) Presto/2.12.423 Version/12.16'
+    family: 'Opera Mini'
+    major: '4'
+    minor: '4'
+    patch: '39008'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; 008/0.83; http://www.80legs.com/spider.html) Gecko/2008032620'
+    family: '008'
+    major: '0'
+    minor: '83'
+    patch:
+
