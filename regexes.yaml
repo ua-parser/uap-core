@@ -640,6 +640,10 @@ os_parsers:
 
   - regex: '(Windows Phone) (?:OS[ /])?(\d+)\.(\d+)'
 
+  # Again a MS-special one: iPhone.*Outlook-iOS-Android/x.x is erroneously detected as Android
+  - regex: '(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+))?.*Outlook-iOS-Android'
+    os_replacement: 'iOS'
+
   ##########
   # Android
   # can actually detect rooted android os. do we care?

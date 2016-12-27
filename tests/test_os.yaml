@@ -2321,3 +2321,10 @@ test_cases:
     patch: '74257'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) Outlook-iOS-Android/1.0 Mobile/13G35 Safari/601.1.46")'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '4'
+    patch_minor:
+
