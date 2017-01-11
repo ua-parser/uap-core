@@ -1016,6 +1016,12 @@ os_parsers:
   - regex: '(WebTV)/(\d+).(\d+)'
 
   ##########
+  # Chromecast
+  ##########
+  - regex: '(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+))?)?'
+    os_replacement: 'Chromecast'
+
+  ##########
   # Misc mobile
   ##########
   - regex: '(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+))?'
