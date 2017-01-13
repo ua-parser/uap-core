@@ -6765,3 +6765,8 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36 MMS/1.0.2459.0'
+    family: 'Opera Neon'
+    major: '1'
+    minor: '0'
+    patch: '2459'
