@@ -855,6 +855,9 @@ os_parsers:
   - regex: '(CF)(Network)/758\.(\d)'
     os_replacement: 'iOS'
     os_v1_replacement: '9'
+  - regex: '(CF)(Network)/808\.(\d)'
+    os_replacement: 'iOS'
+    os_v1_replacement: '10'
 
   ##########
   # CFNetwork iOS Apps
@@ -886,7 +889,6 @@ os_parsers:
   - regex: 'CFNetwork/8.* Darwin/(16)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '10'
-    os_v2_replacement: '0'
   # iOS Apps
   - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
     os_replacement: 'iOS'
