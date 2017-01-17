@@ -346,7 +346,7 @@ user_agent_parsers:
   - regex: '\b(Dolphin)(?: |HDCN/|/INT\-)(\d+)\.(\d+)\.?(\d+)?'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon)/(\d+)\.(\d+)(?:\.(\d+))?'
+  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+))?'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -639,6 +639,10 @@ os_parsers:
   ##########
 
   - regex: '(Windows Phone) (?:OS[ /])?(\d+)\.(\d+)'
+
+  # Again a MS-special one: iPhone.*Outlook-iOS-Android/x.x is erroneously detected as Android
+  - regex: '(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+))?.*Outlook-iOS-Android'
+    os_replacement: 'iOS'
 
   ##########
   # Android

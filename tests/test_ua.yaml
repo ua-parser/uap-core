@@ -6981,3 +6981,9 @@ test_cases:
     minor: '83'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) Outlook-iOS-Android/1.0 Mobile/13G35 Safari/601.1.46")'
+    family: 'Outlook-iOS-Android'
+    major: '1'
+    minor: '0'
+    patch:
+
