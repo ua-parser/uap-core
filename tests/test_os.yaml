@@ -2300,3 +2300,10 @@ test_cases:
     patch: '1'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.22.74257'
+    family: 'Chromecast'
+    major: '1'
+    minor: '22'
+    patch: '74257'
+    patch_minor:
+
