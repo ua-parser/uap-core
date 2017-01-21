@@ -786,6 +786,12 @@ test_cases:
     minor: '4'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
+    family: 'PingdomBot'
+    major: '0'
+    minor: '8'
+    patch: '5'
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     family: 'Planetweb'
     major: '2'
