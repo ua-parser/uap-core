@@ -635,6 +635,16 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; SAMSUNG-SGH-I717 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36'
     family: 'Samsung SGH-I717'
     brand: 'Samsung'
