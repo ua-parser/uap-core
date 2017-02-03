@@ -149,6 +149,10 @@ user_agent_parsers:
   - regex: '(OPiOS)/(\d+).(\d+).(\d+)'
     family_replacement: 'Opera Mini'
 
+  # Opera Neon
+  - regex: 'Chrome/.+( MMS)/(\d+).(\d+).(\d+)'
+    family_replacement: 'Opera Neon'
+
   # Palm WebOS looks a lot like Safari.
   - regex: '(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'webOS Browser'
