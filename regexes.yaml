@@ -66,9 +66,11 @@ user_agent_parsers:
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d)+)?)?'
 
+  # Pale Moon
+  - regex: '(PaleMoon)/(\d+)\.(\d+)\.?(\d+)?'
+    family_replacement: 'Pale Moon'
+
   # Firefox
-  - regex: '(Pale[Mm]oon)/(\d+)\.(\d+)\.?(\d+)?'
-    family_replacement: 'Pale Moon (Firefox Variant)'
   - regex: '(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
     family_replacement: 'Firefox Mobile'
   - regex: '(Fennec)/(\d+)\.(\d+)(pre)'

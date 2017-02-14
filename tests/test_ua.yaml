@@ -769,10 +769,28 @@ test_cases:
     patch: '2'
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1; rv:2.0) Gecko/20110407 Firefox/4.0.3 PaleMoon/4.0.3'
-    family: 'Pale Moon (Firefox Variant)'
+    family: 'Pale Moon'
     major: '4'
     minor: '0'
     patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Goanna/20170207 PaleMoon/27.1.0'
+    family: 'Pale Moon'
+    major: '27'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:3.0) Gecko/20100101 Goanna/20170207 PaleMoon/27.1.0'
+    family: 'Pale Moon'
+    major: '27'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:45.9) Gecko/20100101 Goanna/3.0 Firefox/45.9 PaleMoon/27.1.0'
+    family: 'Pale Moon'
+    major: '27'
+    minor: '1'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (LG-T500 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     family: 'Phantom Browser'
