@@ -275,6 +275,12 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+    
+  - user_agent_string: 'WhatsApp/2.17.70 W'
+    family: 'WhatsApp'
+    major: '2'
+    minor: '17'
+    patch: '70'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.1pre) Gecko/20090717 Ubuntu/9.04 (jaunty) Shiretoko/3.5.1pre'
     family: 'Firefox (Shiretoko)'
