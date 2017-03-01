@@ -1967,6 +1967,10 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
+  - regex: '; *(Pixel \w+) Build'
+    device_replacement: '$1'
+    brand_replacement: 'Google'
+    model_replacement: '$1'
 
   #########
   # Gigabyte
@@ -3054,6 +3058,19 @@ device_parsers:
     model_replacement: '$1'
 
   #########
+  # OnePlus
+  # @ref https://oneplus.net/
+  #########
+  - regex: '; (ONE [a-zA-Z]\d+) Build/'
+    device_replacement: 'OnePlus $1'
+    brand_replacement: 'OnePlus'
+    model_replacement: '$1'
+  - regex: '; (ONEPLUS [a-zA-Z]\d+) Build/'
+    device_replacement: 'OnePlus $1'
+    brand_replacement: 'OnePlus'
+    model_replacement: '$1'
+
+  #########
   # Orion
   # @ref: http://www.orion.ua/en/products/computer-products/tablet-pcs.html
   #########
@@ -3291,6 +3308,15 @@ device_parsers:
   - regex: '; *(TA1013) Build'
     device_replacement: '$1'
     brand_replacement: 'Quanta'
+    model_replacement: '$1'
+
+  #########
+  # RCA
+  # @ref: http://rcamobilephone.com/
+  #########
+  - regex: '; (RCT\w+) Build/'
+    device_replacement: '$1'
+    brand_replacement: 'RCA'
     model_replacement: '$1'
 
   #########
