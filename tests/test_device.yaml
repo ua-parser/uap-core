@@ -79939,3 +79939,10 @@ test_cases:
     family: 'RCT6773W22B'
     brand: 'RCA'
     model: 'RCT6773W22B'
+
+  - user_agent_string: 'WhatsApp/2.17.70 W'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+
