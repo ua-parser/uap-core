@@ -79920,3 +79920,22 @@ test_cases:
     brand: 'Huawei'
     model: 'ATH-AL00'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; ONEPLUS A3010 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36'
+    family: 'OnePlus ONEPLUS A3010'
+    brand: 'OnePlus'
+    model: 'ONEPLUS A3010'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; ONE E1003 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36'
+    family: 'OnePlus ONE E1003'
+    brand: 'OnePlus'
+    model: 'ONE E1003'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36'
+    family: 'Pixel C'
+    brand: 'Google'
+    model: 'Pixel C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85'
+    family: 'RCT6773W22B'
+    brand: 'RCA'
+    model: 'RCT6773W22B'
