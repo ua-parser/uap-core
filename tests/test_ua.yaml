@@ -7032,5 +7032,5 @@ test_cases:
   - user_agent_string: 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)'
     family: 'masscan'
     major: '1'
-    minor:
+    minor: '0'
     patch:
