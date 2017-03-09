@@ -275,7 +275,7 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
-    
+
   - user_agent_string: 'WhatsApp/2.17.70 W'
     family: 'WhatsApp'
     major: '2'
@@ -7026,5 +7026,11 @@ test_cases:
   - user_agent_string: 'PANTECH-EUROPA-U4000-orange/1.0 Obigo/Q04C MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
     family: 'Obigo'
     major: '04'
+    minor:
+    patch:
+
+  - user_agent_string: 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)'
+    family: 'masscan'
+    major: '1'
     minor:
     patch:
