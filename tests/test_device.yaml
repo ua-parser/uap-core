@@ -79945,4 +79945,8 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
 
