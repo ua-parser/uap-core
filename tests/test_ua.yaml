@@ -275,7 +275,7 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
-    
+
   - user_agent_string: 'WhatsApp/2.17.70 W'
     family: 'WhatsApp'
     major: '2'
@@ -7027,4 +7027,10 @@ test_cases:
     family: 'Obigo'
     major: '04'
     minor:
+    patch:
+
+  - user_agent_string: 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)'
+    family: 'masscan'
+    major: '1'
+    minor: '0'
     patch:
