@@ -6621,6 +6621,12 @@ test_cases:
     minor: '7'
     patch: '10'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome Safari/537.36'
+    family: 'HeadlessChrome'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
     family: 'Roku'
     major: '6'
