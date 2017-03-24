@@ -1,6 +1,9 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # This applies to Catchpoint user agents, desktop and mobile
+  - regex: '(Catchpoint)'
+
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)\.?(\d+)?)?'
     family_replacement: 'CFNetwork'
