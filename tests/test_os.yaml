@@ -2335,3 +2335,9 @@ test_cases:
     patch: '6'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; CrOS x86_64 8872.76.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.105 Safari/537.36'
+    family: 'Chrome OS'
+    major: '55'
+    minor: '0'
+    patch: '2883'
+    patch_minor: '105'
