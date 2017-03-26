@@ -79950,3 +79950,12 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'MobileSafari/602.1 CFNetwork/808.1.4 Darwin/16.1.0'
+    family: 'iOS-Device'
+    brand: 'Apple'
+    model: 'iOS-Device'
+
+  - user_agent_string: 'Safari/12602.2.14.0.7 CFNetwork/807.1.3 Darwin/16.1.0 (x86_64)'
+    family: 'Other'
+    brand:
+    model:
