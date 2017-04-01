@@ -4890,6 +4890,15 @@ device_parsers:
     model_replacement: 'Desktop'
 
   ##########
+  # Google Web Preview Spider
+  ##########
+  - regex: 'Google Web Preview'
+    regex_flag: 'i'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Desktop'
+
+  ##########
   # Generic Feature Phone
   # take care to do case insensitive matching
   ##########
