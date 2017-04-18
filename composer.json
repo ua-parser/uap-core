@@ -1,0 +1,8 @@
+{
+    "name": "ua-parser/uap-core",
+    
+    "description": "The regex file necessary to build language ports of Browserscope's user agent parser.",
+
+    "license": "Apache 2.0"
+
+}
