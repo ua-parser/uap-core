@@ -816,6 +816,12 @@ test_cases:
     minor: '8'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)'
+    family: 'StatusCakeBot'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     family: 'Planetweb'
     major: '2'
