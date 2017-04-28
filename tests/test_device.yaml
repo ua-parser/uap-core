@@ -79975,3 +79975,7 @@ test_cases:
     brand: 'Huawei'
     model: 'EVA-AL10'
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
