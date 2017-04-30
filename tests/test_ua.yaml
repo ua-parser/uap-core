@@ -7046,3 +7046,11 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+    
+    
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Qwantify'
+    major: "2"
+    minor: "4"
+    patch:
+    
