@@ -6741,6 +6741,12 @@ test_cases:
     minor: '43'
     patch: '343'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Z831 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.94 Mobile Crosswalk/11.45.2454.20160425 Mobile Safari/537.36'
+    family: 'Crosswalk'
+    major: '11'
+    minor: '45'
+    patch: '2454'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.2; GT-S7710 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile'
     family: 'Chrome Mobile'
     major: '18'
@@ -6776,6 +6782,30 @@ test_cases:
     major: '2'
     minor: '0'
     patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) AtomShell/2.6.0 Chrome/56.0.2924.87 Electron/1.6.3 Safari/537.36 MacAppStore/16.5.0 Slack_SSB/2.6.0'
+    family: 'Slack Desktop Client'
+    major: '2'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Slack/2.6.0-beta18998559 Chrome/56.0.2924.87 AtomShell/1.6.3 Safari/537.36 Slack_SSB/2.6.0'
+    family: 'Slack Desktop Client'
+    major: '2'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) HipChat/732 (modern)'
+    family: 'HipChat Desktop Client'
+    major: '732'
+    minor: 
+    patch: 
+
+  - user_agent_string: 'HipChat Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.7.0 Chrome/49.0.2623.111 Safari/537.36'
+    family: 'HipChat Desktop Client'
+    major: 
+    minor: 
+    patch: 
 
   - user_agent_string: 'Microsoft-CryptoAPI/6.1'
     family: 'Microsoft-CryptoAPI'
@@ -6890,6 +6920,12 @@ test_cases:
     major: '4'
     minor: '4'
     patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930P Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 MxBrowser/4.5.10.7000'
+    family: 'Maxthon'
+    major: '4'
+    minor: '5'
+    patch: '10'
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.6 (KHTML, like Gecko) Chrome/18.0.1025.133 Safari/537.6 Midori/0.5'
     family: 'Midori'

@@ -238,6 +238,13 @@ user_agent_parsers:
   - regex: '(FlyFlow)/(\d+)\.(\d+)'
     family_replacement: 'Baidu Explorer'
 
+  # MxBrowser is Maxthon. Must go before Mobile Chrome for Android
+  - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Maxthon'
+
+  # Crosswalk must go before Mobile Chrome for Android
+  - regex: '(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+
   # Chrome Mobile
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
@@ -286,16 +293,22 @@ user_agent_parsers:
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
 
-  # MxBrowser is Maxthon
-  - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+))?'
-    family_replacement: 'Maxthon'
-
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
 
+
+  # Slack desktop client (needs to be before Apple Mail, Electron, and Chrome as it gets wrongly detected on Mac OS otherwise)
+  - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Slack Desktop Client'
+  
+  # HipChat provides a version on Mac, but not on Windows.
+  # Needs to be before Chrome on Windows, and AppleMail on Mac.
+  - regex: '(HipChat)/?(\d+)?'
+    family_replacement: 'HipChat Desktop Client'
+
   # Browser/major_version.minor_version.beta_version
-  - regex: '\b(MobileIron|Crosswalk|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave|MacOutlook|Electron)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '\b(MobileIron|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave|MacOutlook|Electron)/(\d+)\.(\d+)\.(\d+)'
 
   # Outlook 2007
   - regex: 'Microsoft Office Outlook 12\.\d+\.\d+|MSOffice 12'
@@ -418,9 +431,6 @@ user_agent_parsers:
   - regex: '(MSIE) (\d+)\.(\d+).*XBLWP7'
     family_replacement: 'IE Large Screen'
 
-  # Slack desktop client (needs to be before Apple Mail as it gets wrongly detected on Mac OS otherwise)
-  - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Slack Desktop Client'
 
   #### END MAIN CASES ####
 
