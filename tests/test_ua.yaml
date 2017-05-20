@@ -7046,3 +7046,9 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 SznProhlizec/3.8.4 NWjs/0.19.6'
+    family: 'Seznam.cz'
+    major: '3'
+    minor: '8'
+    patch: '4'
