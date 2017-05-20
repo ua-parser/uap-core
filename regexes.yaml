@@ -233,7 +233,7 @@ user_agent_parsers:
     family_replacement: 'Samsung Internet'
 
   # Seznam.cz browser (based on WebKit)
-  - regex: '(SznProhlizec)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'Seznam.cz'
 
   # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
