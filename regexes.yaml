@@ -361,7 +361,7 @@ user_agent_parsers:
   - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
 
   # Edge/major_version.minor_version
-  - regex: '(Edge)/(\d+)\.(\d+)'
+  - regex: '(Edge)/(\d+)(?:\.(\d+))?'
 
   # Brave Browser https://brave.com/
   - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'

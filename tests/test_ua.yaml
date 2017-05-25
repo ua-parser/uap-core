@@ -7127,6 +7127,13 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
     family: 'Qwantify'
-    major: "2"
-    minor: "4"
+    major: '2'
+    minor: '4'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12'
+    family: 'Edge'
+    major: '12'
+    minor:
+    patch:
+
