@@ -7112,3 +7112,9 @@ test_cases:
     major: '50'
     minor: '0'
     patch: '125'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Qwantify'
+    major: "2"
+    minor: "4"
+    patch:
