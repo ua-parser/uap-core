@@ -4830,9 +4830,6 @@ device_parsers:
   #########
   # Android General Device Matching (far from perfect)
   #########
-  - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[a-z]{0,2}[_\-]?[A-Za-z]{0,2};? Build/*\.*'
-    device_replacement: 'Beta_Android'
-    model_replacement: '$1'
   - regex: 'Android[\- ][\d]+\.[\d]+; [A-Za-z]{2}\-[A-Za-z]{0,2}; WOWMobile (.+) Build[/ ]'
     brand_replacement: 'Generic_Android'
     model_replacement: '$1'
@@ -4845,6 +4842,11 @@ device_parsers:
   - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[A-Za-z]{0,2}\- *; *(.+?) Build[/ ]'
     brand_replacement: 'Generic_Android'
     model_replacement: '$1'
+  # No build info, but build has floating point version indicating beta
+  - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[a-z]{0,2}[_\-]?[A-Za-z]{0,2};? Build\/[A-Z0-9]+\.[^\)]+'
+    device_replacement: 'Beta_Android'
+    brand_replacement: 'Generic'
+    model_replacement: 'Smartphone'
   # No build info at all - "Build" follows locale immediately
   - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[a-z]{0,2}[_\-]?[A-Za-z]{0,2};? Build[/ ]'
     device_replacement: 'Generic Smartphone'
