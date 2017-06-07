@@ -79989,3 +79989,9 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; rv:11; NOKIA; Lumia 920) like Gecko'
+    family: 'Lumia 920'
+    brand: 'Nokia'
+    model: 'Lumia 920'
+
