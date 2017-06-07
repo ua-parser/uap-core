@@ -232,7 +232,7 @@ user_agent_parsers:
   - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
     family_replacement: 'Samsung Internet'
 
-  # Coc Coc browser, based on Chrome (used in Vietnam)
+  # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'Coc Coc'
 
@@ -305,7 +305,7 @@ user_agent_parsers:
   # Slack desktop client (needs to be before Apple Mail, Electron, and Chrome as it gets wrongly detected on Mac OS otherwise)
   - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Slack Desktop Client'
-  
+
   # HipChat provides a version on Mac, but not on Windows.
   # Needs to be before Chrome on Windows, and AppleMail on Mac.
   - regex: '(HipChat)/?(\d+)?'
@@ -4842,6 +4842,11 @@ device_parsers:
   - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[A-Za-z]{0,2}\- *; *(.+?) Build[/ ]'
     brand_replacement: 'Generic_Android'
     model_replacement: '$1'
+  # No build info, but build has floating point version indicating beta
+  - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[a-z]{0,2}[_\-]?[A-Za-z]{0,2};? Build\/[A-Z0-9]+\.[^\)]+'
+    device_replacement: 'Beta_Android'
+    brand_replacement: 'Generic'
+    model_replacement: 'Smartphone'
   # No build info at all - "Build" follows locale immediately
   - regex: 'Android[\- ][\d]+(?:\.[\d]+){1,2}; *[a-z]{0,2}[_\-]?[A-Za-z]{0,2};? Build[/ ]'
     device_replacement: 'Generic Smartphone'
