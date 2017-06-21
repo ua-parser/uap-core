@@ -7107,6 +7107,19 @@ test_cases:
     minor: '0'
     patch:
 
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36 SznProhlizec/3.8.4 NWjs/0.19.6'
+    family: 'Seznam.cz'
+    major: '3'
+    minor: '8'
+    patch: '4'
+ 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SznProhlizec/4.4i'
+    family: 'Seznam.cz'
+    major: '4'
+    minor: '4'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/42.0 CoRom/36.0.1985.144 Chrome/36.0.1985.144 Safari/537.36'
     family: 'Coc Coc'
     major: '42'

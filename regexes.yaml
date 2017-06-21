@@ -232,6 +232,10 @@ user_agent_parsers:
   - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
     family_replacement: 'Samsung Internet'
 
+  # Seznam.cz browser (based on WebKit)
+  - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+))?'
+    family_replacement: 'Seznam.cz'
+
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+))?'
     family_replacement: 'Coc Coc'
