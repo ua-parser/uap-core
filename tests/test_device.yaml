@@ -79975,3 +79975,23 @@ test_cases:
     brand: 'Huawei'
     model: 'EVA-AL10'
 
+  - user_agent_string: 'Google Web Preview'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; rv:11; NOKIA; Lumia 920) like Gecko'
+    family: 'Lumia 920'
+    brand: 'Nokia'
+    model: 'Lumia 920'
+
