@@ -254,6 +254,8 @@ user_agent_parsers:
   - regex: '(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
   # Chrome Mobile
+  - regex: '; wv\).+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Chrome Mobile WebView'
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
   - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'

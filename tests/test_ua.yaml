@@ -210,6 +210,12 @@ test_cases:
     minor: '0'
     patch: '660'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.2; Nexus 5X Build/N2G47W; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36'
+    family: 'Chrome Mobile WebView'
+    major: '58'
+    minor: '0'
+    patch: '3029'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.2; Galaxy Nexus Build/JOP40C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Chrome Mobile'
     major: '18'
@@ -6822,14 +6828,14 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) HipChat/732 (modern)'
     family: 'HipChat Desktop Client'
     major: '732'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'HipChat Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.7.0 Chrome/49.0.2623.111 Safari/537.36'
     family: 'HipChat Desktop Client'
-    major: 
-    minor: 
-    patch: 
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Microsoft-CryptoAPI/6.1'
     family: 'Microsoft-CryptoAPI'
