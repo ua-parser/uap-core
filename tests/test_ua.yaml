@@ -7156,3 +7156,33 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Bloglovin/1.0 (http://www.bloglovin.com; 1000 subscribers)'
+    family: 'Bloglovin'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Feedbin feed-id:1033517 - 1000 subscribers'
+    family: 'Feedbin'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Tiny Tiny RSS/16.3 (http://tt-rss.org/)'
+    family: 'Tiny Tiny RSS'
+    major: '16'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Mtps Feed Aggregation System'
+    family: 'Mtps Feed Aggregation System'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Stringer'
+    family: 'Stringer'
+    major:
+    minor:
+    patch:
+
