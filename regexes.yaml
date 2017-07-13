@@ -67,7 +67,7 @@ user_agent_parsers:
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d)+)?)?'
     family_replacement: 'Facebook'
   # Instagram
-   - regex: '.*([Ii]nstagram).*'
+   - regex: '.*[Ii]nstagram.*'
      family_replacement: 'Instagram'
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
