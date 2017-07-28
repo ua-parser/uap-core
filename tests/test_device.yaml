@@ -79995,3 +79995,7 @@ test_cases:
     brand: 'Nokia'
     model: 'Lumia 920'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; Build/LMY47D ) AppleWebKit/534.30 (KHTML,like Gecko) Version/5.1 Mobile Safari/534.30 GIONEE-GN3003/GN3003 RV/5.0.16 GNBR/5.1.0.cg Id/8D83E4532006ACCE31D712F4F73C8C70'
+    family: 'Gionee GN3003'
+    brand: 'Gionee'
+    model: 'GN3003'

@@ -311,7 +311,7 @@ user_agent_parsers:
   # Slack desktop client (needs to be before Apple Mail, Electron, and Chrome as it gets wrongly detected on Mac OS otherwise)
   - regex: '(Slack_SSB)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Slack Desktop Client'
-  
+
   # HipChat provides a version on Mac, but not on Windows.
   # Needs to be before Chrome on Windows, and AppleMail on Mac.
   - regex: '(HipChat)/?(\d+)?'
@@ -1988,6 +1988,11 @@ device_parsers:
     brand_replacement: 'Gionee'
     model_replacement: '$1'
   - regex: '; *(E3) Build/JOP40D'
+    device_replacement: 'Gionee $1'
+    brand_replacement: 'Gionee'
+    model_replacement: '$1'
+  - regex: '\sGIONEE[-\s_](\w*)'
+    regex_flag: 'i'
     device_replacement: 'Gionee $1'
     brand_replacement: 'Gionee'
     model_replacement: '$1'
