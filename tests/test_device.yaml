@@ -645,6 +645,11 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; SAMSUNG-SGH-I717 Build/IMM76D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.131 Mobile Safari/537.36'
     family: 'Samsung SGH-I717'
     brand: 'Samsung'
@@ -79949,4 +79954,44 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
+
+  - user_agent_string: 'MobileSafari/602.1 CFNetwork/808.1.4 Darwin/16.1.0'
+    family: 'iOS-Device'
+    brand: 'Apple'
+    model: 'iOS-Device'
+
+  - user_agent_string: 'Safari/12602.2.14.0.7 CFNetwork/807.1.3 Darwin/16.1.0 (x86_64)'
+    family: 'Mac'
+    brand: 'Apple'
+    model: 'Mac'
+
+  - user_agent_string: 'netbarrierd/572 CFNetwork/673.5 Darwin/13.4.0 (x86_64) (MacBookPro11%2C1)'
+    family: 'MacBookPro11,1'
+    brand: 'Apple'
+    model: 'MacBookPro11,1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; EVA-AL10 Build/HUAWEIEVA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36'
+    family: 'EVA-AL10'
+    brand: 'Huawei'
+    model: 'EVA-AL10'
+
+  - user_agent_string: 'Google Web Preview'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; rv:11; NOKIA; Lumia 920) like Gecko'
+    family: 'Lumia 920'
+    brand: 'Nokia'
+    model: 'Lumia 920'
 

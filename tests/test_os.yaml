@@ -420,6 +420,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Other'
     major:
@@ -2341,3 +2348,10 @@ test_cases:
     minor: '0'
     patch: '2883'
     patch_minor: '105'
+
+  - user_agent_string: 'Safari/12602.2.14.0.7 CFNetwork/807.1.3 Darwin/16.1.0 (x86_64)'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '12'
+    patch:
+    patch_minor:
