@@ -12,6 +12,10 @@ user_agent_parsers:
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
 
+  # New Relic Pinger
+  - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
+    family_replacement: 'NewRelicPingerBot'
+
   #StatusCake
   - regex: '(\(StatusCake\))'
     family_replacement: 'StatusCakeBot'

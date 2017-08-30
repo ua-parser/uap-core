@@ -834,6 +834,12 @@ test_cases:
     minor: '8'
     patch: '5'
 
+  - user_agent_string: 'NewRelicPinger/1.0 (1025794)'
+    family: 'NewRelicPingerBot'
+    major: '1'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)'
     family: 'StatusCakeBot'
     major:
