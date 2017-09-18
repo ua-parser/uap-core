@@ -6477,6 +6477,12 @@ test_cases:
     minor: '9'
     patch:
 
+  - user_agent_string: '[FBAN/FB4A;FBAV/130.0.321;FBBV/149649;FBDM/{density=1.5,width=480,height=800};FBLC/es_ES;FBCR/;FBPN/com.facebook.katana;FBDV/LG-P920;FBSV/2.2.2;]'
+    family: 'Facebook'
+    major: '130'
+    minor: '0'
+    patch: '321'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]'
     family: 'Pinterest'
     major:
@@ -6530,6 +6536,12 @@ test_cases:
     major: '0'
     minor: '2'
     patch:
+
+  - user_agent_string: 'Pinterest for Android/1.1.12 (endeavoru; 4.1.1)'
+    family: 'Pinterest'
+    major: '1'
+    minor: '1'
+    patch: '12'
 
   - user_agent_string: 'Pinterest/3.2 CFNetwork/672.0.8 Darwin/14.0.0'
     family: 'CFNetwork'
