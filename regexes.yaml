@@ -1,6 +1,27 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # CFNetwork Podcast catcher Applications
+  - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
+  - regex: '(Antenna)/(\d+) CFNetwork'
+    family_replacement: 'AntennaPod'
+  - regex: '(TopPodcasts)Pro/(\d+) CFNetwork'
+  - regex: '(MusicDownloader)Lite/(\d+)\.(\d+)\.(\d+) CFNetwork'
+  - regex: '^(.*)-iPad/(\d+)\.?(\d+)?.?(\d+)?.?(\d+)? CFNetwork'
+  - regex: '^(.*)-iPhone/(\d+)\.?(\d+)?.?(\d+)?.?(\d+)? CFNetwork'
+  - regex: '^(.*)/(\d+)\.?(\d+)?.?(\d+)?.?(\d+)? CFNetwork'
+
+  # Podcast catchers
+  - regex: '(espn\.go)'
+    family_replacement: 'ESPN'
+  - regex: '(espnradio\.com)'
+    family_replacement: 'ESPN'
+  - regex: 'ESPN APP$'
+    family_replacement: 'ESPN'
+  - regex: '(audioboom\.com)'
+    family_replacement: 'AudioBoom'
+  - regex: ' (Rivo) RHYTHM'
+
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)\.?(\d+)?)?'
     family_replacement: 'CFNetwork'
@@ -311,6 +332,9 @@ user_agent_parsers:
   # AOL Browser (IE-based)
   - regex: '(AOL) (\d+)\.(\d+); AOLBuild (\d+)'
 
+  # Podcast catcher Applications using iTunes
+  - regex: '(PodCruncher|Downcast)[ /]?(\d+)\.?(\d+)?\.?(\d+)?\.?(\d+)?'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -415,6 +439,54 @@ user_agent_parsers:
 
   # Baca Berita App News Reader
   - regex: '(BacaBerita App)\/(\d+)\.(\d+)\.(\d+)'
+
+  # Podcast catchers
+  - regex: '^(bPod|Pocket Casts|Player FM)$'
+  - regex: '^(AlexaMediaPlayer|VLC)/(\d+)\.(\d+)\.([^.\s]+)'
+  - regex: '^(AntennaPod|WMPlayer|Zune|Podkicker|Radio|ExoPlayerDemo|Overcast|PocketTunes|NSPlayer|okhttp|DoggCatcher|QuickNews|QuickTime|Peapod|Podcasts|GoldenPod|VLC|Spotify|Miro|MediaGo|Juice|iPodder|gPodder|Banshee)/(\d+)\.(\d+)\.?(\d+)?\.?(\d+)?'
+  - regex: '^(Peapod|Liferea)/([^.\s]+)\.([^.\s]+)?\.?([^.\s]+)?'
+  - regex: '^(bPod|Player FM) BMID/(\S+)'
+  - regex: '^(Podcast ?Addict)/v(\d+) '
+  - regex: '^(Podcast ?Addict) '
+    family_replacement: 'PodcastAddict'
+  - regex: '(Replay) AV'
+  - regex: '(VOX) Music Player'
+  - regex: '(CITA) RSS Aggregator/(\d+)\.(\d+)'
+  - regex: '(Pocket Casts)$'
+  - regex: '(Player FM)$'
+  - regex: '(LG Player|Doppler|FancyMusic|MediaMonkey|Clementine) (\d+)\.(\d+)\.?([^.\s]+)?\.?([^.\s]+)?'
+  - regex: '(philpodder)/(\d+)\.(\d+)\.?([^.\s]+)?\.?([^.\s]+)?'
+  - regex: '(Player FM|Pocket Casts|DoggCatcher|Spotify|MediaMonkey|MediaGo|BashPodder)'
+  - regex: '(QuickTime)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Kinoma)(\d+)'
+  - regex: '(Fancy) Cloud Music (\d+)\.(\d+)'
+    family_replacement: 'FancyMusic'
+  - regex: 'EspnDownloadManager'
+    family_replacement: 'ESPN'
+  - regex: '(ESPN) Radio (\d+)\.(\d+)\.?(\d+)? ?[rv:]?(\d+)? '
+  - regex: '(podracer|jPodder) v ?(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(ZDM)/(\d+)\.(\d+)[; ]?'
+  - regex: '(Zune|BeyondPod) (\d+)\.?(\d+)?[\);]'
+  - regex: '(WMPlayer)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '^(Lavf)'
+    family_replacement: 'WMPlayer'
+  - regex: '^(RSSRadio)[ /]?(\d+)?'
+  - regex: '(RSS_Radio) (\d+)\.(\d+)'
+    family_replacement: 'RSSRadio'
+  - regex: '(Podkicker) \S+/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Podkicker'
+  - regex: '^(HTC) Streaming Player \S+ / \S+ / \S+ / (\d+)\.(\d+)\.?(\d+)?'
+  - regex: '^(Stitcher)/iOS'
+  - regex: '^(Stitcher)/Android'
+  - regex: '^(VLC) .*version (\d+)\.(\d+)\.(\d+)'
+  - regex: ' (VLC) for'
+  - regex: '(vlc)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'VLC'
+  - regex: '^(foobar)\S+/([^.\s]+)\.([^.\s]+)?\.?([^.\s]+)?'
+  - regex: '^(Clementine)\S+ ([^.\s]+)\.([^.\s]+)?\.?([^.\s]+)?'
+  - regex: '(amarok)/([^.\s]+)\.([^.\s]+)?\.?([^.\s]+)?'
+    family_replacement: 'Amarok'
+  - regex: '(Custom)-Feed Reader'
 
   # Browser major_version.minor_version.beta_version (space instead of slash)
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
