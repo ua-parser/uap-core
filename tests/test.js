@@ -15,7 +15,7 @@ function msg(name, actual, expected) {
 }
 
 ['../test_resources/firefox_user_agent_strings.yaml', '../tests/test_ua.yaml', '../test_resources/pgts_browser_list.yaml',
-  '../test_resources/opera_mini_user_agent_strings.yaml'].forEach(function(fileName) {
+  '../test_resources/opera_mini_user_agent_strings.yaml','../test_resources/podcasting_user_agent_strings.yaml'].forEach(function(fileName) {
   var fixtures = readYAML(fileName).test_cases;
   suite(fileName, function() {
     fixtures.forEach(function(f) {
