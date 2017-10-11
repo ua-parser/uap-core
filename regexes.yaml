@@ -1,6 +1,10 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # TransferWise Mobile App
+  - regex: '(TransferWise)/(\d+)'
+    family_replacement: 'TransferWise Mobile App'
+
   # CFNetwork Podcast catcher Applications
   - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
   - regex: '(Antenna)/(\d+) CFNetwork'
