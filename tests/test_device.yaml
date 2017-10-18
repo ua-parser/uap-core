@@ -79999,3 +79999,18 @@ test_cases:
     family: 'Gionee GN3003'
     brand: 'Gionee'
     model: 'GN3003'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Thor E Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36'
+    family: 'Thor E'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; thor Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36'
+    family: 'Thor'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; Apollo Lite Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36'
+    family: 'Apollo Lite'
+    brand: 'Vernee'
+    model: 'Apollo'

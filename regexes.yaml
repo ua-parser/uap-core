@@ -3939,6 +3939,25 @@ device_parsers:
     model_replacement: '$1'
 
   #########
+  # Vernee
+  # @ref: http://vernee.cc/
+  # @models: Thor - Thor E
+  #########
+  - regex: '; thor Build/'
+    device_replacement: 'Thor'
+    brand_replacement: 'Vernee'
+    model_replacement: 'Thor'
+  # Regex to modidy for Thor Plus (don't find example UA)
+  - regex: '; Thor (E)? Build/'
+    device_replacement: 'Thor $1'
+    brand_replacement: 'Vernee'
+    model_replacement: 'Thor'
+  - regex: '; Apollo Lite Build/'
+    device_replacement: 'Apollo Lite'
+    brand_replacement: 'Vernee'
+    model_replacement: 'Apollo'
+
+  #########
   # Versus
   # @ref: http://versusuk.com/support.html
   #########
