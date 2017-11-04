@@ -335,6 +335,10 @@ user_agent_parsers:
   # Podcast catcher Applications using iTunes
   - regex: '(PodCruncher|Downcast)[ /]?(\d+)\.?(\d+)?\.?(\d+)?\.?(\d+)?'
 
+  # Box Notes https://www.box.com/resources/downloads
+  # Must be before Electron
+  - regex: ' (BoxNotes)/(\d+)\.(\d+)\.(\d+)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -689,6 +693,8 @@ user_agent_parsers:
   - regex: '(Kurio)\/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Kurio App'
 
+  # Box Drive and Box Sync https://www.box.com/resources/downloads
+  - regex: '^(Box(?: Sync)?)/(\d+)\.(\d+)\.(\d+)'
 
 os_parsers:
   ##########
@@ -870,6 +876,10 @@ os_parsers:
   - regex: 'Win32'
     os_replacement: 'Windows 95'
 
+  # Box apps (Drive, Sync, Notes) on Windows https://www.box.com/resources/downloads
+  - regex: '^Box.*Windows/([\d.]+);'
+    os_replacement: 'Windows $1'
+
   ##########
   # Tizen OS from Samsung
   # spoofs Android so pushing it above
@@ -919,6 +929,10 @@ os_parsers:
 
   # ios devices spoof (mac os x), so including intel/ppc prefixes
   - regex: '(?:PPC|Intel) (Mac OS X)'
+
+  # Box Drive and Box Sync on Mac OS X use OSX version numbers, not Darwin
+  - regex: '^Box.*;(Darwin)/(10)\.(1\d)(?:\.(\d+))?'
+    os_replacement: 'Mac OS X'
 
   ##########
   # iOS
