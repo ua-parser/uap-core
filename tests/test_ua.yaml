@@ -2373,6 +2373,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36'
+    family: 'Chrome'
+    major: '60'
+    minor: '0'
+    patch: '3112'
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
     family: 'Chrome'
     major: '27'
@@ -6698,6 +6704,18 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/62.0.3202.89 Safari/537.36'
+    family: 'HeadlessChrome'
+    major: '62'
+    minor: '0'
+    patch: '3202'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/59.0.3071.109 HeadlessChrome/59.0.3071.109 Safari/537.36'
+    family: 'HeadlessChrome'
+    major: '59'
+    minor: '0'
+    patch: '3071'
 
   - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
     family: 'Roku'
