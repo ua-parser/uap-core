@@ -7287,3 +7287,9 @@ test_cases:
     major: '1'
     minor: '2'
     patch: '93'
+
+  - user_agent_string: 'Evolution/3.26.2.1'
+    family: 'Evolution'
+    major: '3'
+    minor: '26'
+    patch: '2.1'
