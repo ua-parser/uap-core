@@ -7293,3 +7293,15 @@ test_cases:
     major: '3'
     minor: '26'
     patch: '2.1'
+
+  - user_agent_string: 'RCM CardDAV plugin/2.0.4'
+    family: 'RCM CardDAV plugin'
+    major: '2'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'RCM CardDAV plugin/0.9.2-dev'
+    family: 'RCM CardDAV plugin'
+    major: '0'
+    minor: '9'
+    patch: '2-dev'
