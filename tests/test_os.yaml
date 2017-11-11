@@ -1074,6 +1074,13 @@ test_cases:
     patch: '4'
     patch_minor:
 
+  - user_agent_string: 'DAVdroid/1.9.2-gplay (2017/11/04; dav4android; okhttp3) Android/7.1.2'
+    family: 'Android'
+    major: '7'
+    minor: '1'
+    patch: '2'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (SymbianOS 9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344'
     family: 'Symbian OS'
     major: '9'

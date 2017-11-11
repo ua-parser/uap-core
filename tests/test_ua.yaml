@@ -7305,3 +7305,9 @@ test_cases:
     major: '0'
     minor: '9'
     patch: '2-dev'
+
+  - user_agent_string: 'DAVdroid/1.9.2-gplay (2017/11/04; dav4android; okhttp3) Android/7.1.2'
+    family: 'DAVdroid'
+    major: '1'
+    minor: '9'
+    patch: '2-gplay'

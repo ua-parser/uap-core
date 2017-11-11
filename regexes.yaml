@@ -66,6 +66,9 @@ user_agent_parsers:
   - regex: '(MSIE) (\d+)\.(\d+)([a-z]\d?)?;.* MSIECrawler'
     family_replacement: 'MSIECrawler'
 
+  # DAVdroid
+  - regex: '(DAVdroid)/(\d+)\.(\d+)\.(\d+(?:-gplay))'
+
   # Downloader ...
   - regex: '(Google-HTTP-Java-Client|Apache-HttpClient|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp)(?:[ /](\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
 
