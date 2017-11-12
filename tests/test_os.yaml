@@ -2411,3 +2411,17 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows) mirall/2.3.2 (build 1) (Nextcloud)'
+    family: 'Windows'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux) mirall/2.3.2 (Nextcloud)'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:

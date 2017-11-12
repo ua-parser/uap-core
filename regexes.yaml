@@ -532,6 +532,11 @@ user_agent_parsers:
   - regex: '(MSIE) (\d+)\.(\d+).*XBLWP7'
     family_replacement: 'IE Large Screen'
 
+  # Nextcloud desktop sync client
+  - regex: '(Nextcloud)'
+
+  # Generic mirall client
+  - regex: '(mirall)/(\d+)\.(\d+)\.(\d+)'
 
   #### END MAIN CASES ####
 

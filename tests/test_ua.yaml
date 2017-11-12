@@ -7317,3 +7317,15 @@ test_cases:
     major: '1'
     minor: '9'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows) mirall/2.3.2 (build 1) (Nextcloud)'
+    family: 'Nextcloud'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux) mirall/2.3.2 (Nextcloud)'
+    family: 'Nextcloud'
+    major:
+    minor:
+    patch:
