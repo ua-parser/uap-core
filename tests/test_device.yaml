@@ -79999,3 +79999,8 @@ test_cases:
     family: 'Gionee GN3003'
     brand: 'Gionee'
     model: 'GN3003'
+
+  - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
+    family: 'Generic Smartphone'
+    brand: 'Generic'
+    model: 'Smartphone'

@@ -538,6 +538,10 @@ user_agent_parsers:
   # Generic mirall client
   - regex: '(mirall)/(\d+)\.(\d+)\.(\d+)'
 
+  # Nextcloud/Owncloud android client
+  - regex: '(ownCloud-android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Owncloud'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####

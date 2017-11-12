@@ -7329,3 +7329,9 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
+    family: 'Owncloud'
+    major: '2'
+    minor: '0'
+    patch: '0'
