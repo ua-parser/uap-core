@@ -1074,6 +1074,13 @@ test_cases:
     patch: '4'
     patch_minor:
 
+  - user_agent_string: 'DAVdroid/1.9.2-gplay (2017/11/04; dav4android; okhttp3) Android/7.1.2'
+    family: 'Android'
+    major: '7'
+    minor: '1'
+    patch: '2'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (SymbianOS 9.4; Series60/5.0 NokiaN97-1/10.0.012; Profile/MIDP-2.1 Configuration/CLDC-1.1; en-us) AppleWebKit/525 (KHTML, like Gecko) WicKed/7.1.12344'
     family: 'Symbian OS'
     major: '9'
@@ -2400,6 +2407,27 @@ test_cases:
 
   - user_agent_string: 'Box/1.2.93;Windows/10;Intel64 Family 6 Model 158 Stepping 9, GenuineIntel/64bit'
     family: 'Windows 10'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows) mirall/2.3.2 (build 1) (Nextcloud)'
+    family: 'Windows'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux) mirall/2.3.2 (Nextcloud)'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
+    family: 'Android'
     major:
     minor:
     patch:

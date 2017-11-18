@@ -7287,3 +7287,51 @@ test_cases:
     major: '1'
     minor: '2'
     patch: '93'
+
+  - user_agent_string: 'Evolution/3.26.2.1'
+    family: 'Evolution'
+    major: '3'
+    minor: '26'
+    patch: '2.1'
+
+  - user_agent_string: 'RCM CardDAV plugin/2.0.4'
+    family: 'RCM CardDAV plugin'
+    major: '2'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'RCM CardDAV plugin/0.9.2-dev'
+    family: 'RCM CardDAV plugin'
+    major: '0'
+    minor: '9'
+    patch: '2-dev'
+
+  - user_agent_string: 'DAVdroid/1.9.2-gplay (2017/11/04; dav4android; okhttp3) Android/7.1.2'
+    family: 'DAVdroid'
+    major: '1'
+    minor: '9'
+    patch: '2'
+
+  - user_agent_string: 'DAVdroid/1.9-ose (2017/10/19; dav4android; okhttp3) Android/7.1.2'
+    family: 'DAVdroid'
+    major: '1'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows) mirall/2.3.2 (build 1) (Nextcloud)'
+    family: 'Nextcloud'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux) mirall/2.3.2 (Nextcloud)'
+    family: 'Nextcloud'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
+    family: 'Owncloud'
+    major: '2'
+    minor: '0'
+    patch: '0'

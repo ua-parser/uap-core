@@ -66,6 +66,9 @@ user_agent_parsers:
   - regex: '(MSIE) (\d+)\.(\d+)([a-z]\d?)?;.* MSIECrawler'
     family_replacement: 'MSIECrawler'
 
+  # DAVdroid
+  - regex: '(DAVdroid)/(\d+)\.(\d+)(?:\.(\d+))?'
+
   # Downloader ...
   - regex: '(Google-HTTP-Java-Client|Apache-HttpClient|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp)(?:[ /](\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
 
@@ -421,6 +424,12 @@ user_agent_parsers:
   # https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md
   - regex: '(HeadlessChrome)(?:/(\d+)\.(\d+)\.(\d+))?'
 
+  # Evolution Mail CardDav/CalDav integration
+  - regex: '(Evolution)/(\d+)\.(\d+)\.(\d+\.\d+)'
+
+  # Roundcube Mail CardDav plugin
+  - regex: '(RCM CardDAV plugin)/(\d+)\.(\d+)\.(\d+(?:-dev)?)'
+
   # Browser/major_version.minor_version
   - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+))?'
 
@@ -523,6 +532,15 @@ user_agent_parsers:
   - regex: '(MSIE) (\d+)\.(\d+).*XBLWP7'
     family_replacement: 'IE Large Screen'
 
+  # Nextcloud desktop sync client
+  - regex: '(Nextcloud)'
+
+  # Generic mirall client
+  - regex: '(mirall)/(\d+)\.(\d+)\.(\d+)'
+
+  # Nextcloud/Owncloud android client
+  - regex: '(ownCloud-android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Owncloud'
 
   #### END MAIN CASES ####
 
