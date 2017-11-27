@@ -7173,7 +7173,7 @@ test_cases:
     major: '3'
     minor: '8'
     patch: '4'
- 
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SznProhlizec/4.4i'
     family: 'Seznam.cz'
     major: '4'
@@ -7335,3 +7335,9 @@ test_cases:
     major: '2'
     minor: '0'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) AppleNews/608.0.1 Version/2.0.1'
+    family: 'Mobile Safari UI/WKWebView'
+    major: '10'
+    minor: '0'
+    patch: '2'
