@@ -27,7 +27,7 @@
   "devDependencies": {
     "yamlparser": ">=0.0.2",
     "mocha": "*",
-    "uap-ref-impl": "git@github.com:theikkila/uap-ref-impl.git#65a6a3b8df233eecd20bc88ee22d3c0e3bb2512c"
+    "uap-ref-impl": "theikkila/uap-ref-impl"
   },
   "scripts": {
     "test": "mocha -u tdd -R min ./tests/test.js"
