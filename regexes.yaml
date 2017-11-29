@@ -4582,6 +4582,10 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Apple'
     model_replacement: '$1'
+  - regex: 'iPhone'
+    device_replacement: 'iPhone'
+    brand_replacement: 'Apple'
+    model_replacement: 'iPhone'
   # @note: desktop applications show device info
   - regex: 'CFNetwork/.* Darwin/\d.*\(((?:Mac|iMac|PowerMac|PowerBook)[^\d]*)(\d+)(?:,|%2C)(\d+)'
     device_replacement: '$1$2,$3'
