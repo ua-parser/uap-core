@@ -361,9 +361,9 @@ test_cases:
     model:
 
   - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
-    family: 'Generic Smartphone'
-    brand: 'Generic'
-    model: 'Smartphone'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
 
   - user_agent_string: 'Opera/9.80 (VRE; Opera Mini/4.2/28.2794; U; en) Presto/2.8.119 Version/11.10'
     family: 'Generic Feature Phone'
@@ -79999,6 +79999,11 @@ test_cases:
     family: 'Gionee GN3003'
     brand: 'Gionee'
     model: 'GN3003'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone## CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
 
   - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
     family: 'Generic Smartphone'
