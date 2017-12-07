@@ -861,55 +861,75 @@ os_parsers:
     os_replacement: 'Windows Mobile'
 
   - regex: '(Windows (?:NT 5\.2|NT 5\.1))'
-    os_replacement: 'Windows XP'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'XP'
 
   - regex: '(Windows NT 6\.1)'
-    os_replacement: 'Windows 7'
+    os_replacement: 'Windows'
+    os_v1_replacement: '7'
 
   - regex: '(Windows NT 6\.0)'
-    os_replacement: 'Windows Vista'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'Vista'
 
   - regex: '(Win 9x 4\.90)'
-    os_replacement: 'Windows ME'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'ME'
 
   - regex: '(Windows 98|Windows XP|Windows ME|Windows 95|Windows CE|Windows 7|Windows NT 4\.0|Windows Vista|Windows 2000|Windows 3.1)'
 
   - regex: '(Windows NT 6\.2; ARM;)'
-    os_replacement: 'Windows RT'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'RT'
+
   - regex: '(Windows NT 6\.2)'
-    os_replacement: 'Windows 8'
+    os_replacement: 'Windows'
+    os_v1_replacement: '8'
 
   - regex: '(Windows NT 6\.3; ARM;)'
-    os_replacement: 'Windows RT 8.1'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'RT 8.1'
+
   - regex: '(Windows NT 6\.3)'
-    os_replacement: 'Windows 8.1'
+    os_replacement: 'Windows'
+    os_v1_replacement: '8.1'
 
   - regex: '(Windows NT 6\.4)'
-    os_replacement: 'Windows 10'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
+
   - regex: '(Windows NT 10\.0)'
-    os_replacement: 'Windows 10'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
 
   - regex: '(Windows NT 5\.0)'
-    os_replacement: 'Windows 2000'
+    os_replacement: 'Windows'
+    os_v1_replacement: '2000'
 
   - regex: '(WinNT4.0)'
-    os_replacement: 'Windows NT 4.0'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'NT 4.0'
 
   - regex: '(Windows ?CE)'
-    os_replacement: 'Windows CE'
+    os_replacement: 'Windows'
+    os_v1_replacement: 'CE'
 
   - regex: 'Win ?(95|98|3.1|NT|ME|2000)'
-    os_replacement: 'Windows $1'
+    os_replacement: 'Windows'
+    os_v1_replacement: '$1'
 
   - regex: 'Win16'
-    os_replacement: 'Windows 3.1'
+    os_replacement: 'Windows'
+    os_v1_replacement: '3.1'
 
   - regex: 'Win32'
-    os_replacement: 'Windows 95'
+    os_replacement: 'Windows'
+    os_v1_replacement: '95'
 
   # Box apps (Drive, Sync, Notes) on Windows https://www.box.com/resources/downloads
   - regex: '^Box.*Windows/([\d.]+);'
-    os_replacement: 'Windows $1'
+    os_replacement: 'Windows'
+    os_v1_replacement: '$1'
 
   ##########
   # Tizen OS from Samsung

@@ -27,7 +27,7 @@
   "devDependencies": {
     "yamlparser": ">=0.0.2",
     "mocha": "*",
-	"uap-ref-impl": "*"
+    "uap-ref-impl": "ua-parser/uap-ref-impl"
   },
   "scripts": {
     "test": "mocha -u tdd -R min ./tests/test.js"
