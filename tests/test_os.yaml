@@ -2432,3 +2432,45 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/811.4.18 Darwin/16.5.0'
+    family: 'iOS'
+    major: '10'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/811.5.4 Darwin/16.6.0'
+    family: 'iOS'
+    major: '10'
+    minor: '3'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/811.5.4 Darwin/16.7.0'
+    family: 'iOS'
+    major: '10'
+    minor: '3'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/887 Darwin/17.0.0'
+    family: 'iOS'
+    major: '11'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/889.9 Darwin/17.2.0'
+    family: 'iOS'
+    major: '11'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/893.10 Darwin/17.3.0'
+    family: 'iOS'
+    major: '11'
+    minor: '2'
+    patch:
+    patch_minor:
