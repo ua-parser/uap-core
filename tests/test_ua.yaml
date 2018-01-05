@@ -7359,3 +7359,9 @@ test_cases:
     major: '9'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Tableau/1.0 (1025794)'
+    family: 'Tableau'
+    major: '1'
+    minor: '0'
+    patch:
