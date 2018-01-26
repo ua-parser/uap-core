@@ -1055,6 +1055,10 @@ os_parsers:
   # CFNetwork macOS Apps (must be before CFNetwork iOS Apps
   # @ref: https://en.wikipedia.org/wiki/Darwin_(operating_system)#Release_history
   ##########
+  - regex: 'CFNetwork/.* Darwin/17\.\d+.*\(x86_64\)'
+    os_replacement: 'Mac OS X'
+    os_v1_replacement: '10'
+    os_v2_replacement: '13'
   - regex: 'CFNetwork/.* Darwin/16\.\d+.*\(x86_64\)'
     os_replacement: 'Mac OS X'
     os_v1_replacement: '10'
