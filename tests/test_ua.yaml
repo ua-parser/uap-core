@@ -7359,3 +7359,15 @@ test_cases:
     major: '9'
     minor: '0'
     patch:
+
+  - user_agent_string: 'BUbiNG (+http://law.di.unimi.it/BUbiNG.html)'
+    family: 'BUbiNG'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SemrushBot/1.2~bl; +http://www.semrush.com/bot.html)'
+    family: 'SemrushBot'
+    major: '1'
+    minor: '2'
+    patch:
