@@ -36,6 +36,10 @@ user_agent_parsers:
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
+    
+  # Tableau
+  - regex: '(Tableau)/(\d+)\.(\d+)'
+    family_replacement: 'Tableau'
 
   #StatusCake
   - regex: '(\(StatusCake\))'
