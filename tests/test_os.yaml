@@ -2474,3 +2474,10 @@ test_cases:
     minor: '2'
     patch:
     patch_minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/9999.99 Darwin/99.99.99'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
