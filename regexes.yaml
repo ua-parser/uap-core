@@ -36,6 +36,10 @@ user_agent_parsers:
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
+    
+  # Tableau
+  - regex: '(Tableau)/(\d+)\.(\d+)'
+    family_replacement: 'Tableau'
 
   #StatusCake
   - regex: '(\(StatusCake\))'
@@ -1126,6 +1130,9 @@ os_parsers:
   - regex: 'CFNetwork/8.* Darwin/(17)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '11'
+  - regex: 'CFNetwork/.* Darwin/'
+    os_replacement: 'iOS'
+
   # iOS Apps
   - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
     os_replacement: 'iOS'
