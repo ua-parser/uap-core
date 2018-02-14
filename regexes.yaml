@@ -3550,7 +3550,7 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'RCA'
     model_replacement: '$1'
-  - regex: '; (RCA \w+) Build/'
+  - regex: '; RCA (\w+) Build/'
     device_replacement: 'RCA $1'
     brand_replacement: 'RCA'
     model_replacement: '$1'
