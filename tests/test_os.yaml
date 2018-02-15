@@ -2475,9 +2475,10 @@ test_cases:
     patch:
     patch_minor:
 
-  - user_agent_string: 'MyApp/1.0 CFNetwork/9999.99 Darwin/99.99.99'
-    family: 'iOS'
-    major:
-    minor:
+
+  - user_agent_string: 'MyApp/1.0 CFNetwork/893.13.1 Darwin/17.3.0 (x86_64)'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '13'
     patch:
     patch_minor:
