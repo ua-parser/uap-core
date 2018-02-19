@@ -2482,3 +2482,10 @@ test_cases:
     minor: '13'
     patch:
     patch_minor:
+
+  - user_agent_string: 'Outlook-iOS/665.29827.prod.iphone (2.63.0)'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:

@@ -80014,3 +80014,8 @@ test_cases:
     family: 'Generic Smartphone'
     brand: 'Generic'
     model: 'Smartphone'
+
+  - user_agent_string: 'Outlook-iOS/665.29827.prod.iphone (2.63.0)'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
