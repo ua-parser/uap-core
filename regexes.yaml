@@ -105,6 +105,8 @@ user_agent_parsers:
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+  # Instagram app
+  - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
 
   # Pale Moon
   - regex: '(PaleMoon)/(\d+)\.(\d+)\.?(\d+)?'
