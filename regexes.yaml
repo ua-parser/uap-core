@@ -2489,7 +2489,7 @@ device_parsers:
     device_replacement: '$1 $2'
     brand_replacement: 'iBall'
     model_replacement: '$1 $2'
-  - regex: '; *(IBall)(?:[ _]([^;/]+)|) Build'
+  - regex: '; *(IBall)(?:[ _]([^;/]+))? Build'
     regex_flag: 'i'
     device_replacement: '$1 $2'
     brand_replacement: 'iBall'
@@ -4848,7 +4848,7 @@ device_parsers:
   ##########
   # LGE NetCast TV
   ##########
-  - regex: 'LGE; (?:Media\/)?([^;]*);[^;]*;[^;]*;?\); "?LG NetCast(\.TV|\.Media|)-\d+'
+  - regex: 'LGE; (?:Media\/)?([^;]*);[^;]*;[^;]*;?\); "?LG NetCast(\.TV|\.Media)?-\d+'
     device_replacement: 'NetCast$2'
     brand_replacement: 'LG'
     model_replacement: '$1'
