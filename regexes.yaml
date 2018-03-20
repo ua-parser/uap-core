@@ -36,7 +36,7 @@ user_agent_parsers:
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
-    
+
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
@@ -270,7 +270,7 @@ user_agent_parsers:
 
   # Seznam.cz browser (based on WebKit)
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+))?'
-    family_replacement: 'Seznam.cz'
+    family_replacement: 'Seznam prohlížeč'
 
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -589,6 +589,11 @@ user_agent_parsers:
   - regex: '(iPod|iPhone|iPad)'
     family_replacement: 'Mobile Safari UI/WKWebView'
 
+  ##########################
+  # Outlook on iOS >= 2.62.0
+  ##########################
+  - regex: '(Outlook-iOS)/\d+\.\d+\.prod\.iphone \((\d+)\.(\d+)\.(\d+)\)'
+
   - regex: '(AvantGo) (\d+).(\d+)'
 
   - regex: '(OneBrowser)/(\d+).(\d+)'
@@ -678,7 +683,7 @@ user_agent_parsers:
 
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
- 
+
   - regex: '(Trident)/(7|8)\.(0)'
     family_replacement: 'IE'
     v1_replacement: '11'
@@ -1137,6 +1142,11 @@ os_parsers:
   - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+))?'
     os_replacement: 'iOS'
   - regex: '\((iOS);'
+
+  ##########################
+  # Outlook on iOS >= 2.62.0
+  ##########################
+  - regex: 'Outlook-(iOS)/\d+\.\d+\.prod\.iphone'
 
   ##########
   # Apple TV
@@ -4679,6 +4689,14 @@ device_parsers:
     device_replacement: 'iOS-Device'
     brand_replacement: 'Apple'
     model_replacement: 'iOS-Device'
+
+  ##########################
+  # Outlook on iOS >= 2.62.0
+  ##########################
+  - regex: 'Outlook-(iOS)/\d+\.\d+\.prod\.iphone'
+    brand_replacement: 'Apple'
+    device_replacement: 'iPhone'
+    model_replacement: 'iPhone'
 
   ##########
   # Acer
