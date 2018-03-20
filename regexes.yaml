@@ -95,8 +95,8 @@ user_agent_parsers:
   # See os_parsers if you want to target a specific TV
   - regex: '(HbbTV)/(\d+)\.(\d+)\.(\d+) \('
 
-  # must go before Firefox to catch Chimera/SeaMonkey/Camino
-  - regex: '(Chimera|SeaMonkey|Camino)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
+  # must go before Firefox to catch Chimera/SeaMonkey/Camino/Waterfox
+  - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
   # Facebook
@@ -105,6 +105,10 @@ user_agent_parsers:
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+
+  # Basilisk
+  - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
+    family_replacement: 'Basilisk'
 
   # Pale Moon
   - regex: '(PaleMoon)/(\d+)\.(\d+)\.?(\d+)?'

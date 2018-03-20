@@ -7431,3 +7431,15 @@ test_cases:
     major: '4'
     minor: '0'
     patch:
+      
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.2.2 Waterfox/55.2.2'
+    family: 'Waterfox'
+    major: '55'
+    minor: '2'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Goanna/4.0 Firefox/55.0 Basilisk/20171113'
+    family: 'Basilisk'
+    major: '55'
+    minor: '0'
+    patch: '20171113'
