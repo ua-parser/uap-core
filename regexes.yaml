@@ -478,7 +478,7 @@ user_agent_parsers:
     family_replacement: 'FancyMusic'
   - regex: 'EspnDownloadManager'
     family_replacement: 'ESPN'
-  - regex: '(ESPN) Radio (\d+)\.(\d+)\.?(\d+)? ?(?:rv:(\d+))? '
+  - regex: '(ESPN) Radio (\d+)\.(\d+)\.?(\d+)? ?[rv:]?(\d+)? '
   - regex: '(podracer|jPodder) v ?(\d+)\.(\d+)\.?(\d+)?'
   - regex: '(ZDM)/(\d+)\.(\d+)[; ]?'
   - regex: '(Zune|BeyondPod) (\d+)\.?(\d+)?[\);]'
