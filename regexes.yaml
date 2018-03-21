@@ -36,7 +36,7 @@ user_agent_parsers:
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
-    
+
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
@@ -270,7 +270,7 @@ user_agent_parsers:
 
   # Seznam.cz browser (based on WebKit)
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+))?'
-    family_replacement: 'Seznam.cz'
+    family_replacement: 'Seznam prohlížeč'
 
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -683,8 +683,8 @@ user_agent_parsers:
 
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
- 
-  - regex: '(Trident)/(7)\.(0)'
+
+  - regex: '(Trident)/(7|8)\.(0)'
     family_replacement: 'IE'
     v1_replacement: '11'
 
