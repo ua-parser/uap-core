@@ -7389,3 +7389,28 @@ test_cases:
     major: '2'
     minor: '63'
     patch: '0'
+
+  - user_agent_string: 'ESPN Radio/3.2.113 CFNetwork/485.12.30 Darwin/10.4.0'
+    family: 'ESPN'
+    major: '3'
+    minor: '2'
+    patch: '113'
+
+  - user_agent_string: 'ESPN Radio 4.7.4 rv:1032 (iPhone; iPhone OS 9.2.1; en_US)'
+    family: 'ESPN'
+    major: '4'
+    minor: '7'
+    patch: '4'
+    patch_minor: '1032'
+
+  - user_agent_string: 'ESPN Radio 4.5.1 (iPhone; iPhone OS 5.1.1; en_US)'
+    family: 'ESPN'
+    major: '4'
+    minor: '5'
+    patch: '1'
+
+  - user_agent_string: 'ESPN Radio 4.0 (iPhone; iPhone OS 7.1.2; en_AU)'
+    family: 'ESPN'
+    major: '4'
+    minor: '0'
+    patch:
