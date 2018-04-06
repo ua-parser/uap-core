@@ -36,7 +36,7 @@ user_agent_parsers:
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
-    
+
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
@@ -95,8 +95,8 @@ user_agent_parsers:
   # See os_parsers if you want to target a specific TV
   - regex: '(HbbTV)/(\d+)\.(\d+)\.(\d+) \('
 
-  # must go before Firefox to catch Chimera/SeaMonkey/Camino
-  - regex: '(Chimera|SeaMonkey|Camino)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
+  # must go before Firefox to catch Chimera/SeaMonkey/Camino/Waterfox
+  - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
   # Facebook
@@ -113,6 +113,10 @@ user_agent_parsers:
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
+
+  # Basilisk
+  - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
+    family_replacement: 'Basilisk'
 
   # Pale Moon
   - regex: '(PaleMoon)/(\d+)\.(\d+)\.?(\d+)?'
@@ -278,7 +282,7 @@ user_agent_parsers:
 
   # Seznam.cz browser (based on WebKit)
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+))?'
-    family_replacement: 'Seznam.cz'
+    family_replacement: 'Seznam prohlížeč'
 
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+))?'
@@ -486,7 +490,7 @@ user_agent_parsers:
     family_replacement: 'FancyMusic'
   - regex: 'EspnDownloadManager'
     family_replacement: 'ESPN'
-  - regex: '(ESPN) Radio (\d+)\.(\d+)\.?(\d+)? ?[rv:]?(\d+)? '
+  - regex: '(ESPN) Radio (\d+)\.(\d+)\.?(\d+)? ?(?:rv:(\d+))? '
   - regex: '(podracer|jPodder) v ?(\d+)\.(\d+)\.?(\d+)?'
   - regex: '(ZDM)/(\d+)\.(\d+)[; ]?'
   - regex: '(Zune|BeyondPod) (\d+)\.?(\d+)?[\);]'
@@ -691,8 +695,8 @@ user_agent_parsers:
 
   - regex: '(Phantom)/V(\d+)\.(\d+)'
     family_replacement: 'Phantom Browser'
- 
-  - regex: '(Trident)/(7)\.(0)'
+
+  - regex: '(Trident)/(7|8)\.(0)'
     family_replacement: 'IE'
     v1_replacement: '11'
 
