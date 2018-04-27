@@ -738,7 +738,7 @@ user_agent_parsers:
     family_replacement: 'Python Requests'
 
   # headless user-agents
-  - regex: '\b(Windows-Update-Agent|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|Wget|OpenBSD ftp|jupdate)(?:[ /](\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
+  - regex: '\b(Windows-Update-Agent|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|aria2|Axel|OpenBSD ftp|lftp|jupdate)(?:[ /](\d+)(?:\.(\d+)(?:\.(\d+))?)?)?'
 
   - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+)*'
 
