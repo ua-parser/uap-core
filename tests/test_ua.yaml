@@ -7499,3 +7499,81 @@ test_cases:
     minor: '8'
     patch: '1'
 
+  - user_agent_string: 'Boto/2.48.0 Python/2.7.14 Linux/4.2.0-41-generic'
+    family: 'Boto'
+    major: '2'
+    minor: '48'
+    patch: '0'
+
+  - user_agent_string: 'aws-cli/1.14.9 Python/2.7.12 Linux/4.9.76-3.78.amzn1.x86_64 botocore/1.8.13'
+    family: 'aws-cli'
+    major: '1'
+    minor: '14'
+    patch: '9'
+
+  - user_agent_string: 'Boto3/1.6.2 Python/3.4.3 Linux/4.4.35-33.55.amzn1.x86_64 Botocore/1.9.2 Resource'
+    family: 'Boto3'
+    major: '1'
+    minor: '6'
+    patch: '2'
+
+  - user_agent_string: 'ElasticMapReduce/1.0.0 emrfs/s3n {}, aws-sdk-java/1.11.129 Linux/4.4.35-33.55.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/25.141-b16/1.8.0_141 scala/2.11.8'
+    family: 'aws-sdk-java'
+    major: '1'
+    minor: '11'
+    patch: '129'
+
+  - user_agent_string: 'Hadoop 2.6.0-cdh5.14.0, aws-sdk-java/1.11.134 Linux/4.4.0-1052-aws OpenJDK_64-Bit_Server_VM/25.151-b12/1.8.0_151'
+    family: 'aws-sdk-java'
+    major: '1'
+    minor: '11'
+    patch: '134'
+
+  - user_agent_string: 'Hadoop 2.8.3-amzn-0, aws-sdk-java/1.11.267 Linux/4.9.77-31.58.amzn1.x86_64 OpenJDK_64-Bit_Server_VM/25.161-b14 java/1.8.0_161 scala/2.11.8'
+    family: 'aws-sdk-java'
+    major: '1'
+    minor: '11'
+    patch: '267'
+
+  - user_agent_string: 'aws-sdk-java/1.11.226 Mac_OS_X/10.12.6 Java_HotSpot(TM)_64-Bit_Server_VM/25.131-b11 java/1.8.0_131 scala/2.11.11'
+    family: 'aws-sdk-java'
+    major: '1'
+    minor: '11'
+    patch: '226'
+
+  - user_agent_string: 'aws-sdk-ruby2/2.2.18 ruby/2.1.5 x86_64-linux'
+    family: 'aws-sdk-ruby2'
+    major: '2'
+    minor: '2'
+    patch: '18'
+
+  - user_agent_string: 'aws-sdk-cpp/1.0.64 Linux/4.4.0-66-generic x86_64'
+    family: 'aws-sdk-cpp'
+    major: '1'
+    minor: '0'
+    patch: '64'
+
+  - user_agent_string: 'aws-sdk-go/1.4.12 (go1.6; linux; amd64) S3Manager'
+    family: 'aws-sdk-go'
+    major: '1'
+    minor: '4'
+    patch: '12'
+
+  - user_agent_string: 'aws-sdk-nodejs/2.141.0 win32/v8.4.0'
+    family: 'aws-sdk-nodejs'
+    major: '2'
+    minor: '141'
+    patch: '0'
+
+  - user_agent_string: 'JetS3t/0.9.0 (Linux/4.4.0-1044-aws; amd64; en; JVM 1.8.0_131)'
+    family: 'JetS3t'
+    major: '0'
+    minor: '9'
+    patch: '0'
+
+  - user_agent_string: 's3fs/1.80 (commit hash 6be3236; OpenSSL)'
+    family: 's3fs'
+    major: '1'
+    minor: '80'
+    patch:
+
