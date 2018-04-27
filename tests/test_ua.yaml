@@ -7480,3 +7480,22 @@ test_cases:
     major: '55'
     minor: '0'
     patch: '20171113'
+
+  - user_agent_string: 'Go-http-client/1.1'
+    family: 'Go-http-client'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'scalaj-http/1.0'
+    family: 'scalaj-http'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'reqwest/0.8.1'
+    family: 'reqwest'
+    major: '0'
+    minor: '8'
+    patch: '1'
+
