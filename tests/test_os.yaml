@@ -2532,3 +2532,24 @@ test_cases:
     patch:
     patch_minor:
     
+  - user_agent_string: 'Wget/1.18 (linux-gnu)'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Wget/1.18 (freebsd10.3)'
+    family: 'FreeBSD'
+    major: '10'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.19.1 Basic ECC zlib/1.2.3 libidn/1.18 libssh2/1.4.2'
+    family: 'Red Hat'
+    major:
+    minor:
+    patch:
+    patch_minor:
+

@@ -1326,6 +1326,13 @@ os_parsers:
   - regex: '(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+))?)?'
   - regex: 'SunOS'
     os_replacement: 'Solaris'
+  # Wget/x.x.x (linux-gnu)
+  - regex: '\(linux-gnu\)'
+    os_replacement: 'Linux'
+  - regex: '\(x86_64-redhat-linux-gnu\)'
+    os_replacement: 'Red Hat'
+  - regex: '\((freebsd)(\d+)\.(\d+)\)'
+    os_replacement: 'FreeBSD'
 
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
