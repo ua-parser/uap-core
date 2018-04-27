@@ -7577,3 +7577,21 @@ test_cases:
     minor: '80'
     patch:
 
+  - user_agent_string: 'Cyberduck/6.3.0.27105 (Windows 10/10.0) (x86)'
+    family: 'Cyberduck'
+    major: '6'
+    minor: '3'
+    patch: '0'
+
+  - user_agent_string: 'S3 Browser 7-4-5 https://s3browser.com'
+    family: 'S3 Browser'
+    major: '7'
+    minor: '4'
+    patch: '5'
+
+  - user_agent_string: 'rclone/v1.34'
+    family: 'rclone'
+    major: '1'
+    minor: '34'
+    patch:
+

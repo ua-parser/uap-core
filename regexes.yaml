@@ -742,6 +742,12 @@ user_agent_parsers:
 
   - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+)*'
 
+  # Cloud Storage Clients
+  - regex: '^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+)?'
+  - regex: '^(S3 Browser) (\d+)-(\d+)-(\d+)(?:\s*http://s3browser\.com)?'
+  # rclone - rsync for cloud storage - https://rclone.org/
+  - regex: '^(rclone)/v(\d+)\.(\d+)'
+
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
 
