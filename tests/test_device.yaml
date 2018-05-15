@@ -79760,6 +79760,16 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/spd)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'NewsGator FetchLinks extension/0.2.0 (http://graemef.com)'
     family: 'Spider'
     brand: 'Spider'
