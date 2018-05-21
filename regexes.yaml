@@ -41,6 +41,9 @@ user_agent_parsers:
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
 
+  # Salesforce
+  - regex: '(Salesforce)(?:.)\/(\d+)\.(\d?)'
+
   #StatusCake
   - regex: '(\(StatusCake\))'
     family_replacement: 'StatusCakeBot'
@@ -865,6 +868,10 @@ os_parsers:
     os_replacement: 'Windows Phone'
   # JUC
   - regex: '^(JUC).*; ?U; ?(?:Android)?(\d+)\.(\d+)(?:[\.\-]([a-z0-9]+))?'
+    os_replacement: 'Android'
+
+  # Salesforce
+  - regex: '(android)\s(?:mobile\/)(\d+)\.(\d+)\.?(\d+)?'
     os_replacement: 'Android'
 
   ##########
