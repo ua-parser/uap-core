@@ -7619,3 +7619,9 @@ test_cases:
     minor: '19'
     patch: '0'
 
+  - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/7.1.1 (XT1635-02) Salesforce1/15.2 Native uid_bef1747905d064c6 ftr_ Cordova/6.2.3'
+    family: 'Salesforce'
+    major: '15'
+    minor: '2'
+    patch: 
+
