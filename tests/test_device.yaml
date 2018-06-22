@@ -91,12 +91,12 @@ test_cases:
     model: 'iPhone'
 
   - user_agent_string: 'AppleCoreMedia/1.0.0.16R5303d (Apple Watch; U; CPU OS 5_0 like Mac OS X; en_au)'
-    family: 'iPhone'
+    family: 'Apple Watch'
     brand: 'Apple'
     model: 'Apple Watch'
 
   - user_agent_string: 'AppleCoreMedia/1.0.0.16A303 (HomePod; U; CPU OS 12_0 like Mac OS X; en_us)'
-    family: 'iPhone'
+    family: 'HomePod'
     brand: 'Apple'
     model: 'HomePod'
 
