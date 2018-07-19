@@ -2054,6 +2054,41 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/1.0.0 CFNetwork/894 Darwin/17.4.0'
+    family: 'iOS'
+    major: '11'
+    minor: '2'
+    patch: '6'
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/897.15 Darwin/17.5.0'
+    family: 'iOS'
+    major: '11'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/901.1 Darwin/17.6.0'
+    family: 'iOS'
+    major: '11'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/902.2 Darwin/17.7.0'
+    family: 'iOS'
+    major: '11'
+    minor: '4'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/958.1 Darwin/18.0.0'
+    family: 'iOS'
+    major: '12'
+    minor: '0'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU 7_0_6 like Mac OS X; en_GB) AppleWebKit (KHTML, like Gecko) Mobile [OKMagazine/4.0.1 (iOS/7.0.6)] [LiteApps]'
     family: 'iOS'
     major: '7'
@@ -2216,6 +2251,27 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'TestApp/1.0 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'TestApp/1.0 CFNetwork/758.4.3 Darwin/15.5.0'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'TestApp/1.0 CFNetwork/758.5.3 Darwin/15.6.0'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '5'
+    patch_minor:
+
   - user_agent_string: 'TestApp/1.0 CFNetwork/808.0.2 Darwin/16.0.0'
     family: 'iOS'
     major: '10'
@@ -2235,6 +2291,13 @@ test_cases:
     major: '10'
     minor: '2'
     patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/808.3 Darwin/16.3.0'
+    family: 'iOS'
+    major: '10'
+    minor: '2'
+    patch: '1'
     patch_minor:
 
   - user_agent_string: 'TestApp-tvOS/1.0-1'
