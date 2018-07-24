@@ -216,6 +216,13 @@ test_cases:
     minor: '0'
     patch: '3029'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; SHV31 Build/S2280) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
+    family: 'Chrome Mobile WebView'
+    major: '33'
+    minor: '0'
+    patch: '0'
+    patch_minor: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.2; Galaxy Nexus Build/JOP40C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Chrome Mobile'
     major: '18'
@@ -6844,7 +6851,7 @@ test_cases:
     patch: '1084'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; SM-G850F Build/KTU84P) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16 Chrome/33.0.0.0'
-    family: 'Chrome Mobile'
+    family: 'Chrome Mobile WebView'
     major: '33'
     minor: '0'
     patch: '0'
