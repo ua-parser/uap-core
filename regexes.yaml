@@ -60,6 +60,10 @@ user_agent_parsers:
   - regex: 'via ggpht.com GoogleImageProxy'
     family_replacement: 'GmailImageProxy'
 
+  # Yahoo
+  - regex: 'YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html'
+    family_replacement: 'YahooMailProxy'
+
   # Twitter
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
     family_replacement: 'TwitterBot'
