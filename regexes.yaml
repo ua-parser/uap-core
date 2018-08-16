@@ -844,7 +844,7 @@ os_parsers:
   # Android
   # can actually detect rooted android os. do we care?
   ##########
-  - regex: '(Android)[ \-/](\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?'
+  - regex: '(Android)[ \-/](\d+)(?:\.(\d+))?(?:[.\-]([a-z0-9]+))?'
 
   - regex: '(Android) Donut'
     os_v1_replacement: '1'
@@ -2300,7 +2300,7 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
-  - regex: '; *(Pixel \w+) Build'
+  - regex: '; *(Pixel [\w\ ]+) Build'
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
