@@ -988,6 +988,11 @@ os_parsers:
   ##########
   - regex: '((?:Mac[ +]?|; )OS[ +]X)[\s+/](?:(\d+)[_.](\d+)(?:[_.](\d+))?|Mach-O)'
     os_replacement: 'Mac OS X'
+  - regex: '(\w+\s+Mac OS X\s+\w+\s+(\d+).(\d+).(\d+).*)'
+    os_replacement: 'Mac OS X'
+    os_v1_replacement: '$2'
+    os_v2_replacement: '$3'
+    os_v3_replacement: '$4'
   # Leopard
   - regex: ' (Dar)(win)/(9).(\d+).*\((?:i386|x86_64|Power Macintosh)\)'
     os_replacement: 'Mac OS X'

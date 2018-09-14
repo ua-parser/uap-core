@@ -378,6 +378,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'MacOutlook/16.12.0.180401 (Intelx64 Mac OS X Version 10.12.6 (build 16G29))'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '12'
+    patch: '6'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13'
     family: 'MeeGo'
     major:
