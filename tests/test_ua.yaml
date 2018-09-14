@@ -215,6 +215,7 @@ test_cases:
     major: '58'
     minor: '0'
     patch: '3029'
+    patch_minor: '83'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; SHV31 Build/S2280) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
     family: 'Chrome Mobile WebView'
@@ -228,24 +229,28 @@ test_cases:
     major: '18'
     minor: '0'
     patch: '1025'
+    patch_minor: '166'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; SPH-L710 Build/JRO03L) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Chrome Mobile'
     major: '18'
     minor: '0'
     patch: '1025'
+    patch_minor: '166'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.122 Mobile Safari/537.36'
     family: 'Chrome Mobile'
     major: '35'
     minor: '0'
     patch: '1916'
+    patch_minor: '122'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Ubuntu/10.10 Chromium/10.0.648.133 Chrome/10.0.648.133 Safari/534.16'
     family: 'Chromium'
     major: '10'
     minor: '0'
     patch: '648'
+    patch_minor: '133'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.5 (KHTML, like Gecko) Comodo_Dragon/4.1.1.11 Chrome/4.1.249.1042 Safari/532.5'
     family: 'Comodo Dragon'
@@ -2385,12 +2390,21 @@ test_cases:
     major: '60'
     minor: '0'
     patch: '3112'
+    patch_minor: '78'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112 Safari/537.36'
+    family: 'Chrome'
+    major: '60'
+    minor: '0'
+    patch: '3112'
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
     family: 'Chrome'
     major: '27'
     minor: '0'
     patch:
+    patch_minor:
 
   - user_agent_string: 'HiddenMarket-1.0-beta (www.hiddenmarket.net/crawler.php)'
     family: 'HiddenMarket'
@@ -6843,18 +6857,21 @@ test_cases:
     major: '18'
     minor: '0'
     patch: '1025'
+    patch_minor: '166'
 
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 5_1_1 like Mac OS X; en-us) AppleWebKit/534.46.0 (KHTML, like Gecko) Chrome/19.0.1084.60 Mobile/9B206 Safari/7534.48.3'
     family: 'Chrome Mobile'
     major: '19'
     minor: '0'
     patch: '1084'
+    patch_minor: '60'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; SM-G850F Build/KTU84P) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16 Chrome/33.0.0.0'
     family: 'Chrome Mobile WebView'
     major: '33'
     minor: '0'
     patch: '0'
+    patch_minor: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
     family: 'Safari'
