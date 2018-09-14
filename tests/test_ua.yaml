@@ -1038,6 +1038,42 @@ test_cases:
     minor: '0'
     patch: '6'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.45.0 Safari/537.36'
+    family: 'Whale'
+    major: '1'
+    minor: '3'
+    patch: '45'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.50.3 Safari/537.36'
+    family: 'Whale'
+    major: '1'
+    minor: '3'
+    patch: '50'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Whale/0.9.1.679 Mobile/15D100 Safari/604.5.6'
+    family: 'Whale'
+    major: '0'
+    minor: '9'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Whale/0.9.5.0 Mobile Safari/537.36'
+    family: 'Whale'
+    major: '0'
+    minor: '9'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.2; Nexus 6P Build/WHALE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.50.3 Mobile Safari/537.36 sidebar webpanel'
+    family: 'Whale'
+    major: '1'
+    minor: '3'
+    patch: '50'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.2; Nexus 6P Build/WHALE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.50.3 Mobile Safari/537.36'
+    family: 'Whale'
+    major: '1'
+    minor: '3'
+    patch: '50'
+
   - user_agent_string: 'J2ME/UCWEB7.0.3.45/139/7682'
     family: 'UC Browser'
     major: '7'

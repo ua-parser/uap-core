@@ -371,6 +371,13 @@ user_agent_parsers:
   # Must be before Electron
   - regex: ' (BoxNotes)/(\d+)\.(\d+)\.(\d+)'
 
+  # Whale
+  - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
+    family_replacement: 'Whale'
+
+  - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Whale'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
