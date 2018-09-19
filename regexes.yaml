@@ -946,6 +946,10 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 
+  - regex: '(Windows 10)'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
+
   - regex: '(Windows NT 5\.0)'
     os_replacement: 'Windows'
     os_v1_replacement: '2000'
