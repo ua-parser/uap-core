@@ -110,6 +110,9 @@ user_agent_parsers:
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
+  # Facebook Messenger must go before Facebook
+  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook Messenger'
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
     family_replacement: 'Facebook'
