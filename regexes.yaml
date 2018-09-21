@@ -121,9 +121,9 @@ user_agent_parsers:
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
   # Instagram app
   - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord app
+  # Flipboard app
   - regex: 'Mozilla.*Mobile.*(Flipboard).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord-briefing app
+  # Flipboard-briefing app
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
