@@ -6546,6 +6546,12 @@ test_cases:
     minor: '0'
     patch: '321'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/FBIOS;FBDV/iPhone10,4;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBCR/A1;FBID/phone;FBLC/de_DE;FBOP/5;FBRV/122166081]'
+    family: 'Facebook'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]'
     family: 'Pinterest'
     major:
