@@ -899,6 +899,14 @@ os_parsers:
   - regex: '(Silk-Accelerated=[a-z]{4,5})'
     os_replacement: 'Android'
 
+  # Citrix Chrome App on Chrome OS
+  # Note, this needs to come before the windows parsers as the app doesn't
+  # properly identify as Chrome OS
+  #
+  # ex: Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp
+  - regex: '(x86_64|aarch64)\ (\d+)+\.(\d+)+\.(\d+)+.*Chrome.*(?:CitrixChromeApp)$'
+    os_replacement: 'Chrome OS'
+
   ##########
   # Windows
   # http://en.wikipedia.org/wiki/Windows_NT#Releases
