@@ -7711,3 +7711,9 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/36.0.169645775 Mobile/15A421 Safari/604.1'
+    family: 'Google'
+    major: '36'
+    minor: '0'
+    patch: '169645775'
+

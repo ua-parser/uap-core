@@ -612,6 +612,8 @@ user_agent_parsers:
     family_replacement: 'Bon Echo'
 
   # @note: iOS / OSX Applications
+  - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
+    family_replacement: 'Google'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.*[ +]Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+))?.* AppleNews\/\d+\.\d+\.\d+?'
