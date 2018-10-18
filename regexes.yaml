@@ -884,7 +884,7 @@ os_parsers:
     os_replacement: 'Android'
 
   # Salesforce
-  - regex: '(android)\s(?:mobile\/)(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(android)\s(?:mobile\/)(\d+)(?:\.?(\d+))?(?:\.?(\d+))?'
     os_replacement: 'Android'
 
   ##########

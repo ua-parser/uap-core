@@ -2636,6 +2636,13 @@ test_cases:
     minor: '0'
     patch: 
     patch_minor: 
+    
+  - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/9 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
+    family: 'Android'
+    major: '9'
+    minor:
+    patch: 
+    patch_minor: 
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel Build/PPP3.180510.008) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
