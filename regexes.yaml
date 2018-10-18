@@ -110,17 +110,23 @@ user_agent_parsers:
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
+  # Facebook Messenger must go before Facebook
+  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook Messenger'
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook'
+  # Sometimes Facebook does not specify a version (FBAV)
+  - regex: '\[FB.*;'
     family_replacement: 'Facebook'
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
   # Instagram app
   - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord app
+  # Flipboard app
   - regex: 'Mozilla.*Mobile.*(Flipboard).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord-briefing app
+  # Flipboard-briefing app
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
