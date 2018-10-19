@@ -110,17 +110,23 @@ user_agent_parsers:
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
+  # Facebook Messenger must go before Facebook
+  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook Messenger'
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook'
+  # Sometimes Facebook does not specify a version (FBAV)
+  - regex: '\[FB.*;'
     family_replacement: 'Facebook'
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
   # Instagram app
   - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord app
+  # Flipboard app
   - regex: 'Mozilla.*Mobile.*(Flipboard).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord-briefing app
+  # Flipboard-briefing app
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
@@ -608,6 +614,8 @@ user_agent_parsers:
     family_replacement: 'Bon Echo'
 
   # @note: iOS / OSX Applications
+  - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
+    family_replacement: 'Google'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.*[ +]Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+))?.* AppleNews\/\d+\.\d+\.\d+?'
@@ -886,7 +894,7 @@ os_parsers:
     os_replacement: 'Android'
 
   # Salesforce
-  - regex: '(android)\s(?:mobile\/)(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(android)\s(?:mobile\/)(\d+)(?:\.?(\d+))?(?:\.?(\d+))?'
     os_replacement: 'Android'
 
   ##########
@@ -894,6 +902,14 @@ os_parsers:
   ##########
   - regex: '(Silk-Accelerated=[a-z]{4,5})'
     os_replacement: 'Android'
+
+  # Citrix Chrome App on Chrome OS
+  # Note, this needs to come before the windows parsers as the app doesn't
+  # properly identify as Chrome OS
+  #
+  # ex: Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp
+  - regex: '(x86_64|aarch64)\ (\d+)+\.(\d+)+\.(\d+)+.*Chrome.*(?:CitrixChromeApp)$'
+    os_replacement: 'Chrome OS'
 
   ##########
   # Windows
@@ -952,6 +968,10 @@ os_parsers:
     os_v1_replacement: '10'
 
   - regex: '(Windows NT 10\.0)'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
+
+  - regex: '(Windows 10)'
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 

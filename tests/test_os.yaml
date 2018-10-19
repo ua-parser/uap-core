@@ -784,6 +784,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'PAN GlobalProtect/4.1.2-11 (Microsoft Windows 10 Pro , 64-bit)'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows'
     major: '8.1'
@@ -2636,6 +2643,13 @@ test_cases:
     minor: '0'
     patch: 
     patch_minor: 
+    
+  - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/9 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
+    family: 'Android'
+    major: '9'
+    minor:
+    patch: 
+    patch_minor: 
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel Build/PPP3.180510.008) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
@@ -2643,4 +2657,25 @@ test_cases:
     minor:
     patch: 
     patch_minor: 
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp'
+    family: 'Chrome OS'
+    major: '10718'
+    minor: '88'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Windows x86_64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp'
+    family: 'Chrome OS'
+    major: '10718'
+    minor: '88'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 CitrixChromeApp'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
 
