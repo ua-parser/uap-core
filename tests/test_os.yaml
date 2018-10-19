@@ -784,6 +784,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'PAN GlobalProtect/4.1.2-11 (Microsoft Windows 10 Pro , 64-bit)'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows'
     major: '8.1'
