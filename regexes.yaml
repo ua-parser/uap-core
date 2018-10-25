@@ -1276,6 +1276,9 @@ os_parsers:
   # http://code.google.com/p/chromium-os/issues/detail?id=11573
   # http://code.google.com/p/chromium-os/issues/detail?id=13790
   ##########
+  # Newer versions of Chrome OS require you to look at the Chrome version to get the real version
+  - regex: '(CrOS) [a-z0-9_]+ \d+\.\d+\.\d+\) .* Chrome/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    os_replacement: 'Chrome OS'
   - regex: '(CrOS) [a-z0-9_]+ (\d+)\.(\d+)(?:\.(\d+))?'
     os_replacement: 'Chrome OS'
 
