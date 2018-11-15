@@ -101,6 +101,18 @@ user_agent_parsers:
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
   - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
+  # Facebook
+  # Must come before "Bots General matcher" to catch OrangeBotswana
+  # Facebook Messenger must go before Facebook
+  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    family_replacement: 'Facebook Messenger'
+  # Facebook
+  - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Facebook'
+  # Sometimes Facebook does not specify a version (FBAV)
+  - regex: '\[FB.*;'
+    family_replacement: 'Facebook'
+
   # Bots General matcher 'name/0.0'
   - regex: '(?:\/[A-Za-z0-9\.]+|) {0,5}([A-Za-z0-9 \-_\!\[\]:]{0,50}(?:[Aa]rchiver|[Ii]ndexer|[Ss]craper|[Bb]ot|[Ss]pider|[Cc]rawl[a-z]{0,50}))[/ ](\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
   # Bots containing bot(but not CUBOT)
@@ -120,16 +132,7 @@ user_agent_parsers:
   - regex: '(SailfishBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Sailfish Browser'
 
-  # Social Networks
-  # Facebook Messenger must go before Facebook
-  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
-    family_replacement: 'Facebook Messenger'
-  # Facebook
-  - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
-    family_replacement: 'Facebook'
-  # Sometimes Facebook does not specify a version (FBAV)
-  - regex: '\[FB.*;'
-    family_replacement: 'Facebook'
+  # Social Networks (non-Facebook)
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet|)|)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
@@ -339,7 +342,7 @@ user_agent_parsers:
   # MiuiBrowser should got before Mobile Chrome for Android
   - regex: '(MiuiBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'MiuiBrowser'
-  
+
   # Mint Browser should got before Mobile Chrome for Android
   - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mint Browser'
