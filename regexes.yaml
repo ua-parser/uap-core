@@ -44,6 +44,9 @@ user_agent_parsers:
   # Salesforce
   - regex: '(Salesforce)(?:.)\/(\d+)\.(\d?)'
 
+  # AnyConnect
+  - regex: '(AnyConnect)\/(\d+)(?:\.?(\d+))?(?:\.?(\d+))?'
+
   #StatusCake
   - regex: '(\(StatusCake\))'
     family_replacement: 'StatusCakeBot'
