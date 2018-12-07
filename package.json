@@ -25,9 +25,10 @@
     }
   ],
   "devDependencies": {
-    "yamlparser": ">=0.0.2",
     "mocha": "*",
-    "uap-ref-impl": "ua-parser/uap-ref-impl"
+    "safe-regex": "^2.0.1",
+    "uap-ref-impl": "*",
+    "yamlparser": ">=0.0.2"
   },
   "scripts": {
     "test": "mocha -u tdd -R min ./tests/test.js"
