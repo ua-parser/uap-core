@@ -8,6 +8,7 @@ This repo itself does _not_ contain a parser: only the necessary data to build o
 Maintainers
 -----------
 
+* [Com Menthol](https://github.com/commenthol)
 * [Lindsey Simon](https://github.com/elsigh) ([@elsigh](https://twitter.com/elsigh))
 * [Tobie Langel](https://github.com/tobie) ([@tobie](https://twitter.com/tobie))
 
