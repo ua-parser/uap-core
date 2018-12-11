@@ -29,7 +29,7 @@ user_agent_parsers:
   # Pingdom
   - regex: '(Pingdom.com_bot_version_)(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
-    # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
+  # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
 
@@ -110,20 +110,28 @@ user_agent_parsers:
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)?'
 
   # Social Networks
+  # Facebook Messenger must go before Facebook
+  - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook Messenger'
   # Facebook
   - regex: '\[FB.*;(FBAV)/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
+    family_replacement: 'Facebook'
+  # Sometimes Facebook does not specify a version (FBAV)
+  - regex: '\[FB.*;'
     family_replacement: 'Facebook'
   # Pinterest
   - regex: '\[(Pinterest)/[^\]]+\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet)?)?/(\d+)(?:\.(\d+)(?:\.(\d+))?)?'
   # Instagram app
   - regex: 'Mozilla.*Mobile.*(Instagram).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord app
+  # Flipboard app
   - regex: 'Mozilla.*Mobile.*(Flipboard).(\d+)\.(\d+)\.(\d+)'
-  # Flipbaord-briefing app
+  # Flipboard-briefing app
   - regex: 'Mozilla.*Mobile.*(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)'
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
+  # Snapchat
+  - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+).(\d+)'
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
@@ -371,6 +379,13 @@ user_agent_parsers:
   # Must be before Electron
   - regex: ' (BoxNotes)/(\d+)\.(\d+)\.(\d+)'
 
+  # Whale
+  - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
+    family_replacement: 'Whale'
+
+  - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Whale'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -463,7 +478,7 @@ user_agent_parsers:
   - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+))?'
 
   # Chrome/Chromium/major_version.minor_version
-  - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+))?'
+  - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+))?(?:\.(\d+))?'
 
   ##########
   # IE Mobile needs to happen before Android to catch cases such as:
@@ -599,6 +614,8 @@ user_agent_parsers:
     family_replacement: 'Bon Echo'
 
   # @note: iOS / OSX Applications
+  - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
+    family_replacement: 'Google'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+))?.*[ +]Safari'
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+))?.* AppleNews\/\d+\.\d+\.\d+?'
@@ -844,7 +861,7 @@ os_parsers:
   # Android
   # can actually detect rooted android os. do we care?
   ##########
-  - regex: '(Android)[ \-/](\d+)\.(\d+)(?:[.\-]([a-z0-9]+))?'
+  - regex: '(Android)[ \-/](\d+)\.?(\d+)?(?:[.\-]([a-z0-9]+))?'
 
   - regex: '(Android) Donut'
     os_v1_replacement: '1'
@@ -877,7 +894,7 @@ os_parsers:
     os_replacement: 'Android'
 
   # Salesforce
-  - regex: '(android)\s(?:mobile\/)(\d+)\.(\d+)\.?(\d+)?'
+  - regex: '(android)\s(?:mobile\/)(\d+)(?:\.?(\d+))?(?:\.?(\d+))?'
     os_replacement: 'Android'
 
   ##########
@@ -885,6 +902,14 @@ os_parsers:
   ##########
   - regex: '(Silk-Accelerated=[a-z]{4,5})'
     os_replacement: 'Android'
+
+  # Citrix Chrome App on Chrome OS
+  # Note, this needs to come before the windows parsers as the app doesn't
+  # properly identify as Chrome OS
+  #
+  # ex: Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp
+  - regex: '(x86_64|aarch64)\ (\d+)+\.(\d+)+\.(\d+)+.*Chrome.*(?:CitrixChromeApp)$'
+    os_replacement: 'Chrome OS'
 
   ##########
   # Windows
@@ -932,17 +957,23 @@ os_parsers:
 
   - regex: '(Windows NT 6\.3; ARM;)'
     os_replacement: 'Windows'
-    os_v1_replacement: 'RT 8.1'
+    os_v1_replacement: 'RT 8'
+    os_v2_replacement: '1'
 
   - regex: '(Windows NT 6\.3)'
     os_replacement: 'Windows'
-    os_v1_replacement: '8.1'
+    os_v1_replacement: '8'
+    os_v2_replacement: '1'
 
   - regex: '(Windows NT 6\.4)'
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 
   - regex: '(Windows NT 10\.0)'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
+
+  - regex: '(Windows 10)'
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 
@@ -988,6 +1019,11 @@ os_parsers:
   ##########
   - regex: '((?:Mac[ +]?|; )OS[ +]X)[\s+/](?:(\d+)[_.](\d+)(?:[_.](\d+))?|Mach-O)'
     os_replacement: 'Mac OS X'
+  - regex: '(\w+\s+Mac OS X\s+\w+\s+(\d+).(\d+).(\d+).*)'
+    os_replacement: 'Mac OS X'
+    os_v1_replacement: '$2'
+    os_v2_replacement: '$3'
+    os_v3_replacement: '$4'
   # Leopard
   - regex: ' (Dar)(win)/(9).(\d+).*\((?:i386|x86_64|Power Macintosh)\)'
     os_replacement: 'Mac OS X'
@@ -2300,7 +2336,7 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
-  - regex: '; *(Pixel \w+) Build'
+  - regex: '; *(Pixel.*) Build'
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'

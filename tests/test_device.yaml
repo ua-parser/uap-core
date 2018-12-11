@@ -79955,10 +79955,25 @@ test_cases:
     brand: 'OnePlus'
     model: 'ONE E1003'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM1.171019.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36'
+    family: 'Pixel'
+    brand: 'Google'
+    model: 'Pixel'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36'
     family: 'Pixel C'
     brand: 'Google'
     model: 'Pixel C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.1; Pixel XL Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36'
+    family: 'Pixel XL'
+    brand: 'Google'
+    model: 'Pixel XL'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36'
+    family: 'Pixel 2'
+    brand: 'Google'
+    model: 'Pixel 2'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85'
     family: 'RCT6773W22B'
