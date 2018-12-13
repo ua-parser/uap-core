@@ -13,11 +13,11 @@ function readYAML (fileName) {
   return yaml.eval(data)
 }
 
-describe('regexes', function () {
+suite('regexes', function () {
   Object.keys(regexes).forEach(function (parser) {
-    describe(parser, function () {
+    suite(parser, function () {
       regexes[parser].forEach(function(item) {
-        it(item.regex, function () {
+        test(item.regex, function () {
         // console.log(item.regex)
           assert.ok(safe(item.regex))
         })

@@ -31,6 +31,6 @@
     "yamlparser": ">=0.0.2"
   },
   "scripts": {
-    "test": "mocha -u tdd -R min ./tests/test.js"
+    "test": "mocha --opts ./tests/mocha.opts ./tests"
   }
 }
