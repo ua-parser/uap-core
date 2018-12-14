@@ -27,7 +27,7 @@
   "devDependencies": {
     "mocha": "*",
     "safe-regex": "^2.0.1",
-    "uap-ref-impl": "*",
+    "uap-ref-impl": "git+https://github.com/ua-parser/uap-ref-impl#master",
     "yamlparser": ">=0.0.2"
   },
   "scripts": {
