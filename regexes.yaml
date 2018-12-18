@@ -33,6 +33,11 @@ user_agent_parsers:
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
 
+  # PTST / WebPageTest.org crawlers
+  - regex: ' PTST/\d+\.\d+$'
+    family_replacement: 'WebPageTest.org bot'
+    device_replacement: 'Spider'
+
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
