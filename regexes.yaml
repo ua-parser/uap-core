@@ -784,6 +784,10 @@ user_agent_parsers:
   # Box Drive and Box Sync https://www.box.com/resources/downloads
   - regex: '^(Box(?: Sync)?)/(\d+)\.(\d+)\.(\d+)'
 
+  # ViaFree streaming app https://www.viafree.{dk|se|no}
+  - regex: '^(ViaFree|Viafree)-(?:tvOS-)?[A-Z]{2}/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'ViaFree'
+
 os_parsers:
   ##########
   # HbbTV vendors
