@@ -6908,6 +6908,18 @@ test_cases:
     minor: '45'
     patch: '2454'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 Safari Line/7.12.0'
+    family: 'LINE'
+    major: '7'
+    minor: '12'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; FTJ152B Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/51.0.2704.81 Mobile Safari/537.36 Line/6.4.1'
+    family: 'LINE'
+    major: '6'
+    minor: '4'
+    patch: '1'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.2; GT-S7710 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile'
     family: 'Chrome Mobile'
     major: '18'
