@@ -320,6 +320,11 @@ user_agent_parsers:
   # Crosswalk must go before Mobile Chrome for Android
   - regex: '(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
+  # LINE https://line.me/en/
+  # Must go before Mobile Chrome for Android
+  - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'LINE'
+
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
