@@ -1271,7 +1271,7 @@ os_parsers:
   ##########
   # Apple TV
   ##########
-  - regex: '(tvOS)(?:/| )(\d+).(\d+)(?:\.(\d+)|)'
+  - regex: '(tvOS)[/ ](\d+)\.(\d+)(?:\.(\d+)|)'
     os_replacement: 'tvOS'
 
   ##########
