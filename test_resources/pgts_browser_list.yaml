@@ -39415,9 +39415,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; 3COM U.S. Robotics)'
-    family: 'Robotics'
-    major:
-    minor:
+    family: 'IE'
+    major: '6'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; ABN AMRO)'
@@ -63409,7 +63409,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows XP Professional Bot v.5.)'
-    family: 'XP Professional Bot'
+    family: 'Windows XP Professional Bot'
     major:
     minor:
     patch:
