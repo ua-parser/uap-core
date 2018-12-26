@@ -7736,3 +7736,14 @@ test_cases:
     minor: '0'
     patch: '169645775'
 
+  - user_agent_string: 'ViaFree-DK/3.8.3 (com.MTGx.ViaFree.dk; build:7383; iOS 12.1.0) Alamofire/4.7.0'
+    family: 'ViaFree'
+    major: '3'
+    minor: '8'
+    patch: '3'
+
+  - user_agent_string: 'Viafree-tvOS-DK/3.7.1 (com.MTGx.ViaFree.dk; build:7341; tvOS 12.1.0) Alamofire/4.7.0'
+    family: 'ViaFree'
+    major: '3'
+    minor: '7'
+    patch: '1'
