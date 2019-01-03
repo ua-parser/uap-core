@@ -4741,7 +4741,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'FAST-mSEARCH Crawler 0.1 (bergum@fast.no)'
-    family: 'mSEARCH Crawler'
+    family: 'FAST-mSEARCH Crawler'
     major: '0'
     minor: '1'
     patch:
