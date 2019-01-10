@@ -2419,6 +2419,13 @@ test_cases:
     patch: '4'
     patch_minor:
 
+  - user_agent_string: 'Zendesk for iPhone 1.2.1 (4395)'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/52.0.2743.116+Safari/537.36'
     family: 'Mac OS X'
     major: '10'
