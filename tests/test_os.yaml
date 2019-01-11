@@ -736,15 +736,15 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)'
-    family: 'Windows 2000'
-    major:
+    family: 'Windows'
+    major: '2000'
     minor:
     patch:
     patch_minor:
 
   - user_agent_string: 'NCSA_Mosaic/2.0 (Windows 3.1)'
-    family: 'Windows 3.1'
-    major:
+    family: 'Windows'
+    major: '3.1'
     minor:
     patch:
     patch_minor:
@@ -2580,21 +2580,21 @@ test_cases:
     minor: '2'
     patch: '5'
     patch_minor:
- 
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Flipboard/4.2.2'
     family: 'iOS'
     major: '11'
     minor: '2'
     patch: '6'
     patch_minor:
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 Flipboard/4.1.9/4323,4.1.9.4323'
     family: 'Android'
     major: '7'
     minor: '0'
     patch:
     patch_minor:
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Onefootball/Android/9.10.6'
     family: 'Android'
     major: '7'
@@ -2608,7 +2608,7 @@ test_cases:
     minor: '0'
     patch:
     patch_minor:
-    
+
   - user_agent_string: 'Wget/1.18 (linux-gnu)'
     family: 'Linux'
     major:
@@ -2635,28 +2635,28 @@ test_cases:
     major: '8'
     minor: '0'
     patch: '0'
-    patch_minor: 
+    patch_minor:
 
   - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/7.0 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
     family: 'Android'
     major: '7'
     minor: '0'
-    patch: 
-    patch_minor: 
-    
+    patch:
+    patch_minor:
+
   - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/9 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
     family: 'Android'
     major: '9'
     minor:
-    patch: 
-    patch_minor: 
+    patch:
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel Build/PPP3.180510.008) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
     major: '9'
     minor:
-    patch: 
-    patch_minor: 
+    patch:
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp'
     family: 'Chrome OS'
@@ -2691,4 +2691,74 @@ test_cases:
     major: '12'
     minor: '1'
     patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.7.1 (Windows; Microsoft Windows 7 Ultimate Edition Service Pack 1 (Build 7601)) AppleWebKit/7604.3005.2001.1'
+    family: 'Windows'
+    major: '7'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.1.3 (Windows; Microsoft Windows XP Professional Service Pack 3 (Build 2600)) AppleWebKit/7600.1017.9000.3'
+    family: 'Windows'
+    major: 'XP'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.1.3 (Windows; Microsoft Windows Vista Business Edition Service Pack 2 (Build 6002)) AppleWebKit/7600.1017.9000.3  '
+    family: 'Windows'
+    major: 'Vista'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.01; Windows 98; Linux 3.3.8-3.3) [Netgem; 7.7.01-51; i-Player; netbox; sezmi_totalgem]'
+    family: 'Windows'
+    major: '98'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/2.0 (compatible; MSIE 3.0; Windows 3.1)'
+    family: 'Windows'
+    major: '3.1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 4.0; rv:52.0) Gecko/20100101 Firefox/52.0'
+    family: 'Windows'
+    major: 'NT'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [de]'
+    family: 'Windows'
+    major: 'ME'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Microsoft Internet Explorer/1.0 (Windows 95)'
+    family: 'Windows'
+    major: '95'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE,BrailleNote; IEMobile 7.11)'
+    family: 'Windows'
+    major: 'CE'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows 2000; U) Opera 7.0 [en]'
+    family: 'Windows'
+    major: '2000'
+    minor:
+    patch:
     patch_minor:
