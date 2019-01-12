@@ -27,7 +27,7 @@ user_agent_parsers:
     family_replacement: 'CFNetwork'
 
   # Pingdom
-  - regex: '(Pingdom.com_bot_version_)(\d+)\.(\d+)'
+  - regex: '(Pingdom\.com_bot_version_)(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
   # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
@@ -57,11 +57,11 @@ user_agent_parsers:
     family_replacement: 'GooglePlusBot'
 
   # Gmail
-  - regex: 'via ggpht.com GoogleImageProxy'
+  - regex: 'via ggpht\.com GoogleImageProxy'
     family_replacement: 'GmailImageProxy'
 
   # Yahoo
-  - regex: 'YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html'
+  - regex: 'YahooMailProxy; https://help\.yahoo\.com/kb/yahoo-mail-proxy-SLN28749\.html'
     family_replacement: 'YahooMailProxy'
 
   # Twitter
@@ -838,11 +838,11 @@ os_parsers:
   # Philips : not found any other way than a manual mapping
   # Opera/9.80 (Linux mips; U; HbbTV/1.1.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/4.1.3 PHILIPSTV/1.1.1; en) Presto/2.10.250 Version/11.60
   # Opera/9.80 (Linux mips ; U; HbbTV/1.1.1 (; Philips; ; ; ; ) CE-HTML/1.0 NETTV/3.2.1; en) Presto/2.6.33 Version/10.70
-  - regex: 'HbbTV/1.1.1 \(; (Philips);.*NETTV/4'
+  - regex: 'HbbTV/1\.1\.1 \(; (Philips);.*NETTV/4'
     os_v1_replacement: '2013'
-  - regex: 'HbbTV/1.1.1 \(; (Philips);.*NETTV/3'
+  - regex: 'HbbTV/1\.1\.1 \(; (Philips);.*NETTV/3'
     os_v1_replacement: '2012'
-  - regex: 'HbbTV/1.1.1 \(; (Philips);.*NETTV/2'
+  - regex: 'HbbTV/1\.1\.1 \(; (Philips);.*NETTV/2'
     os_v1_replacement: '2011'
 
   # the HbbTV emulator developers use HbbTV/1.1.1 (;;;;;) firetv-firefox-plugin 1.1.20
