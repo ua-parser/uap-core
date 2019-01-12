@@ -959,8 +959,6 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: 'ME'
 
-  - regex: '(Windows 98|Windows XP|Windows ME|Windows 95|Windows CE|Windows 7|Windows NT 4\.0|Windows Vista|Windows 2000|Windows 3.1)'
-
   - regex: '(Windows NT 6\.2; ARM;)'
     os_replacement: 'Windows'
     os_v1_replacement: 'RT'
@@ -1003,7 +1001,7 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: 'CE'
 
-  - regex: 'Win ?(95|98|3.1|NT|ME|2000)'
+  - regex: 'Win(?:dows)? ?(95|98|3.1|NT|ME|2000|XP|Vista|7|CE)'
     os_replacement: 'Windows'
     os_v1_replacement: '$1'
 
