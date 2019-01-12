@@ -33,6 +33,11 @@ user_agent_parsers:
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
 
+  # PTST / WebPageTest.org crawlers
+  - regex: ' (PTST)/(\d+)\.(\d+)$'
+    family_replacement: 'WebPageTest.org bot'
+    device_replacement: 'Spider'
+
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
@@ -1456,6 +1461,11 @@ device_parsers:
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Feature Phone'
+
+  # PTST / WebPageTest.org crawlers
+  - regex: ' PTST/\d+\.\d+$'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
 
   #########
   # WebBrowser for SmartWatch

@@ -1797,6 +1797,24 @@ test_cases:
     minor: '0'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/1.0'
+    family: 'WebPageTest.org bot'
+    major: '1'
+    minor: '0'
+    patch: 
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.0 Safari/537.36 PTST/1.0'
+    family: 'WebPageTest.org bot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Mobile Safari/537.36 PTST/180521.140508'
+    family: 'WebPageTest.org bot'
+    major: '180521'
+    minor: '140508'
+    patch:
+
   - user_agent_string: 'CazoodleBot/CazoodleBot-0.1 (CazoodleBot Crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)'
     family: 'CazoodleBot'
     major: '0'
