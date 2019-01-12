@@ -1278,6 +1278,12 @@ os_parsers:
   ##########################
   - regex: 'Outlook-(iOS)/\d+\.\d+\.prod\.iphone'
 
+  ##########################
+  # iOS devices, the same regex matches mobile safari webviews
+  ##########################
+  - regex: '(iPod|iPhone|iPad)'
+    os_replacement: 'iOS'
+
   ##########
   # Apple TV
   ##########
