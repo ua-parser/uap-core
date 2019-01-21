@@ -7765,3 +7765,10 @@ test_cases:
     major: '3'
     minor: '7'
     patch: '1'
+
+  - user_agent_string: 'OC/15.0.5071.1000 (Skype for Business)'
+    family: 'Skype'
+    major: '15'
+    minor: '0'
+    patch: '5071'
+    patch_minor: '1000'
