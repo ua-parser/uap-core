@@ -433,6 +433,9 @@ user_agent_parsers:
     family_replacement: 'Outlook'
     v1_replacement: '2016'
 
+  # Word 2014
+  - regex: 'Microsoft Office (Word) 2014'
+
   # Windows Live Mail
   - regex: 'Outlook-Express\/7\.0.*'
     family_replacement: 'Windows Live Mail'

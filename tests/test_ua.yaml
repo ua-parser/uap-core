@@ -7765,3 +7765,9 @@ test_cases:
     major: '3'
     minor: '7'
     patch: '1'
+
+  - user_agent_string: 'Microsoft Office Word 2014'
+    family: 'Word'
+    major: 
+    minor:
+    patch:
