@@ -1815,6 +1815,12 @@ test_cases:
     minor: '140508'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Datanyze'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'CazoodleBot/CazoodleBot-0.1 (CazoodleBot Crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)'
     family: 'CazoodleBot'
     major: '0'
