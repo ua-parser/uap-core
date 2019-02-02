@@ -36,7 +36,6 @@ user_agent_parsers:
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)\.(\d+)$'
     family_replacement: 'WebPageTest.org bot'
-    device_replacement: 'Spider'
 
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
