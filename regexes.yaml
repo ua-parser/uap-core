@@ -330,6 +330,11 @@ user_agent_parsers:
   - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'LINE'
 
+  # Tenta Browser
+  - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Tenta Browser'
+
+
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
