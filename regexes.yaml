@@ -39,9 +39,7 @@ user_agent_parsers:
     device_replacement: 'Spider'
 
   # Datanyze.com spider
-  # Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-  - regex: 'X11; Datanyze; Linux'
-    family_replacement: 'Datanyze'
+  - regex: 'X11; (Datanyze); Linux'
 
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
@@ -1484,7 +1482,6 @@ device_parsers:
     brand_replacement: 'Spider'
 
   # Datanyze.com spider
-  # Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
   - regex: 'X11; Datanyze; Linux'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
