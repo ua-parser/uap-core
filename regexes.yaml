@@ -36,7 +36,6 @@ user_agent_parsers:
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)\.(\d+)$'
     family_replacement: 'WebPageTest.org bot'
-    device_replacement: 'Spider'
 
   # Datanyze.com spider
   - regex: 'X11; (Datanyze); Linux'
