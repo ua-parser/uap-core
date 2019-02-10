@@ -38,6 +38,9 @@ user_agent_parsers:
     family_replacement: 'WebPageTest.org bot'
     device_replacement: 'Spider'
 
+  # Datanyze.com spider
+  - regex: 'X11; (Datanyze); Linux'
+
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
@@ -1472,6 +1475,11 @@ device_parsers:
 
   # PTST / WebPageTest.org crawlers
   - regex: ' PTST/\d+\.\d+$'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+
+  # Datanyze.com spider
+  - regex: 'X11; Datanyze; Linux'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
 

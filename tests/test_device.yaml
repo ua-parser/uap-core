@@ -665,6 +665,11 @@ test_cases:
     brand: 'Spider'
     model:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
   - user_agent_string: 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
     family: 'Spider'
     brand: 'Spider'
