@@ -330,6 +330,10 @@ user_agent_parsers:
   - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'LINE'
 
+  # Google Search App on Android, eg:
+  - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Google'
+
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
