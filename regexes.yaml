@@ -36,7 +36,9 @@ user_agent_parsers:
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)\.(\d+)$'
     family_replacement: 'WebPageTest.org bot'
-    device_replacement: 'Spider'
+
+  # Datanyze.com spider
+  - regex: 'X11; (Datanyze); Linux'
 
   # New Relic Pinger
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
@@ -329,6 +331,10 @@ user_agent_parsers:
   # Must go before Mobile Chrome for Android
   - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'LINE'
+
+  # Google Search App on Android, eg:
+  - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Google'
 
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
@@ -1472,6 +1478,11 @@ device_parsers:
 
   # PTST / WebPageTest.org crawlers
   - regex: ' PTST/\d+\.\d+$'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+
+  # Datanyze.com spider
+  - regex: 'X11; Datanyze; Linux'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
 
