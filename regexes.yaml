@@ -332,6 +332,14 @@ user_agent_parsers:
   - regex: '(Line)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'LINE'
 
+  # MiuiBrowser should got before Mobile Chrome for Android
+  - regex: '(MiuiBrowser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'MiuiBrowser'
+  
+  # Mint Browser should got before Mobile Chrome for Android
+  - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Mint Browser'
+
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
