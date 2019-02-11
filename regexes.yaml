@@ -610,6 +610,10 @@ user_agent_parsers:
   - regex: '(ownCloud-android)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Owncloud'
 
+  # Skype for Business
+  - regex: '(OC)/(\d+)\.(\d+)\.(\d+)\.(\d+) \(Skype for Business\)'
+    family_replacement: 'Skype'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
