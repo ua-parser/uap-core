@@ -34,7 +34,7 @@ user_agent_parsers:
     family_replacement: 'PingdomBot'
 
   # PTST / WebPageTest.org crawlers
-  - regex: ' (PTST)/(\d+)\.(\d+)$'
+  - regex: ' (PTST)/(\d+)(?:\.(\d+)|)$'
     family_replacement: 'WebPageTest.org bot'
 
   # Datanyze.com spider
@@ -1488,7 +1488,7 @@ device_parsers:
     model_replacement: 'Feature Phone'
 
   # PTST / WebPageTest.org crawlers
-  - regex: ' PTST/\d+\.\d+$'
+  - regex: ' PTST/\d+(?:\.|)\d+$'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
 
