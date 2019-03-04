@@ -116,6 +116,10 @@ user_agent_parsers:
   # must go before Firefox to catch Chimera/SeaMonkey/Camino/Waterfox
   - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)'
 
+  # must be before Firefox / Gecko to catch SailfishBrowser properly
+  - regex: '(SailfishBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Sailfish Browser'
+
   # Social Networks
   # Facebook Messenger must go before Facebook
   - regex: '\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
@@ -1443,7 +1447,7 @@ os_parsers:
   # Generic patterns
   # since the majority of os cases are very specific, these go last
   ##########
-  - regex: '(Fedora|Red Hat|PCLinuxOS|Puppy|Ubuntu|Kindle|Bada|Lubuntu|BackTrack|Slackware|(?:Free|Open|Net|\b)BSD)[/ ](\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+  - regex: '(Fedora|Red Hat|PCLinuxOS|Puppy|Ubuntu|Kindle|Bada|Sailfish|Lubuntu|BackTrack|Slackware|(?:Free|Open|Net|\b)BSD)[/ ](\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Gentoo Linux + Kernel Version
   - regex: '(Linux)[ /](\d+)\.(\d+)(?:\.(\d+)|).*gentoo'

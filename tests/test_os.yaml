@@ -1015,6 +1015,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Sailfish 3.0; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0 SailfishBrowser/1.0'
+    family: 'Sailfish'
+    major: '3'
+    minor: '0'
+    patch:
+    patch_minor:
+
 # up market model
   - user_agent_string: 'HbbTV/1.1.1 (;Samsung;SmartTV2013;T-FXPDEUC-1102.2;;) WebKit'
     family: 'Samsung'
