@@ -410,6 +410,10 @@ user_agent_parsers:
   - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Whale'
 
+  # Ghost
+  # @ref: http://www.ghost.org
+  - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
