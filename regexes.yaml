@@ -972,6 +972,10 @@ os_parsers:
   - regex: '(Windows ?Mobile)'
     os_replacement: 'Windows Mobile'
 
+  - regex: '(Windows 10)'
+    os_replacement: 'Windows'
+    os_v1_replacement: '10'
+
   - regex: '(Windows (?:NT 5\.2|NT 5\.1))'
     os_replacement: 'Windows'
     os_v1_replacement: 'XP'
@@ -1011,10 +1015,6 @@ os_parsers:
     os_v1_replacement: '10'
 
   - regex: '(Windows NT 10\.0)'
-    os_replacement: 'Windows'
-    os_v1_replacement: '10'
-
-  - regex: '(Windows 10)'
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 
