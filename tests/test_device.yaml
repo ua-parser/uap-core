@@ -80010,6 +80010,11 @@ test_cases:
     brand: 'RCA'
     model: 'G1'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; SC-01F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.105 Mobile Safari/537.36'
+    family: 'Samsung SC-01F'
+    brand: 'Samsung'
+    model: 'SC-01F'
+
   - user_agent_string: 'WhatsApp/2.17.70 W'
     family: 'Spider'
     brand: 'Spider'
