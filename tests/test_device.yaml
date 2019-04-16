@@ -11470,6 +11470,56 @@ test_cases:
     brand: 'Generic_Android'
     model: 'S300'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; Ar-kw; EQ U8110) AppleWebKit/530.17 (KHTML, Like Gecko) Version/4.0 Mobile Safari/530.17'
+    family: 'EQ U8110'
+    brand: 'Generic_Android'
+    model: 'EQ U8110'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; Cs-cz; Zt180) AppleWebKit/530.17 (KHTML, Like Gecko) Version/4.0 Mobile Safari/530.17'
+    family: 'Zt180'
+    brand: 'Generic_Android'
+    model: 'Zt180'
+
+  - user_agent_string: 'Mozilla 5.0 (Linux; U; Android 2.2.1; zh-cn; 3GC101) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31'
+    family: '3GC101'
+    brand: 'Generic_Android'
+    model: '3GC101'
+
+  - user_agent_string: 'Mozilla 5.0 (Linux; U; Android 2.3.1; zh-cn; Newpad-K97) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31'
+    family: 'Newpad-K97'
+    brand: 'Generic_Android'
+    model: 'Newpad-K97'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; -; PP4MT-7) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'
+    family: 'PP4MT-7'
+    brand: 'Generic_Android'
+    model: 'PP4MT-7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; -; PP4MT-9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'PP4MT-9'
+    brand: 'Generic_Android'
+    model: 'PP4MT-9'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; id; AD350) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.7.0.315 Ponsel'
+    family: 'AD350'
+    brand: 'Generic_Android'
+    model: 'AD350'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; -us; Ally) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    family: 'Ally'
+    brand: 'Generic_Android'
+    model: 'Ally'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 2.3.4; A9100) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57768'
+    family: 'A9100'
+    brand: 'Generic_Android'
+    model: 'A9100'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 2.3.3; S300) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22 OPR/14.0.1025.53005'
+    family: 'S300'
+    brand: 'Generic_Android'
+    model: 'S300'
+
   - user_agent_string: 'Mozilla/5.0 (DTV) NetFront/3.4 InettvBrowser/2.2 (08001F;DTV03VSFC;0002;0001)'
     family: 'Inettv'
     brand: 'Generic_Inettv'
