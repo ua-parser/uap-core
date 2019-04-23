@@ -3069,3 +3069,25 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1904.1.1'
+    family: 'iOS'
+    major: '12'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Pandora/1904.1 Android/8.0.0 heroqlteusc (ExoPlayerLib1.5.14.1)'
+    family: 'Android'
+    major: '8'
+    minor: '0'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'Pandora Audio/1903.2 (Linux;Android 7.0) ExoPlayerLib/2.8.2'
+    family: 'Android'
+    major: '7'
+    minor: '0'
+    patch: 
+    patch_minor:
+
