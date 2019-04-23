@@ -11,6 +11,10 @@ user_agent_parsers:
   - regex: '^(.*)-iPhone/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
   - regex: '^(.*)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
 
+  # Pandora
+  - regex: '(Pandora)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Pandora'
+
   # Podcast catchers
   - regex: '(espn\.go)'
     family_replacement: 'ESPN'
