@@ -1,5 +1,26 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '2'
+    patch: 
+    patch_minor:
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:

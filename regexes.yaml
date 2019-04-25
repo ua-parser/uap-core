@@ -669,6 +669,8 @@ user_agent_parsers:
     family_replacement: 'Mobile Safari'
   - regex: '(iPod|iPhone|iPad)'
     family_replacement: 'Mobile Safari UI/WKWebView'
+  - regex: '(Watch)(\d+),(\d+)'
+    family_replacement: 'Apple $1 App'
 
   ##########################
   # Outlook on iOS >= 2.62.0
@@ -1299,6 +1301,12 @@ os_parsers:
   - regex: '\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+)|)'
     os_replacement: 'iOS'
   - regex: '\((iOS);'
+
+  ##########
+  # Apple Watch
+  ##########
+  - regex: '(watchOS)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    os_replacement: 'WatchOS'
 
   ##########################
   # Outlook on iOS >= 2.62.0
@@ -4853,6 +4861,10 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Apple'
     model_replacement: '$1'
+  - regex: '(Watch)(\d+,\d+)'
+    device_replacement: 'Apple $1'
+    brand_replacement: 'Apple'
+    model_replacement: 'Apple $1 $2'
   - regex: '(Apple Watch)(?:;| Simulator;)'
     device_replacement: '$1'
     brand_replacement: 'Apple'
