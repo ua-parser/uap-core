@@ -4395,6 +4395,14 @@ device_parsers:
     device_replacement: 'XiaoMi $1'
     brand_replacement: 'XiaoMi'
     model_replacement: '$1'
+  - regex: '; *(MIX) (Build|MIUI)/'
+    device_replacement: 'XiaoMi $1'
+    brand_replacement: 'XiaoMi'
+    model_replacement: '$1'
+  - regex: '; *((MIX) ([^;/]*)) (Build|MIUI)/'
+    device_replacement: 'XiaoMi $1'
+    brand_replacement: 'XiaoMi'
+    model_replacement: '$1'
 
   #########
   # Xolo
