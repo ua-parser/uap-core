@@ -2,6 +2,7 @@ user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
   # CFNetwork Podcast catcher Applications
+  - regex: '(Luminary)[Stage]+/(\d+) CFNetwork'
   - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
   - regex: '(Antenna)/(\d+) CFNetwork'
     family_replacement: 'AntennaPod'
@@ -12,6 +13,8 @@ user_agent_parsers:
   - regex: '^(.*)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork'
 
   # Podcast catchers
+  - regex: '(Luminary)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Luminary'
   - regex: '(espn\.go)'
     family_replacement: 'ESPN'
   - regex: '(espnradio\.com)'
