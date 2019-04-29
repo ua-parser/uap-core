@@ -14,7 +14,6 @@ user_agent_parsers:
 
   # Podcast catchers
   - regex: '(Luminary)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
-    family_replacement: 'Luminary'
   - regex: '(espn\.go)'
     family_replacement: 'ESPN'
   - regex: '(espnradio\.com)'
