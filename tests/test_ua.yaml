@@ -59,6 +59,12 @@ test_cases:
     minor: 
     patch: 
 
+  - user_agent_string: 'fakeLuminary/1.0'
+    family: 'Other'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
     major: '2'
