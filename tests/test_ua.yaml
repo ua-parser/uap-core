@@ -7849,4 +7849,5 @@ test_cases:
     family: 'Edge'
     major: '75'
     minor: '0'
-    patch:
+    patch: '131'
+    patch_minor: '0'

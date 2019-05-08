@@ -485,10 +485,8 @@ user_agent_parsers:
   - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
 
   # Edge/major_version.minor_version
-  - regex: '(Edge)/(\d+)(?:\.(\d+)|)'
-
-  # Edge with chromium Edg/major_version.minor_version
-  - regex: '(Edg)/(\d+)(?:\.(\d+)|)'
+  # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
+  - regex: '(Edge?)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge'
 
   # Brave Browser https://brave.com/
