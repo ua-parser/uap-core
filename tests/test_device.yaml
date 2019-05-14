@@ -58070,6 +58070,16 @@ test_cases:
     brand: 'Samsung'
     model: 'GT-S8600-ORANGE'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G9500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36'
+    family: 'Samsung SM-G9500'
+    brand: 'Samsung'
+    model: 'SM-G9500'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G9500 Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.3 Chrome/67.0.3396.87 Mobile Safari/537.36'
+    family: 'Samsung SM-G9500'
+    brand: 'Samsung'
+    model: 'SM-G9500'
+
   - user_agent_string: 'UCWEB/2.0 (Symbian; U; S60 V5; Pt-BR; SamsungI8910) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile'
     family: 'Samsung I8910'
     brand: 'Samsung'
