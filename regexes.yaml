@@ -145,7 +145,7 @@ user_agent_parsers:
   # Onefootball app
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
   # Snapchat
-  - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+).(\d+)'
+  - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
