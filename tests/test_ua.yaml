@@ -1,4 +1,16 @@
 test_cases:
+	
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'Apple Watch App'
+    major: '3'
+    minor: '4'
+    patch: 
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'Apple Watch App'
+    major: '4'
+    minor: '4'
+    patch: 
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'

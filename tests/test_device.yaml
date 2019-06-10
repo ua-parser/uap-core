@@ -1,5 +1,20 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 3,4'
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 4,4'
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 3,3'
+
   - user_agent_string: 'ALCATEL-OT510A/382 ObigoInternetBrowser/Q05A'
     family: 'Alcatel OT510A'
     brand: 'Alcatel'
