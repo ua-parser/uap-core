@@ -3828,6 +3828,10 @@ device_parsers:
     device_replacement: 'Samsung $1'
     brand_replacement: 'Samsung'
     model_replacement: '$1'
+  - regex: '; *((?:SCH|SGH|SHV|SHW|SPH|SC|SM)\-[A-Za-z0-9]{5})[\)]'
+    device_replacement: 'Samsung $1'
+    brand_replacement: 'Samsung'
+    model_replacement: '$1'
 
   #########
   # Sharp
@@ -4405,6 +4409,14 @@ device_parsers:
   # @ref: http://www.xiaomi.com/event/buyphone
   #########
   - regex: '; *((Mi|MI|HM|MI-ONE|Redmi)[ -](NOTE |Note |)[^;/]*) (Build|MIUI)/'
+    device_replacement: 'XiaoMi $1'
+    brand_replacement: 'XiaoMi'
+    model_replacement: '$1'
+  - regex: '; *(MIX) (Build|MIUI)/'
+    device_replacement: 'XiaoMi $1'
+    brand_replacement: 'XiaoMi'
+    model_replacement: '$1'
+  - regex: '; *((MIX) ([^;/]*)) (Build|MIUI)/'
     device_replacement: 'XiaoMi $1'
     brand_replacement: 'XiaoMi'
     model_replacement: '$1'
