@@ -7851,3 +7851,10 @@ test_cases:
     major: '2'
     minor: '10'
     patch: '8'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3763.0 Safari/537.36 Edg/75.0.131.0'
+    family: 'Edge'
+    major: '75'
+    minor: '0'
+    patch: '131'
+    patch_minor: '0'
