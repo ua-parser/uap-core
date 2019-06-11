@@ -1,5 +1,26 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '2'
+    patch: 
+    patch_minor:
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:
@@ -427,6 +448,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
     family: 'Linux'
     major:
@@ -791,6 +819,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'PAN GlobalProtect/5.0.0-87 (Microsoft Windows 10 Pro , 64-bit) Mozilla/5.0 (Windows NT 6.2; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows'
     major: '8'
@@ -1005,6 +1040,13 @@ test_cases:
     family: 'Sony'
     major: '2011'
     minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Sailfish 3.0; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0 SailfishBrowser/1.0'
+    family: 'Sailfish'
+    major: '3'
+    minor: '0'
     patch:
     patch_minor:
 

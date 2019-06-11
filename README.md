@@ -1,4 +1,4 @@
-uap-core [![Build Status](https://secure.travis-ci.org/ua-parser/uap-core.svg?branch=master)](https://travis-ci.org/ua-parser/uap-core)
+uap-core [![Build Status](https://secure.travis-ci.org/ua-parser/uap-core.svg?branch=master)](https://travis-ci.org/ua-parser/uap-core) [![Backers on Open Collective](https://opencollective.com/ua-parser/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/ua-parser/sponsors/badge.svg)](#sponsors) 
 ========
 
 This repository contains the core of [BrowserScope][2]'s original [user agent string parser][3]: data collected over the years by [Steve Souders][4] and numerous other contributors, extracted into a separate [YAML file][5] so as to be reusable _as is_ by implementations in any programming language.
@@ -22,6 +22,28 @@ Contributing Changes to regexes.yaml
 ------------------------------------
 
 Please read the [contributors' guide](CONTRIBUTING.md)
+
+## Credits
+### Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<img src="https://opencollective.com/ua-parser/contributors.svg?width=890&button=false" />
+
+
+### Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/ua-parser#backer)]
+
+<a href="https://opencollective.com/ua-parser#backers" target="_blank"><img src="https://opencollective.com/ua-parser/backers.svg?width=890"></a>
+
+
+### Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/ua-parser#sponsor)]
+
+<a href="https://opencollective.com/ua-parser/sponsor/0/website" target="_blank"><img src="https://opencollective.com/ua-parser/sponsor/0/avatar.svg"></a>
+
+
 
 License
 -------

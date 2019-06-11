@@ -1,4 +1,16 @@
 test_cases:
+	
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'Apple Watch App'
+    major: '3'
+    minor: '4'
+    patch: 
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'Apple Watch App'
+    major: '4'
+    minor: '4'
+    patch: 
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
@@ -756,7 +768,7 @@ test_cases:
     minor: '53'
     patch:
 
-  - user_agent_string: 'User agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.20 Safari/537.36 OPR/15.0.1147.18 (Edition Next)'
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.20 Safari/537.36 OPR/15.0.1147.18 (Edition Next)'
     family: 'Opera'
     major: '15'
     minor: '0'
@@ -1801,7 +1813,7 @@ test_cases:
     family: 'WebPageTest.org bot'
     major: '1'
     minor: '0'
-    patch: 
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.0 Safari/537.36 PTST/1.0'
     family: 'WebPageTest.org bot'
@@ -1813,6 +1825,18 @@ test_cases:
     family: 'WebPageTest.org bot'
     major: '180521'
     minor: '140508'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Mobile Safari/537.36 PTST/391'
+    family: 'WebPageTest.org bot'
+    major: '391'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Datanyze'
+    major:
+    minor:
     patch:
 
   - user_agent_string: 'CazoodleBot/CazoodleBot-0.1 (CazoodleBot Crawler; http://www.cazoodle.com/cazoodlebot; cazoodlebot@cazoodle.com)'
@@ -3977,6 +4001,18 @@ test_cases:
     major: '0'
     minor: '7'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Sailfish 3.0; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0 SailfishBrowser/1.0'
+    family: 'Sailfish Browser'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Sailfish 3.0; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0 SailfishBrowser/1.2.3'
+    family: 'Sailfish Browser'
+    major: '1'
+    minor: '2'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.1; SAMSUNG GT-I9506-ORANGE Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36'
     family: 'Samsung Internet'
@@ -6584,6 +6620,13 @@ test_cases:
     patch: '0'
     patch_minor: '14'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 [FBAN/FBIOS;FBAV/194.0.0.38.99;FBBV/127868476;FBDV/iPhone7,2;FBMD/iPhone;FBSN/iOS;FBSV/11.4.1;FBSS/2;FBCR/OrangeBotswana;FBID/phone;FBLC/en_GB;FBOP/5;FBRV/128807018]'
+    family: 'Facebook'
+    major: '194'
+    minor: '0'
+    patch: '0'
+    patch_minor: '38'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B350 [Pinterest/iOS]'
     family: 'Pinterest'
     major:
@@ -6958,6 +7001,18 @@ test_cases:
     minor: '0'
     patch: '0'
     patch_minor: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; ru-ru; Redmi 4 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.3.6-g'
+    family: 'MiuiBrowser'
+    major: '10'
+    minor: '3'
+    patch: '6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 7.1.2; ru-ru; Redmi 4A Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/Mint Browser/1.3.3'
+    family: 'Mint Browser'
+    major: '1'
+    minor: '3'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
     family: 'Safari'
@@ -7516,7 +7571,7 @@ test_cases:
     major: '33'
     minor: '0'
     patch: '0'
-    
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 33.0.0.11.96 (iPhone9,3; iOS 11_2_5; en_AU; en-AU; scale=2.00; gamut=wide; 750x1334)'
     family: 'Instagram'
     major: '33'
@@ -7528,26 +7583,26 @@ test_cases:
     major: '4'
     minor: '2'
     patch: '2'
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 Flipboard/4.1.9/4323,4.1.9.4323'
     family: 'Flipboard'
     major: '4'
     minor: '1'
     patch: '9'
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Onefootball/Android/9.10.6'
     family: 'Onefootball'
     major: '9'
     minor: '10'
     patch: '6'
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-A520F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 Flipboard-Briefing/2.7.28'
     family: 'Flipboard-Briefing'
     major: '2'
     minor: '7'
     patch: '28'
-    
-    
+
+
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/8.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)'
     family: 'IE'
     major: '11'
@@ -7578,7 +7633,7 @@ test_cases:
     major: '4'
     minor: '0'
     patch:
-      
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.2.2 Waterfox/55.2.2'
     family: 'Waterfox'
     major: '55'
@@ -7733,7 +7788,7 @@ test_cases:
     family: 'Salesforce'
     major: '15'
     minor: '2'
-    patch: 
+    patch:
 
   - user_agent_string: 'YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html'
     family: 'YahooMailProxy'
@@ -7766,6 +7821,13 @@ test_cases:
     minor: '7'
     patch: '1'
 
+  - user_agent_string: 'OC/15.0.5071.1000 (Skype for Business)'
+    family: 'Skype'
+    major: '15'
+    minor: '0'
+    patch: '5071'
+    patch_minor: '1000'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; TA-1024 Build/OPR1.170623.026; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36 GSA/8.65.5.21.arm64'
     family: 'Google'
     major: '8'
@@ -7783,3 +7845,28 @@ test_cases:
     major: '8'
     minor: '65'
     patch: '5'
+
+  - user_agent_string: 'Microsoft Office Word 2014'
+    family: 'Word'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Ghost/2.13.1+moya (https://github.com/TryGhost/Ghost)'
+    family: 'Ghost'
+    major: '2'
+    minor: '13'
+    patch: '1'
+
+  - user_agent_string: 'Ghost/2.10.8 (https://github.com/TryGhost/Ghost)'
+    family: 'Ghost'
+    major: '2'
+    minor: '10'
+    patch: '8'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3763.0 Safari/537.36 Edg/75.0.131.0'
+    family: 'Edge'
+    major: '75'
+    minor: '0'
+    patch: '131'
+    patch_minor: '0'
