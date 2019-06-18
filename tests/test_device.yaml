@@ -77540,6 +77540,11 @@ test_cases:
     brand: 'XiaoMi'
     model: 'MIX 2'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Mi A2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'XiaoMi Mi A2'
+    brand: 'XiaoMi'
+    model: 'Mi A2'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; XOLO A1000 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Xolo A1000'
     brand: 'Xolo'
@@ -80070,6 +80075,11 @@ test_cases:
     brand: 'OnePlus'
     model: 'ONE E1003'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A5010) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.89 Mobile Safari/537.36'
+    family: 'OnePlus ONEPLUS A5010'
+    brand: 'OnePlus'
+    model: 'ONEPLUS A5010'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM1.171019.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36'
     family: 'Pixel'
     brand: 'Google'
@@ -80204,3 +80214,58 @@ test_cases:
     family: 'Samsung SM-A520F'
     brand: 'Samsung'
     model: 'SM-A520F'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei ANE-LX1'
+    brand: 'Huawei'
+    model: 'ANE-LX1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; PRA-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei PRA-LX1'
+    brand: 'Huawei'
+    model: 'PRA-LX1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; ALE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei ALE-L21'
+    brand: 'Huawei'
+    model: 'ALE-L21'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; LDN-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei LDN-L21'
+    brand: 'Huawei'
+    model: 'LDN-L21'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; CAM-L03) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei CAM-L03'
+    brand: 'Huawei'
+    model: 'CAM-L03'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; ATU-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei ATU-L21'
+    brand: 'Huawei'
+    model: 'ATU-L21'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; RNE-L21) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei RNE-L21'
+    brand: 'Huawei'
+    model: 'RNE-L21'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; EVA-L09) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei EVA-L09'
+    brand: 'Huawei'
+    model: 'EVA-L09'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; DIG-L01) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Huawei DIG-L01'
+    brand: 'Huawei'
+    model: 'DIG-L01'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Samsung SM-J510FN'
+    brand: 'Samsung'
+    model: 'SM-J510FN'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; ASUS_X018D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
+    family: 'Asus X018D'
+    brand: 'Asus'
+    model: 'X018D'
