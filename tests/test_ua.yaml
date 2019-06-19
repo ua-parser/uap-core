@@ -1,5 +1,5 @@
 test_cases:
-	
+
   - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
     family: 'Apple Watch App'
     major: '3'
