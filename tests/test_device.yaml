@@ -1,5 +1,20 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 3,4'
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 4,4'
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch 3,3'
+
   - user_agent_string: 'ALCATEL-OT510A/382 ObigoInternetBrowser/Q05A'
     family: 'Alcatel OT510A'
     brand: 'Alcatel'
@@ -90,12 +105,27 @@ test_cases:
     brand: 'Apple'
     model: 'iPhone'
 
+  - user_agent_string: 'AppleCoreMedia/1.0.0.16R5303d (Apple Watch; U; CPU OS 5_0 like Mac OS X; en_au)'
+    family: 'Apple Watch'
+    brand: 'Apple'
+    model: 'Apple Watch'
+
+  - user_agent_string: 'AppleCoreMedia/1.0.0.16A303 (HomePod; U; CPU OS 12_0 like Mac OS X; en_us)'
+    family: 'HomePod'
+    brand: 'Apple'
+    model: 'HomePod'
+
   - user_agent_string: 'Mozilla/5.0 (iPod; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5'
     family: 'iPod'
     brand: 'Apple'
     model: 'iPod'
 
   - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.40 (KHTML, like Gecko) Version/6.0 Mobile/11A4400f Safari/8536.25'
+    family: 'iPod'
+    brand: 'Apple'
+    model: 'iPod'
+
+  - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69'
     family: 'iPod'
     brand: 'Apple'
     model: 'iPod'
@@ -199,6 +229,11 @@ test_cases:
     family: 'Nexus 5'
     brand: 'LG'
     model: 'Nexus 5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36'
+    family: 'Nexus 5X'
+    brand: 'LG'
+    model: 'Nexus 5X'
 
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Nintendo DS'
@@ -351,9 +386,9 @@ test_cases:
     model:
 
   - user_agent_string: 'MQQBrowser/371 Mozilla/5.0 (iPhone 4S; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 Safari/7534.48.3'
-    family: 'Generic Smartphone'
-    brand: 'Generic'
-    model: 'Smartphone'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
 
   - user_agent_string: 'Opera/9.80 (VRE; Opera Mini/4.2/28.2794; U; en) Presto/2.8.119 Version/11.10'
     family: 'Generic Feature Phone'
@@ -616,6 +651,51 @@ test_cases:
     model: 'Desktop'
 
   - user_agent_string: 'Riddler (http://riddler.io/about.html)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'NL-Crawler'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com/)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko PTST/1.0'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.0 Safari/537.36 PTST/1.0'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Mobile Safari/537.36 PTST/180521.140508'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4) Build/MPJ24.139-64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Mobile Safari/537.36 PTST/391'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
+
+  - user_agent_string: 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)'
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
@@ -3926,172 +4006,172 @@ test_cases:
     model: 'AppleTV'
 
   - user_agent_string: 'Mozilla/5.0 (iPad compatibility; U; CPU iPhone OS 5_1_1 like Mac OS X; HW iPad1,1; de_de) AppleWebKit/525.18.1 (KHTML, like Gecko) (AdMob-iSDK-20100614; iphoneos4.2)'
-    family: 'iPad1,1'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad1,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPad2,1; iPad; U; CPU OS 6_1_3 like Mac OS X; de_DE) com.google.GooglePlus/23341 (KHTML, like Gecko) Mobile/K93AP (gzip)'
-    family: 'iPad2,1'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPad compatibility; U; CPU iPhone OS 4_3_3 like Mac OS X; HW iPad2,2; de_de) AppleWebKit/525.18.1 (KHTML, like Gecko) (AdMob-iSDK-20100614; iphoneos4.1)'
-    family: 'iPad2,2'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A465 [FBAN/FBIOS;FBAV/8.0.0.28.18;FBBV/1665515;FBDV/iPad2,3;FBMD/iPad;FBSN/iPhone OS;FBSV/7.0;FBSS/1; FBCR/Verizon;FBID/tablet;FBLC/de_DE;FBOP/1]'
-    family: 'iPad2,3'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,3'
 
   - user_agent_string: 'Mozilla/5.0 (iPad2,4; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/K93aAP (gzip)'
-    family: 'iPad2,4'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,4'
 
   - user_agent_string: 'Mozilla/5.0 (iPad2,5; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P105AP (gzip)'
-    family: 'iPad2,5'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,5'
 
   - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 6_1_2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B147 [FBAN/FBIOS;FBAV/6.2;FBBV/228172;FBDV/iPad2,6;FBMD/iPad;FBSN/iPhone OS;FBSV/6.1.2;FBSS/1; FBCR/Carrier;FBID/tablet;FBLC/en_US;FBOP/1]'
-    family: 'iPad2,6'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,6'
 
   - user_agent_string: 'Mozilla/5.0 (iPad2,7; iOS 7.0.3) FreeWheelAdManager/5.8.3-r10206-201309100316;com.vevo.iphone VEVO/6025'
-    family: 'iPad2,7'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad2,7'
 
   - user_agent_string: 'Mozilla/5.0 (iPad3,1; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J1AP (gzip)'
-    family: 'iPad3,1'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad3,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 [FBAN/FBIOS;FBAV/5.4.2;FBBV/114387;FBDV/iPad3,2;FBMD/iPad;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/Carrier;FBID/tablet;FBLC/en_US]'
-    family: 'iPad3,2'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad3,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPad3,4; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P101AP (gzip)'
-    family: 'iPad3,4'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad3,4'
 
   - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A8426 [FBAN/FBIOS;FBAV/7.0.0.17.1;FBBV/1325030;FBDV/iPad3,5;FBMD/iPad;FBSN/iPhone OS;FBSV/6.0.1;FBSS/2; FBCR/AT&T;FBID/tablet;FBLC/en_US;FBOP/1]'
-    family: 'iPad3,5'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad3,5'
 
   - user_agent_string: 'Mozilla/5.0 (iPad3,6; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/P103AP (gzip)'
-    family: 'iPad3,6'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad3,6'
 
   - user_agent_string: 'Mozilla/5.0 (iPad4,1; iPad; U; CPU OS 7_0_6 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J71AP (gzip)'
-    family: 'iPad4,1'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad4,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPad4,2; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J72AP (gzip)'
-    family: 'iPad4,2'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad4,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPad4,4; iPad; U; CPU OS 7_0_4 like Mac OS X; de_DE) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/J85AP (gzip)'
-    family: 'iPad4,4'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad4,4'
 
   - user_agent_string: 'Mozilla/5.0 (iPad4,5; iOS 7.0.4) FreeWheelAdManager/5.3.0-r9485-201301220720;com.cnn.iphone CNN/4622'
-    family: 'iPad4,5'
+    family: 'iPad'
     brand: 'Apple'
     model: 'iPad4,5'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_1 like Mac OS X; HW iPhone1,1; de_de) AppleWebKit/525.18.1 (KHTML, like Gecko) (AdMob-iSDK-20090617)'
-    family: 'iPhone1,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone1,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone 4_2_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7E18 Grindr/1.8.5 (iPhone1,2/4.2.1)'
-    family: 'iPhone1,2'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone1,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone2,1; iOS 4.3.5) FreeWheelAdManager/4.6.5-r8099-201204100535;com.vevo.iphone VEVO/5661'
-    family: 'iPhone2,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone2,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone3,1; iOS 6.1.3) FreeWheelAdManager/5.3.0-r9485-201301220720;com.cnn.iphone CNN/4254'
-    family: 'iPhone3,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone3,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0_1 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A523 [FBAN/FBIOS;FBAV/5.5;FBBV/123337;FBDV/iPhone3,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/6.0.1;FBSS/2; FBCR/o2-de;FBID/phone;FBLC/de_DE;FBOP/0]'
-    family: 'iPhone3,2'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone3,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B206 [FBAN/FBIOS;FBAV/5.2.2;FBBV/82131;FBDV/iPhone3,3;FBMD/iPhone;FBSN/iPhone OS;FBSV/5.1.1;FBSS/2; FBCR/Verizon;FBID/phone;FBLC/de_DE]'
-    family: 'iPhone3,3'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone3,3'
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0 [FBAN/FBIOS;FBAV/8.0.0.28.18;FBBV/1665515;FBDV/iPhone4,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.0.4;FBSS/2; FBCR/Telekom.de;FBID/phone;FBLC/de_DE;FBOP/5]'
-    family: 'iPhone4,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone4,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10A405 [FBAN/FBIOS;FBAV/6.8;FBBV/745892;FBDV/iPhone5,1;FBMD/iPhone;FBSN/iPhone OS;FBSV/6.0;FBSS/2; FBCR/Carrier;FBID/phone;FBLC/en_US;FBOP/5]'
-    family: 'iPhone5,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone5,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone5,2; iOS 7.0.3) FreeWheelAdManager/5.8.3-r10206-201309100316;com.vevo.iphone VEVO/5987'
-    family: 'iPhone5,2'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone5,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A466 [FBAN/FBIOS;FBAV/6.7.2;FBBV/603804;FBDV/iPhone5,3;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.0;FBSS/2; FBCR/o2-de;FBID/phone;FBLC/es_ES;FBOP/5]'
-    family: 'iPhone5,3'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone5,3'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone5,4; iPhone; U; CPU OS 7_0_5 like Mac OS X; de_AT) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N49AP (gzip)'
-    family: 'iPhone5,4'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone5,4'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone6,1; iPhone; U; CPU OS 7_0_4 like Mac OS X; ar_SA) com.google.GooglePlus/29676 (KHTML, like Gecko) Mobile/N51AP (gzip)'
-    family: 'iPhone6,1'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone6,1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:10.0) Gecko/20100101 Firefox/10.0 [FBAN/FBIOS;FBAV/7.0.0.17.1;FBBV/1325030;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/7.0.6;FBSS/2; FBCR/Telekom.de;FBID/phone;FBLC/de_DE;FBOP/5]'
-    family: 'iPhone6,2'
+    family: 'iPhone'
     brand: 'Apple'
     model: 'iPhone6,2'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone 4_2_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7E18 Grindr/1.8.5 (iPod2,1/4.2.1)'
-    family: 'iPod2,1'
+    family: 'iPod'
     brand: 'Apple'
     model: 'iPod2,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone 5_1_1 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7E18 Grindr/1.8.8 (iPod3,1/5.1.1)'
-    family: 'iPod3,1'
+    family: 'iPod'
     brand: 'Apple'
     model: 'iPod3,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone 6_1_3 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Mobile/7E18 Grindr/1.8.8 (iPod4,1/6.1.3)'
-    family: 'iPod4,1'
+    family: 'iPod'
     brand: 'Apple'
     model: 'iPod4,1'
 
   - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11A4449d [FBAN/FBIOS;FBAV/6.4;FBBV/290891;FBDV/iPod5,1;FBMD/iPod touch;FBSN/iPhone OS;FBSV/7.0;FBSS/2; FBCR/;FBID/phone;FBLC/de_DE;FBOP/1]'
-    family: 'iPod5,1'
+    family: 'iPod'
     brand: 'Apple'
     model: 'iPod5,1'
 
@@ -11401,6 +11481,56 @@ test_cases:
     model: 'A9100'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 2.3.3; S300 Build/GRI40) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22 OPR/14.0.1025.53005'
+    family: 'S300'
+    brand: 'Generic_Android'
+    model: 'S300'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; Ar-kw; EQ U8110) AppleWebKit/530.17 (KHTML, Like Gecko) Version/4.0 Mobile Safari/530.17'
+    family: 'EQ U8110'
+    brand: 'Generic_Android'
+    model: 'EQ U8110'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.1-update1; Cs-cz; Zt180) AppleWebKit/530.17 (KHTML, Like Gecko) Version/4.0 Mobile Safari/530.17'
+    family: 'Zt180'
+    brand: 'Generic_Android'
+    model: 'Zt180'
+
+  - user_agent_string: 'Mozilla 5.0 (Linux; U; Android 2.2.1; zh-cn; 3GC101) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31'
+    family: '3GC101'
+    brand: 'Generic_Android'
+    model: '3GC101'
+
+  - user_agent_string: 'Mozilla 5.0 (Linux; U; Android 2.3.1; zh-cn; Newpad-K97) UC AppleWebKit 534.31 (KHTML, like Gecko) Mobile Safari 534.31'
+    family: 'Newpad-K97'
+    brand: 'Generic_Android'
+    model: 'Newpad-K97'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; -; PP4MT-7) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30'
+    family: 'PP4MT-7'
+    brand: 'Generic_Android'
+    model: 'PP4MT-7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.0.3; -; PP4MT-9) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
+    family: 'PP4MT-9'
+    brand: 'Generic_Android'
+    model: 'PP4MT-9'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; id; AD350) AppleWebKit/528.5+ (KHTML, like Gecko) Version/3.1.2 Mobile Safari/525.20.1 UCBrowser/8.7.0.315 Ponsel'
+    family: 'AD350'
+    brand: 'Generic_Android'
+    model: 'AD350'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.1; -us; Ally) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
+    family: 'Ally'
+    brand: 'Generic_Android'
+    model: 'Ally'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 2.3.4; A9100) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Mobile Safari/537.31 OPR/14.0.1074.57768'
+    family: 'A9100'
+    brand: 'Generic_Android'
+    model: 'A9100'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 2.3.3; S300) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.123 Mobile Safari/537.22 OPR/14.0.1025.53005'
     family: 'S300'
     brand: 'Generic_Android'
     model: 'S300'
@@ -22714,6 +22844,11 @@ test_cases:
     family: 'Huawei P6'
     brand: 'Huawei'
     model: 'P6'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 6P Build/MHC19Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Mobile Safari/537.36'
+    family: 'Huawei Nexus 6P'
+    brand: 'Huawei'
+    model: 'Nexus 6P'
 
   - user_agent_string: 'Huaweisymantecspider (compatible; MSIE 8.0; DSE-support@huaweisymantec.com)'
     family: 'Huawei symantecspider'
@@ -58000,6 +58135,16 @@ test_cases:
     brand: 'Samsung'
     model: 'GT-S8600-ORANGE'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; SM-G9500) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Mobile Safari/537.36'
+    family: 'Samsung SM-G9500'
+    brand: 'Samsung'
+    model: 'SM-G9500'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; SAMSUNG SM-G9500 Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/9.3 Chrome/67.0.3396.87 Mobile Safari/537.36'
+    family: 'Samsung SM-G9500'
+    brand: 'Samsung'
+    model: 'SM-G9500'
+
   - user_agent_string: 'UCWEB/2.0 (Symbian; U; S60 V5; Pt-BR; SamsungI8910) U2/1.0.0 UCBrowser/8.9.0.277 U2/1.0.0 Mobile'
     family: 'Samsung I8910'
     brand: 'Samsung'
@@ -77360,6 +77505,41 @@ test_cases:
     brand: 'XiaoMi'
     model: 'MI-ONE Plus'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; HM 2A Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi HM 2A'
+    brand: 'XiaoMi'
+    model: 'HM 2A'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; HM NOTE 1LTE Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/39.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi HM NOTE 1LTE'
+    brand: 'XiaoMi'
+    model: 'HM NOTE 1LTE'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.0.2; zh-cn; MI NOTE Pro Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/42.0.0.0 Mobile Safari/537.36 XiaoMi/MiuiBrowser/2.1.1'
+    family: 'XiaoMi MI NOTE Pro'
+    brand: 'XiaoMi'
+    model: 'MI NOTE Pro'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.2; Redmi Note 2 Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 ssy={Android;ECalendar;V6.1.8;xiaomi;101181501;WIFI}'
+    family: 'XiaoMi Redmi Note 2'
+    brand: 'XiaoMi'
+    model: 'Redmi Note 2'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.1'
+    family: 'XiaoMi MIX'
+    brand: 'XiaoMi'
+    model: 'MIX'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 9; MIX 2S Build/PKQ1.180729.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.7.3'
+    family: 'XiaoMi MIX 2S'
+    brand: 'XiaoMi'
+    model: 'MIX 2S'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.1.1'
+    family: 'XiaoMi MIX 2'
+    brand: 'XiaoMi'
+    model: 'MIX 2'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; XOLO A1000 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Xolo A1000'
     brand: 'Xolo'
@@ -79705,6 +79885,16 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; Yeti/1.1; +http://naver.me/spd)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'NewsGator FetchLinks extension/0.2.0 (http://graemef.com)'
     family: 'Spider'
     brand: 'Spider'
@@ -79744,3 +79934,273 @@ test_cases:
     family: 'Generic Smartphone'
     brand: 'Generic'
     model: 'Smartphone'
+
+  - user_agent_string: 'Roku/DVP-6.2 (096.02E06005A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+
+  - user_agent_string: 'Roku/DVP-5.0 (025.00E08043A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+
+  - user_agent_string: 'Roku/DVP-5.1 (025.01E01195A)'
+    family: 'Roku'
+    brand: 'Generic_Inettv'
+    model: 'Roku'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF2.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF3.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF5.0)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.11.28)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.12.19)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/4.8.22)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.16)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.23)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.1.9)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.10.22)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.10.8)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.4; MI PAD MIUI/5.11.1)'
+    family: 'XiaoMi MI PAD'
+    brand: 'XiaoMi'
+    model: 'MI PAD'
+
+  - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
+    family: 'LG Web0S SmartTV'
+    brand: 'LG'
+    model: 'Web0S SmartTV'
+
+  - user_agent_string: 'Mozilla/5.0+(iPhone;+CPU+iPhone+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0+(iPad;+CPU+OS+9_3_1+like+Mac+OS+X)+AppleWebKit/601.1.46+(KHTML,+like+Gecko)+Version/9.0+Mobile/13E238+Safari/601.1'
+    family: 'iPad'
+    brand: 'Apple'
+    model: 'iPad'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 [FBAN/FBIOS;FBAV/68.0.0.49.70;FBBV/41924288;FBRV/0;FBDV/iPad4,1;FBMD/iPad;FBSN/iOS;FBSV/10.0.2;FBSS/2;FBCR/;FBID/tablet;FBLC/en_US;FBOP/5]'
+    family: 'iPad'
+    brand: 'Apple'
+    model: 'iPad4,1'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534+ (KHTML, like Gecko) BingPreview/1.0b'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko BingPreview/1.0b'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Smartphone'
+
+  - user_agent_string: 'Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Slack-ImgProxy 1.136 (+https://api.slack.com/robots)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
+    family: 'Samsung SMART-TV'
+    brand: 'Samsung'
+    model: 'SMART-TV'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; ATH-AL00 Build/HONORATH-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.124 Mobile Safari/537.36 JsKit/1.0 (Android) SohuNews/5.7.3 BuildCode/113'
+    family: 'Huawei ATH-AL00'
+    brand: 'Huawei'
+    model: 'ATH-AL00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; ONEPLUS A3010 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36'
+    family: 'OnePlus ONEPLUS A3010'
+    brand: 'OnePlus'
+    model: 'ONEPLUS A3010'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; ONE E1003 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.91 Mobile Safari/537.36'
+    family: 'OnePlus ONE E1003'
+    brand: 'OnePlus'
+    model: 'ONE E1003'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM1.171019.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36'
+    family: 'Pixel'
+    brand: 'Google'
+    model: 'Pixel'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Pixel C Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36'
+    family: 'Pixel C'
+    brand: 'Google'
+    model: 'Pixel C'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.1; Pixel XL Build/NMF26F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36'
+    family: 'Pixel XL'
+    brand: 'Google'
+    model: 'Pixel XL'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36'
+    family: 'Pixel 2'
+    brand: 'Google'
+    model: 'Pixel 2'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85'
+    family: 'RCT6773W22B'
+    brand: 'RCA'
+    model: 'RCT6773W22B'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; RCA G1 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'RCA G1'
+    brand: 'RCA'
+    model: 'G1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; SC-01F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.105 Mobile Safari/537.36'
+    family: 'Samsung SC-01F'
+    brand: 'Samsung'
+    model: 'SC-01F'
+
+  - user_agent_string: 'WhatsApp/2.17.70 W'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'masscan/1.0 (https://github.com/robertdavidgraham/masscan)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'MobileSafari/602.1 CFNetwork/808.1.4 Darwin/16.1.0'
+    family: 'iOS-Device'
+    brand: 'Apple'
+    model: 'iOS-Device'
+
+  - user_agent_string: 'Safari/12602.2.14.0.7 CFNetwork/807.1.3 Darwin/16.1.0 (x86_64)'
+    family: 'Mac'
+    brand: 'Apple'
+    model: 'Mac'
+
+  - user_agent_string: 'netbarrierd/572 CFNetwork/673.5 Darwin/13.4.0 (x86_64) (MacBookPro11%2C1)'
+    family: 'MacBookPro11,1'
+    brand: 'Apple'
+    model: 'MacBookPro11,1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; EVA-AL10 Build/HUAWEIEVA-AL10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36'
+    family: 'EVA-AL10'
+    brand: 'Huawei'
+    model: 'EVA-AL10'
+
+  - user_agent_string: 'Google Web Preview'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0 .1453 Safari/537.36.'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; rv:11; NOKIA; Lumia 920) like Gecko'
+    family: 'Lumia 920'
+    brand: 'Nokia'
+    model: 'Lumia 920'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.1; zh-cn; Build/LMY47D ) AppleWebKit/534.30 (KHTML,like Gecko) Version/5.1 Mobile Safari/534.30 GIONEE-GN3003/GN3003 RV/5.0.16 GNBR/5.1.0.cg Id/8D83E4532006ACCE31D712F4F73C8C70'
+    family: 'Gionee GN3003'
+    brand: 'Gionee'
+    model: 'GN3003'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone## CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0 (Android) ownCloud-android/2.0.0'
+    family: 'Generic Smartphone'
+    brand: 'Generic'
+    model: 'Smartphone'
+
+  - user_agent_string: 'Outlook-iOS/665.29827.prod.iphone (2.63.0)'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; LG-TP260 Build/NRD90U; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Instagram 33.0.0.11.92 Android (24/7.0; 320dpi; 720x1193; LGE/lge; LG-TP260; lv517; lv517; en_US; 93117667)'
+    family: 'LG-TP260'
+    brand: 'LG'
+    model: 'TP260'    
+    
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 Instagram 33.0.0.11.96 (iPhone9,3; iOS 11_2_5; en_AU; en-AU; scale=2.00; gamut=wide; 750x1334)'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone9,3'
+ 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Flipboard/4.2.2'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 Flipboard/4.1.9/4323,4.1.9.4323'
+    family: 'Samsung SM-G610F'
+    brand: 'Samsung'
+    model: 'SM-G610F'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Onefootball/Android/9.10.6'
+    family: 'Samsung SM-G930F'
+    brand: 'Samsung'
+    model: 'SM-G930F'
+    
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-A520F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.83 Mobile Safari/537.36 Flipboard-Briefing/2.7.28'
+    family: 'Samsung SM-A520F'
+    brand: 'Samsung'
+    model: 'SM-A520F'

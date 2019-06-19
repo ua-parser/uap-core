@@ -1,0 +1,732 @@
+test_cases:
+
+  - user_agent_string: 'okhttp/2.7.5'
+    family: 'okhttp'
+    major: '2'
+    minor: '7'
+    patch: '5'
+  - user_agent_string: 'Stitcher/iOS'
+    family: 'Stitcher'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Stitcher/Android'
+    family: 'Stitcher'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; en-us; BeyondPod 4)'
+    family: 'BeyondPod'
+    major: '4'
+    minor:
+    patch:
+  - user_agent_string: 'NSPlayer/10.0.0.3702 WMFSDK/10.0'
+    family: 'NSPlayer'
+    major: '10'
+    minor: '0'
+    patch: '0'
+    patch_minor: '3702'
+  - user_agent_string: 'NSPlayer/12.00.10011.16384 WMFSDK/12.00.10011.16384'
+    family: 'NSPlayer'
+    major: '12'
+    minor: '00'
+    patch: '10011'
+    patch_minor: '16384'
+  - user_agent_string: 'Pocket Casts'
+    family: 'Pocket Casts'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Shifty Jelly Pocket Casts, Android v4.3.5'
+    family: 'Pocket Casts'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Player/LG Player 1.0 for Android 4.4.2 (stagefright alternative), Pocket Casts'
+    family: 'Pocket Casts'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'PocketTunes/5.5.8'
+    family: 'PocketTunes'
+    major: '5'
+    minor: '5'
+    patch: '8'
+  - user_agent_string: 'Overcast/2.0 (+http://overcast.fm/; iOS podcast app)'
+    family: 'Overcast'
+    major: '2'
+    minor: '0'
+    patch:
+  - user_agent_string: 'Overcast/1.0 Podcast Sync (+http://overcast.fm/)'
+    family: 'Overcast'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'Player FM'
+    family: 'Player FM'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Player/LG Player 1.0 for Android 4.4.2 (stagefright alternative), Player FM'
+    family: 'Player FM'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'AppleCoreMedia/1.0.0.9A405 (iPad; U; CPU OS 5_0_1 like Mac OS X; zh_cn), Player FM'
+    family: 'Player FM'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Player FM BMID/E6804C1C77'
+    family: 'Player FM'
+    major: 'E6804C1C77'
+    minor:
+    patch:
+  - user_agent_string: 'ExoPlayerDemo/4.11 (Linux;Android 5.1.1) ExoPlayerLib/1.5.2'
+    family: 'ExoPlayerDemo'
+    major: '4'
+    minor: '11'
+    patch:
+  - user_agent_string: 'Radio/1.0 (Linux;Android 6.0.1) ExoPlayerLib/1.5.2'
+    family: 'Radio'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'AlexaMediaPlayer/5.3.1-21 (Linux;Android 5.1) ExoPlayerLib/1.3.3 '
+    family: 'AlexaMediaPlayer'
+    major: '5'
+    minor: '3'
+    patch: '1-21'
+  - user_agent_string: 'Podkicker/2.2.4'
+    family: 'Podkicker'
+    major: '2'
+    minor: '2'
+    patch: '4'
+  - user_agent_string: 'Podkicker Pro/2.2.2 '
+    family: 'Podkicker'
+    major: '2'
+    minor: '2'
+    patch: '2'
+  - user_agent_string: 'Podkicker Classic/1.2.9'
+    family: 'Podkicker'
+    major: '1'
+    minor: '2'
+    patch: '9'
+  - user_agent_string: 'Downcast/2.9.13 (iPhone; iOS 9.2.1; Scale/2.00)'
+    family: 'Downcast'
+    major: '2'
+    minor: '9'
+    patch: '13'
+  - user_agent_string: 'iTunes/10.7 Downcast/5608'
+    family: 'Downcast'
+    major: '5608'
+    minor:
+    patch:
+  - user_agent_string: 'Downcast/2.9.10 (Mac OS X Version 10.11.3 (Build 15D21))'
+    family: 'Downcast'
+    major: '2'
+    minor: '9'
+    patch: '10'
+  - user_agent_string: 'iTunes/10.7 Downcast/2.8.14.1002'
+    family: 'Downcast'
+    major: '2'
+    minor: '8'
+    patch: '14'
+    patch_minor: '1002'
+  - user_agent_string: 'ESPN%20Radio/3.2.113 CFNetwork/485.12.30 Darwin/10.4.0'
+    family: 'ESPN'
+    major: '3'
+    minor: '2'
+    patch: '113'
+  - user_agent_string: 'ESPN Radio/3.2.113 CFNetwork/485.12.30 Darwin/10.4.0'
+    family: 'ESPN'
+    major: '3'
+    minor: '2'
+    patch: '113'
+  - user_agent_string: 'Stitcher/28420 CFNetwork/548.1.4 Darwin/11.0.0'
+    family: 'Stitcher'
+    major: '28420'
+    minor:
+    patch:
+  - user_agent_string: 'Stitcher/3.310746 CFNetwork/459 Darwin/10.0.0d3'
+    family: 'Stitcher'
+    major: '3'
+    minor: '310746'
+    patch:
+  - user_agent_string: 'Mark%20Levin%20Show/11 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'Mark%20Levin%20Show'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: 'The%20Dan%20Patrick%20Show/11 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'The%20Dan%20Patrick%20Show'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: 'The Dan Patrick Show/11 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'The Dan Patrick Show'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: '77%20WABC/11 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: '77%20WABC'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: '77 WABC/11 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: '77 WABC'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: 'KNBR%20680/11 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'KNBR%20680'
+    major: '11'
+    minor:
+    patch:
+  - user_agent_string: 'PodcastOne/3.0.6 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'PodcastOne'
+    major: '3'
+    minor: '0'
+    patch: '6'
+  - user_agent_string: 'PodcastOne/2.0 CFNetwork/758.2.8 Darwin/15.0.0 '
+    family: 'PodcastOne'
+    major: '2'
+    minor: '0'
+    patch:
+  - user_agent_string: 'AudioBoom/226 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'AudioBoom'
+    major: '226'
+    minor:
+    patch:
+  - user_agent_string: 'https://audioboom.com/boos/'
+    family: 'AudioBoom'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Sports%20Talk%201050/10 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'Sports%20Talk%201050'
+    major: '10'
+    minor:
+    patch:
+  - user_agent_string: 'PodCruncher/3.2 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'PodCruncher'
+    major: '3'
+    minor: '2'
+    patch:
+  - user_agent_string: 'iTunes/10.5.2 (PodCruncher 2.2)'
+    family: 'PodCruncher'
+    major: '2'
+    minor: '2'
+    patch:
+  - user_agent_string: 'Zune/4.8'
+    family: 'Zune'
+    major: '4'
+    minor: '8'
+    patch:
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3; Zune 4.7)'
+    family: 'Zune'
+    major: '4'
+    minor: '7'
+    patch:
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; InfoPath.2; OverDrive Download Station 1.0; Zune 4.7; .NET4.0C)'
+    family: 'Zune'
+    major: '4'
+    minor: '7'
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Zune 4.0; InfoPath.3; MS-RTC LM 8; .NET4.0C; .NET4.0E)'
+    family: 'Zune'
+    major: '4'
+    minor: '0'
+    patch:
+  - user_agent_string: 'RSSRadio/8899 (iPhone,iPhone OS,9.3)'
+    family: 'RSSRadio'
+    major: '8899'
+    minor:
+    patch:
+  - user_agent_string: 'RSSRadio (Push Notification Scanner;support@dorada.co.uk)'
+    family: 'RSSRadio'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'RSS_Radio 1.5'
+    family: 'RSSRadio'
+    major: '1'
+    minor: '5'
+    patch:
+  - user_agent_string: 'RSSRadio/2.68.14049 CFNetwork/672.1.15 Darwin/14.0.0'
+    family: 'RSSRadio'
+    major: '2'
+    minor: '68'
+    patch: '14049'
+  - user_agent_string: 'Lavf/56.15.102'
+    family: 'WMPlayer'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Lavf52.64.2'
+    family: 'WMPlayer'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Lavf53.32.100/WinampMPEG/2.8'
+    family: 'WMPlayer'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Lavf52.104.0 WMPlayer/10.0.0.364 guid/3300AD50-2C39-46C0-AE0A-AC7B8159E203'
+    family: 'WMPlayer'
+    major: '10'
+    minor: '0'
+    patch: '0'
+    patch_minor: '364'
+  - user_agent_string: 'WMPlayer/10.0.0.364 guid/3300AD50-2C39-46C0-AE0A-AC7B8159E203'
+    family: 'WMPlayer'
+    major: '10'
+    minor: '0'
+    patch: '0'
+    patch_minor: '364'
+  - user_agent_string: 'AntennaPod/1.5.2.0'
+    family: 'AntennaPod'
+    major: '1'
+    minor: '5'
+    patch: '2'
+    patch_minor: '0'
+  - user_agent_string: 'Antenna/965 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'AntennaPod'
+    major: '965'
+    minor:
+    patch:
+  - user_agent_string: 'AntennaPod/1.2.1'
+    family: 'AntennaPod'
+    major: '1'
+    minor: '2'
+    patch: '1'
+  - user_agent_string: 'HTC Streaming Player htc / 1.0 / cingular_us / 5.0.2'
+    family: 'HTC'
+    major: '5'
+    minor: '0'
+    patch: '2'
+  - user_agent_string: 'HTC Streaming Player utstarcom_wwe-generic / 1.0 / htc_kingdom / 2.3.4'
+    family: 'HTC'
+    major: '2'
+    minor: '3'
+    patch: '4'
+  - user_agent_string: 'HTC Streaming Player telus_wwe / 1.0 / htc_ruby / 4.0.3'
+    family: 'HTC'
+    major: '4'
+    minor: '0'
+    patch: '3'
+  - user_agent_string: 'HTC Streaming Player htc / 1.0 / himauhl_htc_asia_tw / 6.0 '
+    family: 'HTC'
+    major: '6'
+    minor: '0'
+    patch:
+  - user_agent_string: 'ZDM/4.0; Windows Mobile 8.1'
+    family: 'ZDM'
+    major: '4'
+    minor: '0'
+    patch:
+  - user_agent_string: 'bPod'
+    family: 'bPod'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'bPod BMID/E679FACD4C'
+    family: 'bPod'
+    major: 'E679FACD4C'
+    minor:
+    patch:
+  - user_agent_string: 'PodcastAddict/v2 - Dalvik/2.1.0 (Linux; U; Android 6.0; LG-H811 Build/MRA58K)'
+    family: 'PodcastAddict'
+    major: '2'
+    minor:
+    patch:
+  - user_agent_string: 'Podcast Addict - Dalvik/2.1.0 (Linux; U; Android 5.1.1; SM-G920P Build/LMY47X)'
+    family: 'PodcastAddict'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'LG-H345/V10f Player/LG Player 1.0 for Android 5.1.1 (stagefright alternative)'
+    family: 'LG Player'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'Player/LG Player 1.0 for Android 6.0 (stagefright alternative)'
+    family: 'LG Player'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'EspnDownloadManager'
+    family: 'ESPN'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'ESPN Radio 4.7.4 rv:1032 (iPhone; iPhone OS 9.2.1; en_US)'
+    family: 'ESPN'
+    major: '4'
+    minor: '7'
+    patch: '4'
+    patch_minor: '1032'
+  - user_agent_string: 'ESPN Radio 4.5.1 (iPhone; iPhone OS 5.1.1; en_US)'
+    family: 'ESPN'
+    major: '4'
+    minor: '5'
+    patch: '1'
+  - user_agent_string: 'ESPN Radio 4.0 (iPhone; iPhone OS 7.1.2; en_AU)'
+    family: 'ESPN'
+    major: '4'
+    minor: '0'
+    patch:
+  - user_agent_string: 'http://c.espnradio.com/s:'
+    family: 'ESPN'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; HP Slate 17 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Safari/537.36ESPN APP'
+    family: 'ESPN'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (compatible; heritrix/3.2.0 +http://espn.go.com'
+    family: 'ESPN'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Custom-Feed Reader'
+    family: 'Custom'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) amarok/2.8.0 Safari/534.34'
+    family: 'Amarok'
+    major: '2'
+    minor: '8'
+    patch: '0'
+  - user_agent_string: 'amarok/2.8.0 (Phonon/4.8.0; Phonon-VLC/0.8.0) LibVLC/2.2.1'
+    family: 'Amarok'
+    major: '2'
+    minor: '8'
+    patch: '0'
+  - user_agent_string: 'Banshee/2.6.2 (http://banshee-project.org/)'
+    family: 'Banshee'
+    major: '2'
+    minor: '6'
+    patch: '2'
+  - user_agent_string: 'gPodder/3.7.0 (+http://gpodder.org/)'
+    family: 'gPodder'
+    major: '3'
+    minor: '7'
+    patch: '0'
+  - user_agent_string: 'jPodder v 1.1 RC3'
+    family: 'jPodder'
+    major: '1'
+    minor: '1'
+    patch:
+  - user_agent_string: 'iPodder/2.1 +http://ipodder.sf.net/'
+    family: 'iPodder'
+    major: '2'
+    minor: '1'
+    patch:
+  - user_agent_string: 'massyn.net philpodder/1.6 (linux)'
+    family: 'philpodder'
+    major: '1'
+    minor: '6'
+    patch:
+  - user_agent_string: 'BashPodder'
+    family: 'BashPodder'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Clementine-qt5 1.2.3'
+    family: 'Clementine'
+    major: '1'
+    minor: '2'
+    patch: '3'
+  - user_agent_string: 'Clementine 1.2.3-1457-g4db358a'
+    family: 'Clementine'
+    major: '1'
+    minor: '2'
+    patch: '3-1457-g4db358a'
+  - user_agent_string: 'Clementine 1.2.3'
+    family: 'Clementine'
+    major: '1'
+    minor: '2'
+    patch: '3'
+  - user_agent_string: 'Clementine 1.2'
+    family: 'Clementine'
+    major: '1'
+    minor: '2'
+    patch:
+  - user_agent_string: 'Clementine 1.2.2 Clementine 1.2.2 Clementine 1.2.2'
+    family: 'Clementine'
+    major: '1'
+    minor: '2'
+    patch: '2'
+  - user_agent_string: 'foobar2000/1.1.14a'
+    family: 'foobar'
+    major: '1'
+    minor: '1'
+    patch: '14a'
+  - user_agent_string: 'foobar2000/1.2.3'
+    family: 'foobar'
+    major: '1'
+    minor: '2'
+    patch: '3'
+  - user_agent_string: 'Juice/2.2 (Windows) +http://juicereceiver.sf.net/'
+    family: 'Juice'
+    major: '2'
+    minor: '2'
+    patch:
+  - user_agent_string: 'Liferea/0.x.x (Linux; en_US.UTF-8; http://liferea.sf.net/)'
+    family: 'Liferea'
+    major: '0'
+    minor: 'x'
+    patch: 'x'
+  - user_agent_string: 'MediaGo'
+    family: 'MediaGo'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'MediaGo/3.0.0.403 (Windows NT 6.3; WOW64) NetworkDownloader/1.6.01.0 PlaybackEngine/2.20.103.05220'
+    family: 'MediaGo'
+    major: '3'
+    minor: '0'
+    patch: '0'
+    patch_minor: '403'
+  - user_agent_string: 'MediaMonkey'
+    family: 'MediaMonkey'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'MediaMonkey 4.1.9.1764'
+    family: 'MediaMonkey'
+    major: '4'
+    minor: '1'
+    patch: '9'
+    patch_minor: '1764'
+  - user_agent_string: 'Miro/6.0 (http://www.getmiro.com/; Windows post2008Server x86) '
+    family: 'Miro'
+    major: '6'
+    minor: '0'
+    patch:
+  - user_agent_string: 'Miro/3.0.3 (http://www.getmiro.com/; Microsoft Windows )'
+    family: 'Miro'
+    major: '3'
+    minor: '0'
+    patch: '3'
+  - user_agent_string: 'Fancy Cloud Music 1.4 build 2 (iPhone; iPhone OS 9.2.1; en_US)'
+    family: 'FancyMusic'
+    major: '1'
+    minor: '4'
+    patch:
+  - user_agent_string: 'FancyMusic 1.5.0 build 5 (iPod touch; iPhone OS 9.2.1; en_US)'
+    family: 'FancyMusic'
+    major: '1'
+    minor: '5'
+    patch: '0'
+  - user_agent_string: 'VOX Music Player'
+    family: 'VOX'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'NetNewsWire/3.3 (Mac OS X; http://netnewswireapp.com/mac/; gzip-happy)'
+    family: 'NetNewsWire'
+    major: '3'
+    minor: '3'
+    patch:
+  - user_agent_string: 'NetNewsWire/3.1.7 (Mac OS X; http://www.newsgator.com/Individuals/NetNewsWire/)'
+    family: 'NetNewsWire'
+    major: '3'
+    minor: '1'
+    patch: '7'
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/601.4.4 (KHTML, like Gecko) NetNewsWire/3.2'
+    family: 'NetNewsWire'
+    major: '3'
+    minor: '2'
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/600.8.9 (KHTML, like Gecko) NetNewsWire/3.3.2'
+    family: 'NetNewsWire'
+    major: '3'
+    minor: '3'
+    patch: '2'
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0; Rivo RHYTHM RX75 Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36; | 2016-04-07 14:37:04'
+    family: 'Rivo'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Spotify'
+    family: 'Spotify'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'Spotify/1.0'
+    family: 'Spotify'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'VLC/2.0.6 LibVLC/2.0.6'
+    family: 'VLC'
+    major: '2'
+    minor: '0'
+    patch: '6'
+  - user_agent_string: 'vlc/1.1.0 LibVLC/1.1.0'
+    family: 'VLC'
+    major: '1'
+    minor: '1'
+    patch: '0'
+  - user_agent_string: 'VLC/3.0.0-git LibVLC/3.0.0-git BMID/E67AB28521'
+    family: 'VLC'
+    major: '3'
+    minor: '0'
+    patch: '0-git'
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/9.3 Mobile/11A465 Safari/9537.53 VLC for iOS/2.7.2'
+    family: 'VLC'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'VLC media player - version 1.0.3 Goldeneye - (c) 1996-2009 the VideoLAN team'
+    family: 'VLC'
+    major: '1'
+    minor: '0'
+    patch: '3'
+  - user_agent_string: 'VLC/2.2.0-rc1 LibVLC/2.2.0-rc1'
+    family: 'VLC'
+    major: '2'
+    minor: '2'
+    patch: '0-rc1'
+  - user_agent_string: 'VLC/2.2.0-pre4 LibVLC/2.2.0-pre4'
+    family: 'VLC'
+    major: '2'
+    minor: '2'
+    patch: '0-pre4'
+  - user_agent_string: 'CITA RSS Aggregator/2.7'
+    family: 'CITA'
+    major: '2'
+    minor: '7'
+    patch:
+  - user_agent_string: 'Doppler 2.9.5.4'
+    family: 'Doppler'
+    major: '2'
+    minor: '9'
+    patch: '5'
+    patch_minor: '4'
+  - user_agent_string: 'GoldenPod/0.8.4 (GNU/Linux; podcatcher; Using LWP) libwwwperl'
+    family: 'GoldenPod'
+    major: '0'
+    minor: '8'
+    patch: '4'
+  - user_agent_string: 'Replay AV'
+    family: 'Replay'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'MusicDownloaderLite/1.0.1 CFNetwork/609.1.4 Darwin/13.0.0'
+    family: 'MusicDownloader'
+    major: '1'
+    minor: '0'
+    patch: '1'
+  - user_agent_string: 'MusicDownloader/2.0.3 CFNetwork/548.0.4 Darwin/11.0.0'
+    family: 'MusicDownloader'
+    major: '2'
+    minor: '0'
+    patch: '3'
+  - user_agent_string: 'Plugged%20-%20Stream%20Podcasts%2C%20Music%20&%20More%20Free/5.0 CFNetwork/711.5.6 Darwin/14.0.0'
+    family: 'Plugged%20-%20Stream%20Podcasts%2C%20Music%20&%20More%20Free'
+    major: '5'
+    minor: '0'
+    patch:
+  - user_agent_string: 'PodWrangler/1.1 CFNetwork/672.1.15 Darwin/14.0.0'
+    family: 'PodWrangler'
+    major: '1'
+    minor: '1'
+    patch:
+  - user_agent_string: 'Custom/12 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'Custom'
+    major: '12'
+    minor:
+    patch:
+  - user_agent_string: 'GoodReader4/100 CFNetwork/758.3.15 Darwin/15.4.0'
+    family: 'GoodReader4'
+    major: '100'
+    minor:
+    patch:
+  - user_agent_string: 'Free-Podcasts/132 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'Free-Podcasts'
+    major: '132'
+    minor:
+    patch:
+  - user_agent_string: 'Free-Podcasts/1.05 CFNetwork/609 Darwin/13.0.0'
+    family: 'Free-Podcasts'
+    major: '1'
+    minor: '05'
+    patch:
+  - user_agent_string: 'TopPodcasts/261 CFNetwork/758.0.2 Darwin/15.0.0'
+    family: 'TopPodcasts'
+    major: '261'
+    minor:
+    patch:
+  - user_agent_string: 'TopPodcastsPro/201 CFNetwork/758.2.8 Darwin/15.0.0'
+    family: 'TopPodcasts'
+    major: '201'
+    minor:
+    patch:
+  - user_agent_string: 'TopPodcasts/2.1.4 CFNetwork/672.1.15 Darwin/14.0.0'
+    family: 'TopPodcasts'
+    major: '2'
+    minor: '1'
+    patch: '4'
+  - user_agent_string: 'Podcasts/2.2'
+    family: 'Podcasts'
+    major: '2'
+    minor: '2'
+    patch:
+  - user_agent_string: 'Podcasts/1.4.113'
+    family: 'Podcasts'
+    major: '1'
+    minor: '4'
+    patch: '113'
+  - user_agent_string: 'Peapod/pre1.0 +http://www.peapodpy.org.uk'
+    family: 'Peapod'
+    major: 'pre1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'Peapod/1.0 +http://www.peapodpy.org.uk'
+    family: 'Peapod'
+    major: '1'
+    minor: '0'
+    patch:
+  - user_agent_string: 'podracer v1.4.1; GNU/Linux; x86_64'
+    family: 'podracer'
+    major: '1'
+    minor: '4'
+    patch: '1'
+  - user_agent_string: 'Kinoma5'
+    family: 'Kinoma'
+    major: '5'
+    minor:
+    patch:
+  - user_agent_string: 'QuickTime/7.6'
+    family: 'QuickTime'
+    major: '7'
+    minor: '6'
+    patch:
+  - user_agent_string: 'QuickTime.7.6.6'
+    family: 'QuickTime'
+    major: '7'
+    minor: '6'
+    patch: '6'
+  - user_agent_string: 'QuickNews/1.25'
+    family: 'QuickNews'
+    major: '1'
+    minor: '25'
+    patch:
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Windows NT 6.1; en-us; dream) DoggCatcher'
+    family: 'DoggCatcher'
+    major:
+    minor:
+    patch:
+  - user_agent_string: 'DoggCatcher/1.2'
+    family: 'DoggCatcher'
+    major: '1'
+    minor: '2'
+    patch:
