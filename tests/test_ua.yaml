@@ -7870,3 +7870,9 @@ test_cases:
     minor: '0'
     patch: '131'
     patch_minor: '0'
+
+  - user_agent_string: 'Snapchat/10.29.1.0 (iPhone10,1; iOS 11.2; gzip)'
+    family: 'Snapchat'
+    major: '10'
+    minor: '29'
+    patch: '1'
