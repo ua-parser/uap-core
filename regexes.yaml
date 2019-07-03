@@ -88,7 +88,7 @@ user_agent_parsers:
   - regex: '(DAVdroid)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # Downloader ...
-  - regex: '(Google-HTTP-Java-Client|Apache-HttpClient|Go-http-client|scalaj-http|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp|aihttp|reqwest)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+  - regex: '(Google-HTTP-Java-Client|Apache-HttpClient|Go-http-client|scalaj-http|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp|aihttp|reqwest|axios|unirest-(?:java|python|ruby|nodejs|php|net))(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
 
   # Pinterestbot
   - regex: '(Pinterest(?:bot|))/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)[;\s(]+\+https://www.pinterest.com/bot.html'
@@ -99,7 +99,7 @@ user_agent_parsers:
 
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
-  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # Facebook
   # Must come before "Bots General matcher" to catch OrangeBotswana
@@ -810,13 +810,23 @@ user_agent_parsers:
     family_replacement: 'Python Requests'
 
   # headless user-agents
-  - regex: '\b(Windows-Update-Agent|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+  - regex: '\b(Windows-Update-Agent|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+
+  # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
+  - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
+  # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
+  - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
 
   - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
 
   # Cloud Storage Clients
   - regex: '^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+|)'
   - regex: '^(S3 Browser) (\d+)-(\d+)-(\d+)(?:\s*http://s3browser\.com|)'
+  - regex: '(S3Gof3r)'
+  # IBM COS (Cloud Object Storage) API
+  - regex: '\b(ibm-cos-sdk-(?:core|java|js|python))/(\d+)\.(\d+)(?:\.(\d+)|)'
+  # rusoto - Rusoto - AWS SDK for Rust - https://github.com/rusoto/rusoto
+  - regex: '^(rusoto)/(\d+)\.(\d+)\.(\d+)'
   # rclone - rsync for cloud storage - https://rclone.org/
   - regex: '^(rclone)/v(\d+)\.(\d+)'
 
@@ -1487,6 +1497,8 @@ os_parsers:
     os_replacement: 'Red Hat'
   - regex: '\((freebsd)(\d+)\.(\d+)\)'
     os_replacement: 'FreeBSD'
+  - regex: 'linux'
+    os_replacement: 'Linux'
 
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'

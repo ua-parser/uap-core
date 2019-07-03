@@ -4159,9 +4159,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'fetch libfetch/2.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'fetch libfetch'
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'libwww-perl/5.79'
