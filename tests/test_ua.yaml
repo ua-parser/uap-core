@@ -2007,6 +2007,12 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'OgScrper/1.0.0'
+    family: 'OgScrper'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (compatible; PathDefender/1.0; +http://www.pathdefender.com/help/crawler)'
     family: 'PathDefender'
     major: '1'
