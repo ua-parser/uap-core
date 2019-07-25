@@ -7876,3 +7876,10 @@ test_cases:
     major: '10'
     minor: '29'
     patch: '1'
+
+  - user_agent_string: 'OgScrper/1.0.0'
+    family: 'OgScrper'
+    major: '1'
+    minor: '0'
+    patch: '0'
+    
