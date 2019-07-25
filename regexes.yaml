@@ -73,7 +73,7 @@ user_agent_parsers:
 
   # Twitter
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
-    family_replacement: 'TwitterBot'
+    family_replacement: 'Twitterbot'
 
   # Bots Pattern 'name/0.0.0'
   - regex: '/((?:Ant-|)Nutch|[A-z]+[Bb]ot|[A-z]+[Ss]pider|Axtaris|fetchurl|Isara|ShopSalad|Tailsweep)[ \-](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'

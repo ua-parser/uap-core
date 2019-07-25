@@ -313,7 +313,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Twitterbot/1.0'
-    family: 'TwitterBot'
+    family: 'Twitterbot'
     major: '1'
     minor: '0'
     patch:
