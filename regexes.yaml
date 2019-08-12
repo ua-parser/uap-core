@@ -657,6 +657,9 @@ user_agent_parsers:
   - regex: '(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Bon Echo'
 
+  - regex: '(TopBuzz)'
+    family_replacement: 'TopBuzz'
+
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
     family_replacement: 'Google'
