@@ -657,11 +657,9 @@ user_agent_parsers:
   - regex: '(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Bon Echo'
 
-  - regex: '(TopBuzz)'
+    # topbuzz on IOS
+  - regex: '(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
-
-  - regex: '(NewsBreak)'
-    family_replacement: 'NewsBreak'
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
