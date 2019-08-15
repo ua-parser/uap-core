@@ -7876,3 +7876,9 @@ test_cases:
     major: '8'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TopBuzz com.mobilesrepublic.newsrepublic/9.5.1 (iPhone; iOS 12.4; en; 4G; CTRadioAccessTechnologyLTE)'
+    family: 'TopBuzz'
+    major: '9'
+    minor: '5'
+    patch: '1'

@@ -660,6 +660,8 @@ user_agent_parsers:
     # topbuzz on IOS
   - regex: '(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
+  - regex: '(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
