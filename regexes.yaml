@@ -454,7 +454,7 @@ user_agent_parsers:
     v1_replacement: '2013'
 
   # Outlook 2016
-  - regex: 'Microsoft Outlook (?:Mail )?16\.\d+\.\d+'
+  - regex: 'Microsoft Outlook (?:Mail )?16\.\d+\.\d+|MSOffice 16'
     family_replacement: 'Outlook'
     v1_replacement: '2016'
 
