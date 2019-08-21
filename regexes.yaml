@@ -347,6 +347,10 @@ user_agent_parsers:
   - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mint Browser'
 
+  # TopBuzz Android must go before Chrome Mobile WebView
+  - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
