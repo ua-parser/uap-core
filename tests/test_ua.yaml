@@ -1,16 +1,16 @@
 test_cases:
-	
+
   - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
     family: 'Apple Watch App'
     major: '3'
     minor: '4'
-    patch: 
+    patch:
 
   - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
     family: 'Apple Watch App'
     major: '4'
     minor: '4'
-    patch: 
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
@@ -7870,3 +7870,27 @@ test_cases:
     minor: '0'
     patch: '131'
     patch_minor: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TopBuzz com.alex.NewsMaster/8.2.1 (iPad; iOS 12.3.1; en; WIFI)'
+    family: 'TopBuzz'
+    major: '8'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; SM-G950U Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36 JsSdk/2 TopBuzz/9.4.3 NetType/4G'
+    family: 'TopBuzz'
+    major: '9'
+    minor: '4'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; SM-J737A Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36 JsSdk/2 TopBuzz/9.1.4 NetType/4G'
+    family: 'TopBuzz'
+    major: '9'
+    minor: '1'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 TopBuzz com.topbuzz.videoen/8.2.2 (iPhone; iOS 10.3.3; en; WIFI; CTRadioAccessTechnologyLTE)'
+    family: 'TopBuzz'
+    major: '8'
+    minor: '2'
+    patch: '2'
