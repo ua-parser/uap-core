@@ -484,6 +484,11 @@ user_agent_parsers:
   - regex: '(Lotus-Notes)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Lotus Notes'
 
+  # Superhuman Mail Client
+  # @ref: https://www.superhuman.com
+  - regex: 'Superhuman'
+    family_replacement: 'Superhuman'
+
   # Vivaldi uses "Vivaldi"
   - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
 
