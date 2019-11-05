@@ -3405,7 +3405,7 @@ device_parsers:
   # Nextbook
   # @ref: http://nextbookusa.com
   #########
-  - regex: '; *(NXM\d+[A-z0-9_]*|Next\d[A-z0-9_ \-]*|NEXT\d[A-z0-9_ \-]*|Nextbook [A-z0-9_ ]*|DATAM803HC|M805)(?: Build|[\);])'
+  - regex: '; *(NXM\d+[A-Za-z0-9_]*|Next\d[A-Za-z0-9_ \-]*|NEXT\d[A-Za-z0-9_ \-]*|Nextbook [A-Za-z0-9_ ]*|DATAM803HC|M805)(?: Build|[\);])'
     device_replacement: '$1'
     brand_replacement: 'Nextbook'
     model_replacement: '$1'
@@ -4786,7 +4786,7 @@ device_parsers:
   # NOKIA
   # @note: NokiaN8-00 comes before iphone. Sometimes spoofs iphone
   ##########
-  - regex: 'Nokia(N[0-9]+)([A-z_\-][A-z0-9_\-]*)'
+  - regex: 'Nokia(N[0-9]+)([A-Za-z_\-][A-Za-z0-9_\-]*)'
     device_replacement: 'Nokia $1'
     brand_replacement: 'Nokia'
     model_replacement: '$1$2'
