@@ -2700,6 +2700,27 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'ibm-cos-sdk-java/2.3.0 Linux/4.9.0-8-amd64 Java_HotSpot(TM)_64-Bit_Server_VM/9.0.4+11/9.0.4'
+    family: 'Linux'
+    major: '4'
+    minor: '9'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'aws-sdk-dotnet-45/3.3.11.0 aws-sdk-dotnet-core/3.3.17.10 .NET_Runtime/4.0 .NET_Framework/4.0 OS/Microsoft_Windows_NT_6.2.9200.0 ClientSync'
+    family: 'Windows'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'rusoto/0.36.0 rust/1.35.0 linux'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/8.0.0 (SM-G955F) Salesforce1/15.2 Native uid_c4589f605fad8c7e ftr_ Cordova/6.2.3'
     family: 'Android'
     major: '8'
