@@ -146,6 +146,9 @@ user_agent_parsers:
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
   # Snapchat
   - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  # Twitter
+  - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
+    family_replacement: 'Twitter'
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
