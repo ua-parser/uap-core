@@ -417,6 +417,9 @@ user_agent_parsers:
   - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Whale'
 
+  # 1Password
+  - regex: '(1Password)/(\d+)\.(\d+)\.(\d+)'
+
   # Ghost
   # @ref: http://www.ghost.org
   - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
