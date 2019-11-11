@@ -8104,6 +8104,7 @@ test_cases:
     major: '8'
     minor: '2'
     patch: '2'
+
   - user_agent_string: 'Snapchat/10.29.1.0 (iPhone10,1; iOS 11.2; gzip)'
     family: 'Snapchat'
     major: '10'
@@ -8141,9 +8142,189 @@ test_cases:
     major:
     minor:
     patch:
-
+  
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
     family: 'AspiegelBot'
     major:
     minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 QGIS/31100'
+    family: 'QGIS'
+    major: '3'
+    minor: '11'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 QGIS/2.18.20'
+    family: 'QGIS'
+    major: '2'
+    minor: '18'
+    patch: '20'
+
+  - user_agent_string: 'JOSM/1.5 (15492 nl) Windows 7 64-Bit Java/1.8.0_221'
+    family: 'JOSM'
+    major: '1'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'FME/2018.7.34.18312  libcurl/7.57.0 WinSSL zlib/1.2.11 WinIDN libssh2/1.7.0'
+    family: 'FME'
+    major: '2018.7'
+    minor: '34'
+    patch: '18312'
+
+  - user_agent_string: 'GeoEvent Server 10.5.1'
+    family: 'GeoEvent Server'
+    major: '10'
+    minor: '5'
+    patch: '1'
+    
+  - user_agent_string: 'ArcGIS Pro 2.4.2 (000000000) - ArcGIS Pro'
+    family: 'ArcGIS Pro'
+    major: '2'
+    minor: '4'
+    patch: '2'
+  
+  - user_agent_string: 'ArcGIS Client Using WinInet'
+    family: 'ArcMap'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'ArcGISRuntime-Android/10.3.0 (Android 4.4; armeabi-v7a; SAMSUNG-GT-I9195) arcgis-collector/18.0.3 (00000000-0000-0000-0000-000000000000)'
+    family: 'Collector for ArcGIS'
+    major: '18'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'ArcGISRuntime-iOS/10.3.0 (iOS 10.2.1; iPad5,4) arcgis-collector/19.0.2 (00000000-0000-0000-0000-000000000000)'
+    family: 'Collector for ArcGIS'
+    major: '19'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'ArcGISRuntime-iOS/100.4 (iOS 11.4; iPad7,6) arcgis-aurora/18.1.0 (00000000-0000-0000-0000-000000000000)'
+    family: 'Collector for ArcGIS'
+    major: '18'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'ArcGISRuntime-NET/10.3.0 (Windows 10.0.18362; x64; UAP; Windows.Desktop) arcgis-collector/18.0.2 (00000000-0000-0000-0000-000000000000)'
+    family: 'Collector for ArcGIS'
+    major: '18'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Collector-Android-10.3.7/ArcGIS.Android-10.2.5/7.0/SAMSUNG-SM-T815'
+    family: 'Collector for ArcGIS'
+    major: '10'
+    minor: '3'
+    patch: '7'
+
+  - user_agent_string: 'Collector-iOS-10.4.0:ArcGISiOS-10.2.4+Collector/13.1.2/iPad5,4'
+    family: 'Collector for ArcGIS'
+    major: '10'
+    minor: '4'
+    patch: '0'
+
+  - user_agent_string: 'Collector/6212016 CFNetwork/978.0.7 Darwin/18.7.0'
+    family: 'Collector for ArcGIS'
+    major: '6212016'
+    minor:
+    patch:
+
+  - user_agent_string: 'ArcGISRuntime-Android/100.2.2 (Android 6.0; armeabi-v7a; SAMSUNG-SM-T800) arcgis-explorer/18.1.0 (00000000-0000-0000-0000-000000000000)'
+    family: 'Explorer for ArcGIS'
+    major: '18'
+    minor: '1'
+    patch: '0'
+
+  - user_agent_string: 'ArcGISRuntime-iOS/100.1 (iPhone OS 9.3.5; iPad2,2) arcgis-explorer/17.1.2 (00000000-0000-0000-0000-000000000000)'
+    family: 'Explorer for ArcGIS'
+    major: '17'
+    minor: '1'
+    patch: '2'
+
+  - user_agent_string: 'Explorer/1544 CFNetwork/1107.1 Darwin/19.0.0'
+    family: 'Explorer for ArcGIS'
+    major: '1544'
+    minor:
+    patch:
+    
+  - user_agent_string: 'Explorer-Android-10.2.10/ArcGIS.Android-10.2.8/5.1.1/SAMSUNG-SM-G361F'
+    family: 'Explorer for ArcGIS'
+    major: '10'
+    minor: '2'
+    patch: '10'
+
+  - user_agent_string: 'Explorer-iOS-10.2.10:ArcGISiOS-10.2.4+Collector/13.1.3/iPhone9,3'
+    family: 'Explorer for ArcGIS'
+    major: '10'
+    minor: '2'
+    patch: '10'
+
+  - user_agent_string: 'ArcGISRuntime-Android/100.1.1 (Android 7.0; arm64-v8a; SAMSUNG-SM-G930F) arcgis-workforce/17.0.1 (00000000-0000-0000-0000-000000000000)'
+    family: 'Workforce for ArcGIS'
+    major: '17'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Workforce-iOS-17.0.1:ArcGISiOS-100.0.0.1529+dev/13.2/iPad6,12'
+    family: 'Workforce for ArcGIS'
+    major: '17'
+    minor: '0'
+    patch: '1'
+    
+  - user_agent_string: 'AR/10.2.6.1704 .Net/Desktop (Win32NT/6.1.7601.65536; Win64) arcgisearth/1.5'
+    family: 'ArcGIS Earth'
+    major: '1'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'ArcGISRuntime-iOS/100.6 (iOS 12.3.1; iPad6,3) com.esri.earth.phone/1.0.0'
+    family: 'ArcGIS Earth'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'ArcGISiOS-10.2.4/12.1/iPad5,2'
+    family: 'ArcGIS Runtime SDK for iOS'
+    major: '10'
+    minor: '2'
+    patch: '4'
+
+  - user_agent_string: 'ArcGISRuntime-iOS/100.1.1 (iOS 12.4.1; iPhone10,4)'
+    family: 'ArcGIS Runtime SDK for iOS'
+    major: '100'
+    minor: '1'
+    patch: '1'
+  
+  - user_agent_string: 'ArcGIS.Android-10.2.4/8.0.0/SAMSUNG-SM-A530F'
+    family: 'ArcGIS Runtime SDK for Android'
+    major: '10'
+    minor: '2'
+    patch: '4'
+
+  - user_agent_string: 'ArcGIS.Android.10.2'
+    family: 'ArcGIS Runtime SDK for Android'
+    major: '10'
+    minor: '2'
+    patch: 
+
+  - user_agent_string: 'ArcGISRuntime-Android/100.4 (Android 10.0; arm64-v8a; ONEPLUS-HD1903)'
+    family: 'ArcGIS Runtime SDK for Android'
+    major: '100'
+    minor: '4'
+    patch:
+
+  - user_agent_string: 'ArcGISRuntime-Qt/100.3 (Windows 10; x86_64; Qt 5.12.1; C++)'
+    family: 'ArcGIS Runtime SDK for Qt'
+    major: '100'
+    minor: '3'
+    patch:
+  
+  - user_agent_string: 'ArcGISRuntime-NET/100.7 (Windows 10.0.18362; Win64; WOW64; UAP; Windows.Desktop)'
+    family: 'ArcGIS Runtime SDK for NET'
+    major: '100'
+    minor: '7'
     patch:
