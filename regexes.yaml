@@ -586,7 +586,7 @@ user_agent_parsers:
   # Browser major_version.minor_version.beta_version (space instead of slash)
   - regex: '(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)'
   # Browser major_version.minor_version (space instead of slash)
-  - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris|Microsoft SkyDriveSync|The Bat!) (\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(iCab|Lunascape|Opera|Android|Jasmine|Polaris|Microsoft SkyDriveSync|The Bat!) (\d+)(?:\.(\d+))?(?:\.(\d+)|)'
 
   # Kindle WebKit
   - regex: '(Kindle)/(\d+)\.(\d+)'
