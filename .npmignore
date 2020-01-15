@@ -1,6 +1,4 @@
 node_modules/
-test_resources/
-tests/
 tmp/
 *.bak
 *.tgz
