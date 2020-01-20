@@ -978,6 +978,12 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Superhuman'
+    family: 'Superhuman'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)'
     family: 'YahooMobileMail'
     major: '1'
