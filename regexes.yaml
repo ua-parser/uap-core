@@ -347,6 +347,10 @@ user_agent_parsers:
   - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mint Browser'
 
+  # TopBuzz Android must go before Chrome Mobile WebView
+  - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
@@ -661,6 +665,14 @@ user_agent_parsers:
 
   - regex: '(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Bon Echo'
+
+    # topbuzz on IOS
+  - regex: '(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+  - regex: '(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+  - regex: '(TopBuzz) com.topbuzz.videoen/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
