@@ -146,6 +146,9 @@ user_agent_parsers:
   - regex: 'Mozilla.*Mobile.*(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)'
   # Snapchat
   - regex: '(Snapchat)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  # Twitter
+  - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
+    family_replacement: 'Twitter'
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
@@ -347,6 +350,10 @@ user_agent_parsers:
   - regex: '(Mint Browser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mint Browser'
 
+  # TopBuzz Android must go before Chrome Mobile WebView
+  - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
@@ -417,6 +424,9 @@ user_agent_parsers:
   - regex: '(Whale)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Whale'
 
+  # 1Password
+  - regex: '(1Password)/(\d+)\.(\d+)\.(\d+)'
+
   # Ghost
   # @ref: http://www.ghost.org
   - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
@@ -483,6 +493,11 @@ user_agent_parsers:
   # Lotus Notes
   - regex: '(Lotus-Notes)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Lotus Notes'
+
+  # Superhuman Mail Client
+  # @ref: https://www.superhuman.com
+  - regex: 'Superhuman'
+    family_replacement: 'Superhuman'
 
   # Vivaldi uses "Vivaldi"
   - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
@@ -656,6 +671,14 @@ user_agent_parsers:
 
   - regex: '(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Bon Echo'
+
+    # topbuzz on IOS
+  - regex: '(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+  - regex: '(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
+  - regex: '(TopBuzz) com.topbuzz.videoen/(\d+).(\d+).(\d+)'
+    family_replacement: 'TopBuzz'
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
@@ -941,6 +964,9 @@ os_parsers:
 
   - regex: '(Android) Honeycomb'
     os_v1_replacement: '3'
+
+  # Android 9; Android 10;
+  - regex: '(Android) (\d+);'    
 
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+)|);'
