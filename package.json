@@ -25,10 +25,10 @@
     }
   ],
   "devDependencies": {
-    "mocha": "*",
-    "safe-regex": "^2.0.1",
+    "mocha": "^7.0.1",
+    "safe-regex": "^2.1.1",
     "uap-ref-impl": "git+https://github.com/ua-parser/uap-ref-impl#master",
-    "yamlparser": ">=0.0.2"
+    "yamlparser": "^0.0.2"
   },
   "scripts": {
     "test": "mocha --opts ./tests/mocha.opts ./tests"
