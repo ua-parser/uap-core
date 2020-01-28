@@ -359,6 +359,14 @@ user_agent_parsers:
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
+    
+  # QQ Browsers
+  - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    family_replacement: 'QQ Browser Mini'
+  - regex: '(MQQBrowser)(?:/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    family_replacement: 'QQ Browser Mobile'
+  - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
+    family_replacement: 'QQ Browser'
 
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
@@ -385,14 +393,6 @@ user_agent_parsers:
   # Sogou Explorer 2.X
   - regex: '(SE 2\.X) MetaSr (\d+)\.(\d+)'
     family_replacement: 'Sogou Explorer'
-
-  # QQ Browsers
-  - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
-    family_replacement: 'QQ Browser Mini'
-  - regex: '(MQQBrowser)(?:/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
-    family_replacement: 'QQ Browser Mobile'
-  - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
-    family_replacement: 'QQ Browser'
 
   # Rackspace Monitoring
   - regex: '(Rackspace Monitoring)/(\d+)\.(\d+)'
