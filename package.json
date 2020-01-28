@@ -31,6 +31,11 @@
     "yamlparser": "^0.0.2"
   },
   "scripts": {
-    "test": "mocha --opts ./tests/mocha.opts ./tests"
+    "test": "mocha ./tests"
+  },
+  "mocha": {
+    "ui": "tdd",
+    "reporter": "min",
+    "check-leaks": true
   }
 }
