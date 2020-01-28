@@ -50,6 +50,10 @@ user_agent_parsers:
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
 
+  # Adobe CreativeCloud
+  - regex: 'AppleWebKit/\d+\.\d+.* Safari.* (CreativeCloud)/(\d+)\.(\d+).(\d+)'
+    family_replacement: 'Adobe CreativeCloud'
+
   # Salesforce
   - regex: '(Salesforce)(?:.)\/(\d+)\.(\d?)'
 
