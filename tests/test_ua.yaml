@@ -216,6 +216,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 CreativeCloud/4.8.1.435'
+    family: 'Adobe CreativeCloud'
+    major: '4'
+    minor: '8'
+    patch: '1'
+
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; chromeframe/11.0.660.0)'
     family: 'Chrome Frame'
     major: '11'
