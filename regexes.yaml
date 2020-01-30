@@ -5382,7 +5382,7 @@ device_parsers:
   - regex: 'Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]+?)(?: Build|\) AppleWebKit).+? Mobile Safari'
     brand_replacement: 'Generic_Android'
     model_replacement: '$1'
-  - regex: 'Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]+?)(?: Build|\) AppleWebKit).+?(?<! Mobile) Safari'
+  - regex: 'Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]+?)(?: Build|\) AppleWebKit).+? Safari'
     brand_replacement: 'Generic_Android_Tablet'
     model_replacement: '$1'
   - regex: 'Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]+?)(?: Build|\))'
