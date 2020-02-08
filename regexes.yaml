@@ -1808,6 +1808,16 @@ device_parsers:
     model_replacement: '$1'
 
   #########
+  # Apple
+  # @ref: https://www.apple.com/mac/
+  # @note: lookup Mac OS, but exclude iPad, Apple TV, a HTC phone, Kindle, LG
+  #########
+  - regex: '^(?=.*Mac OS)(?!.*(like Mac|HTC|Silk|LG)).*'
+    device_replacement: 'Mac'
+    brand_replacement: 'Apple'
+    model_replacement: 'Mac'
+
+  #########
   # Archos
   # @ref: http://www.archos.com/de/products/tablets.html
   # @ref: http://www.archos.com/de/products/smartphones/index.html
