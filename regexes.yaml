@@ -367,7 +367,7 @@ user_agent_parsers:
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
-    
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
@@ -976,7 +976,7 @@ os_parsers:
     os_v1_replacement: '3'
 
   # Android 9; Android 10;
-  - regex: '(Android) (\d+);'    
+  - regex: '(Android) (\d+);'
 
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+)|);'
@@ -4959,7 +4959,7 @@ device_parsers:
   - regex: '(Watch)(\d+,\d+)'
     device_replacement: 'Apple $1'
     brand_replacement: 'Apple'
-    model_replacement: 'Apple $1 $2'
+    model_replacement: '$1$2'
   - regex: '(Apple Watch)(?:;| Simulator;)'
     device_replacement: '$1'
     brand_replacement: 'Apple'
