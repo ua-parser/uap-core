@@ -3,19 +3,19 @@ test_cases:
     family: 'Luminary'
     major: '1'
     minor: '0'
-    patch: 
+    patch:
 
   - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.5.0'
     family: 'Luminary'
     major: '70'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'Luminary/70 CFNetwork/975.0.3 Darwin/18.2.0'
     family: 'Luminary'
     major: '70'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'Luminary/1.0.3 build 71/iOS 12.2'
     family: 'Luminary'
@@ -38,14 +38,14 @@ test_cases:
   - user_agent_string: 'Luminary/70 CFNetwork/976 Darwin/18.2.0'
     family: 'Luminary'
     major: '70'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.6.0'
     family: 'Luminary'
     major: '70'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 26'
     family: 'Luminary'
@@ -56,8 +56,8 @@ test_cases:
   - user_agent_string: 'LuminaryStage/3311 CFNetwork/978.0.7 Darwin/18.5.0'
     family: 'Luminary'
     major: '3311'
-    minor: 
-    patch: 
+    minor:
+    patch:
 
   - user_agent_string: 'fakeLuminary/1.0'
     family: 'Other'
@@ -593,17 +593,41 @@ test_cases:
     minor: '0'
     patch: '2'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ManagedBrowser/20181024.1'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15'
+    family: 'Safari'
+    major: '12'
+    minor: '1'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ManagedBrowser/20181024.1'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69'
     family: 'Mobile Safari UI/WKWebView'
-    major: '9'
-    minor: '3'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
     family: 'Mobile Safari UI/WKWebView'
-    major: '7'
-    minor: '1'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.3a1) Gecko/20100208 MozillaDeveloperPreview/3.7a1 (.NET CLR 3.5.30729)'
     family: 'MozillaDeveloperPreview'
@@ -6826,9 +6850,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile'
     family: 'Mobile Safari UI/WKWebView'
-    major: '4'
-    minor: '3'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari'
     family: 'Mobile Safari'
@@ -8073,7 +8097,7 @@ test_cases:
     major: '9'
     minor: '9'
     patch:
-  
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Safari/603.2.4 EdgiOS/41.1.35.1'
     family: 'Edge Mobile'
     major: '41'

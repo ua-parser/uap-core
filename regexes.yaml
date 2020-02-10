@@ -367,7 +367,7 @@ user_agent_parsers:
   # Google Search App on Android, eg:
   - regex: 'Mozilla.+Android.+(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
-    
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
@@ -699,13 +699,9 @@ user_agent_parsers:
     family_replacement: 'Mobile Safari UI/WKWebView'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Mobile Safari UI/WKWebView'
-  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+)|).*Mobile.*[ +]Safari'
+  - regex: '(iPod|iPod touch|iPhone|iPad).* Safari'
     family_replacement: 'Mobile Safari'
-  - regex: '(iPod|iPod touch|iPhone|iPad);.*CPU.*OS[ +](\d+)_(\d+)(?:_(\d+)|).*Mobile'
-    family_replacement: 'Mobile Safari UI/WKWebView'
-  - regex: '(iPod|iPhone|iPad).* Safari'
-    family_replacement: 'Mobile Safari'
-  - regex: '(iPod|iPhone|iPad)'
+  - regex: '(iPod|iPod touch|iPhone|iPad)'
     family_replacement: 'Mobile Safari UI/WKWebView'
   - regex: '(Watch)(\d+),(\d+)'
     family_replacement: 'Apple $1 App'
@@ -976,7 +972,7 @@ os_parsers:
     os_v1_replacement: '3'
 
   # Android 9; Android 10;
-  - regex: '(Android) (\d+);'    
+  - regex: '(Android) (\d+);'
 
   # UCWEB
   - regex: '^UCWEB.*; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]+)|);'
