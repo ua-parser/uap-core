@@ -25,6 +25,18 @@ suite('regexes', function () {
     })
   })
 
+  Object.keys(regexes).forEach(function (parser) {
+    suite(`no reverse lookup in ${parser}`, function () {
+      regexes[parser].forEach(function(item) {
+        test(item.regex, function () {
+          if (/\(\?<[!=]/.test(item.regex)) {
+            assert.ok(false, 'go parser does not support regex lookbehind. See https://github.com/google/re2/wiki/Syntax')
+          }
+        })
+      })
+    })
+  })
+
   test('should not backtrack', function () {
     var parse = refImpl(regexes).parse
     var ua = Array(3200).fill('a').join('')
