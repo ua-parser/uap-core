@@ -4955,7 +4955,7 @@ device_parsers:
   - regex: '(Watch)(\d+,\d+)'
     device_replacement: 'Apple $1'
     brand_replacement: 'Apple'
-    model_replacement: 'Apple $1 $2'
+    model_replacement: '$1$2'
   - regex: '(Apple Watch)(?:;| Simulator;)'
     device_replacement: '$1'
     brand_replacement: 'Apple'
