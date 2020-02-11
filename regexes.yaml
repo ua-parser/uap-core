@@ -1807,7 +1807,6 @@ device_parsers:
     brand_replacement: 'Apanda'
     model_replacement: '$1'
 
-
   #########
   # Archos
   # @ref: http://www.archos.com/de/products/tablets.html
