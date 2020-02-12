@@ -32,6 +32,9 @@ suite('regexes', function () {
           if (/\(\?<[!=]/.test(item.regex)) {
             assert.ok(false, 'go parser does not support regex lookbehind. See https://github.com/google/re2/wiki/Syntax')
           }
+          if (/\(\?[!=]/.test(item.regex)) {
+            assert.ok(false, 'go parser does not support regex lookahead. See https://github.com/google/re2/wiki/Syntax')
+          }
         })
       })
     })
