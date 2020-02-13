@@ -40,12 +40,29 @@ suite('regexes', function () {
     })
   })
 
-  test('should not backtrack', function () {
-    var parse = refImpl(regexes).parse
-    var ua = Array(3200).fill('a').join('')
+})
+
+suite('redos', function () {
+  var parse = refImpl(regexes).parse
+
+  function timer () {
     var start = Date.now()
+    return function () {
+      return Date.now() - start
+    }
+  }
+
+  test('should not backtrack', function () {
+    var ua = Array(3200).fill('a').join('')
+    var time = timer()
     parse(ua)
-    var diff = Date.now() - start
-    assert.ok(diff < 500, diff)
+    assert.ok(time() < 300, time())
+  })
+
+  test('should not backtrack Smartwatch', function () {
+    var ua = 'SmartWatch(' + Array(3500).fill(' ').join('') + 'z'
+    var time = timer()
+    parse(ua)
+    assert.ok(time() < 300, time())
   })
 })

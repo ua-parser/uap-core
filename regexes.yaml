@@ -1572,7 +1572,7 @@ device_parsers:
   # WebBrowser for SmartWatch
   # @ref: https://play.google.com/store/apps/details?id=se.vaggan.webbrowser&hl=en
   #########
-  - regex: '\bSmartWatch *\( *([^;]+) *; *([^;]+) *;'
+  - regex: '\bSmartWatch {0,2}\( {0,2}([^;]+) {0,2}; {0,2}([^;]+) {0,2};'
     device_replacement: '$1 $2'
     brand_replacement: '$1'
     model_replacement: '$2'
