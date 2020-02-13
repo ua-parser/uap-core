@@ -52,7 +52,7 @@ suite('redos', function () {
     }
   }
 
-  test('should not backtrack', function () {
+  test('should not backtrack aaaa..', function () {
     var ua = Array(3200).fill('a').join('')
     var time = timer()
     parse(ua)
@@ -61,6 +61,13 @@ suite('redos', function () {
 
   test('should not backtrack Smartwatch', function () {
     var ua = 'SmartWatch(' + Array(3500).fill(' ').join('') + 'z'
+    var time = timer()
+    parse(ua)
+    assert.ok(time() < 300, time())
+  })
+
+  test('should not backtrack HuaweiA', function () {
+    var ua = ';A Build HuaweiA' + Array(3500).fill('4').join('') + 'z'
     var time = timer()
     parse(ua)
     assert.ok(time() < 300, time())
