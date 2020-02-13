@@ -52,24 +52,26 @@ suite('redos', function () {
     }
   }
 
-  test('should not backtrack aaaa..', function () {
-    var ua = Array(3200).fill('a').join('')
+  function testRedos (ua) {
     var time = timer()
     parse(ua)
-    assert.ok(time() < 300, time())
+    var diff = time()
+    assert.ok(diff < 300, diff)
+  }
+
+  test('should not backtrack aaaa..', function () {
+    testRedos(Array(3200).fill('a').join(''))
   })
 
   test('should not backtrack Smartwatch', function () {
-    var ua = 'SmartWatch(' + Array(3500).fill(' ').join('') + 'z'
-    var time = timer()
-    parse(ua)
-    assert.ok(time() < 300, time())
+    testRedos('SmartWatch(' + Array(3500).fill(' ').join('') + 'z')
   })
 
   test('should not backtrack HuaweiA', function () {
-    var ua = ';A Build HuaweiA' + Array(3500).fill('4').join('') + 'z'
-    var time = timer()
-    parse(ua)
-    assert.ok(time() < 300, time())
+    testRedos(';A Build HuaweiA' + Array(3500).fill('4').join('') + 'z')
+  })
+
+  test('should not backtrack HbbTV LGE', function () {
+    testRedos('HbbTV/0.0.0 (;LGE;' + Array(3500).fill(' ').join('') + 'z')
   })
 })
