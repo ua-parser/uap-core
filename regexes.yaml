@@ -5141,7 +5141,7 @@ device_parsers:
   - regex: '(HbbTV)/1\.1\.1 \(;;;;;\) Maple_2011'
     device_replacement: '$1'
     brand_replacement: 'Samsung'
-  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]*; *(?:CUS:([^;]*)|([^;]+)) *; *([^;]*) *;.*;'
+  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]{0,30}; {0,1}(?:CUS:([^;]*)|([^;]+)) {0,1}; {0,1}([^;]{0,30})'
     device_replacement: '$1'
     brand_replacement: '$2$3'
     model_replacement: '$4'

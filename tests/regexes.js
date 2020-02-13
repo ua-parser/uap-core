@@ -74,4 +74,16 @@ suite('redos', function () {
   test('should not backtrack HbbTV LGE', function () {
     testRedos('HbbTV/0.0.0 (;LGE;' + Array(3500).fill(' ').join('') + 'z')
   })
+
+  test('should not backtrack HbbTV CUS', function () {
+    testRedos('HbbTV/0.0.0 (;CUS:;' + Array(3500).fill(' ').join('') + 'z')
+  })
+
+  test('should not backtrack HbbTV', function () {
+    testRedos('HbbTV/0.0.0 (;' + Array(3500).fill(' ').join('') + 'z')
+  })
+
+  test('should not backtrack HbbTV z', function () {
+    testRedos('HbbTV/0.0.0 (;z;' + Array(3500).fill(' ').join('') + 'z')
+  })
 })
