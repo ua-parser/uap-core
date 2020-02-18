@@ -846,7 +846,7 @@ user_agent_parsers:
   # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
 
-  - regex: '(Java)[/ ]{0,1}\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
+  - regex: '(Java)[/ ]?\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
 
   # Cloud Storage Clients
   - regex: '^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+|)'
@@ -3519,7 +3519,7 @@ device_parsers:
   # Oppo
   # @ref: http://en.oppo.com/products/
   #########
-  - regex: '; *(Find ?(?:5|7a)|R8[012]\d{1,2}|T703\d{0,1}|U70\d{1,2}T?|X90\d{1,2})(?: Build|\) AppleWebKit)'
+  - regex: '; *(Find ?(?:5|7a)|R8[012]\d{1,2}|T703\d?|U70\d{1,2}T?|X90\d{1,2})(?: Build|\) AppleWebKit)'
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
     model_replacement: '$1'
@@ -5126,7 +5126,7 @@ device_parsers:
   # HbbTV (European and Australian standard)
   # written before the LG regexes, as LG is making HbbTV too
   ##########
-  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \( {0,1};(LG)E {0,1};([^;]{0,30})'
+  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \( ?;(LG)E ?;([^;]{0,30})'
     device_replacement: '$1'
     brand_replacement: '$2'
     model_replacement: '$3'
@@ -5141,7 +5141,7 @@ device_parsers:
   - regex: '(HbbTV)/1\.1\.1 \(;;;;;\) Maple_2011'
     device_replacement: '$1'
     brand_replacement: 'Samsung'
-  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]{0,30}; {0,1}(?:CUS:([^;]*)|([^;]+)) {0,1}; {0,1}([^;]{0,30})'
+  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]{0,30}; ?(?:CUS:([^;]*)|([^;]+)) ?; ?([^;]{0,30})'
     device_replacement: '$1'
     brand_replacement: '$2$3'
     model_replacement: '$4'
