@@ -1,5 +1,26 @@
 test_cases:
 
+  - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '3'
+    patch_minor:
+
+  - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '2'
+    patch: 
+    patch_minor:
+
+  - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
+    family: 'WatchOS'
+    major: '5'
+    minor: '1'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:
@@ -118,6 +139,20 @@ test_cases:
     minor: '4'
     patch: '2'
     patch_minor:
+  
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; motorola one power) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Mobile Safari/537.36'
+    family: 'Android'
+    major: '9'
+    minor: 
+    patch: 
+    patch_minor:
+  
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3396.81 Mobile Safari/537.36'
+    family: 'Android'
+    major: '10'
+    minor: 
+    patch: 
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (SAMSUNG; SAMSUNG-GT-S8500/S8500XXJEE; U; Bada/1.0; nl-nl) AppleWebKit/533.1 (KHTML, like Gecko) Dolfin/2.0 Mobile WVGA SMM-MMS/1.2.0 OPN-B'
     family: 'Bada'
@@ -228,6 +263,27 @@ test_cases:
     family: 'Firefox OS'
     major:
     minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0'
+    family: 'KaiOS'
+    major: '1'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5.1'
+    family: 'KaiOS'
+    major: '2'
+    minor: '5'
+    patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Mobile; rv:68.0) KAIOS/3.0'
+    family: 'KaiOS'
+    major: '3'
+    minor: '0'
     patch:
     patch_minor:
 
@@ -422,6 +478,13 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
     family: 'Other'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    family: 'Linux'
     major:
     minor:
     patch:
@@ -736,15 +799,15 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'ICE Browser/5.05 (Java 1.4.0; Windows 2000 5.0 x86)'
-    family: 'Windows 2000'
-    major:
+    family: 'Windows'
+    major: '2000'
     minor:
     patch:
     patch_minor:
 
   - user_agent_string: 'NCSA_Mosaic/2.0 (Windows 3.1)'
-    family: 'Windows 3.1'
-    major:
+    family: 'Windows'
+    major: '3.1'
     minor:
     patch:
     patch_minor:
@@ -784,17 +847,31 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'PAN GlobalProtect/4.1.2-11 (Microsoft Windows 10 Pro , 64-bit)'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'PAN GlobalProtect/5.0.0-87 (Microsoft Windows 10 Pro , 64-bit) Mozilla/5.0 (Windows NT 6.2; Win64; x64; Trident/7.0; rv:11.0) like Gecko'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows'
-    major: '8.1'
-    minor:
+    major: '8'
+    minor: '1'
     patch:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3; ARM; WOW64; Trident/7.0; rv:11.0) like Gecko'
     family: 'Windows'
-    major: 'RT 8.1'
-    minor:
+    major: 'RT 8'
+    minor: '1'
     patch:
     patch_minor:
 
@@ -998,6 +1075,13 @@ test_cases:
     family: 'Sony'
     major: '2011'
     minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Sailfish 3.0; Mobile; rv:45.0) Gecko/45.0 Firefox/45.0 SailfishBrowser/1.0'
+    family: 'Sailfish'
+    major: '3'
+    minor: '0'
     patch:
     patch_minor:
 
@@ -2412,6 +2496,13 @@ test_cases:
     patch: '4'
     patch_minor:
 
+  - user_agent_string: 'Zendesk for iPhone 1.2.1 (4395)'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/52.0.2743.116+Safari/537.36'
     family: 'Mac OS X'
     major: '10'
@@ -2463,8 +2554,8 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.3) AppleWebKit/537.36 (KHTML, like Gecko) BoxNotes/1.3.0 Chrome/56.0.2924.87 Electron/1.6.8 Safari/537.36'
     family: 'Windows'
-    major: '8.1'
-    minor:
+    major: '8'
+    minor: '1'
     patch:
     patch_minor:
 
@@ -2573,21 +2664,21 @@ test_cases:
     minor: '2'
     patch: '5'
     patch_minor:
- 
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Flipboard/4.2.2'
     family: 'iOS'
     major: '11'
     minor: '2'
     patch: '6'
     patch_minor:
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36 Flipboard/4.1.9/4323,4.1.9.4323'
     family: 'Android'
     major: '7'
     minor: '0'
     patch:
     patch_minor:
-    
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Onefootball/Android/9.10.6'
     family: 'Android'
     major: '7'
@@ -2601,7 +2692,7 @@ test_cases:
     minor: '0'
     patch:
     patch_minor:
-    
+
   - user_agent_string: 'Wget/1.18 (linux-gnu)'
     family: 'Linux'
     major:
@@ -2623,24 +2714,156 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'ibm-cos-sdk-java/2.3.0 Linux/4.9.0-8-amd64 Java_HotSpot(TM)_64-Bit_Server_VM/9.0.4+11/9.0.4'
+    family: 'Linux'
+    major: '4'
+    minor: '9'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'aws-sdk-dotnet-45/3.3.11.0 aws-sdk-dotnet-core/3.3.17.10 .NET_Runtime/4.0 .NET_Framework/4.0 OS/Microsoft_Windows_NT_6.2.9200.0 ClientSync'
+    family: 'Windows'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'rusoto/0.36.0 rust/1.35.0 linux'
+    family: 'Linux'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/8.0.0 (SM-G955F) Salesforce1/15.2 Native uid_c4589f605fad8c7e ftr_ Cordova/6.2.3'
     family: 'Android'
     major: '8'
     minor: '0'
     patch: '0'
-    patch_minor: 
+    patch_minor:
 
   - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/7.0 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
     family: 'Android'
     major: '7'
     minor: '0'
-    patch: 
-    patch_minor: 
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'SalesforceMobileSDK/5.3.0 android mobile/9 (SM-G955U) Salesforce1/15.2 Native uid_4ec4068eddf27447 ftr_ Cordova/6.2.3'
+    family: 'Android'
+    major: '9'
+    minor:
+    patch:
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel Build/PPP3.180510.008) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
     major: '9'
     minor:
-    patch: 
-    patch_minor: 
+    patch:
+    patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Windows aarch64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp'
+    family: 'Chrome OS'
+    major: '10718'
+    minor: '88'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Windows x86_64 10718.88.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.118 Safari/537.36 CitrixChromeApp'
+    family: 'Chrome OS'
+    major: '10718'
+    minor: '88'
+    patch: '2'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36 CitrixChromeApp'
+    family: 'Windows'
+    major: '10'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'ViaFree-DK/3.8.3 (com.MTGx.ViaFree.dk; build:7383; iOS 12.1.0) Alamofire/4.7.0'
+    family: 'iOS'
+    major: '12'
+    minor: '1'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'Viafree-tvOS-DK/3.7.1 (com.MTGx.ViaFree.dk; build:7341; tvOS 12.1.0) Alamofire/4.7.0'
+    family: 'tvOS'
+    major: '12'
+    minor: '1'
+    patch: '0'
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.7.1 (Windows; Microsoft Windows 7 Ultimate Edition Service Pack 1 (Build 7601)) AppleWebKit/7604.3005.2001.1'
+    family: 'Windows'
+    major: '7'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.1.3 (Windows; Microsoft Windows XP Professional Service Pack 3 (Build 2600)) AppleWebKit/7600.1017.9000.3'
+    family: 'Windows'
+    major: 'XP'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'iTunes/12.1.3 (Windows; Microsoft Windows Vista Business Edition Service Pack 2 (Build 6002)) AppleWebKit/7600.1017.9000.3  '
+    family: 'Windows'
+    major: 'Vista'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.01; Windows 98; Linux 3.3.8-3.3) [Netgem; 7.7.01-51; i-Player; netbox; sezmi_totalgem]'
+    family: 'Windows'
+    major: '98'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/2.0 (compatible; MSIE 3.0; Windows 3.1)'
+    family: 'Windows'
+    major: '3.1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 4.0; rv:52.0) Gecko/20100101 Firefox/52.0'
+    family: 'Windows'
+    major: 'NT'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.0; Windows ME) Opera 5.11 [de]'
+    family: 'Windows'
+    major: 'ME'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Microsoft Internet Explorer/1.0 (Windows 95)'
+    family: 'Windows'
+    major: '95'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE,BrailleNote; IEMobile 7.11)'
+    family: 'Windows'
+    major: 'CE'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows 2000; U) Opera 7.0 [en]'
+    family: 'Windows'
+    major: '2000'
+    minor:
+    patch:
+    patch_minor:
