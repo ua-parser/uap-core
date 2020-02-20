@@ -1572,7 +1572,7 @@ device_parsers:
   # WebBrowser for SmartWatch
   # @ref: https://play.google.com/store/apps/details?id=se.vaggan.webbrowser&hl=en
   #########
-  - regex: '\bSmartWatch *\( *([^;]+) *; *([^;]+) *;'
+  - regex: '\bSmartWatch {0,2}\( {0,2}([^;]+) {0,2}; {0,2}([^;]+) {0,2};'
     device_replacement: '$1 $2'
     brand_replacement: '$1'
     model_replacement: '$2'
@@ -2584,7 +2584,7 @@ device_parsers:
     device_replacement: '$1$2'
     brand_replacement: 'Huawei'
     model_replacement: '$2'
-  - regex: '; *([^;/]+) Build[/ ]Huawei(MT1-U06|[A-Z]+\d+[^\);]+)[^\);]*\)'
+  - regex: '; *([^;/]+) Build[/ ]Huawei(MT1-U06|[A-Z]+\d+[^\);]+)\)'
     device_replacement: '$1'
     brand_replacement: 'Huawei'
     model_replacement: '$2'
@@ -5126,7 +5126,7 @@ device_parsers:
   # HbbTV (European and Australian standard)
   # written before the LG regexes, as LG is making HbbTV too
   ##########
-  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]*; *(LG)E *; *([^;]*) *;[^;]*;[^;]*;\)'
+  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \( {0,1};(LG)E {0,1};([^;]{0,30})'
     device_replacement: '$1'
     brand_replacement: '$2'
     model_replacement: '$3'
@@ -5141,7 +5141,7 @@ device_parsers:
   - regex: '(HbbTV)/1\.1\.1 \(;;;;;\) Maple_2011'
     device_replacement: '$1'
     brand_replacement: 'Samsung'
-  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]*; *(?:CUS:([^;]*)|([^;]+)) *; *([^;]*) *;.*;'
+  - regex: '(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]{0,30}; {0,1}(?:CUS:([^;]*)|([^;]+)) {0,1}; {0,1}([^;]{0,30})'
     device_replacement: '$1'
     brand_replacement: '$2$3'
     model_replacement: '$4'
