@@ -5467,3 +5467,14 @@ device_parsers:
     device_replacement: 'Generic Feature Phone'
     brand_replacement: 'Generic'
     model_replacement: 'Feature Phone'
+
+  #########
+  # Apple
+  # @ref: https://www.apple.com/mac/
+  # @note: lookup Mac OS, but exclude iPad, Apple TV, a HTC phone, Kindle, LG
+  # @note: put this at the end, since it is hard to implement contains foo, but not contain bar1, bar 2, bar 3 in go's re2
+  #########
+  - regex: 'Mac OS'
+    device_replacement: 'Mac'
+    brand_replacement: 'Apple'
+    model_replacement: 'Mac'
