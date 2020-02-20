@@ -691,7 +691,7 @@ user_agent_parsers:
     family_replacement: 'TopBuzz'
 
   # @note: iOS / OSX Applications
-  - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+) Mobile'
+  - regex: '(iPod|iPhone|iPad).+GSA/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|) Mobile'
     family_replacement: 'Google'
   - regex: '(iPod|iPhone|iPad).+Version/(\d+)\.(\d+)(?:\.(\d+)|).*[ +]Safari'
     family_replacement: 'Mobile Safari'
