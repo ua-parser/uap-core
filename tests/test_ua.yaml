@@ -1,16 +1,81 @@
 test_cases:
+  - user_agent_string: 'Luminary/1.0'
+    family: 'Luminary'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.5.0'
+    family: 'Luminary'
+    major: '70'
+    minor:
+    patch:
+
+  - user_agent_string: 'Luminary/70 CFNetwork/975.0.3 Darwin/18.2.0'
+    family: 'Luminary'
+    major: '70'
+    minor:
+    patch:
+
+  - user_agent_string: 'Luminary/1.0.3 build 71/iOS 12.2'
+    family: 'Luminary'
+    major: '1'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 28'
+    family: 'Luminary'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 23'
+    family: 'Luminary'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Luminary/70 CFNetwork/976 Darwin/18.2.0'
+    family: 'Luminary'
+    major: '70'
+    minor:
+    patch:
+
+  - user_agent_string: 'Luminary/70 CFNetwork/978.0.7 Darwin/18.6.0'
+    family: 'Luminary'
+    major: '70'
+    minor:
+    patch:
+
+  - user_agent_string: 'Luminary/1.0.2 build 57/Android SDK 26'
+    family: 'Luminary'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'LuminaryStage/3311 CFNetwork/978.0.7 Darwin/18.5.0'
+    family: 'Luminary'
+    major: '3311'
+    minor:
+    patch:
+
+  - user_agent_string: 'fakeLuminary/1.0'
+    family: 'Other'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'atc/1.0 watchOS/5.1.3 model/Watch3,4 hwp/t8004 build/16S535 (6; dt:156)'
     family: 'Apple Watch App'
     major: '3'
     minor: '4'
-    patch: 
+    patch:
 
   - user_agent_string: 'atc/1.0 watchOS/5.2 model/Watch4,4 hwp/t8006 build/16T225 (6; dt:193)'
     family: 'Apple Watch App'
     major: '4'
     minor: '4'
-    patch: 
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; en-US) AppleWebKit/531.9 (KHTML, like Gecko) AdobeAIR/2.5.1'
     family: 'AdobeAIR'
@@ -215,6 +280,12 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.98 Safari/537.36 CreativeCloud/4.8.1.435'
+    family: 'Adobe CreativeCloud'
+    major: '4'
+    minor: '8'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; chromeframe/11.0.660.0)'
     family: 'Chrome Frame'
@@ -522,17 +593,41 @@ test_cases:
     minor: '0'
     patch: '2'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ManagedBrowser/20181024.1'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15'
+    family: 'Safari'
+    major: '12'
+    minor: '1'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ManagedBrowser/20181024.1'
+    family: 'Mobile Safari UI/WKWebView'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13F69'
     family: 'Mobile Safari UI/WKWebView'
-    major: '9'
-    minor: '3'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257'
     family: 'Mobile Safari UI/WKWebView'
-    major: '7'
-    minor: '1'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.3a1) Gecko/20100208 MozillaDeveloperPreview/3.7a1 (.NET CLR 3.5.30729)'
     family: 'MozillaDeveloperPreview'
@@ -978,6 +1073,12 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Superhuman'
+    family: 'Superhuman'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'YahooMobileMail/1.0 (Android Mail; 1.3.10) (supersonic;HTC;PC36100;2.3.5/GRJ90)'
     family: 'YahooMobileMail'
     major: '1'
@@ -1055,6 +1156,12 @@ test_cases:
     major: '1'
     minor: '3'
     patch: '45'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU OS 10_2_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) 1Password/6.4.5 (like Version/10.2.1 Mobile/14D27 Safari/600.1.4)'
+    family: '1Password'
+    major: '6'
+    minor: '4'
+    patch: '5'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.50.3 Safari/537.36'
     family: 'Whale'
@@ -6743,9 +6850,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile'
     family: 'Mobile Safari UI/WKWebView'
-    major: '4'
-    minor: '3'
-    patch: '2'
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari'
     family: 'Mobile Safari'
@@ -7864,6 +7971,30 @@ test_cases:
     patch: '0'
     patch_minor: '25'
 
+  - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 4_3_5 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Mobile/8L1 Twitter for iPad'
+    family: 'Twitter'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Nokia 2.1 Build/PKQ1.181105.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36 TwitterAndroid'
+    family: 'Twitter'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C153 Twitter for iPhone/7.19'
+    family: 'Twitter'
+    major: '7'
+    minor: '19'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) GSA/4.2.2.38484 Mobile/11D257 Safari/9537.53'
+    family: 'Google'
+    major: '4'
+    minor: '2'
+    patch: '2'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) GSA/36.0.169645775 Mobile/15A421 Safari/604.1'
     family: 'Google'
     major: '36'
@@ -7932,6 +8063,29 @@ test_cases:
     patch: '131'
     patch_minor: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TopBuzz com.alex.NewsMaster/8.2.1 (iPad; iOS 12.3.1; en; WIFI)'
+    family: 'TopBuzz'
+    major: '8'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; SM-G950U Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/76.0.3809.111 Mobile Safari/537.36 JsSdk/2 TopBuzz/9.4.3 NetType/4G'
+    family: 'TopBuzz'
+    major: '9'
+    minor: '4'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; SM-J737A Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.143 Mobile Safari/537.36 JsSdk/2 TopBuzz/9.1.4 NetType/4G'
+    family: 'TopBuzz'
+    major: '9'
+    minor: '1'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 TopBuzz com.topbuzz.videoen/8.2.2 (iPhone; iOS 10.3.3; en; WIFI; CTRadioAccessTechnologyLTE)'
+    family: 'TopBuzz'
+    major: '8'
+    minor: '2'
+    patch: '2'
   - user_agent_string: 'Snapchat/10.29.1.0 (iPhone10,1; iOS 11.2; gzip)'
     family: 'Snapchat'
     major: '10'
@@ -7949,3 +8103,23 @@ test_cases:
     major: '9'
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 9; zh-cn; vivo X21 Build/PKQ1.180819.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/9.9 Mobile Safari/537.36'
+    family: 'QQ Browser Mobile'
+    major: '9'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Safari/603.2.4 EdgiOS/41.1.35.1'
+    family: 'Edge Mobile'
+    major: '41'
+    minor: '1'
+    patch: '35'
+    patch_minor: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0; Pixel XL Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.0 Mobile Safari/537.36 EdgA/41.1.35.1'
+    family: 'Edge Mobile'
+    major: '41'
+    minor: '1'
+    patch: '35'
+    patch_minor: '1'
