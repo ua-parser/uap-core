@@ -7943,4 +7943,9 @@ test_cases:
     major: '1'
     minor: '0'
     patch: '0'
-    
+
+  - user_agent_string: 'Android: Client/0.0.0-indev (Android SDK built for x86; Android 9)'
+    family: 'Android'
+    major: '9'
+    minor:
+    patch:
