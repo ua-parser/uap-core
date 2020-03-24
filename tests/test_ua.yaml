@@ -8117,3 +8117,15 @@ test_cases:
     minor: '1'
     patch: '35'
     patch_minor: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible;AspiegelBot)'
+    family: 'AspiegelBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
+    family: 'AspiegelBot'
+    major:
+    minor:
+    patch:
