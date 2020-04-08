@@ -7379,6 +7379,12 @@ test_cases:
     minor: '14'
     patch:
 
+  - user_agent_string: 'wget2/1.99.2'
+    family: 'wget2'
+    major: '1'
+    minor: '99'
+    patch: '2'
+
   - user_agent_string: 'Windows-Update-Agent/7.9.9600.17729 Client-Protocol/1.21'
     family: 'Windows-Update-Agent'
     major: '7'
