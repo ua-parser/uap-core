@@ -156,6 +156,17 @@ user_agent_parsers:
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
 
+  # aspiegel.com spider (owned by Huawei)
+  - regex: 'Mozilla.*Mobile.*AspiegelBot'
+    family_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Smartphone'
+
+  - regex: 'AspiegelBot'
+    family_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Desktop'
+
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
     family_replacement: 'Basilisk'
@@ -932,6 +943,10 @@ os_parsers:
   # generic HbbTV, hoping to catch manufacturer name (always after 2nd comma) and the first string that looks like a 2011-2019 year
   - regex: 'HbbTV/\d+\.\d+\.\d+ \(.*; ?([a-zA-Z]+) ?;.*(201[1-9]).*\)'
 
+  # aspiegel.com spider (owned by Huawei)
+  - regex: 'AspiegelBot'
+    os_replacement: 'Other'
+
   ##########
   # @note: Windows Phone needs to come before Windows NT 6.1 *and* before Android to catch cases such as:
   # Mozilla/5.0 (Mobile; Windows Phone 8.1; Android 4.0; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920)...
@@ -1567,6 +1582,16 @@ device_parsers:
   - regex: 'X11; Datanyze; Linux'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
+
+  # aspiegel.com spider (owned by Huawei)
+  - regex: 'Mozilla.*Mobile.*AspiegelBot'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Smartphone'
+  - regex: 'Mozilla.*AspiegelBot'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Desktop'
 
   #########
   # WebBrowser for SmartWatch
