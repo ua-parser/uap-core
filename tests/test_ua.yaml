@@ -7796,7 +7796,7 @@ test_cases:
     patch: '10'
 
   - user_agent_string: 'Python/3.6 aiohttp/3.5.4'
-    family: 'Python/3.6 aiohttp'
+    family: 'Python aiohttp'
     major: '3'
     minor: '5'
     patch: '4'
