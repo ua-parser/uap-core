@@ -6926,6 +6926,18 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 EdgiOS/44.5.0.10 Mobile/15E148 Safari/604.1'
+    family: 'Edge Mobile'
+    major: '44'
+    minor: '5'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 EdgA/42.0.0.2057'
+    family: 'Edge Mobile'
+    major: '42'
+    minor: '0'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/537.36 (KHTML, like Gecko) brave/0.7.11 Chrome/47.0.2526.110 Brave/0.36.5 Safari/537.36'
     family: 'Brave'
     major: '0'
@@ -7379,6 +7391,12 @@ test_cases:
     minor: '14'
     patch:
 
+  - user_agent_string: 'wget2/1.99.2'
+    family: 'wget2'
+    major: '1'
+    minor: '99'
+    patch: '2'
+
   - user_agent_string: 'Windows-Update-Agent/7.9.9600.17729 Client-Protocol/1.21'
     family: 'Windows-Update-Agent'
     major: '7'
@@ -7784,7 +7802,7 @@ test_cases:
     patch: '10'
 
   - user_agent_string: 'Python/3.6 aiohttp/3.5.4'
-    family: 'Python/3.6 aiohttp'
+    family: 'Python aiohttp'
     major: '3'
     minor: '5'
     patch: '4'
@@ -8123,3 +8141,15 @@ test_cases:
     minor: '1'
     patch: '35'
     patch_minor: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible;AspiegelBot)'
+    family: 'AspiegelBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
+    family: 'AspiegelBot'
+    major:
+    minor:
+    patch:
