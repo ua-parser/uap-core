@@ -3555,7 +3555,7 @@ device_parsers:
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
     model_replacement: '$1'
-  - regex: '; *((A11|A33|A37|A51)[a-z]{1,2})(?: Build|\) AppleWebKit)'
+  - regex: '; *((A11|A33|A37|A51|F1|R7)[a-z]{1,2})(?: Build|\) AppleWebKit)'
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
     model_replacement: '$1'
