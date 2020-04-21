@@ -2895,6 +2895,15 @@ device_parsers:
     model_replacement: '$1'
 
   #########
+  # Itel Mobile
+  # @ref: https://www.itel-mobile.com/global/products/
+  #########
+  - regex: '; *(itel[^;/]*)(?: Build|\) AppleWebKit)'
+    device_replacement: '$1'
+    brand_replacement: 'Itel'
+    model_replacement: '$1'
+
+  #########
   # Ivio
   # @ref: http://www.ivio.com/mobile.php
   # @models: DG80,DG20,DE38,DE88,MD70
