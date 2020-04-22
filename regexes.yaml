@@ -3571,6 +3571,10 @@ device_parsers:
   - regex: '; *(CPH\d{1,4}|RMX\d{1,4}|P[A-Z]{3}\d{2})(?: Build|\) AppleWebKit)'
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
+  - regex: '; *(A1601)(?: Build|\) AppleWebKit)'
+    device_replacement: 'Oppo F1s'
+    brand_replacement: 'Oppo'
+    model_replacement: '$1'
 
   #########
   # Odys
