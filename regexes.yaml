@@ -2898,8 +2898,8 @@ device_parsers:
   # Itel Mobile
   # @ref: https://www.itel-mobile.com/global/products/
   #########
-  - regex: '; *(itel[^;/]*)(?: Build|\) AppleWebKit)'
-    device_replacement: '$1'
+  - regex: '; *itel ([^;/]*)(?: Build|\) AppleWebKit)'
+    device_replacement: 'Itel $1'
     brand_replacement: 'Itel'
     model_replacement: '$1'
 
