@@ -25155,6 +25155,26 @@ test_cases:
     brand: 'Iru'
     model: 'M702pro'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; itel it1508 Plus Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/261.0.0.52.126;]'
+    family: 'Itel it1508 Plus'
+    brand: 'Itel'
+    model: 'it1508 Plus'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; itel A32F Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36'
+    family: 'Itel A32F'
+    brand: 'Itel'
+    model: 'A32F'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; itel W5008 Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.79 Mobile Safari/537.36 Zalo android/12100475'
+    family: 'Itel W5008'
+    brand: 'Itel'
+    model: 'W5008'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; itel L6002P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36'
+    family: 'Itel L6002P'
+    brand: 'Itel'
+    model: 'L6002P'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.2; cs-cz; DE88Plus Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'DE88Plus'
     brand: 'Ivio'
