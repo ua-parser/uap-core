@@ -48140,6 +48140,61 @@ test_cases:
     brand: 'Oppo'
     model: 'X907'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; F1f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36'
+    family: 'Oppo F1f'
+    brand: 'Oppo'
+    model: 'F1f'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; F1w Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.132 Mobile Safari/537.36 Zalo android/12100486'
+    family: 'Oppo F1w'
+    brand: 'Oppo'
+    model: 'F1w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; A33f) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36'
+    family: 'Oppo A33f'
+    brand: 'Oppo'
+    model: 'A33f'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; A33w Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.162 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/264.0.0.44.111;]'
+    family: 'Oppo A33w'
+    brand: 'Oppo'
+    model: 'A33w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; A51w) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.105 Mobile Safari/537.36'
+    family: 'Oppo A51w'
+    brand: 'Oppo'
+    model: 'A51w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; R7sf Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/263.0.0.46.121;]'
+    family: 'Oppo R7sf'
+    brand: 'Oppo'
+    model: 'R7sf'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; R7kf) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36'
+    family: 'Oppo R7kf'
+    brand: 'Oppo'
+    model: 'R7kf'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; RMX1811 Build/PKQ1.190319.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.162 Mobile Safari/537.36 Zalo/1.0'
+    family: 'Oppo RMX1811'
+    brand: 'Oppo'
+    model: 'RMX1811'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; PADM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 Zalo/1.0'
+    family: 'Oppo PADM00'
+    brand: 'Oppo'
+    model: 'PADM00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; PCAM10 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 Zalo android/12100438'
+    family: 'Oppo PCAM10'
+    brand: 'Oppo'
+    model: 'PCAM10'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; CPH2035) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36'
+    family: 'Oppo CPH2035'
+    brand: 'Oppo'
+    model: 'CPH2035'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; th-th; TP-701 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) FlyFlow/1.4 Version/4.0 Mobile Safari/534.30'
     family: 'Orion TP-701'
     brand: 'Orion'
