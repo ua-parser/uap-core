@@ -3556,7 +3556,7 @@ device_parsers:
   # Oppo
   # @ref: http://en.oppo.com/products/
   #########
-  - regex: '; *(Find ?(?:5|7a)|R8[012]\d{1,2}|T703\d?|U70\d{1,2}T?|X90\d{1,2}|CPH\d{1,4}|RMX\d{1,4}|P[A-Z]{3}\d{2})(?: Build|\) AppleWebKit)'
+  - regex: '; *(Find ?(?:5|7a)|R8[012]\d{1,2}|T703\d?|U70\d{1,2}T?|X90\d{1,2}|[AFR]\d{1,2}[a-z]{1,2})(?: Build|\) AppleWebKit)'
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
     model_replacement: '$1'
@@ -3564,10 +3564,9 @@ device_parsers:
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
     model_replacement: '$1'
-  - regex: '; *((A11|A33|A37|A51|F1|R7|R9)[a-z]{1,2})(?: Build|\) AppleWebKit)'
+  - regex: '; *(CPH\d{1,4}|RMX\d{1,4}|P[A-Z]{3}\d{2})(?: Build|\) AppleWebKit)'
     device_replacement: 'Oppo $1'
     brand_replacement: 'Oppo'
-    model_replacement: '$1'
 
   #########
   # Odys
