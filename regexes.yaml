@@ -3500,6 +3500,10 @@ device_parsers:
     device_replacement: '$1$2$3'
     brand_replacement: 'Nokia'
     model_replacement: '$3'
+  - regex: '; *(TA\-\d{4})(?: Build|\) AppleWebKit)'
+    device_replacement: 'Nokia $1'
+    brand_replacement: 'Nokia'
+    model_replacement: '$1'
 
   #########
   # Nook
