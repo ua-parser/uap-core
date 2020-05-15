@@ -1,6 +1,50 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # ESRI Server products
+  - regex: '(GeoEvent Server) (\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+
+  # ESRI ArcGIS Desktop Products
+  - regex: '(ArcGIS Pro)(?: (\d+)\.(\d+)\.([^ ]+)|)'
+
+  - regex: 'ArcGIS Client Using WinInet'
+    family_replacement: 'ArcMap'
+
+  - regex: '(OperationsDashboard)-(?:Windows)-(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Operations Dashboard for ArcGIS'
+
+  - regex: '(arcgisearth)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ArcGIS Earth'
+
+  - regex: 'com.esri.(earth).phone/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ArcGIS Earth'
+
+  # ESRI ArcGIS Mobile Products
+  - regex: '(arcgis-explorer)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Explorer for ArcGIS'
+
+  - regex: 'arcgis-(collector|aurora)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Collector for ArcGIS'
+
+  - regex: '(arcgis-workforce)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Workforce for ArcGIS'
+
+  - regex: '(Collector|Explorer|Workforce)-(?:Android|iOS)-(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: '$1 for ArcGIS'
+
+  - regex: '(Explorer|Collector)/(\d+) CFNetwork'
+    family_replacement: '$1 for ArcGIS'
+
+  # ESRI ArcGIS Runtimes
+  - regex: 'ArcGISRuntime-(Android|iOS|NET|Qt)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ArcGIS Runtime SDK for $1'
+
+  - regex: 'ArcGIS\.?(iOS|Android|NET|Qt)(?:-|\.)(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ArcGIS Runtime SDK for $1'
+  
+  - regex: 'ArcGIS\.Runtime\.(Qt)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ArcGIS Runtime SDK for $1'
+
   # CFNetwork Podcast catcher Applications
   - regex: '^(Luminary)[Stage]+/(\d+) CFNetwork'
   - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
@@ -101,11 +145,23 @@ user_agent_parsers:
     family_replacement: 'Pinterestbot'
 
   # Bots
-  - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
+  - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
 
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
   - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # SAFE FME
+  - regex: '(FME)\/(\d+\.\d+)\.(\d+)\.(\d+)'
+
+  # QGIS
+  - regex: '(QGIS)\/(\d)\.?0?(\d{1,2})\.?0?(\d{1,2})'
+
+  # JOSM
+  - regex: '(JOSM)/(\d+)\.(\d+)'
+
+  # Tygron Platform
+  - regex: '(Tygron Platform) \((\d+)\.(\d+)\.(\d+(?:\.\d+| RC \d+\.\d+))'
 
   # Facebook
   # Must come before "Bots General matcher" to catch OrangeBotswana
@@ -414,6 +470,9 @@ user_agent_parsers:
   # Rackspace Monitoring
   - regex: '(Rackspace Monitoring)/(\d+)\.(\d+)'
     family_replacement: 'RackspaceBot'
+
+  # PRTG Network Monitoring
+  - regex: '(PRTG Network Monitor)'
 
   # PyAMF
   - regex: '(PyAMF)/(\d+)\.(\d+)\.(\d+)'
@@ -848,7 +907,7 @@ user_agent_parsers:
     family_replacement: 'Python Requests'
 
   # headless user-agents
-  - regex: '\b(Windows-Update-Agent|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+  - regex: '\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
 
   # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
@@ -958,6 +1017,12 @@ os_parsers:
   - regex: '(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+)|).*Outlook-iOS-Android'
     os_replacement: 'iOS'
 
+  # Special case for old ArcGIS Mobile products
+  - regex: 'ArcGIS\.?(iOS|Android)-\d+\.\d+(?:\.\d+|)(?:[^\/]+|)\/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+
+  # Special case for new ArcGIS Mobile products
+  - regex: 'ArcGISRuntime-(?:Android|iOS)\/\d+\.\d+(?:\.\d+|) \((Android|iOS) (\d+)(?:\.(\d+)(?:\.(\d+)|)|);'
+
   ##########
   # Android
   # can actually detect rooted android os. do we care?
@@ -1041,11 +1106,11 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: 'XP'
 
-  - regex: '(Windows NT 6\.1)'
+  - regex: '(Win(?:dows NT |32NT\/)6\.1)'
     os_replacement: 'Windows'
     os_v1_replacement: '7'
 
-  - regex: '(Windows NT 6\.0)'
+  - regex: '(Win(?:dows NT |32NT\/)6\.0)'
     os_replacement: 'Windows'
     os_v1_replacement: 'Vista'
 
@@ -1057,7 +1122,7 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: 'RT'
 
-  - regex: '(Windows NT 6\.2)'
+  - regex: '(Win(?:dows NT |32NT\/)6\.2)'
     os_replacement: 'Windows'
     os_v1_replacement: '8'
 
@@ -1066,12 +1131,12 @@ os_parsers:
     os_v1_replacement: 'RT 8'
     os_v2_replacement: '1'
 
-  - regex: '(Windows NT 6\.3)'
+  - regex: '(Win(?:dows NT |32NT\/)6\.3)'
     os_replacement: 'Windows'
     os_v1_replacement: '8'
     os_v2_replacement: '1'
 
-  - regex: '(Windows NT 6\.4)'
+  - regex: '(Win(?:dows NT |32NT\/)6\.4)'
     os_replacement: 'Windows'
     os_v1_replacement: '10'
 
