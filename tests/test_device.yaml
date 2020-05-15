@@ -25155,6 +25155,26 @@ test_cases:
     brand: 'Iru'
     model: 'M702pro'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; itel it1508 Plus Build/LMY47D; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/261.0.0.52.126;]'
+    family: 'Itel it1508 Plus'
+    brand: 'Itel'
+    model: 'it1508 Plus'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; itel A32F Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36'
+    family: 'Itel A32F'
+    brand: 'Itel'
+    model: 'A32F'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; itel W5008 Build/OPM2.171019.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.79 Mobile Safari/537.36 Zalo android/12100475'
+    family: 'Itel W5008'
+    brand: 'Itel'
+    model: 'W5008'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; itel L6002P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36'
+    family: 'Itel L6002P'
+    brand: 'Itel'
+    model: 'L6002P'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.2.2; cs-cz; DE88Plus Build/FRG83G) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'DE88Plus'
     brand: 'Ivio'
@@ -47495,6 +47515,16 @@ test_cases:
     brand: 'Nokia'
     model:
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; TA-1053) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Mobile Safari/537.36'
+    family: 'Nokia TA-1053'
+    brand: 'Nokia'
+    model: 'TA-1053'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; TA-1032 Build/O00623; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 Zalo android/12100486'
+    family: 'Nokia TA-1032'
+    brand: 'Nokia'
+    model: 'TA-1032'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.0.4; NookColor Build/IMM76D) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.58 Safari/537.31'
     family: 'NookColor'
     brand: 'Nook'
@@ -48139,6 +48169,76 @@ test_cases:
     family: 'Oppo X907'
     brand: 'Oppo'
     model: 'X907'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; F1f Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36'
+    family: 'Oppo F1f'
+    brand: 'Oppo'
+    model: 'F1f'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; F1w Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.132 Mobile Safari/537.36 Zalo android/12100486'
+    family: 'Oppo F1w'
+    brand: 'Oppo'
+    model: 'F1w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; A33f) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36'
+    family: 'Oppo A33f'
+    brand: 'Oppo'
+    model: 'A33f'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; A33w Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.162 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/264.0.0.44.111;]'
+    family: 'Oppo A33w'
+    brand: 'Oppo'
+    model: 'A33w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; A51w) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.105 Mobile Safari/537.36'
+    family: 'Oppo A51w'
+    brand: 'Oppo'
+    model: 'A51w'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; R7sf Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.149 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/263.0.0.46.121;]'
+    family: 'Oppo R7sf'
+    brand: 'Oppo'
+    model: 'R7sf'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1.1; R7kf) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36'
+    family: 'Oppo R7kf'
+    brand: 'Oppo'
+    model: 'R7kf'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; RMX1811 Build/PKQ1.190319.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.162 Mobile Safari/537.36 Zalo/1.0'
+    family: 'Oppo RMX1811'
+    brand: 'Oppo'
+    model: 'RMX1811'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; PADM00 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.108 Mobile Safari/537.36 Zalo/1.0'
+    family: 'Oppo PADM00'
+    brand: 'Oppo'
+    model: 'PADM00'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; PCAM10 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/80.0.3987.99 Mobile Safari/537.36 Zalo android/12100438'
+    family: 'Oppo PCAM10'
+    brand: 'Oppo'
+    model: 'PCAM10'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; CPH2035) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Mobile Safari/537.36'
+    family: 'Oppo CPH2035'
+    brand: 'Oppo'
+    model: 'CPH2035'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36'
+    family: 'Oppo F1s'
+    brand: 'Oppo'
+    model: 'A1601'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; A1601) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Mobile Safari/537.36'
+    family: 'Oppo F1s'
+    brand: 'Oppo'
+    model: 'A1601'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/75.0.3770.101 Mobile Safari/537.36 Zalo/1.0'
+    family: 'Oppo F1s'
+    brand: 'Oppo'
+    model: 'A1601'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.1; th-th; TP-701 Build/JRO03H) AppleWebKit/534.30 (KHTML, like Gecko) FlyFlow/1.4 Version/4.0 Mobile Safari/534.30'
     family: 'Orion TP-701'
