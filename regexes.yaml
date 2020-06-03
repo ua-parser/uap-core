@@ -1274,40 +1274,41 @@ os_parsers:
   - regex: '(Tizen)[/ ](\d+)\.(\d+)'
 
   ##########
-  # Mac OS
-  # @ref: http://en.wikipedia.org/wiki/Mac_OS_X#Versions
+  # macOS
+  # @ref: https://en.wikipedia.org/wiki/MacOS#Versions
   # @ref: http://www.puredarwin.org/curious/versions
   ##########
   - regex: '((?:Mac[ +]?|; )OS[ +]X)[\s+/](?:(\d+)[_.](\d+)(?:[_.](\d+)|)|Mach-O)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
   - regex: 'Mac OS X\s.{1,50}\s(\d+).(\d+).(\d+)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '$1'
     os_v2_replacement: '$2'
     os_v3_replacement: '$3'
   # Leopard
+
   - regex: ' (Dar)(win)/(9).(\d+).{0,100}\((?:i386|x86_64|Power Macintosh)\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '5'
   # Snow Leopard
   - regex: ' (Dar)(win)/(10).(\d+).{0,100}\((?:i386|x86_64)\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '6'
   # Lion
   - regex: ' (Dar)(win)/(11).(\d+).{0,100}\((?:i386|x86_64)\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '7'
   # Mountain Lion
   - regex: ' (Dar)(win)/(12).(\d+).{0,100}\((?:i386|x86_64)\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '8'
   # Mavericks
   - regex: ' (Dar)(win)/(13).(\d+).{0,100}\((?:i386|x86_64)\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '9'
   # Yosemite is Darwin/14.x but patch versions are inconsistent in the Darwin string;
@@ -1315,16 +1316,17 @@ os_parsers:
 
   # IE on Mac doesn't specify version number
   - regex: 'Mac_PowerPC'
-    os_replacement: 'Mac OS'
+    os_replacement: 'macOS'
 
   # builds before tiger don't seem to specify version?
 
   # ios devices spoof (mac os x), so including intel/ppc prefixes
   - regex: '(?:PPC|Intel) (Mac OS X)'
+    os_replacement: 'macOS'
 
   # Box Drive and Box Sync on Mac OS X use OSX version numbers, not Darwin
   - regex: '^Box.{0,200};(Darwin)/(10)\.(1\d)(?:\.(\d+)|)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
 
   ##########
   # iOS
@@ -1378,11 +1380,11 @@ os_parsers:
     os_replacement: 'iOS'
     os_v1_replacement: '8'
   - regex: '(CF)(Network)/(720)\.(\d)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '10'
   - regex: '(CF)(Network)/(760)\.(\d)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '11'
   - regex: 'CFNetwork/7.{0,100} Darwin/15\.4\.\d+'
@@ -1417,15 +1419,15 @@ os_parsers:
   # @ref: https://en.wikipedia.org/wiki/Darwin_(operating_system)#Release_history
   ##########
   - regex: 'CFNetwork/.{0,100} Darwin/17\.\d+.{0,100}\(x86_64\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '13'
   - regex: 'CFNetwork/.{0,100} Darwin/16\.\d+.{0,100}\(x86_64\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '12'
   - regex: 'CFNetwork/8.{0,100} Darwin/15\.\d+.{0,100}\(x86_64\)'
-    os_replacement: 'Mac OS X'
+    os_replacement: 'macOS'
     os_v1_replacement: '10'
     os_v2_replacement: '11'
   ##########
@@ -5606,7 +5608,6 @@ device_parsers:
     device_replacement: 'Motorola$2'
     brand_replacement: 'Motorola'
     model_replacement: '$2'
-
 
   ##########
   # nintendo
