@@ -8334,3 +8334,21 @@ test_cases:
     major: '100'
     minor: '7'
     patch:
+    
+  - user_agent_string: 'Mozilla/5.0 [en] (X11, U; OpenVAS-VT 8.0.9)'
+    family: 'OpenVAS Scanner'
+    major: '8'
+    minor: '0'
+    patch: '9'
+
+  - user_agent_string: 'Mozilla/5.0 [en] (X11, U; OpenVAS 7.0.10)'
+    family: 'OpenVAS Scanner'
+    major: '7'
+    minor: '0'
+    patch: '10'
+
+  - user_agent_string: 'Mozilla/4.75 [en] (X11, U; OpenVAS)'
+    family: 'OpenVAS Scanner'
+    major:
+    minor:
+    patch:
