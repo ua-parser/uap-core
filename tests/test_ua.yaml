@@ -8334,3 +8334,147 @@ test_cases:
     major: '100'
     minor: '7'
     patch:
+
+  - user_agent_string: 'cf/6.51.0+2acd15650.2020-04-07 (go1.13.8; amd64 linux)'
+    family: 'CloudFoundry'
+    major: '6'
+    minor: '51'
+    patch: '0+2acd15650.2020-04-07'
+
+  - user_agent_string: 'RPT-HTTPClient/0.3-3E'
+    family: 'HTTPClient'
+    major: '0'
+    minor: '3'
+    patch: '3E'
+
+  - user_agent_string: 'CloudCockpitBackend/2.8.7'
+    family: 'CloudCockpitBackend'
+    major: '2'
+    minor: '8'
+    patch: '7'
+
+  - user_agent_string: 'ReactorNetty/0.9.6.RELEASE'
+    family: 'ReactorNetty'
+    major: '0'
+    minor: '9'
+    patch: '6'
+
+  - user_agent_string: 'axios/0.18.1'
+    family: 'axios'
+    major: '0'
+    minor: '18'
+    patch: '1'
+
+  - user_agent_string: 'Jersey/2.29.1 (HttpUrlConnection 1.8.0_252)  '
+    family: 'Jersey'
+    major: '2'
+    minor: '29'
+    patch: '1'
+    
+  - user_agent_string: 'Java-EurekaClient/v1.6.2'
+    family: 'Java-EurekaClient'
+    major: '1'
+    minor: '6'
+    patch: '2'
+
+  - user_agent_string: 'go-cli 6.46.0+29d6257f1.2019-07-09 / windows'
+    family: 'go-cli'
+    major: '6'
+    minor: '46'
+    patch: '0+29d6257f1.2019-07-09'
+
+  - user_agent_string: 'Vert.x-WebClient/3.9.0'
+    family: 'Vert.x-WebClient'
+    major: '3'
+    minor: '9'
+    patch: '0'
+    
+  - user_agent_string: 'Apache-CXF/3.1.14-sap-07'
+    family: 'Apache-CXF'
+    major: '3'
+    minor: '1'
+    patch: '14'
+
+  - user_agent_string: 'Go-CF-client/1.1'
+    family: 'Go-CF-client'
+    major: '1'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'HTTPClient/1.0 (2.8.3, ruby 2.5.5 (2019-03-15))'
+    family: 'HTTPClient'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'ping-service'
+    family: 'ping-service'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'CloudFoundryJavaClient/unknown (Java; SAP AG/1.8.0_251) ReactorNetty/0.9.6.RELEASE (Netty/4.1.49.Final)'
+    family: 'ReactorNetty'
+    major: '0'
+    minor: '9'
+    patch: '6'
+
+  - user_agent_string: 'lua-resty-http/0.13 (Lua) ngx_lua/10013'
+    family: 'lua-resty-http'
+    major: '0'
+    minor: '13'
+    patch:
+
+  - user_agent_string: 'AHC/1.0'
+    family: 'AHC'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'sap xsuaa'
+    family: 'sap xsuaa'
+    major:
+    minor:
+    patch:
+    
+  - user_agent_string: 'sap-leonardo-iot-sdk-nodejs / 0.1.4'
+    family: 'sap-leonardo-iot-sdk-nodejs'
+    major: '0'
+    minor: '1'
+    patch: '4'
+
+  - user_agent_string: 'Node-oauth'
+    family: 'Node-oauth'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'go-resty/1.12.0 (https://github.com/go-resty/resty)'
+    family: 'go-resty'
+    major: '1'
+    minor: '12'
+    patch: '0'
+
+  - user_agent_string: 'Site24x7'
+    family: 'Site24x7'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'SAP NetWeaver Application Server (1.0;740)'
+    family: 'SAP NetWeaver Application Server'
+    major: '7'
+    minor: '40'
+    patch:
+
+  - user_agent_string: 'SAP CPI'
+    family: 'SAP CPI'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'JAEGER_SECURITY'
+    family: 'JAEGER_SECURITY'
+    major:
+    minor:
+    patch:

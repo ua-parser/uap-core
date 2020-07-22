@@ -900,6 +900,7 @@ user_agent_parsers:
   - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+)'
   - regex: '(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)'
 
+
   - regex: '([MS]?IE) (\d+)\.(\d+)'
     family_replacement: 'IE'
 
@@ -907,7 +908,30 @@ user_agent_parsers:
     family_replacement: 'Python Requests'
 
   # headless user-agents
-  - regex: '\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+  - regex: '\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got|CloudCockpitBackend|ReactorNetty|axios|Jersey|Vert.x-WebClient|Apache-CXF|Go-CF-client|go-resty|AHC)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+
+  # CloudFoundry
+  - regex: '^(cf)\/(\d+)\.(\d+)\.(\S+)'
+    family_replacement: 'CloudFoundry'
+
+  # SAP Leonardo
+  - regex: '^(sap-leonardo-iot-sdk-nodejs) \/ (\d+)\.(\d+)\.(\d+)'
+
+  # SAP Netweaver Application Server
+  - regex: '^(SAP NetWeaver Application Server) \(1.0;(\d{1})(\d{2})\)'
+
+  # HttpClient
+  - regex: '^(\w+-HTTPClient)\/(\d+)\.(\d+)-(\S+)'
+    family_replacement: 'HTTPClient'
+
+  # go-cli
+  - regex: '^(go-cli)\s(\d+)\.(\d+).(\S+)'
+
+  # Other Clients with the pattern <Name>/[v]<Major>.<Minor>[.<Patch>]
+  - regex: '^(Java-EurekaClient|Java-EurekaClient-Replication|HTTPClient|lua-resty-http)\/v?(\d+)\.(\d+)\.?(\d*)'
+
+  ## Clints with the pattern <Name>
+  - regex: '^(ping-service|sap xsuaa|Node-oauth|Site24x7|SAP CPI|JAEGER_SECURITY)'
 
   # Asynchronous HTTP Client/Server for asyncio and Python (https://aiohttp.readthedocs.io/)
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
