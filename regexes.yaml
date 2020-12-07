@@ -509,6 +509,9 @@ user_agent_parsers:
   # @ref: http://www.ghost.org
   - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
 
+  # Palo Alto GlobalProtect Linux
+  - regex: 'PAN (GlobalProtect)/(\d+)\.(\d+)\.(\d+) .+ \(X11; Linux x86_64\)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

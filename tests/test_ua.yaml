@@ -8074,6 +8074,12 @@ test_cases:
     minor: '10'
     patch: '8'
 
+  - user_agent_string: 'PAN GlobalProtect/5.2.4 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/602.1 (KHTML, like Gecko) PanGPUI Version/10.0 Safari/602.1'
+    family: 'GlobalProtect'
+    major: '5'
+    minor: '2'
+    patch: '4'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3763.0 Safari/537.36 Edg/75.0.131.0'
     family: 'Edge'
     major: '75'
