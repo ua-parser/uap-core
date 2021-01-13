@@ -80434,3 +80434,13 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Smartphone'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.3 Mobile/15E148 DuckDuckGo/7 Safari/605.1.15'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile DuckDuckGo/5 Safari/537.36'
+    family: 'Generic Smartphone'
+    brand: 'Generic'
+    model: 'Smartphone'

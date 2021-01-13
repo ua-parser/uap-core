@@ -441,6 +441,10 @@ user_agent_parsers:
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
 
+  # DuckDuckGo
+  - regex: 'Mobile.*(DuckDuckGo)/(\d+)'
+    family_replacement: 'DuckDuckGo Mobile'
+
   # Chrome Mobile
   - regex: 'Version/.+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
