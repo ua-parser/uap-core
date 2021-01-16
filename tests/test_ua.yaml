@@ -7645,9 +7645,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) AppleNews/608.0.1 Version/2.0.1'
     family: 'Mobile Safari UI/WKWebView'
-    major: '10'
+    major: '2'
     minor: '0'
-    patch: '2'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.3; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; InfoPath.3)'
     family: 'IE'
@@ -8148,7 +8148,7 @@ test_cases:
     major:
     minor:
     patch:
-  
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
     family: 'AspiegelBot'
     major:
@@ -8184,13 +8184,13 @@ test_cases:
     major: '10'
     minor: '5'
     patch: '1'
-    
+
   - user_agent_string: 'ArcGIS Pro 2.4.2 (000000000) - ArcGIS Pro'
     family: 'ArcGIS Pro'
     major: '2'
     minor: '4'
     patch: '2'
-  
+
   - user_agent_string: 'ArcGIS Client Using WinInet'
     family: 'ArcMap'
     major:
@@ -8256,7 +8256,7 @@ test_cases:
     major: '1544'
     minor:
     patch:
-    
+
   - user_agent_string: 'Explorer-Android-10.2.10/ArcGIS.Android-10.2.8/5.1.1/SAMSUNG-SM-G361F'
     family: 'Explorer for ArcGIS'
     major: '10'
@@ -8280,7 +8280,7 @@ test_cases:
     major: '17'
     minor: '0'
     patch: '1'
-    
+
   - user_agent_string: 'AR/10.2.6.1704 .Net/Desktop (Win32NT/6.1.7601.65536; Win64) arcgisearth/1.5'
     family: 'ArcGIS Earth'
     major: '1'
@@ -8304,7 +8304,7 @@ test_cases:
     major: '100'
     minor: '1'
     patch: '1'
-  
+
   - user_agent_string: 'ArcGIS.Android-10.2.4/8.0.0/SAMSUNG-SM-A530F'
     family: 'ArcGIS Runtime SDK for Android'
     major: '10'
@@ -8315,7 +8315,7 @@ test_cases:
     family: 'ArcGIS Runtime SDK for Android'
     major: '10'
     minor: '2'
-    patch: 
+    patch:
 
   - user_agent_string: 'ArcGISRuntime-Android/100.4 (Android 10.0; arm64-v8a; ONEPLUS-HD1903)'
     family: 'ArcGIS Runtime SDK for Android'
@@ -8328,7 +8328,7 @@ test_cases:
     major: '100'
     minor: '3'
     patch:
-  
+
   - user_agent_string: 'ArcGISRuntime-NET/100.7 (Windows 10.0.18362; Win64; WOW64; UAP; Windows.Desktop)'
     family: 'ArcGIS Runtime SDK for NET'
     major: '100'
