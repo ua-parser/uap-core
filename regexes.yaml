@@ -441,6 +441,10 @@ user_agent_parsers:
   - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
 
+  # Tenta Browser
+  - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Tenta Browser'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'

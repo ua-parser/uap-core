@@ -8515,3 +8515,9 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 8.1.0; tr; SNE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Tenta/2.10.3 Mobile Safari/537.36 Mobile'
+    family: 'Tenta Browser'
+    major: '2'
+    minor: '10'
+    patch: '3'
