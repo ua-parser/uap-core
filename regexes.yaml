@@ -727,6 +727,10 @@ user_agent_parsers:
   - regex: '(OC)/(\d+)\.(\d+)\.(\d+)\.(\d+) \(Skype for Business\)'
     family_replacement: 'Skype'
 
+  # OpenVAS Scanner
+  - regex: '(OpenVAS)(?:-VT)?(?:[ \/](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
+    family_replacement: 'OpenVAS Scanner'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
