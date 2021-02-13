@@ -8353,7 +8353,6 @@ test_cases:
     minor: '7'
     patch:
 
-
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.3 Mobile/15E148 DuckDuckGo/7 Safari/605.1.15'
     family: 'DuckDuckGo Mobile'
     major: '7'
@@ -8533,3 +8532,9 @@ test_cases:
     major: '2'
     minor: '10'
     patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; monitis - premium monitoring service; http://www.monitis.com)'
+    family: 'Monitis'
+    major:
+    minor:
+    patch:

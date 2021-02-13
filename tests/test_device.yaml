@@ -460,6 +460,11 @@ test_cases:
     brand: 'Sony'
     model: 'PlayStation 4'
 
+  - user_agent_string: 'Mozilla/5.0 (PlayStation 4 5.00) AppleWebKit/601.2 (KHTML, like Gecko)'
+    family: 'PlayStation 4'
+    brand: 'Sony'
+    model: 'PlayStation 4'
+
   - user_agent_string: 'SAMSUNG-C3053/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
     family: 'Samsung C3053'
     brand: 'Samsung'
@@ -80449,3 +80454,18 @@ test_cases:
     family: 'Generic Smartphone'
     brand: 'Generic'
     model: 'Smartphone'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Thor E Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36'
+    family: 'Thor E'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; thor Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36'
+    family: 'Thor'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; Apollo Lite Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36'
+    family: 'Apollo Lite'
+    brand: 'Vernee'
+    model: 'Apollo'
