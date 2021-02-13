@@ -215,13 +215,9 @@ user_agent_parsers:
   # aspiegel.com spider (owned by Huawei)
   - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
     family_replacement: 'Spider'
-    brand_replacement: 'Spider'
-    model_replacement: 'Smartphone'
 
   - regex: 'AspiegelBot'
     family_replacement: 'Spider'
-    brand_replacement: 'Spider'
-    model_replacement: 'Desktop'
 
   # Basilisk
   - regex: '(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)'
