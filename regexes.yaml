@@ -510,7 +510,7 @@ user_agent_parsers:
   - regex: '(Ghost)/(\d+)\.(\d+)\.(\d+)'
 
   # Palo Alto GlobalProtect Linux
-  - regex: 'PAN (GlobalProtect)/(\d+)\.(\d+)\.(\d+) .+ \(X11; Linux x86_64\)'
+  - regex: 'PAN (GlobalProtect)/(\d+)\.(\d+)\.(\d+) .{1,100} \(X11; Linux x86_64\)'
 
   #### END SPECIAL CASES TOP ####
 
