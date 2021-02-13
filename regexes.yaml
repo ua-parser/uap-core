@@ -734,6 +734,9 @@ user_agent_parsers:
   - regex: '(OpenVAS)(?:-VT)?(?:[ \/](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'OpenVAS Scanner'
 
+  # AnyConnect
+  - regex: '(AnyConnect)\/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####

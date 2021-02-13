@@ -7976,6 +7976,12 @@ test_cases:
     minor: '2'
     patch:
 
+  - user_agent_string: 'AnyConnect/4.1.1234'
+    family: 'AnyConnect'
+    major: '4'
+    minor: '1'
+    patch: '1234'
+
   - user_agent_string: 'YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html'
     family: 'YahooMailProxy'
     major:
