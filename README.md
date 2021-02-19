@@ -8,19 +8,11 @@ This repo itself does _not_ contain a parser: only the necessary data to build o
 Maintainers
 -----------
 
-* [Lindsey Simon](https://github.com/elsigh) ([@elsigh](https://twitter.com/elsigh))
-* [Tobie Langel](https://github.com/tobie) ([@tobie](https://twitter.com/tobie))
-
 Communication channels
 -----------------------
 
 * \#ua-parser on freenode <irc://chat.freenode.net#ua-parser>
 * [mailing list](https://groups.google.com/forum/#!forum/ua-parser)
-
-Contributing Changes to regexes.yaml
-------------------------------------
-
-Please read the [contributors' guide](CONTRIBUTING.md)
 
 License
 -------
