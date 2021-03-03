@@ -2271,6 +2271,41 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/1.0.0 CFNetwork/1206 Darwin/20.1.0'
+    family: 'iOS'
+    major: '14'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1209 Darwin/20.2.0'
+    family: 'iOS'
+    major: '14'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1220.1 Darwin/20.3.0'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1236 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1233 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU 7_0_6 like Mac OS X; en_GB) AppleWebKit (KHTML, like Gecko) Mobile [OKMagazine/4.0.1 (iOS/7.0.6)] [LiteApps]'
     family: 'iOS'
     major: '7'
