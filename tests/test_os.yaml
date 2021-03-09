@@ -2267,7 +2267,7 @@ test_cases:
   - user_agent_string: 'App/1.0.0 CFNetwork/1128.0.1 Darwin/19.6.0'
     family: 'iOS'
     major: '13'
-    minor:
+    minor: '6'
     patch:
     patch_minor:
 
