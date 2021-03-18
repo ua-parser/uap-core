@@ -2531,6 +2531,13 @@ test_cases:
     patch: '1'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU iPad OS 14_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Tizen 2.3) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/1.0 TV Safari/538.1'
     family: 'Tizen'
     major: '2'
