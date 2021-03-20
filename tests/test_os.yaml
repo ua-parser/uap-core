@@ -11,7 +11,7 @@ test_cases:
     family: 'WatchOS'
     major: '5'
     minor: '2'
-    patch: 
+    patch:
     patch_minor:
 
   - user_agent_string: '(null)/(null) watchOS/5.1.1 model/Watch3,3 hwp/t8004 build/16R600 (6; dt:155)'
@@ -139,19 +139,19 @@ test_cases:
     minor: '4'
     patch: '2'
     patch_minor:
-  
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; motorola one power) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Mobile Safari/537.36'
     family: 'Android'
     major: '9'
-    minor: 
-    patch: 
+    minor:
+    patch:
     patch_minor:
-  
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; SM-G970F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3396.81 Mobile Safari/537.36'
     family: 'Android'
     major: '10'
-    minor: 
-    patch: 
+    minor:
+    patch:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
@@ -2268,6 +2268,41 @@ test_cases:
     family: 'iOS'
     major: '14'
     minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1206 Darwin/20.1.0'
+    family: 'iOS'
+    major: '14'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1209 Darwin/20.2.0'
+    family: 'iOS'
+    major: '14'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1220.1 Darwin/20.3.0'
+    family: 'iOS'
+    major: '14'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1236 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0.0 CFNetwork/1233 Darwin/20.4.0'
+    family: 'iOS'
+    major: '14'
+    minor: '5'
     patch:
     patch_minor:
 
