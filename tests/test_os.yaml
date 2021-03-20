@@ -2229,6 +2229,13 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/1.0.0 CFNetwork/1098.7 Darwin/19.0.0'
+    family: 'iOS'
+    major: '13'
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'App/1.0.0 CFNetwork/1121.2.2 Darwin/19.2.0'
     family: 'iOS'
     major: '13'
@@ -2260,7 +2267,7 @@ test_cases:
   - user_agent_string: 'App/1.0.0 CFNetwork/1128.0.1 Darwin/19.6.0'
     family: 'iOS'
     major: '13'
-    minor:
+    minor: '6'
     patch:
     patch_minor:
 
