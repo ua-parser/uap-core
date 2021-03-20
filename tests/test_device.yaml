@@ -80409,7 +80409,6 @@ test_cases:
     family: 'Asus X018D'
     brand: 'Asus'
     model: 'X018D'
-
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; SH-01M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36'
     family: 'SH-01M'
     brand: 'Sharp'
@@ -80469,3 +80468,13 @@ test_cases:
     family: 'Apollo Lite'
     brand: 'Vernee'
     model: 'Apollo'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 9; LLD-AL10 Build/HONORLLD-AL10)'
+    family: 'Huawei Honor LLD-AL10'
+    brand: 'Huawei'
+    model: 'Honor LLD-AL10'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; Che2-TL00M Build/HonorChe2-TL00M)'
+    family: 'Huawei Honor Che2-TL00M'
+    brand: 'Huawei'
+    model: 'Honor Che2-TL00M'
