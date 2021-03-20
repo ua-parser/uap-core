@@ -8538,3 +8538,33 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Pandora/1902.1'
+    family: 'Pandora'
+    major: '1902'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1904.1.3'
+    family: 'Pandora'
+    major: '1904'
+    minor: '1'
+    patch: '3'
+
+  - user_agent_string: 'Pandora/1904.1 Android/8.0.0 heroqlteusc (ExoPlayerLib1.5.14.1)'
+    family: 'Pandora'
+    major: '1904'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Pandora/2091 CFNetwork/978.0.7 Darwin/18.5.0'
+    family: 'Pandora'
+    major: '2091'
+    minor:
+    patch:
+
+  - user_agent_string: 'PandoraRSSCrawler/1.0 (podcastpartnerships@pandora.com)'
+    family: 'PandoraRSSCrawler'
+    major:  '1'
+    minor:  '0'
+    patch:
