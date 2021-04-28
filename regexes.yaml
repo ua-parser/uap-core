@@ -981,7 +981,7 @@ user_agent_parsers:
     family_replacement: 'ViaFree'
 
   # HTTrack crawler
-  - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+))?'
+  - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
 
 os_parsers:
   ##########
