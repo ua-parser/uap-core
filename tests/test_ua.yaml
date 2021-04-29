@@ -8568,3 +8568,9 @@ test_cases:
     major:  '1'
     minor:  '0'
     patch:
+
+  - user_agent_string: 'Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)'
+    family: 'HTTrack'
+    major:  '3'
+    minor:  '0'
+    patch:
