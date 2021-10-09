@@ -1291,7 +1291,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Download Master'
-    family: 'Other'
+    family: 'Download Master'
     major:
     minor:
     patch:

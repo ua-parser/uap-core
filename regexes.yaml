@@ -955,9 +955,25 @@ user_agent_parsers:
 
   - regex: '(Java)[/ ]?\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
 
+  # minio-go (https://github.com/minio/minio-go)
+  - regex: '(minio-go)/v(\d+)\.(\d+)\.(\d+)'
+
+  # ureq - minimal request library in rust (https://github.com/algesten/ureq)
+  - regex: '^(ureq)[/ ](\d+)\.(\d+).(\d+)'
+
+  # http.rb - HTTP (The Gem! a.k.a. http.rb) - a fast Ruby HTTP client
+  # (https://github.com/httprb/http/blob/3aa7470288deb81f7d7b982c1e2381871049dcbb/lib/http/request.rb#L27)
+  - regex: '^(http\.rb)/(\d+)\.(\d+).(\d+)'
+
+  # Guzzle, PHP HTTP client (https://docs.guzzlephp.org/)
+  - regex: '^(GuzzleHttp)/(\d+)\.(\d+).(\d+)'
+
+  # lorien/grab - Web Scraping Framework (https://github.com/lorien/grab)
+  - regex: '^(grab)\b'
+
   # Cloud Storage Clients
   - regex: '^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+|)'
-  - regex: '^(S3 Browser) (\d+)-(\d+)-(\d+)(?:\s*http://s3browser\.com|)'
+  - regex: '^(S3 Browser) (\d+)[.-](\d+)[.-](\d+)(?:\s*https?://s3browser\.com|)'
   - regex: '(S3Gof3r)'
   # IBM COS (Cloud Object Storage) API
   - regex: '\b(ibm-cos-sdk-(?:core|java|js|python))/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -979,6 +995,12 @@ user_agent_parsers:
   # ViaFree streaming app https://www.viafree.{dk|se|no}
   - regex: '^(ViaFree|Viafree)-(?:tvOS-)?[A-Z]{2}/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'ViaFree'
+
+  # Transmit (https://library.panic.com/transmit/)
+  - regex: '(Transmit)/(\d+)\.(\d+)\.(\d+)'
+
+  # Download Master (https://downloadmaster.ru/)
+  - regex: '(Download Master)'
 
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'

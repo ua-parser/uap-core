@@ -7946,6 +7946,12 @@ test_cases:
     minor: '4'
     patch: '5'
 
+  - user_agent_string: 'S3 Browser 8.6.7 https://s3browser.com'
+    family: 'S3 Browser'
+    major: '8'
+    minor: '6'
+    patch: '7'
+
   - user_agent_string: 'rclone/v1.34'
     family: 'rclone'
     major: '1'
@@ -8568,6 +8574,48 @@ test_cases:
     major:  '1'
     minor:  '0'
     patch:
+
+  - user_agent_string: 'MinIO (linux; amd64) minio-go/v6.0.39 mc/2019-10-09T22:54:57Z'
+    family: 'minio-go'
+    major: '6'
+    minor: '0'
+    patch: '39'
+    patch_minor: ''
+
+  - user_agent_string: 'MinIO (darwin; amd64) minio-go/v6.0.45 mc/2019-12-17T23:26:28Z'
+    family: 'minio-go'
+    major: '6'
+    minor: '0'
+    patch: '45'
+    patch_minor: ''
+
+  - user_agent_string: 'http.rb/4.1.1'
+    family: 'http.rb'
+    major: '4'
+    minor: '1'
+    patch: '1'
+    patch_minor: ''
+
+  - user_agent_string: 'ureq/1.5.1'
+    family: 'ureq'
+    major: '1'
+    minor: '5'
+    patch: '1'
+    patch_minor: ''
+
+  - user_agent_string: 'Transmit/5.6.0'
+    family: 'Transmit'
+    major: '5'
+    minor: '6'
+    patch: '0'
+    patch_minor: ''
+
+  - user_agent_string: 'GuzzleHttp/6.3.3 PHP/7.1.17-1+0~20180505045738.17+stretch~1.gbpde69c6'
+    family: 'GuzzleHttp'
+    major: '6'
+    minor: '3'
+    patch: '3'
+    patch_minor: ''
 
   - user_agent_string: 'Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)'
     family: 'HTTrack'
