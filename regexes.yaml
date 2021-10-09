@@ -980,6 +980,9 @@ user_agent_parsers:
   - regex: '^(ViaFree|Viafree)-(?:tvOS-)?[A-Z]{2}/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'ViaFree'
 
+  # HTTrack crawler
+  - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
+
 os_parsers:
   ##########
   # HbbTV vendors
