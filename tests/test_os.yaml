@@ -21,6 +21,13 @@ test_cases:
     patch: '1'
     patch_minor:
 
+  - user_agent_string: 'BBCNewsUKWatchApp/4.3.0 (Watch1,2; watchOS 3.2.2)'
+    family: 'WatchOS'
+    major: '3'
+    minor: '2'
+    patch: '2'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:
