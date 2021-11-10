@@ -3098,3 +3098,10 @@ test_cases:
     patch: 
     patch_minor:
 
+  - user_agent_string: 'PostmanRuntime/7.20.1'
+    family: 'Other'
+    major:
+    minor:
+    patch:
+    patch_minor:
+

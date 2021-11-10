@@ -80489,3 +80489,8 @@ test_cases:
     brand: 'Apple'
     model: 'iPad'
 
+  - user_agent_string: 'PostmanRuntime/7.20.1'
+    family: 'Other'
+    brand:
+    model:
+

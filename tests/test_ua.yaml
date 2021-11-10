@@ -8622,3 +8622,10 @@ test_cases:
     major:  '3'
     minor:  '0'
     patch:
+
+  - user_agent_string: 'PostmanRuntime/7.20.1'
+    family: 'PostmanRuntime'
+    major: '7'
+    minor: '20'
+    patch: '1'
+
