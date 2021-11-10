@@ -1553,7 +1553,7 @@ os_parsers:
   ##########
   # Apple Watch
   ##########
-  - regex: '(watchOS)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(watchOS)[/ ](\d+)\.(\d+)(?:\.(\d+)|)'
     os_replacement: 'WatchOS'
 
   ##########################
