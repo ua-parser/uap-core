@@ -3105,3 +3105,9 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/4.0 (SerenityOS; x86_64) LibWeb+LibJS (Not KHTML, nor Gecko) LibWeb'
+    family: 'SerenityOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
