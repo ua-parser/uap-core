@@ -426,8 +426,8 @@ user_agent_parsers:
   - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
   
-  # WeChat webview Android must go before Chrome Mobile WebView
-  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  # WeChat webview
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat'
 
   # Google Search App on Android, eg:
@@ -779,11 +779,7 @@ user_agent_parsers:
   - regex: '(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
   - regex: '(TopBuzz) com.topbuzz.videoen/(\d+).(\d+).(\d+)'
-    family_replacement: 'TopBuzz'
-
-    # wechat on IOS
-  - regex: 'MicroMessenger/(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'WeChat'  
+    family_replacement: 'TopBuzz' 
 
   # @note: iOS / OSX Applications
   - regex: '(iPod|iPhone|iPad).{1,200}GSA/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|) Mobile'
