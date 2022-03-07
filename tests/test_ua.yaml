@@ -6938,6 +6938,12 @@ test_cases:
     minor: '5'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 12_5_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 EdgiOS/46.3.26 Mobile/15E148 Safari/605.1.15'
+    family: 'Edge Mobile'
+    major: '46'
+    minor: '3'
+    patch: '26'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM4.171019.021.D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.109 Mobile Safari/537.36 EdgA/42.0.0.2057'
     family: 'Edge Mobile'
     major: '42'
@@ -8628,4 +8634,3 @@ test_cases:
     major: '7'
     minor: '20'
     patch: '1'
-

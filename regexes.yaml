@@ -381,7 +381,7 @@ user_agent_parsers:
   # Edge Mobile
   - regex: 'Windows Phone .{0,200}(Edge)/(\d+)\.(\d+)'
     family_replacement: 'Edge Mobile'
-  - regex: '(EdgiOS|EdgA)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(EdgiOS|EdgA)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Edge Mobile'
 
   # Samsung Internet (based on Chrome, but lacking some features)
