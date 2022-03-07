@@ -619,7 +619,13 @@ user_agent_parsers:
   - regex: '(RCM CardDAV plugin)/(\d+)\.(\d+)\.(\d+(?:-dev|))'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android|WebPositive|NetPositive|DreamKey|DreamPassport|NetSurf)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android|WebPositive|NetPositive|NetSurf)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Sega
+  - regex: '(Planet[wW]eb)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'PlanetWeb'
+
+  - regex: '(DreamKey|DreamPassport)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
@@ -5679,10 +5685,30 @@ device_parsers:
   ##########
   # Sega
   ##########
+  - regex: 'SEGA (Saturn)'
+    device_replacement: 'Sega $1'
+    brand_replacement: 'Sega'
+    model_replacement: '$1'  
+
   - regex: '(Dreamcast)'
     device_replacement: 'Sega $1'
     brand_replacement: 'Sega'
     model_replacement: '$1'
+  
+  - regex: '(DreamKey/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
+  
+  - regex: '(DreamPassport/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
+
+  - regex: '(PlanetWeb/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
 
   ##########
   # Siemens mobile

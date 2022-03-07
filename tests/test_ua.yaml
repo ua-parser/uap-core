@@ -972,7 +972,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
-    family: 'Planetweb'
+    family: 'PlanetWeb'
     major: '2'
     minor: '100'
     patch:

@@ -475,6 +475,26 @@ test_cases:
     brand: 'Samsung'
     model: 'GT-S5253'
 
+  - user_agent_string: 'Mozilla/3.0 (DreamKey/1.0)'
+    family: 'Sega Dreamcast'
+    brand: 'Sega'
+    model: 'Dreamcast'
+
+  - user_agent_string: 'PlanetWeb/1.011 Golden; SEGA Saturn; TV; 640,480)'
+    family: 'Sega Saturn'
+    brand: 'Sega'
+    model: 'Saturn'
+
+  - user_agent_string: 'PlanetWeb/4.026 Beta; SEGA Saturn; TV; 640,480)'
+    family: 'Sega Saturn'
+    brand: 'Sega'
+    model: 'Saturn'
+  
+  - user_agent_string: 'Mozilla/3.0 (DreamPassport/3.15; SEGA/VF.NET)'
+    family: 'Sega Dreamcast'
+    brand: 'Sega'
+    model: 'Dreamcast'
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     family: 'Sega Dreamcast'
     brand: 'Sega'
