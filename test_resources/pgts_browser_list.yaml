@@ -2647,9 +2647,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (Win95; I; HTTPClient 1.0)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Hyperlink/2.5e (Commodore 64)'
@@ -5220,16 +5220,64 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mosaic/0.2 (Windows 3.1)'
+    family: 'NCSA Mosaic'
+    major: '0'
+    minor: '2'
+    patch:
+
   - user_agent_string: 'Mosaic/0.9'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '0'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'NCSA Mosaic/1.0 (Windows NT 10.0)'
+    family: 'NCSA Mosaic'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA Mosaic/1.0 (X11;SunOS 4.1.4 sun4m)'
+    family: 'NCSA Mosaic'
+    major: '1'
+    minor: '0'
+    patch:
+  
+  - user_agent_string: 'NCSA Mosaic/1.0 (X11; SunOS 4.1.4 sun4m)'
+    family: 'NCSA Mosaic'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'NCSA_Mosaic/1.0 (X11; FreeBSD 1.2.0 i286) via proxy gateway CERN-HTTPD/1.0'
     family: 'NCSA Mosaic'
     major: '1'
     minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic/2.0'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic 2.0'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic/2.6'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '6'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic 2.6'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '6'
     patch:
 
   - user_agent_string: 'NCSA_Mosaic/2.0 (compatible; MSIE 6.0;Windows XP),gzip(gfe) (via translate.google.com)'
@@ -5244,6 +5292,36 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'NCSA_Mosaic/2.0 (Windows 95)'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+  
+  - user_agent_string: 'NCSA_Mosaic/2.0 (Windows 3.1), PowerPPC/16bits'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic/2.7b4 (X11;AIX 1 000180663000)'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic 3.0'
+    family: 'NCSA Mosaic'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic/3.0 (Windows 95)'
+    family: 'NCSA Mosaic'
+    major: '3'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'NCSA_Mosaic/2.0 (Windows NT 5.2)'
     family: 'NCSA Mosaic'
     major: '2'
@@ -5251,15 +5329,15 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mosaic/2.1 (Amiga ARexx)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mosaic/2.1 (compatible; MSIE; Amiga ARexx; SV1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '1'
     patch:
 
   - user_agent_string: 'NCSA_Mosaic/2.7b5 (X11;Linux 2.0.13 i386) libwww/2.12 modified'
@@ -5268,10 +5346,16 @@ test_cases:
     minor: '7'
     patch:
 
+  - user_agent_string: 'NCSA Mosaic/2.0 (Windows 3.1)'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+  
   - user_agent_string: 'NCSA Mosaic/2.7b5 (X11;Linux 2.6.7 i686) libwww/2.12 modified'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '7'
     patch:
 
   - user_agent_string: 'NCSA_Mosaic/2.7b5 (X11;Linux 2.6.7 i686) libwww/2.12 modified'
@@ -5287,9 +5371,15 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; Mosaic/2.8; Windows NT 5.1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'NCSA_Mosaic/2.6 (X11; SunOS 4.1.3 sun4m)'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '6'
     patch:
 
   - user_agent_string: 'NCSA_Mosaic/2.8 (X11; FreeBSD 5.2.1 i686)'
@@ -5298,10 +5388,22 @@ test_cases:
     minor: '8'
     patch:
 
+  - user_agent_string: 'NCSA Mosaic/3.0 (X11; Windows 95)'
+    family: 'NCSA Mosaic'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'NCSA Mosaic/3.0 (Windows NT 6.1; WOW64)'
+    family: 'NCSA Mosaic'
+    major: '3'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'NCSA Mosaic/3.0.0 (Windows x86)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NCSA Mosaic'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'AIR_Mosaic(16bit)(demo)/v3.09.05.08'
@@ -5401,9 +5503,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/0.1 [es] (Windows NT 5.1; U) [en]'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '0'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/1.000 (AOS; U; en) Gecko/20050301'
@@ -5413,15 +5515,15 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/1.0 (Macintosh; 68K; U; en)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/1.1N (X11; I; SunOS 5.4 sun4m)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '1'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/1.4.1 (windows; U; NT4.0; en-us) Gecko/25250101'
@@ -5455,9 +5557,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/2.01 (Win16; I) via HTTP/1.0 deep.space.star-travel.org/'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '2'
+    minor: '01'
     patch:
 
   - user_agent_string: 'Mozilla/2.0 (compatible ; MSIE 3.02; Windows CE; PPC; 240x320)'
@@ -5473,15 +5575,15 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.01-C-MACOS8 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '01'
     patch:
 
   - user_agent_string: 'Mozilla/3.01SGoldC-SGI (X11; I; IRIX 6.3 IP32)'
@@ -5491,33 +5593,33 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.01 (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '01'
     patch:
 
   - user_agent_string: 'Mozilla/3.04Gold (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/3.04 (Win16; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/3.04 (Win16; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/3.04 (X11; I; SunOS 5.5.1 sun4u) via HTTP/1.0 depraved-midget.onlinescanner.com/'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (compatible)'
@@ -5527,9 +5629,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (DreamKey/2.0)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'DreamKey'
+    major: '2'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 [en] (AWV2.20f)'
@@ -5544,28 +5646,54 @@ test_cases:
     minor:
     patch:
 
+  
+
+  - user_agent_string: 'Mozilla/3.0 (DreamPassport/3.15; SEGA/VF.NET)'
+    family: 'DreamPassport'
+    major: '3'
+    minor: '15'
+    patch:
+
+  - user_agent_string: 'Mozilla/3.0 (DreamKey/1.0)'
+    family: 'DreamKey'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'PlanetWeb/1.011 Golden; SEGA Saturn; TV; 640,480)'
+    family: 'PlanetWeb'
+    major: '1'
+    minor: '011'
+    patch:
+
+  - user_agent_string: 'PlanetWeb/4.026 Beta; SEGA Saturn; TV; 640,480)'
+    family: 'PlanetWeb'
+    major: '4'
+    minor: '026'
+    patch:
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
-    family: 'Planetweb'
+    family: 'PlanetWeb'
     major: '2'
     minor: '100'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (Windows 98;U) [en]'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (Windows 98; Win 9x 4.90)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (x86 [en] Windows NT 5.1; Sun)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.x (I-Opener 1.1; Netpliance)'
@@ -5575,9 +5703,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (0000000000; 0000 000; 0000000 00 000)'
@@ -5605,9 +5733,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (AmigaOS 3.1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (combatible; MSIE 6.0; Windows 98)'
@@ -5779,9 +5907,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (Macintosh; U; PPC Mac OS X; en)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (MobilePhone SCP-5500/US/1.0) NetFront/3.0 MMP/2.0'
@@ -5851,21 +5979,21 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (SunOS 5.8)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (Windows NT 4.0)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (Windows XP 5.1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (X11; U; Linux i686; en-US; rv:1.7.5) Gecko/20040803 Debian-1.7.5-1'
@@ -7081,10 +7209,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.5b) Gecko/20030823 Mozilla Firebird/0.6.1+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.5) Gecko/20031016'
     family: 'Other'
@@ -8485,9 +8613,9 @@ test_cases:
     patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows, U, WinNT4.0, en-US, rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.7.3) Gecko/20040910'
@@ -8587,10 +8715,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5a) Gecko/20030926 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5) Gecko/20031203'
     family: 'Other'
@@ -8599,9 +8727,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5) Gecko/20031207 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.6) Gecko/20040128'
@@ -9103,9 +9231,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:0.9.4) Gecko/20050225 Firefox/1.0.1'
@@ -9175,9 +9303,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030522 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030702'
@@ -9193,10 +9321,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5b) Gecko/20030903 Firebird/0.6.1+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031030 MultiZilla/1.5.0.3l'
     family: 'Other'
@@ -10339,9 +10467,9 @@ test_cases:
     patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; NetBSD macppc; en-US; rv:1.5) Gecko/20040102 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; NetBSD macppc; en-US; rv:1.7.2) Gecko/20040825 Camino/0.8.1'
@@ -10891,9 +11019,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/1.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.0rc1) Gecko/20020417'
@@ -16669,9 +16797,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/2.02'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '2'
+    minor: '02'
     patch:
 
   - user_agent_string: 'Mozilla/6.0 (compatible; MSIE 6.0; X11; U; Linux i686; en-US; rv:2.5 P)'
@@ -16687,21 +16815,21 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/3.01Gold (Macintosh; I; 68K)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '01'
     patch:
 
   - user_agent_string: 'Mozilla/3.01Gold (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '3'
+    minor: '01'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-GB; rv:1.0.2) Gecko/20020924 AOL/7.0'
@@ -17191,538 +17319,538 @@ test_cases:
     patch: '6'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030504 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4b) Gecko/20030610 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.4b) Gecko/20030623 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; IRIX64 IP30; en-US; rv:1.4b) Gecko/20030618 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5b) Gecko/20030722 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Solaris Sparc; en-US; rv:1.4b) Gecko/20030516 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.4b) Gecko/20030517 Mozilla Firebird/0.6'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Idefix hic erat!; Fenestra 50a.Chr.n.; la; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fr; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5a) Gecko/20030801 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030801 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030811 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030905 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030912 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5a) Gecko/20030918 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5b) Gecko/20030821 Mozilla Firebird/0.6.1+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5b) Gecko/20030910 Firebird/0.6.1+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; fr; rv:1.5a) Gecko/20030728 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; OpenBSD i386; en-US; rv:1.5a) Gecko/20030908 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5a) Gecko/20030729 Mozilla Firebird/0.6.1'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '6'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.5) Gecko/20031026 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win 9x 4.90; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; cs-CZ; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.6) Gecko/20040206 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; fr; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ja-JP; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6a) Gecko/20031002 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6a) Gecko/20031105 Firebird/0.7+ (aebrahim)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031208 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6b) Gecko/20031216 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.6) Gecko/20040114 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8a) Gecko/20040429 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; PL; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; pt-BR; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2; fr; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5) Gecko/20031023 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5) Gecko/20031208 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.5) Gecko/20040415 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i386; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i586; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031015 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031110 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031120 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031215 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20031225 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20040114 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20040120 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20040130 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20040201 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6a) Gecko/20030924 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6a) Gecko/20031012 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.6) Gecko/20040116 Firebird/0.7+'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; pt-BR; rv:1.5) Gecko/20031007 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5) Gecko/20031020 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5) Gecko/20031202 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; SunOS sun4u; en-US; rv:1.5) Gecko/20040114 Firebird/0.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Firebird'
+    major: '0'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7a) Gecko/20040113 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.7a) Gecko/20040210 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7a) Gecko/20040120 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7a) Gecko/20040129 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7b) Gecko/20040410 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.5) Gecko/20040409 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7a) Gecko/20040118 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.7a) Gecko/20040210 Firebird/0.8.0+'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'Firebird'
+    major: '0'
+    minor: '8'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Firefox)'
     family: 'Other'
@@ -32293,10 +32421,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; NetCaptor 6.2.1A)'
-    family: 'IE'
-    major: '5'
-    minor: '5'
-    patch:
+    family: 'NetCaptor'
+    major: '6'
+    minor: '2'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
     family: 'IE'
@@ -33151,10 +33279,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; www.vancouver-bc-canada-guide.com; NetCaptor 7.2.2)'
-    family: 'IE'
-    major: '5'
-    minor: '5'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.5; Windows 98; YComp 5.0.2.5)'
     family: 'IE'
@@ -36499,10 +36627,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Cox High Speed Internet Customer; NetCaptor 7.5.3)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Cox High Speed Internet Customer; .NET CLR 1.1.4322)'
     family: 'IE'
@@ -37147,10 +37275,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; iOpus-I-M; NetCaptor 7.5.2; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; iOpus-I-M; .NET CLR 1.1.4322)'
     family: 'IE'
@@ -37357,16 +37485,16 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; NetCaptor 7.5.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; NetCaptor 7.5.3; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; .NET CLR 1.0.3705)'
     family: 'IE'
@@ -41617,14 +41745,14 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; DigExt; Q312461; NetCaptor 7.0 Beta 3)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; DigExt; Q312461; NetCaptor 7.0 Beta 5)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
     patch:
 
@@ -43909,52 +44037,52 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 6.5.0)'
-    family: 'IE'
+    family: 'NetCaptor'
     major: '6'
-    minor: '0'
-    patch:
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.0.2 Final)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
-    patch:
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.0 Beta 2)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.5.0 Gold)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.5.0 Gold; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.5.1; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.5.2)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; NetCaptor 7.5.4)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '4'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.0.2914)'
     family: 'IE'
@@ -50077,8 +50205,8 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; dial; NetCaptor 7.0 Beta 2)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
     patch:
 
@@ -51703,10 +51831,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FunWebProducts-MyWay; NetCaptor 6.5.0B6; .NET CLR 1.1.4322; .NET CLR 1.0.3705)'
-    family: 'IE'
+    family: 'NetCaptor'
     major: '6'
-    minor: '0'
-    patch:
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FunWebProducts-MyWay; .NET CLR 1.0.3705)'
     family: 'IE'
@@ -54553,112 +54681,112 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.0.1; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
-    patch:
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.0.2 Final; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
-    patch:
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.0.2 Final; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
-    patch:
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.0; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.1.0 Beta 2)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '1'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.2.0)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.2.1; .NET CLR 1.0.3705)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.2.2)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.2.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.0 Gold)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.0 Gold; .NET CLR 1.0.3705)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.0 Gold; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.2)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.2; .NET CLR 1.0.3705)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.2; .NET CLR 1.1.4322; Alexa Toolbar)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.3; Alexa Toolbar)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; NetCaptor 7.5.4; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '4'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.0.2914)'
     family: 'IE'
@@ -56023,10 +56151,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; FunWebProducts; NetCaptor 7.5.2; WebCloner 2.3; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Q312461; FunWebProducts; .NET CLR 1.0.3705)'
     family: 'IE'
@@ -58105,10 +58233,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AIRF; NetCaptor 7.2.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AIRF; .NET CLR 1.1.4322)'
     family: 'IE'
@@ -59533,94 +59661,94 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.0.1)'
-    family: 'IE'
-    major: '6'
+    family: 'NetCaptor'
+    major: '7'
     minor: '0'
-    patch:
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.2.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.0 Gold; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.1)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.2)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.2; FDM; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.2; .NET CLR 1.0.3705; Alexa Toolbar; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.2; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.3)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.3; .NET CLR 1.0.3705)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.3; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.3; (R1 1.5); .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.4; Media Center PC 3.0; .NET CLR 1.0.3705)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '4'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 7.5.4; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '4'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705'
     family: 'IE'
@@ -61255,10 +61383,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; TBP_6.1_AC; NetCaptor 7.5.2; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; TBP_6.1_AC; (R1 1.3); Alexa Toolbar)'
     family: 'IE'
@@ -62575,10 +62703,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; YPC 3.0.1; NetCaptor 7.5.0 Gold)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; YPC 3.0.1; .NET CLR 1.0.3705)'
     family: 'IE'
@@ -63163,22 +63291,22 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; NetCaptor 7.5.0 Gold; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; NetCaptor 7.5.1; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; NetCaptor 7.5.3; .NET CLR 1.1.4322)'
-    family: 'IE'
-    major: '6'
-    minor: '0'
-    patch:
+    family: 'NetCaptor'
+    major: '7'
+    minor: '5'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705; .NET CLR 1.1.4322)'
     family: 'IE'
@@ -63703,28 +63831,28 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (compatible; NetPositive/2.2)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'NetPositive'
+    major: '2'
+    minor: '2'
     patch:
 
   - user_agent_string: 'Mozilla/3.0 (compatible; NetPositive/2.2.1; BeOS)'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'NetPositive'
+    major: '2'
+    minor: '2'
+    patch: '1'
 
   - user_agent_string: 'Mozilla/3.0 (compatible; NetPositive/2.2.2; BeOS)'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'NetPositive'
+    major: '2'
+    minor: '2'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/3.0 (compatible; NetPositive/2.2.3; FreeBSD 5.2.1 i686)'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'NetPositive'
+    major: '2'
+    minor: '2'
+    patch: '3'
 
   - user_agent_string: 'netscape (compatible; netscape; linux; SV1; .NET CLR 1.1.4322)'
     family: 'Other'
@@ -63763,9 +63891,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (Netscape 4.79; Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; MSIE 5.5; Windows NT 5.0) Netscape 7.1'
@@ -63853,9 +63981,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Netscape 1.22 (Win16; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '1'
+    minor: '22'
     patch:
 
   - user_agent_string: 'Netscape 2.1 (compatible; MSIE 2.0B1; Windows for Workgroup 3.11; i386; en-US)'
@@ -63865,9 +63993,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Netscape 4.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en]C-WNS2.5  (Wim95; I)'
@@ -63877,69 +64005,69 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (Win2000; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (X11; I; HP-UX B.10.20 9000/712)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 [en] (X11; I; SunOS 5.5.1 sun4m)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.04 (Linux i686; 1.7.3; Linux i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '04'
     patch:
 
   - user_agent_string: 'Mozilla/4.05 [en] (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '05'
     patch:
 
   - user_agent_string: 'Mozilla/4.05 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '05'
     patch:
 
   - user_agent_string: 'Mozilla/4.05 [fr] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '05'
     patch:
 
   - user_agent_string: 'Mozilla/4.05 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '05'
     patch:
 
   - user_agent_string: 'Mozilla/4.06 [en] (Direct Hit Grabber)'
@@ -63949,33 +64077,33 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.06 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '06'
     patch:
 
   - user_agent_string: 'Mozilla/4.06 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '06'
     patch:
 
   - user_agent_string: 'Mozilla/4.06 [en] (X11; U; Linux 2.0.27 i586)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '06'
     patch:
 
   - user_agent_string: 'Mozilla/4.06 (Macintosh; I; PPC, Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '06'
     patch:
 
   - user_agent_string: 'Mozilla/4.06 (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '06'
     patch:
 
   - user_agent_string: 'Mozilla/4.07C-SGI [en] (X11; I; IRIX 6.5 IP32)'
@@ -63985,99 +64113,99 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.07 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '07'
     patch:
 
   - user_agent_string: 'Mozilla/4.07 [en] (X11; I; Linux 2.0.36 i586)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '07'
     patch:
 
   - user_agent_string: 'Mozilla/4.07 (X11; I; Nav; Linux 5.1.33 i586;  )'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '07'
     patch:
 
   - user_agent_string: 'Mozilla/4.08'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (Win16; I ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (Win16; U ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en](Win95; U; Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (Win98; I ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (Win98; U ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (Windows 3.11; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (WinNT; I ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (WinNT; U ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [en] (X11; U; Linux 2.4.9-34 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 [fr] (Win95; I ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 (Macintosh; U; PPC, Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '08'
     patch:
 
   - user_agent_string: 'Mozilla/4.08 (PDA; PalmOS/sony/model atom/Revision:2.0.22 (en)) NetFront/3.1'
@@ -64129,69 +64257,69 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.1 (BEOS; U ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/4.1 [ja] (X11; I; Linux 2.2.13-33cmc1 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/4.41  (BEOS; U ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '41'
     patch:
 
   - user_agent_string: 'Mozilla/4.5'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [de] (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en]C-AtHome0405 (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en]C-CCK-MCD snapN45b1  (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en]C-CCK-MCD (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en] (X11; I; Alpha 06; Nav)'
@@ -64201,21 +64329,21 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [en] (X11; I; IRIX64 6.5 IP30) Mozilla/4.08 [en] (Win95; I ;Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 [fr] (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Mozilla/4.5 RPT-HTTPClient/0.3-2'
@@ -64225,9 +64353,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.5 (Windows; U; Windows NT 5.1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '5'
     patch:
 
   - user_agent_string: 'Netscape/4.5 (WindowsNT;8-bit)'
@@ -64249,117 +64377,117 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [de]C-CCK-MCD DT  (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [de]C-CCK-MCD FS SBS  (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [de]C-CCK-MCD QXW03200  (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [de]C-CCK-MCD QXW03200  (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [de] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [en]C-CCK-MCD   (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.51 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '51'
     patch:
 
   - user_agent_string: 'Mozilla/4.6 [de]C-freenet 4.0  (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/4.6 [de] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/4.6 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '6'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [de] (OS/2; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en]C-CCK-MCD   (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en]C-CCK-MCD (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (OS/2; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (X11; I; Linux 2.2.13-33cmc1 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (X11; I; Linux 2.4.25 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [en] (X11; U; ) - BrowseX (2.0.0 Windows)'
@@ -64369,21 +64497,21 @@ test_cases:
     patch: '0'
 
   - user_agent_string: 'Mozilla/4.61 [en] (X11; U; FreeBSD 4.9-RC i386)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 [ja] (X11; I; Linux 2.2.13-33cmc1 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '61'
     patch:
 
   - user_agent_string: 'Mozilla/4.61 (X11; )'
@@ -64393,9 +64521,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.7'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7C-CCK-MCD {C-UDP; EBM-APPLE} (Macintosh; I; PPC)'
@@ -64411,153 +64539,153 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de]C-CCK-MCD 1&1 PureTec Edition 02/2000  (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de]C-CCK-MCD QXW0322a  (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de]C-freenet 4.0  (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de]C-SYMPA (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de] (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [de] (X11; Linux)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en]C-CCK-MCD EBM-Compaq1 (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en]C-CCK-MCD NSCPCD47  (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en]C-SYMPA  (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en-gb] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en, US, en_US] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; AIX 4.2)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; HP-UX B.10.20 9000/782)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; Linux 2.6.4 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; OSF1 V4.0 alpha)'
@@ -64567,141 +64695,141 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; SunOS 5.8 i86pc)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [en] (X11; I; SunOS 5.8 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [fr]C-CCK-MCD C_ASPI_1_0  (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [fr] (WinNT; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [fr] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [ja] (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [ja] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 [ja] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 (Macintosh; ppc)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7 (X11; Linux)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7x [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.7x [en] (Win9x)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '7'
     patch:
 
   - user_agent_string: 'Mozilla/4.71 [en]C-NECCK  (Win95; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '71'
     patch:
 
   - user_agent_string: 'Mozilla/4.71 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '71'
     patch:
 
   - user_agent_string: 'Mozilla/4.71 [en] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '71'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (Win95; I) WebWasher 3.3'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (Win98; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 [en] (X11; I; Linux 2.2.14 i586)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.72 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '72'
     patch:
 
   - user_agent_string: 'Mozilla/4.73C-CCK-MCD VerizonDSL (Macintosh; U; PPC)'
@@ -64711,81 +64839,81 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [de]C-CCK-MCD DT  (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [de]C-CCK-MCD DT  (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [de]C-CCK-MCD DT  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [de] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en]C-SYMPA  (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en] (Windows NT 5.0; I)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.73 [en] (X11; U; Linux 2.2.19 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '73'
     patch:
 
   - user_agent_string: 'Mozilla/4.74 [en]C-DIAL (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '74'
     patch:
 
   - user_agent_string: 'Mozilla/4.74 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '74'
     patch:
 
   - user_agent_string: 'Mozilla/4.74 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '74'
     patch:
 
   - user_agent_string: 'Mozilla/4.75C-CCK-MCD {C-UDP; EBM-APPLE} (Macintosh; I; PPC)'
@@ -64813,93 +64941,93 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [de]C-CCK-MCD DT (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [de]C-CCK-MCD QXW0325g  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [de] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en]C-CCK-MCD {C-UDP; VUT}  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en]C-CCK-MCD {Nokia}  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en]C-CCK-MCD   (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (X11; U; Linux 2.2.16-22 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (X11; U; SunOS 5.6 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (X11; U; SunOS 5.7 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 [en] (X11; U; SunOS 5.8 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.75 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '75'
     patch:
 
   - user_agent_string: 'Mozilla/4.76'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 (000000000; 0; 000)'
@@ -64915,21 +65043,21 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en]C-bls40  (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en]C-CCK-MCD cf476  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en]C-CCK-MCD   (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (PalmOS; U; WebPro/3.0; Palm-Arzl)'
@@ -64939,63 +65067,63 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; FreeBSD 5.2-RC i386)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; HP-UX B.11.00 9000/785)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; Linux 2.2.18 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; Linux 2.4.16 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; Linux 2.4.2-2 i586)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; Linux 2.4.2-2 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; OSF1 V5.1 alpha)'
@@ -65005,27 +65133,27 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; SunOS 5.7 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; SunOS 5.8 i86pc)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; SunOS 5.8 sun4m)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 [en] (X11; U; SunOS 5.8 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76iC-CCK-MCD  [en_US] (X11; U; AIX 4.3)'
@@ -65035,9 +65163,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.76 (Macintosh; I; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: "Mozilla/4.76 (Macintosh; I; PPC; Incompatible my ass! What if I don't want your jerky, elitist, ugly-assed css crap? Screw you!)"
@@ -65047,21 +65175,21 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.76 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.76 (X11; U; Linux 2.6.3 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '76'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 (BeOS; U; BeOS BePC; en-US)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77C-CCK-MCD {C-UDP; EBM-APPLE} (Macintosh; U; PPC)'
@@ -65071,75 +65199,75 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [de] (X11; U; Linux 2.2.19-SMP i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en]C-SYMPAL  (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en]C-SYMPAL (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; AIX 4.3)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; Linux 2.2.19-6.2.1 i586)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; Linux 2.4.2-2 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; Linux 2.4.24 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; Linux 2.4.27-c800-1 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; Linux 2.4.9-34 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.77 [en] (X11; U; SunOS 5.7 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '77'
     patch:
 
   - user_agent_string: 'Mozilla/4.78C-br_XT_4_78 [en] (X11; U; SunOS 5.8 i86pc; Nav)'
@@ -65167,33 +65295,33 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [de]C-CCK-MCD DT  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [de] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [de] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [de] (X11; U; Linux 2.4.7-10 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (Win98; I) IBrowse/2.3 (MorphOS 1.4)'
@@ -65203,93 +65331,93 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; AIX 4.3)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; Linux 2.2.13 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; Linux 2.4.16-4GB i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; Linux 2.4.7-10 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; Linux 2.4.8-26mdk i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; Linux 2.4.9-34 i686; Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; SunOS 5.9 i86pc)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [en] (X11; U; SunOS 5.9 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [ja] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [ja] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.78 [uk] (WinME; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '78'
     patch:
 
   - user_agent_string: 'Mozilla/4.79C-Boeing UNIX Kit [en] (X11; U; SunOS 5.8 sun4u)'
@@ -65329,111 +65457,111 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [de] (X11; U; Linux 2.2.20 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en]C-CCK-MCD {UMUC/CCKUS}  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (WinNT; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; HP-UX B.11.00 9000/785)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; Linux 2.2.12 i386)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; Linux 2.4.18-3 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; Linux 2.4.2 i386)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; SunOS 5.8 sun4m)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; SunOS 5.8 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; SunOS 5.8 sun4u; Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 [en] (X11; U; SunOS 5.9 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.79 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Netscape 4.79'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '79'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 (AmigaOS 3.5; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8C-SGI [en] (X11; U; IRIX64 6.5 IP30)'
@@ -65455,27 +65583,27 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [de] (X11; U; Linux 2.6.4-52-default i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en]C-CCK-MCD EBM-Compaq  (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en]C-CCK-MCD   (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Linux; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (MSIE; Windows NT 5.1; U)'
@@ -65485,45 +65613,45 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Solaris)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Win3.11; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Win95; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Win98; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Windows NT 5.0; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (Windows NT 5.1; U) (via translate.google.com)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (wouw)'
@@ -65533,81 +65661,81 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.2.16-22 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.18-3smp i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.20-4GB i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.26 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.27-ow1 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.2 i386)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.2 i386; Nav)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; Linux 2.4.2 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [en] (X11; U; SunOS 5.8 sun4u)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [fr] (Windows NT 5.1; U)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 (Macintosh; U; PPC)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 [us] (X11; U; Linux 2.4.26 i686)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/4.8 (Win)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '4'
+    minor: '8'
     patch:
 
   - user_agent_string: 'Mozilla/5.25 Netscape/5.0 (X11; U; IRIX 6.3 IP32)'
@@ -66265,9 +66393,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux 2.4.2-2 i586; en-US; m18) Gecko/20010131 Netscape7/7.0'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '0'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; Linux-2.6.4-4GB i686; en-US; m18;) Gecko/20030624 Netscape/7.0'
@@ -66661,9 +66789,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US) Netscape7/7.02'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '02'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.0.2) Gecko/20030208 Netscape/7.02'
@@ -66727,9 +66855,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (compatible; X11; U; SunOS 5.8 sun4u) Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.4) Gecko/20030624 Netscape/7.1'
@@ -66745,9 +66873,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Netscape7.1; Windows NT 5.1)'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1; rv:1.4; U) Gecko/20030624 Netscape/7.1'
@@ -66769,9 +66897,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:0.9.2) Gecko/20010726 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; de-DE; rv:1.4) Gecko/20030619 Netscape/7.1 (ax)'
@@ -66787,9 +66915,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:0.9.2) Gecko/20010726 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)'
@@ -66871,9 +66999,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.2) Gecko/20010726 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.4) Gecko/20030603 Netscape/7.1 (ax)'
@@ -66919,9 +67047,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.1) Gecko/20040707 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; ja-JP; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)'
@@ -66937,9 +67065,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:0.9.2) Gecko/20010726 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.4) Gecko/20030624 Netscape/7.1'
@@ -67003,9 +67131,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.7) Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ja-JP; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)'
@@ -67045,9 +67173,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US) Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)'
@@ -67087,9 +67215,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux i686) Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; U; FreeBSD i386; en-US; rv:1.4) Gecko/20030624 Netscape/7.1'
@@ -67141,9 +67269,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/7.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.2) Gecko/20010726 Netscape7/7.1'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '1'
     patch:
 
   - user_agent_string: 'Netscape/7.1 (compatible; Linux; X11; de_DE; U) [Firefox 0.8]'
@@ -67237,9 +67365,9 @@ test_cases:
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:0.9.2) Gecko/20010726 Netscape7/7.2'
-    family: 'Other'
-    major:
-    minor:
+    family: 'Netscape'
+    major: '7'
+    minor: '2' 
     patch:
 
   - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.7.2) Gecko/20040804 Netscape/7.2 (ax)'
@@ -74999,4 +75127,40 @@ test_cases:
     major: '531'
     minor: '22'
     patch: '7'
+
+  - user_agent_string: 'NetSurf/3.10 (Haiku)'
+    family: 'NetSurf'
+    major: '3'
+    minor: '10'
+    patch:
+  
+  - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; NetCaptor 5.04)'
+    family: 'NetCaptor'
+    major: '5'
+    minor: '04'
+    patch:
+
+  - user_agent_string: 'WinMosaic/Version 2.0 (ALPHA 2)'
+    family: 'NCSA Mosaic'
+    major: '2'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.8.1.24) Gecko/20190223 RetroZilla/2.2 SeaMonkey/1.1.19 Firefox/2.0.20'
+    family: 'RetroZilla'
+    major: '2'
+    minor: '2'
+    patch:
+  
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/608.1.6 (KHTML, like Gecko) WebPositive/1.2 Version/11.1 Safari/608.1.6'
+    family: 'WebPositive'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/602.1 (KHTML, like Gecko) Otter/1.0.81'
+    family: 'Otter'
+    major: '1'
+    minor: '0'
+    patch: '81'
 

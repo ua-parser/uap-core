@@ -188,8 +188,11 @@ user_agent_parsers:
   # See os_parsers if you want to target a specific TV
   - regex: '(HbbTV)/(\d+)\.(\d+)\.(\d+) \('
 
+  # must go before Chimera/SeaMonkey/Camino/Waterfox to catch RetroZilla
+  - regex: '(RetroZilla)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)'
+
   # must go before Firefox to catch Chimera/SeaMonkey/Camino/Waterfox
-  - regex: '(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)'
+  - regex: '(Chimera|SeaMonkey|Camino|Waterfox|Firebird)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)'
 
   # must be before Firefox / Gecko to catch SailfishBrowser properly
   - regex: '(SailfishBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -268,7 +271,7 @@ user_agent_parsers:
   - regex: '(Navigator)/(\d+)\.(\d+)([ab]\d+)'
     family_replacement: 'Netscape'
 
-  - regex: '(Netscape6)/(\d+)\.(\d+)\.?([ab]?\d+|)'
+  - regex: '(Netscape[6-7])/(\d+)\.(\d+)\.?([ab]?\d+|)'
     family_replacement: 'Netscape'
 
   - regex: '(MyIBrow)/(\d+)\.(\d+)'
@@ -392,7 +395,7 @@ user_agent_parsers:
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Seznam prohlížeč'
 
-  # Coc Coc browser, based on Chrome (used in Vietnam)
+  # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Coc Coc'
 
@@ -616,7 +619,13 @@ user_agent_parsers:
   - regex: '(RCM CardDAV plugin)/(\d+)\.(\d+)\.(\d+(?:-dev|))'
 
   # Browser/major_version.minor_version
-  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android|WebPositive|NetPositive|NetSurf)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Sega
+  - regex: '(Planet[wW]eb)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'PlanetWeb'
+
+  - regex: '(DreamKey|DreamPassport)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
@@ -757,7 +766,25 @@ user_agent_parsers:
 
   - regex: '(BrowseX) \((\d+)\.(\d+)\.(\d+)'
 
+  - regex: '(WinMosaic)/Version (\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+
   - regex: '(NCSA_Mosaic)/(\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+  
+  - regex: '^(NCSA_Mosaic) (\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+
+  - regex: '^(NCSA\ Mosaic) (\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+  
+  - regex: '(NCSA Mosaic)/(\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+  
+  - regex: '([^m]Mosaic)/(\d+)\.(\d+)'
+    family_replacement: 'NCSA Mosaic'
+
+  - regex: '^(Mosaic)/(\d+)\.(\d+)'
     family_replacement: 'NCSA Mosaic'
 
   # Polaris/d.d is above
@@ -916,6 +943,8 @@ user_agent_parsers:
   - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+)'
   - regex: '(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)'
 
+  # NETCAPTOR MUST BE BEFORE IE
+  - regex: '(NetCaptor) (\d+)\.(\d+)(?:\.(\d+)|)'
 
   - regex: '([MS]?IE) (\d+)\.(\d+)'
     family_replacement: 'IE'
@@ -1004,6 +1033,83 @@ user_agent_parsers:
 
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
+
+  # Older Netscape
+
+  - regex: '^(Netscape)[/\s]([0-5])\.(\d+) \(Win16'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla|Netscape)[/\s]([0-4])\.(\d+)$'
+    family_replacement: 'Netscape'
+
+  - regex: '^Mozilla\/[0-5]\.\d+ \((Netscape)([6-7])\.(\d+)'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(Netscape \d+\.\d+; Win'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(Netscape \d+\.\d+; Win'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(x86 \[[^\]]+\] Windows'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(x86 \[[^\]]+\] Windows'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)?\s+\((?:AmigaOS|Solaris|Win|Linux|SunOS|(?:B[eE]OS))'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)?\s+\[[^\]]+\][^\()]*\((?:AmigaOS|Solaris|Win|Linux|SunOS|(?:B[eE]OS))'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(X11; [UI]; HP-UX B\.\d+\.\d+'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(X11; [UI]; HP-UX B\.\d+\.\d+'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(X11; Linux'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(X11; Linux'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(OS/2; [UI]'
+    family_replacement: 'Netscape'
+  
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(OS/2; [UI]'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(X11; [UI]; (?:Nav; )?(?:Linux|SunOS|IRIX|IRIX64|AIX|FreeBSD) \d+\.\d+'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(X11; [UI]; (?:Nav; )?(?:Linux|SunOS|IRIX|IRIX64|AIX|FreeBSD) \d+\.\d+'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(Macintosh; (?:[UI]; )?68K(?:; [UI])?'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(Macintosh; (?:[UI]; )?68K(?:; [UI])?'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold|(?:-C-MACOS\d))? \(Macintosh; (?:[UI]; )?[Pp][Pp][Cc](?:, Nav)?\)'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold|(?:-C-MACOS\d))? \[[^\]]+\][^\()]*\(Macintosh; (?:[UI]; )?[Pp][Pp][Cc](?:, Nav)?\)'
+    family_replacement: 'Netscape'
+  
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(Macintosh; [UI]; [Pp][Pp][Cc] Mac OS X'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(Macintosh; [UI]; [Pp][Pp][Cc] Mac OS X'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \(Macintosh; [Pp][Pp][Cc] Mac OS X'
+    family_replacement: 'Netscape'
+
+  - regex: '^(Mozilla)\/([0-4])\.(\d+)(?:N|x|Gold)? \[[^\]]+\][^\()]*\(Macintosh; [Pp][Pp][Cc] Mac OS X'
+    family_replacement: 'Netscape'
 
 os_parsers:
   ##########
@@ -1146,6 +1252,27 @@ os_parsers:
     os_replacement: 'Chrome OS'
 
   ##########
+  # HaikuOS
+  ##########
+
+  - regex: 'Haiku R(\d+)'
+    os_replacement: 'Haiku'
+    os_v1_replacement: 'R$1'
+
+  - regex: 'Haiku'
+    os_replacement: 'Haiku'
+
+  ##########
+  # BeOS
+  ##########
+
+  - regex: '(B[Ee]OS) (\d+)\.(\d+)'
+    os_replacement: 'BeOS'
+
+  - regex: 'B[Ee]OS'
+    os_replacement: 'BeOS'
+
+  ##########
   # Windows
   # http://en.wikipedia.org/wiki/Windows_NT#Releases
   # possibility of false positive when different marketing names share same NT kernel
@@ -1221,7 +1348,7 @@ os_parsers:
     os_replacement: 'Windows'
     os_v1_replacement: 'CE'
 
-  - regex: 'Win(?:dows)? ?(95|98|3.1|NT|ME|2000|XP|Vista|7|CE)'
+  - regex: 'Win(?:dows)? ?(95|98|3.1|3.11|NT|ME|2000|XP|Vista|7|CE)'
     os_replacement: 'Windows'
     os_v1_replacement: '$1'
 
@@ -1741,6 +1868,23 @@ os_parsers:
 
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
+
+  # ArcaOS
+  - regex: '(Arca[Oo][Ss]) (\d+)\.(\d+)(?:\.(\d+)|)'
+    os_replacement: 'ArcaOS'
+  
+  - regex: 'Arca[Oo][Ss]'
+    os_replacement: 'ArcaOS'
+
+  # IBM OS/2
+  - regex: '(OS\/2); Warp (\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'OS/2 Warp'
+
+  - regex: '(OS\/2); [A-Z]; Warp (\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'OS/2 Warp'
+
+  - regex: '(OS\/2)'
+    os_replacement: 'OS/2'
 
 device_parsers:
 
@@ -5541,10 +5685,30 @@ device_parsers:
   ##########
   # Sega
   ##########
+  - regex: 'SEGA (Saturn)'
+    device_replacement: 'Sega $1'
+    brand_replacement: 'Sega'
+    model_replacement: '$1'  
+
   - regex: '(Dreamcast)'
     device_replacement: 'Sega $1'
     brand_replacement: 'Sega'
     model_replacement: '$1'
+  
+  - regex: '(DreamKey/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
+  
+  - regex: '(DreamPassport/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
+
+  - regex: '(PlanetWeb/)'
+    device_replacement: 'Sega Dreamcast'
+    brand_replacement: 'Sega'
+    model_replacement: 'Dreamcast'
 
   ##########
   # Siemens mobile

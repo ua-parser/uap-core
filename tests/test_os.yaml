@@ -3105,3 +3105,142 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'NetSurf/3.10 (Haiku)'
+    family: 'Haiku'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/608.1.6 (KHTML, like Gecko) WebPositive/1.2 Version/11.1 Safari/608.1.6'
+    family: 'Haiku'
+    major: 'R1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/605.1.15 (KHTML, like Gecko) WebPositive/1.2 Version/13 Safari/605.1.15'
+    family: 'Haiku'
+    major: 'R1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/602.1 (KHTML, like Gecko) Otter/1.0.81'
+    family: 'Haiku'
+    major: 'R1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Haiku R1 x86) AppleWebKit/602.1 (KHTML, like Gecko) Otter/1.0.02'
+    family: 'Haiku'
+    major: 'R1'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.9a1) Gecko/20061106 Minefield/3.0a1'
+    family: 'Haiku'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; Haiku BePC; en-US; rv:1.8.1.14) Gecko/20080429 BonEcho/2.0.0.14'
+    family: 'Haiku'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; BeOS BePC; en-US; rv:1.8.1.1) Gecko/20061220 BonEcho/2.0.0.1'
+    family: 'BeOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; BeOS BePC; rv:1.9a1) Gecko/20060702 SeaMonkey/1.5a'
+    family: 'BeOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Netscape/13.4 (BeOS 3.6; ar_DZ;)'
+    family: 'BeOS'
+    major: '3'
+    minor: '6'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Opera/16.8 (BeOS 5.0; cs-CZ;)'
+    family: 'BeOS'
+    major: '5'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/2.0 (compatible; NetPositive; BeOS)'
+    family: 'BeOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; NeXT; EN-CA; rv:91.1) Gecko/20420516 Mozilla Firebird/0.6'
+    family: 'BeOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (BeOS; U; NeXT Station; EN-CA; rv:91.1) Gecko/20420516 Mozilla Firebird/0.6'
+    family: 'BeOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (OS/2; ArcaOS 5.0.6; x86_64; rv:89.0) Gecko/20100101 Firefox/89.0'
+    family: 'ArcaOS'
+    major: '5'
+    minor: '0'
+    patch: '6'
+    patch_minor:
+    
+  - user_agent_string: 'Mozilla/5.0 (OS/2; ArcaOS; x64; rv:89.0) Gecko/20100101 Firefox/89.0'
+    family: 'ArcaOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (OS/2; U; Warp 4; pt-BR; rv:1.3) Gecko/20030313'
+    family: 'OS/2 Warp'
+    major: '4'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/4.61 [de] (OS/2; U)'
+    family: 'OS/2'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (OS/2; U; Warp 4.5; en-US; rv:1.7.8) Gecko/20050517 Firefox/1.0.4'
+    family: 'OS/2 Warp'
+    major: '4'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (OS/2; Warp 4.5; rv:10.0.12) Gecko/20130108 Firefox/10.0.12 SeaMonkey/2.7.2'
+    family: 'OS/2 Warp'
+    major: '4'
+    minor: '5'
+    patch:
+    patch_minor:
