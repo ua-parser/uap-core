@@ -1005,6 +1005,11 @@ user_agent_parsers:
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
 
+  # SerenityOS (https://serenityos.org)
+  # https://github.com/SerenityOS/serenity/blob/2e1bbcb0faeae92d7595b8e0b022a8cdcecca07e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L27
+  - regex: 'SerenityOS'
+    family_replacement: 'SerenityOS Browser'
+
 os_parsers:
   ##########
   # HbbTV vendors
@@ -1724,7 +1729,7 @@ os_parsers:
 
   # just os
   - regex: '(Windows|Android|WeTab|Maemo|Web0S)'
-  - regex: '(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Mageia|(?:Free|Open|Net|\b)BSD)'
+  - regex: '(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Mageia|SerenityOS|(?:Free|Open|Net|\b)BSD)'
   # Linux + Kernel Version
   - regex: '(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+)|)|)'
   - regex: 'SunOS'
