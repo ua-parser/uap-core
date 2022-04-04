@@ -8634,3 +8634,9 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'surveyon/2.7.6 Mobile (Android: 11; MODEL:CPH2127; PRODUCT:CPH2127T2; MANUFACTURER:OPPO;)'
+    family: 'Surveyon'
+    major: '2'
+    minor: '7'
+    patch: '6'

@@ -3111,3 +3111,17 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+  - user_agent_string: 'surveyon/2.7.6 Mobile (Android: 11; MODEL:CPH2127; PRODUCT:CPH2127T2; MANUFACTURER:OPPO;)'
+    family: 'Android'
+    major: '11'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'surveyon/2.7.6 Mobile (Android: 5.1.1; MODEL:vivo Y21L; PRODUCT:Y31L; MANUFACTURER:vivo;)'
+    family: 'Android'
+    major: '5'
+    minor: '1'
+    patch: '1'
+    patch_minor:

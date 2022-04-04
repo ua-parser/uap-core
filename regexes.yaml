@@ -517,6 +517,10 @@ user_agent_parsers:
   # Palo Alto GlobalProtect Linux
   - regex: 'PAN (GlobalProtect)/(\d+)\.(\d+)\.(\d+) .{1,100} \(X11; Linux x86_64\)'
 
+  # Surveyon https://www.surveyon.com/
+  - regex: '^(surveyon)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Surveyon'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
@@ -1120,6 +1124,7 @@ os_parsers:
 
   # Android 9; Android 10;
   - regex: '(Android) (\d+);'
+  - regex: '(Android): (\d+)(?:\.(\d+)(?:\.(\d+)|)|);'
 
   # UCWEB
   - regex: '^UCWEB.{0,200}; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]{1,100})|);'
