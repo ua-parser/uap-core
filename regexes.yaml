@@ -2461,10 +2461,6 @@ device_parsers:
     device_replacement: 'Dell $1'
     brand_replacement: 'Dell'
     model_replacement: '$1'
-  - regex: '; {0,2}Dell ([^;/]{1,100}?)(?: Build|\) AppleWebKit)'
-    device_replacement: 'Dell $1'
-    brand_replacement: 'Dell'
-    model_replacement: '$1'
 
   #########
   # Denver
