@@ -46,7 +46,7 @@ To overwrite the respective value the replacement value needs to be named for a 
 
 The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive but not anchored.
 
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the forth `patch` information.
+In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the fourth `patch` information.
 If a `*_replacement` string is specified it shall overwrite or replace the match.
 
 As placeholder for inserting matched characters use within
