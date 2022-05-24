@@ -2355,6 +2355,20 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/0 CFNetwork/1240.0.4 Darwin/20.5.0'
+    family: 'iOS'
+    major: '14'
+    minor: '6'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/0 CFNetwork/1240.0.4 Darwin/20.6.0'
+    family: 'iOS'
+    major: '14'
+    minor: '8'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU 7_0_6 like Mac OS X; en_GB) AppleWebKit (KHTML, like Gecko) Mobile [OKMagazine/4.0.1 (iOS/7.0.6)] [LiteApps]'
     family: 'iOS'
     major: '7'
@@ -3095,7 +3109,7 @@ test_cases:
     family: 'Android'
     major: '7'
     minor: '0'
-    patch: 
+    patch:
     patch_minor:
 
   - user_agent_string: 'PostmanRuntime/7.20.1'
