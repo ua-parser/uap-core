@@ -213,6 +213,10 @@ user_agent_parsers:
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
 
+  # Phantom app
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|android).(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Phantom'
+
   # aspiegel.com spider (owned by Huawei)
   - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
     family_replacement: 'Spider'
