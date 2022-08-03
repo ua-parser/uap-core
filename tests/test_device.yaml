@@ -80355,6 +80355,11 @@ test_cases:
     brand: 'Samsung'
     model: 'SM-A520F'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Phantom/ios/22.06.08.44'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
     family: 'Huawei ANE-LX1'
     brand: 'Huawei'
