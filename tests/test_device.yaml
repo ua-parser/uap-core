@@ -80494,3 +80494,60 @@ test_cases:
     brand:
     model:
 
+  - user_agent_string: 'com.abc.mobile/5.7.14/Mozilla/5.0 (Linux; Android 9; Google Pixelbook Go Build/R99-14469.59.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.73 Safari/537.36'
+    family: 'Pixelbook Go'
+    brand:  'Google'
+    model:  'Pixelbook Go'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (Pixel 6 Pro; google Pixel 6 Pro; Android 12) AppleWebKit'
+    family: 'Pixel 6 Pro'
+    brand:  'Google'
+    model:  'Pixel 6 Pro'
+
+  - user_agent_string: 'ABC NP3/4.3.397 version 6.3.10b4.1, build 397 (Android SDK built for x86; google Android SDK built for x86; Android 10)'
+    family: 'Generic Smartphone'
+    brand:  'Generic'
+    model:  'Smartphone'
+
+  - user_agent_string: 'com.fi.abc/5.7.18/Mozilla/5.0 (Linux; Android 11; OnePlus8Pro Build/QKR1.191246.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36'
+    family: 'OnePlus8Pro'
+    brand: 'OnePlus'
+    model: 'OnePlus8Pro'
+
+  - user_agent_string: 'ABC NP3/4.3.398 version 6.3.24b5.1, build 398 (GM1910; OnePlus GM1910; Android 11) AppleWebKit'
+    family: 'OnePlus GM1910'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1910'
+
+  - user_agent_string: 'org.xyz.mobile/5.7.09/Mozilla/5.0 (Linux; Android 11; GM1917 Build/RKQ1.201022.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 11; GM1917) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'ABC/4.3.385 version 6.2.7, build 385 (GM1917; OnePlus GM1917; Android 11) AppleWebKit'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'com.abc.mobile.production/5.7.17/Mozilla/5.0 (Linux; Android 9; moto e6 (XT2005DL) Build/PPBS29.73-81-5-14-5-4-2-6-7; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.79 Mobile Safari/537.36'
+    family: 'Motorola e6 (XT2005DL)'
+    brand: 'Motorola'
+    model: 'e6 (XT2005DL)'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (moto g stylus; motorola moto g stylus; Android 11) AppleWebKit'
+    family: 'motorola moto g stylus'
+    brand: 'Motorola'
+    model: 'motorola moto g stylus'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (moto g play (2021); motorola moto g play (2021); Android 11) AppleWebKit'
+    family: 'motorola moto g play (2021)'
+    brand: 'Motorola'
+    model: 'motorola moto g play (2021)'
+
+
+  

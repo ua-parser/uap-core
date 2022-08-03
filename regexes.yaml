@@ -2672,10 +2672,14 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Google'
     model_replacement: '$1'
-  - regex: '; {0,2}(Pixel.{0,200}?)(?: Build|\) AppleWebKit)'
-    device_replacement: '$1'
+  - regex: '; {0,2}([g|G]oogle)? (Pixel[ a-zA-z0-9]{1,100});(?: Build|.{0,50}\) AppleWebKit)'
+    device_replacement: '$2'
     brand_replacement: 'Google'
-    model_replacement: '$1'
+    model_replacement: '$2'
+  - regex: '; {0,2}([g|G]oogle)? (Pixel.{0,200}?)(?: Build|\) AppleWebKit)'
+    device_replacement: '$2'
+    brand_replacement: 'Google'
+    model_replacement: '$2'
 
   #########
   # Gigabyte
@@ -3800,6 +3804,18 @@ device_parsers:
     model_replacement: '$1'
   - regex: '; (ONEPLUS [a-zA-Z]\d+)(?: Build|\) AppleWebKit)'
     device_replacement: 'OnePlus $1'
+    brand_replacement: 'OnePlus'
+    model_replacement: '$1'
+  - regex: '; {0,2}(HD1903|GM1917|IN2025|LE2115|LE2127|HD1907|BE2012|BE2025|BE2026|BE2028|BE2029|DE2117|DE2118|EB2101|GM1900|GM1910|GM1915|HD1905|HD1925|IN2015|IN2017|IN2019|KB2005|KB2007|LE2117|LE2125|BE2015|GM1903|HD1900|HD1901|HD1910|HD1913|IN2010|IN2013|IN2020|LE2111|LE2120|LE2121|LE2123|BE2011|IN2023|KB2003|LE2113|NE2215|DN2101)(?: Build|\) AppleWebKit)'
+    device_replacement: 'OnePlus $1'
+    brand_replacement: 'OnePlus'
+    model_replacement: 'OnePlus $1'
+  - regex: '; (OnePlus[ a-zA-z0-9]{0,50});((?: Build|.{0,50}\) AppleWebKit))'
+    device_replacement: '$1'
+    brand_replacement: 'OnePlus'
+    model_replacement: '$1'
+  - regex: '; (OnePlus[ a-zA-z0-9]{0,50})((?: Build|\) AppleWebKit))'
+    device_replacement: '$1'
     brand_replacement: 'OnePlus'
     model_replacement: '$1'
 
@@ -5482,6 +5498,15 @@ device_parsers:
     device_replacement: 'Motorola $1'
     brand_replacement: 'Motorola'
     model_replacement: '$1'
+  - regex: '; (moto[ a-zA-z0-9()]{0,50});((?: Build|.{0,50}\) AppleWebKit))'
+    device_replacement: '$1'
+    brand_replacement: 'Motorola'
+    model_replacement: '$1'
+  - regex: '; {0,2}(moto)(.{0,50})(?: Build|\) AppleWebKit)'
+    device_replacement: 'Motorola$2'
+    brand_replacement: 'Motorola'
+    model_replacement: '$2'
+  
 
   ##########
   # nintendo
