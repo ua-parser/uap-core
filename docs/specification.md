@@ -6,7 +6,7 @@ This document describes the specification on how a parser must implement the `re
 
 This specification intends to help maintainers and contributors to correctly use the provided information within the `regexes.yaml` file for obtaining information from the different user-agent strings. Furthermore this specification tries to be the basis for discussions on evolving the projects and the needed parsing algorithms.
 
-This document will not provide any information on how to implement the ua-parser project on your server and how to retreive the user-agent string for further processing.
+This document will not provide any information on how to implement the ua-parser project on your server and how to retrieve the user-agent string for further processing.
 
 # `regexes.yaml`
 
@@ -22,14 +22,14 @@ This information is provided within the `regexes.yaml` file. Each kind of inform
 * `os_parsers`
 * `device_parsers`
 
-Each parser contains a list of regular-expressions which are named `regex`. For each `regex` replacements specific to the parser can be named to attribute or change information. A replacement may require a match from the regular-expression which is extracted by an expression enclosed in normal brackets `"()"`. Each match can be addressed with `$1` to `$9` and used in a parser specific replacement.
+Each parser contains a list of regular-expressions which are named `regex`. For each `regex` replacements specific to the parser can be named to attribute or change information. A replacement may require a match from the regular-expression which is extracted by an expression enclosed in parenthesis `"()"`. Each match can be addressed with `$1` to `$9` and used in a parser specific replacement.
 
 **TODO**: Provide some insights into the used chars. E.g. escape `"."` as `"\."` and `"("` as `"\("`. `"/"` does not need to be escaped.
 
 ## `user_agent_parsers`
 
 The `user_agent_parsers` returns information of the `family` type of the User-Agent.
-If available the version infomation specifying the `family` may be extracted as well if available.
+If available the version information specifying the `family` may be extracted as well if available.
 Here major, minor and patch version information can be addressed or overwritten.
 
 | match in regex | default replacement | placeholder in replacement | note    |
@@ -39,14 +39,14 @@ Here major, minor and patch version information can be addressed or overwritten.
 | 3    | v2_replacement      | $3   | minor version number/info of the family |
 | 4    | v3_replacement      | $4   | patch version number/info of the family |
 
-In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within normal brackets) is given, the `family_replacement` shall be specified!
+In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within parenthesis) is given, the `family_replacement` shall be returned.
 To overwrite the respective value the replacement value needs to be named for a `regex`-item.
 
 **Parser Implementation:**
 
-The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
+The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive but not anchored.
 
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the forth `patch` information.
+In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the fourth `patch` information.
 If a `*_replacement` string is specified it shall overwrite or replace the match.
 
 As placeholder for inserting matched characters use within
@@ -160,7 +160,7 @@ Leading and tailing whitespaces shall be trimmed from the result.
 For the User-Agent: `Mozilla/5.0 (Linux; U; Android 4.2.2; de-de; PEDI_PLUS_W Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30`
 the matching `regex`:
 
-```
+```yaml
   - regex: '; *(PEDI)_(PLUS)_(W) Build'
     device_replacement: 'Odys $1 $2 $3'
     brand_replacement: 'Odys'

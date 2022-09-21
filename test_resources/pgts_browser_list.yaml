@@ -1291,7 +1291,7 @@ test_cases:
     patch:
 
   - user_agent_string: 'Download Master'
-    family: 'Other'
+    family: 'Download Master'
     major:
     minor:
     patch:
@@ -72679,10 +72679,10 @@ test_cases:
     patch:
 
   - user_agent_string: 'RPT-HTTPClient/0.3-3E'
-    family: 'Other'
-    major:
-    minor:
-    patch:
+    family: 'HTTPClient'
+    major: '0'
+    minor: '3'
+    patch: '3E'
 
   - user_agent_string: 'RT-browser'
     family: 'Other'

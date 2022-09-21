@@ -460,6 +460,11 @@ test_cases:
     brand: 'Sony'
     model: 'PlayStation 4'
 
+  - user_agent_string: 'Mozilla/5.0 (PlayStation 4 5.00) AppleWebKit/601.2 (KHTML, like Gecko)'
+    family: 'PlayStation 4'
+    brand: 'Sony'
+    model: 'PlayStation 4'
+
   - user_agent_string: 'SAMSUNG-C3053/1.0 Openwave/6.2.3 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Browser/6.2.3.3.c.1.101 (GUI) MMP/2.0'
     family: 'Samsung C3053'
     brand: 'Samsung'
@@ -80230,6 +80235,11 @@ test_cases:
     brand: 'Google'
     model: 'Pixel 2'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
+    family: 'Pixel 2 XL'
+    brand: 'Google'
+    model: 'Pixel 2 XL'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0; RCT6773W22B Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85'
     family: 'RCT6773W22B'
     brand: 'RCA'
@@ -80345,6 +80355,11 @@ test_cases:
     brand: 'Samsung'
     model: 'SM-A520F'
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Phantom/ios/22.06.08.44'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36'
     family: 'Huawei ANE-LX1'
     brand: 'Huawei'
@@ -80399,7 +80414,6 @@ test_cases:
     family: 'Asus X018D'
     brand: 'Asus'
     model: 'X018D'
-
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; SH-01M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Mobile Safari/537.36'
     family: 'SH-01M'
     brand: 'Sharp'
@@ -80434,3 +80448,111 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Smartphone'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.3 Mobile/15E148 DuckDuckGo/7 Safari/605.1.15'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/87.0.4280.141 Mobile DuckDuckGo/5 Safari/537.36'
+    family: 'Generic Smartphone'
+    brand: 'Generic'
+    model: 'Smartphone'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; Thor E Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36'
+    family: 'Thor E'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; thor Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.132 Mobile Safari/537.36'
+    family: 'Thor'
+    brand: 'Vernee'
+    model: 'Thor'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0; Apollo Lite Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36'
+    family: 'Apollo Lite'
+    brand: 'Vernee'
+    model: 'Apollo'
+
+  - user_agent_string: 'Dalvik/2.1.0 (Linux; U; Android 9; LLD-AL10 Build/HONORLLD-AL10)'
+    family: 'Huawei Honor LLD-AL10'
+    brand: 'Huawei'
+    model: 'Honor LLD-AL10'
+
+  - user_agent_string: 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; Che2-TL00M Build/HonorChe2-TL00M)'
+    family: 'Huawei Honor Che2-TL00M'
+    brand: 'Huawei'
+    model: 'Honor Che2-TL00M'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Pandora/1904.1.1'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16D57 Pandora/1902.1'
+    family: 'iPad'
+    brand: 'Apple'
+    model: 'iPad'
+
+  - user_agent_string: 'PostmanRuntime/7.20.1'
+    family: 'Other'
+    brand:
+    model:
+
+  - user_agent_string: 'com.abc.mobile/5.7.14/Mozilla/5.0 (Linux; Android 9; Google Pixelbook Go Build/R99-14469.59.0; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.73 Safari/537.36'
+    family: 'Pixelbook Go'
+    brand:  'Google'
+    model:  'Pixelbook Go'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (Pixel 6 Pro; google Pixel 6 Pro; Android 12) AppleWebKit'
+    family: 'Pixel 6 Pro'
+    brand:  'Google'
+    model:  'Pixel 6 Pro'
+
+  - user_agent_string: 'ABC NP3/4.3.397 version 6.3.10b4.1, build 397 (Android SDK built for x86; google Android SDK built for x86; Android 10)'
+    family: 'Generic Smartphone'
+    brand:  'Generic'
+    model:  'Smartphone'
+
+  - user_agent_string: 'com.fi.abc/5.7.18/Mozilla/5.0 (Linux; Android 11; OnePlus8Pro Build/QKR1.191246.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36'
+    family: 'OnePlus8Pro'
+    brand: 'OnePlus'
+    model: 'OnePlus8Pro'
+
+  - user_agent_string: 'ABC NP3/4.3.398 version 6.3.24b5.1, build 398 (GM1910; OnePlus GM1910; Android 11) AppleWebKit'
+    family: 'OnePlus GM1910'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1910'
+
+  - user_agent_string: 'org.xyz.mobile/5.7.09/Mozilla/5.0 (Linux; Android 11; GM1917 Build/RKQ1.201022.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 11; GM1917) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'ABC/4.3.385 version 6.2.7, build 385 (GM1917; OnePlus GM1917; Android 11) AppleWebKit'
+    family: 'OnePlus GM1917'
+    brand: 'OnePlus'
+    model: 'OnePlus GM1917'
+
+  - user_agent_string: 'com.abc.mobile.production/5.7.17/Mozilla/5.0 (Linux; Android 9; moto e6 (XT2005DL) Build/PPBS29.73-81-5-14-5-4-2-6-7; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.79 Mobile Safari/537.36'
+    family: 'Motorola e6 (XT2005DL)'
+    brand: 'Motorola'
+    model: 'e6 (XT2005DL)'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (moto g stylus; motorola moto g stylus; Android 11) AppleWebKit'
+    family: 'motorola moto g stylus'
+    brand: 'Motorola'
+    model: 'motorola moto g stylus'
+
+  - user_agent_string: 'ABC/4.3.392 version 6.2.15, build 392 (moto g play (2021); motorola moto g play (2021); Android 11) AppleWebKit'
+    family: 'motorola moto g play (2021)'
+    brand: 'Motorola'
+    model: 'motorola moto g play (2021)'
+
+
+  
