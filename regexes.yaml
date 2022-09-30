@@ -78,6 +78,9 @@ user_agent_parsers:
   # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
+  # 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)'
+  - regex: '(PingdomPageSpeed)/(\d+)\.(\d+)'
+    family_replacement: 'PingdomBot'
 
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)(?:\.(\d+)|)$'
