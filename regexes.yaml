@@ -5550,7 +5550,6 @@ device_parsers:
     brand_replacement: 'Motorola'
     model_replacement: '$2'
 
-
   ##########
   # nintendo
   ##########
