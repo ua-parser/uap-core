@@ -921,7 +921,7 @@ user_agent_parsers:
   # AFTER THE EDGE CASES ABOVE!
   # AFTER IE11
   # BEFORE all other IE
-  - regex: '(Firefox)/(\d+)\.(\d+)(?:\.(\d+)|\z)'
+  - regex: '(Firefox)/(\d+)\.(\d+)(?:\.(\d+)|$)'
   - regex: '(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)'
 
 
