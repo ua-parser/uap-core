@@ -8657,3 +8657,9 @@ test_cases:
     major: '2'
     minor: '7'
     patch: '6'
+
+  - user_agent_string: 'HTTPie/3.2.1'
+    family: 'HTTPie'
+    major: '3'
+    minor: '2'
+    patch: '1'
