@@ -959,6 +959,12 @@ test_cases:
     minor: '8'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)'
+    family: 'PingdomBot'
+    major: '1'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'NewRelicPinger/1.0 (1025794)'
     family: 'NewRelicPingerBot'
     major: '1'
