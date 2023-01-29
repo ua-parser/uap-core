@@ -217,11 +217,11 @@ user_agent_parsers:
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|android).(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Phantom'
 
-  # aspiegel.com spider (owned by Huawei)
-  - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
+  # aspiegel.com spider (owned by Huawei, later called PetalBot)
+  - regex: 'Mozilla.{1,100}Mobile.{1,100}(AspiegelBot|PetalBot)'
     family_replacement: 'Spider'
 
-  - regex: 'AspiegelBot'
+  - regex: 'AspiegelBot|PetalBot'
     family_replacement: 'Spider'
 
   # Basilisk
@@ -1077,8 +1077,8 @@ os_parsers:
   # generic HbbTV, hoping to catch manufacturer name (always after 2nd comma) and the first string that looks like a 2011-2019 year
   - regex: 'HbbTV/\d+\.\d+\.\d+ \(.{0,30}; ?([a-zA-Z]+) ?;.{0,30}(201[1-9]).{0,30}\)'
 
-  # aspiegel.com spider (owned by Huawei)
-  - regex: 'AspiegelBot'
+  # aspiegel.com spider (owned by Huawei, later renamed PetalBot)
+  - regex: 'AspiegelBot|PetalBot'
     os_replacement: 'Other'
 
   ##########
@@ -1823,11 +1823,11 @@ device_parsers:
     brand_replacement: 'Spider'
 
   # aspiegel.com spider (owned by Huawei)
-  - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
+  - regex: 'Mozilla.{1,100}Mobile.{1,100}(AspiegelBot|PetalBot)'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Smartphone'
-  - regex: 'Mozilla.{0,200}AspiegelBot'
+  - regex: 'Mozilla.{0,200}(AspiegelBot|PetalBot)'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
