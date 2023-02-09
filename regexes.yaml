@@ -5750,6 +5750,10 @@ device_parsers:
     device_replacement: 'Generic Smartphone'
     brand_replacement: 'Generic'
     model_replacement: 'Smartphone'
+  - regex: '(XBLWP7)'
+    device_replacement: 'Generic Smartphone'
+    brand_replacement: 'Generic'
+    model_replacement: 'Smartphone'
 
   ##########
   # Spiders (this is a hack...)
@@ -5804,3 +5808,13 @@ device_parsers:
     device_replacement: 'Mac'
     brand_replacement: 'Apple'
     model_replacement: 'Mac'
+
+  #########
+  # Generic Computer
+  # @note: at the end, just to not fall into the Other category
+  #########
+
+  - regex: 'Windows NT'
+    device_replacement: 'Generic Computer'
+    brand_replacement: 'Generic'
+    model_replacement: 'Computer'
