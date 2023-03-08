@@ -3195,3 +3195,18 @@ test_cases:
     minor: '1'
     patch: '1'
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; SM-X900 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/110.0.5481.153 Safari/537.36 TheMailApp_Android/8.1.9.30.PROD'
+    family: 'Android'
+    major: '13'
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 TheMailApp_iOS/8.1.9.30.PROD'
+    family: 'iOS'
+    major: '15'
+    minor: '7'
+    patch: '3'
+    patch_minor:
+
