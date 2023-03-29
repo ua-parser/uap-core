@@ -145,6 +145,21 @@ test_cases:
     brand: 'Apple'
     model: 'iPod'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Quest'
+    brand: 'Meta'
+    model: 'Quest'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 2) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Quest'
+    brand: 'Meta'
+    model: 'Quest 2'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Quest'
+    brand: 'Meta'
+    model: 'Quest Pro'
+
   - user_agent_string: 'Mozilla/4.0 (compatible; Linux 2.6.10) NetFront/3.3 Kindle/1.0 (screen 600x800)'
     family: 'Kindle'
     brand: 'Amazon'
