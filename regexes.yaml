@@ -1020,6 +1020,13 @@ user_agent_parsers:
 
 os_parsers:
   ##########
+  # iPad OS
+  ##########
+  - regex: '(iPad).*?CPU OS (\d+_\d+|\d+_\d+_\d+) like Mac OS X'
+    os_replacement: 'iPad OS'
+    v1_replacement: '$2'
+
+  ##########
   # HbbTV vendors
   ##########
 

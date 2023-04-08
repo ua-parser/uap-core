@@ -3195,3 +3195,21 @@ test_cases:
     minor: '1'
     patch: '1'
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1'
+    family: 'iPad OS'
+    major: '13'
+    minor: '3'
+    patch: null
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1'
+    family: 'iPad OS'
+    major: '11'
+    minor: '0'
+    patch: null
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15D60 Safari/604.1'
+    family: 'iPad OS'
+    major: '11'
+    minor: '2'
+    patch: '5'

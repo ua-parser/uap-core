@@ -8663,3 +8663,9 @@ test_cases:
     major: '3'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1'
+    family: 'Chrome Mobile iOS'
+    major: '87'
+    minor: '0'
+    patch: '4280'
