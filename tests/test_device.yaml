@@ -80444,6 +80444,16 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Smartphone'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
     family: 'Spider'
     brand: 'Spider'
