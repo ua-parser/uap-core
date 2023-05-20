@@ -925,7 +925,7 @@ user_agent_parsers:
   # AFTER THE EDGE CASES ABOVE!
   # AFTER IE11
   # BEFORE all other IE
-  - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Firefox)/(\d+)\.(\d+)(?:\.(\d+)|$)'
   - regex: '(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)'
 
 
@@ -5603,7 +5603,7 @@ device_parsers:
     device_replacement: 'Motorola$2'
     brand_replacement: 'Motorola'
     model_replacement: '$2'
-  
+
 
   ##########
   # nintendo
