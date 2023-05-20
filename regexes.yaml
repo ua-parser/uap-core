@@ -388,6 +388,10 @@ user_agent_parsers:
   - regex: '(EdgiOS|EdgA)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Edge Mobile'
 
+  # Oculus Browser, should go before Samsung Internet
+  - regex: '(OculusBrowser)/(\d+)\.(\d+).0.0(?:\.([0-9\-]+)|)'
+    family_replacement: 'Oculus Browser'
+
   # Samsung Internet (based on Chrome, but lacking some features)
   - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
     family_replacement: 'Samsung Internet'
@@ -1143,6 +1147,12 @@ os_parsers:
 
   # Salesforce
   - regex: '(android)\s(?:mobile\/)(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Android'
+
+  ##########
+  # Meta Quest
+  ##########
+  - regex: 'Quest'
     os_replacement: 'Android'
 
   ##########
@@ -3539,6 +3549,25 @@ device_parsers:
     device_replacement: 'Meizu $1'
     brand_replacement: 'Meizu'
     model_replacement: '$1'
+
+  #########
+  # Meta
+  # @ref: https://www.meta.com
+  #########
+  - regex: 'Quest 2'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 2'
+
+  - regex: 'Quest Pro'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest Pro'
+
+  - regex: 'Quest'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest'
 
   #########
   # Micromax
