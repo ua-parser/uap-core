@@ -557,6 +557,12 @@ test_cases:
     minor: '0'
     patch: '25'
 
+  - user_agent_string: 'Java/17.0.6'
+    family: 'Java'
+    major: '17'
+    minor: '0'
+    patch: '6'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; en-US) AppleWebKit/528.5+ (KHTML, like Gecko, Safari/528.5+) Version/4.0 Kindle/3.0 (screen 600x800; rotate)'
     family: 'Kindle'
     major: '3'
