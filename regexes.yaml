@@ -465,7 +465,7 @@ user_agent_parsers:
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
   - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'Chrome Mobile iOS'
+    family_replacement: 'Chrome Mobile'
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
     family_replacement: 'Chrome Mobile'
   - regex: ' Mobile .{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
