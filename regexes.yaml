@@ -1022,10 +1022,9 @@ user_agent_parsers:
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
 
-  # SerenityOS (https://serenityos.org)
-  # https://github.com/SerenityOS/serenity/blob/2e1bbcb0faeae92d7595b8e0b022a8cdcecca07e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L27
-  - regex: 'SerenityOS'
-    family_replacement: 'SerenityOS Browser'
+  # Ladybird Browser (https://ladybird.dev)
+  # https://github.com/SerenityOS/serenity/blob/8da9ff24e4e720b1e80a027f09c419ac9503f896/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L52
+  - regex: 'LibWeb\+LibJS\/\d+\.\d+ (Ladybird)\/(\d+)\.(\d+)'
 
 os_parsers:
   ##########

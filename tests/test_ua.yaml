@@ -8664,10 +8664,10 @@ test_cases:
     minor: '20'
     patch: '1'
 
-  - user_agent_string: 'Mozilla/4.0 (SerenityOS; x86_64) LibWeb+LibJS (Not KHTML, nor Gecko) LibWeb'
-    family: 'SerenityOS Browser'
-    major:
-    minor:
+  - user_agent_string: 'Mozilla/5.0 (Linux; x86_64) LibWeb+LibJS/1.0 Ladybird/1.0'
+    family: 'Ladybird'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'surveyon/2.7.6 Mobile (Android: 11; MODEL:CPH2127; PRODUCT:CPH2127T2; MANUFACTURER:OPPO;)'
