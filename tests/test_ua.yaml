@@ -7943,7 +7943,7 @@ test_cases:
     family: 'aws-sdk-ruby3'
     major: '3'
     minor: '170'
-    patch: 0
+    patch: 
 
   - user_agent_string: 'aws-sdk-cpp/1.0.64 Linux/4.4.0-66-generic x86_64'
     family: 'aws-sdk-cpp'
