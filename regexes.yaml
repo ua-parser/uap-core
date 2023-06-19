@@ -152,7 +152,7 @@ user_agent_parsers:
 
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
-  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go(?:-v2)?|java|js|nodejs|ruby(?:2|3)?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # SAFE FME
   - regex: '(FME)\/(\d+\.\d+)\.(\d+)\.(\d+)'
