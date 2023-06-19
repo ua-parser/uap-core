@@ -7939,11 +7939,11 @@ test_cases:
     minor: '2'
     patch: '18'
   
-  - user_agent_string: 'aws-sdk-ruby3/3.170 ruby/3.0 x86_64-linux-musl aws-sdk-core/3.170'
+  - user_agent_string: 'aws-sdk-ruby3/3.170.0 ruby/3.0 x86_64-linux-musl aws-sdk-core/3.170'
     family: 'aws-sdk-ruby3'
     major: '3'
     minor: '170'
-    patch: 
+    patch: '0'
 
   - user_agent_string: 'aws-sdk-cpp/1.0.64 Linux/4.4.0-66-generic x86_64'
     family: 'aws-sdk-cpp'
@@ -7957,11 +7957,11 @@ test_cases:
     minor: '4'
     patch: '12'
    
-  - user_agent_string: 'aws-sdk-go-v2/1.18 os/linux lang/go/1.20 md/GOOS/linux md/GOARCH/amd64 api/sts/1.18'
+  - user_agent_string: 'aws-sdk-go-v2/1.18.0 os/linux lang/go/1.20 md/GOOS/linux md/GOARCH/amd64 api/sts/1.18'
     family: 'aws-sdk-go-v2'
     major: '1'
     minor: '18'
-    patch: 
+    patch: '0'
 
   - user_agent_string: 'aws-sdk-nodejs/2.141.0 win32/v8.4.0'
     family: 'aws-sdk-nodejs'
@@ -7969,11 +7969,11 @@ test_cases:
     minor: '141'
     patch: '0'
     
-  - user_agent_string: 'aws-sdk-js/3.186 os/linux/5.15 lang/js md/nodejs/18.15 api/sts/3.186'
+  - user_agent_string: 'aws-sdk-js/3.186.0 os/linux/5.15 lang/js md/nodejs/18.15 api/sts/3.186'
     family: 'aws-sdk-js'
     major: '3'
     minor: '186'
-    patch: 
+    patch: '0'
 
   - user_agent_string: 'JetS3t/0.9.0 (Linux/4.4.0-1044-aws; amd64; en; JVM 1.8.0_131)'
     family: 'JetS3t'
