@@ -449,6 +449,14 @@ user_agent_parsers:
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
 
+  # WeChat MiniProgram Env,Only support on android
+  - regex: 'WeChat/\w*\sWeixin\sNetType/\w*\sLanguage/\w*\sABI/\w*\s(MiniProgramEnv/)\w+'
+    family_replacement: "WeChat MiniProgram"
+
+  # WeChat on Android
+  - regex: '(MicroMessenger)/(\d+).(\d+).(\d+).(\d+)'
+    family_replacement: 'WeChat'
+
   # DuckDuckGo
   - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
@@ -876,6 +884,10 @@ user_agent_parsers:
 
   # Phantomjs, should go before Safari
   - regex: '(PhantomJS)/(\d+)\.(\d+)\.(\d+)'
+
+  # WeChat on IOS
+  - regex: 'MicroMessenger/(\d+).(\d+).(\d+)'
+    family_replacement: 'WeChat'
 
   # WebKit Nightly
   - regex: '(AppleWebKit)/(\d+)(?:\.(\d+)|)\+ .{0,200} Safari'
@@ -2875,6 +2887,15 @@ device_parsers:
     device_replacement: 'HP TouchPad'
     brand_replacement: 'HP'
     model_replacement: 'TouchPad'
+
+  #########
+  # Honor as an independent brand(Android Version greater than 9)
+  # @note: Needs to be before Huawei honor device
+  #########
+  - regex: '(Android\s)(\d[1-9][0-9]*|[1-9][0-9]+);\s{0,2}([^;]{1,200}) Build/(HONOR|Honor)'
+    device_replacement: 'Honor $3'
+    brand_replacement: 'Honor'
+    model_replacement: '$3'
 
   #########
   # Huawei
