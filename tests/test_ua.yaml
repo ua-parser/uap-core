@@ -1566,6 +1566,20 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36 QBCore/4.0.1301.400 QQBrowser/9.0.2524.400 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2875.116 Safari/537.36 NetType/WIFI MicroMessenger/7.0.5 WindowsWechat'
+    family: 'WindowsWeChat'
+    major: '7'
+    minor: '0'
+    patch: '5'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x6309062f) XWEB/8351 Flue'
+    family: 'WindowsWeChat'
+    major: '7'
+    minor: '0'
+    patch: '20'
+    patch_minor: '1781'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.40(0x1800282c) NetType/WIFI Language/zh_CN'
     family: 'WeChat'
     major: '8'
@@ -1579,6 +1593,13 @@ test_cases:
     minor: '0'
     patch: '40'
     patch_minor: '2420'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.1.2; vivo Y79A Build/N2G47H; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045327 Mobile Safari/537.36 MMWEBID/8294 MicroMessenger/7.0.14.1660(0x27000E37) Process/tools NetType/WIFI Language/zh_CN ABI/arm64 WeChat/arm64'
+    family: 'WeChat'
+    major: '7'
+    minor: '0'
+    patch: '14'
+    patch_minor: '1660'
 
   - user_agent_string: 'Dolphin 6.5.1 (iPad; iPhone OS 6.1.3; de_DE)'
     family: 'Dolphin'

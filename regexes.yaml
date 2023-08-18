@@ -441,6 +441,20 @@ user_agent_parsers:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
 
+  # WeChat MiniProgram Env,Only support on android
+  - regex: 'WeChat/\w*\sWeixin\sNetType/\w*\sLanguage/\w*\sABI/\w*\s(MiniProgramEnv/)\w+'
+    family_replacement: "WeChat MiniProgram"
+
+  # WeChat on Windows
+  - regex: '(MicroMessenger)/(\d+).(\d+).(\d+)\sWindowsWechat'
+    family_replacement: 'WindowsWeChat'
+  - regex: '(MicroMessenger)/(\d+).(\d+).(\d+).(\d+).{1,12}\sWindowsWechat'
+    family_replacement: 'WindowsWeChat'
+
+  # WeChat on Android should be before QQ Browsers
+  - regex: '(MicroMessenger)/(\d+).(\d+).(\d+).(\d+)'
+    family_replacement: 'WeChat'
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
@@ -448,14 +462,6 @@ user_agent_parsers:
     family_replacement: 'QQ Browser Mobile'
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
-
-  # WeChat MiniProgram Env,Only support on android
-  - regex: 'WeChat/\w*\sWeixin\sNetType/\w*\sLanguage/\w*\sABI/\w*\s(MiniProgramEnv/)\w+'
-    family_replacement: "WeChat MiniProgram"
-
-  # WeChat on Android
-  - regex: '(MicroMessenger)/(\d+).(\d+).(\d+).(\d+)'
-    family_replacement: 'WeChat'
 
   # DuckDuckGo
   - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
