@@ -8681,3 +8681,9 @@ test_cases:
     major: '3'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Uptime-Kuma/1.21.3'
+    family: 'Uptime-Kuma'
+    major: '1'
+    minor: '21'
+    patch: '3'

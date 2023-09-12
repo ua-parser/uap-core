@@ -757,6 +757,9 @@ user_agent_parsers:
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
 
+  # Uptime-Kuma https://uptime.kuma.pet/
+  - regex: '(Uptime-Kuma)/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
