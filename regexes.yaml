@@ -1870,6 +1870,16 @@ device_parsers:
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
 
+  # Google-Read-Aloud
+  - regex: 'Mozilla/.{0,200}Mobile.{1,100}Google-Read-Aloud'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Smartphone'
+  - regex: 'Mozilla/.{0,200}Google-Read-Aloud'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Desktop'
+
   #########
   # WebBrowser for SmartWatch
   # @ref: https://play.google.com/store/apps/details?id=se.vaggan.webbrowser&hl=en
