@@ -8681,3 +8681,9 @@ test_cases:
     major: '3'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'riemann-wrapper/1.8.3.beta1 (+https://github.com/riemann/riemann-tools)'
+    family: 'Riemann Tools'
+    major: '1'
+    minor: '8'
+    patch: '3'
