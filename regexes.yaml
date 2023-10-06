@@ -1027,6 +1027,10 @@ user_agent_parsers:
   - regex: 'SerenityOS'
     family_replacement: 'SerenityOS Browser'
 
+  # Riemann Tools
+  - regex: '(riemann-[a-z-]+)/(\d+).(\d+).(\d+)'
+    family_replacement: 'Riemann Tools'
+
 os_parsers:
   ##########
   # HbbTV vendors
