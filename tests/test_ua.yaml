@@ -8705,3 +8705,9 @@ test_cases:
     major: '108'
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/102 Version/11.1.1 Safari/605.1.15'
+    family: 'Chrome Mobile iOS'
+    major: '102'
+    minor:
+    patch:
