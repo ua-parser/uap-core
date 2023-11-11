@@ -83,11 +83,11 @@ test_cases:
     minor: '5'
     patch: '1'
 
-  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 2) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 2) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/29.1.0.14.88.521409580 SamsungBrowser/4.0 Chrome/116.0.5845.172 VR Safari/537.36'
     family: 'Oculus Browser'
-    major: '26'
-    minor: '2'
-    patch: '10'
+    major: '29'
+    minor: '1'
+    patch: '14'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Amazon Silk'

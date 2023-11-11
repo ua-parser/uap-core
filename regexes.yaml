@@ -392,7 +392,7 @@ user_agent_parsers:
     family_replacement: 'Edge Mobile'
 
   # Oculus Browser, should go before Samsung Internet
-  - regex: '(OculusBrowser)/(\d+)\.(\d+).0.0(?:\.([0-9\-]+)|)'
+  - regex: '(OculusBrowser)/(\d+)\.(\d+).0(?:\.([0-9\-]+)|)'
     family_replacement: 'Oculus Browser'
 
   # Samsung Internet (based on Chrome, but lacking some features)
@@ -3582,6 +3582,11 @@ device_parsers:
   # Meta
   # @ref: https://www.meta.com
   #########
+  - regex: 'Quest 3'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 3'
+
   - regex: 'Quest 2'
     device_replacement: 'Quest'
     brand_replacement: 'Meta'
