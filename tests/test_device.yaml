@@ -80579,5 +80579,17 @@ test_cases:
     brand: 'Motorola'
     model: 'motorola moto g play (2021)'
 
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/76.2-47142 (ZPS22)'
+    family: 'Player'
+    brand: 'Sonos'
+    model: 'ZPS22'
 
-  
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/26.7-48310 (ZP120)'
+    family: 'Player'
+    brand: 'Sonos'
+    model: 'ZP120'
+
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/29.3-87071 (ICRU\_iPhone7,1); iOS/Version 8.2 (Build 12D508)'
+    family: 'iPhone'
+    brand: 'Apple'
+    model: 'iPhone7,1'

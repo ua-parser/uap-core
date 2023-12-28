@@ -8681,3 +8681,27 @@ test_cases:
     major: '3'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/76.2-47142 (ZPS22)'
+    family: 'SonosPlayer'
+    major: '76'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/26.7-48310 (ZP120)'
+    family: 'SonosPlayer'
+    major: '26'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/29.3-87071 (ICRU\_iPhone7,1); iOS/Version 8.2 (Build 12D508)'
+    family: 'SonosApp'
+    major: '29'
+    minor: '3'
+    patch:
+
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/76.2-48062 (ACR_:samsung:p3quew:SM-G998U1)'
+    family: 'SonosApp'
+    major: '76'
+    minor: '2'
+    patch:
