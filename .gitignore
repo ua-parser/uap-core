@@ -4,4 +4,4 @@ package-lock.json
 *.tgz
 *.log
 .prettierignore
-
+.vscode
