@@ -8681,3 +8681,27 @@ test_cases:
     major: '3'
     minor: '2'
     patch: '1'
+
+  - user_agent_string: 'Radio Thmanyah/1.0.2'
+    family: 'Radio Thmanyah'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Radio Thmanyah ar/1.0.2'
+    family: 'راديو ثمانية'
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Radio Thmanyah Android/1.0.2'
+    family: "Radio Thmanyah Android"
+    major: '1'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Radio Thmanyah iOS/1.0.2'
+    family: "Radio Thmanyah iOS"
+    major: '1'
+    minor: '0'
+    patch: '2'

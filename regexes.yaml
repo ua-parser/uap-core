@@ -45,6 +45,7 @@ user_agent_parsers:
   - regex: 'ArcGIS\.Runtime\.(Qt)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'ArcGIS Runtime SDK for $1'
 
+  # 
   # CFNetwork Podcast catcher Applications
   - regex: '^(Luminary)[Stage]+/(\d+) CFNetwork'
   - regex: '(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork'
@@ -67,6 +68,17 @@ user_agent_parsers:
   - regex: '(audioboom\.com)'
     family_replacement: 'AudioBoom'
   - regex: ' (Rivo) RHYTHM'
+
+  # Radio Thmanyah Podcast Catcher
+  - regex: '(Radio Thmanyah)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Radio Thmanyah'
+  - regex: '(Radio Thmanyah ar)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'راديو ثمانية'
+  - regex: '(Radio Thmanyah Android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Radio Thmanyah Android'
+  - regex: '(Radio Thmanyah iOS)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Radio Thmanyah iOS'
+  
 
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)(?:\.(\d+)|)|)'
