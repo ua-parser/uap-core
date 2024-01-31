@@ -12835,6 +12835,21 @@ test_cases:
     brand: 'Hisense'
     model: 'AndroMAXI AD683G'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Odin/88.4324.2.10 Safari/537.36 Model/Hisense-NT72671D VIDAA/6.0(Hisense;SmartTV;65A66GAVT;NT72671/V0000.06.12N.N0622;UHD;65A6GA;)'
+    family: 'Hisense NT72671D'
+    brand: 'Hisense'
+    model: 'NT72671D'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Odin/100.4896.4.10 Safari/537.36 Model/VIDAA-MTK9618 VIDAA/7.0(Hisense;SmartTV;65A67GEVS;MTK9618/V0000.07.50R.N0822;UHD;65A67GE;)'
+    family: 'Hisense MTK9618'
+    brand: 'Hisense'
+    model: 'MTK9618'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36 OPR/46.0.2207.0 OMI/4.20.3.54.Catcher2.159 Model/Hisense-MSD6886 VIDAA/4.0(Hisense;SmartTV;HE50A6900FUWTS;mstar6886/V0000.01.00T.K1112;UHD)'
+    family: 'Hisense MSD6886'
+    brand: 'Hisense'
+    model: 'MSD6886'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.3; en_us; S100 AMAZE Build/GINGERBREAD) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 NetFrontLifeBrowser/2.3 Mobile (Dragonfruit)'
     family: 'AMAZE S100'
     brand: 'hitech'
