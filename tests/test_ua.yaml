@@ -8699,3 +8699,9 @@ test_cases:
     major: '102'
     minor: '13'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/108 Version/13.0.3 Safari/605.1.15'
+    family: 'Edge Mobile'
+    major: '108'
+    minor:
+    patch:
