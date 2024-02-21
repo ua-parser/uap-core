@@ -5624,7 +5624,7 @@ device_parsers:
     device_replacement: 'Nintendo Wii U'
     brand_replacement: 'Nintendo'
     model_replacement: 'Wii U'
-  - regex: 'Nintendo (DS|3DS|DSi|Wii);'
+  - regex: 'Nintendo (Switch|DS|3DS|DSi|Wii);'
     device_replacement: 'Nintendo $1'
     brand_replacement: 'Nintendo'
     model_replacement: '$1'
