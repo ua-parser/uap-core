@@ -1033,6 +1033,9 @@ user_agent_parsers:
   - regex: 'SerenityOS'
     family_replacement: 'SerenityOS Browser'
 
+  # MullvadBrowser (https://mullvad.net/en/browser)
+  - regex: '(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+
 os_parsers:
   ##########
   # HbbTV vendors
