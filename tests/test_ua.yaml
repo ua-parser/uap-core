@@ -8740,3 +8740,4 @@ test_cases:
     family: 'Chrome Mobile iOS'
     major: '102'
     minor:
+    patch:
