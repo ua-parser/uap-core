@@ -80594,7 +80594,7 @@ test_cases:
     brand: 'Sonos'
     model: 'ZP120'
 
-  - user_agent_string: 'Linux UPnP/1.0 Sonos/29.3-87071 (ICRU\_iPhone7,1); iOS/Version 8.2 (Build 12D508)'
+  - user_agent_string: 'Linux UPnP/1.0 Sonos/29.3-87071 (ICRU\_iPhone7); iOS/Version 8.2 (Build 12D508)'
     family: 'iPhone'
     brand: 'Apple'
-    model: 'iPhone7,1'
+    model: 'iPhone7'
