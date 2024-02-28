@@ -155,7 +155,12 @@ test_cases:
     brand: 'Meta'
     model: 'Quest 2'
 
-  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Quest'
+    brand: 'Meta'
+    model: 'Quest 3'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 Chrome/110.0.5481.192 VR Safari/537.36'
     family: 'Quest'
     brand: 'Meta'
     model: 'Quest Pro'

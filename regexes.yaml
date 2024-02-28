@@ -3590,6 +3590,11 @@ device_parsers:
   # Meta
   # @ref: https://www.meta.com
   #########
+  - regex: 'Quest 3'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 3'
+
   - regex: 'Quest 2'
     device_replacement: 'Quest'
     brand_replacement: 'Meta'
