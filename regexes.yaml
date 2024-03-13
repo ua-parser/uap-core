@@ -217,7 +217,7 @@ user_agent_parsers:
     family_replacement: 'Twitter'
 
   # Phantom app
-  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|android).(\d+)\.(\d+)\.(\d+)'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Phantom'
 
   # aspiegel.com spider (owned by Huawei, later called PetalBot)
@@ -388,7 +388,7 @@ user_agent_parsers:
   # Edge Mobile
   - regex: 'Windows Phone .{0,200}(Edge)/(\d+)\.(\d+)'
     family_replacement: 'Edge Mobile'
-  - regex: '(EdgiOS|EdgA)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(EdgiOS|EdgA)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge Mobile'
 
   # Oculus Browser, should go before Samsung Internet
@@ -457,6 +457,12 @@ user_agent_parsers:
   - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Tenta Browser'
 
+  # Ecosia on iOS / Android
+  - regex: '(Ecosia) ios@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Ecosia iOS'
+  - regex: '(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Ecosia Android'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
@@ -464,7 +470,7 @@ user_agent_parsers:
     family_replacement: 'Chrome Mobile WebView'
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
-  - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(CriOS)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Chrome Mobile iOS'
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
     family_replacement: 'Chrome Mobile'
@@ -1022,10 +1028,12 @@ user_agent_parsers:
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
 
-  # SerenityOS (https://serenityos.org)
-  # https://github.com/SerenityOS/serenity/blob/2e1bbcb0faeae92d7595b8e0b022a8cdcecca07e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L27
-  - regex: 'SerenityOS'
-    family_replacement: 'SerenityOS Browser'
+  # Ladybird Browser (https://ladybird.dev)
+  # https://github.com/SerenityOS/serenity/blob/6a662e0d43810c1dbd56fbf0c123f258aa1d694e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L64
+  - regex: '(Ladybird)\/(\d+)\.(\d+)'
+
+  # MullvadBrowser (https://mullvad.net/en/browser)
+  - regex: '(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
 os_parsers:
   ##########
@@ -3592,6 +3600,11 @@ device_parsers:
   # Meta
   # @ref: https://www.meta.com
   #########
+  - regex: 'Quest 3'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 3'
+
   - regex: 'Quest 2'
     device_replacement: 'Quest'
     brand_replacement: 'Meta'
@@ -5625,7 +5638,7 @@ device_parsers:
     device_replacement: 'Nintendo Wii U'
     brand_replacement: 'Nintendo'
     model_replacement: 'Wii U'
-  - regex: 'Nintendo (DS|3DS|DSi|Wii);'
+  - regex: 'Nintendo (Switch|DS|3DS|DSi|Wii);'
     device_replacement: 'Nintendo $1'
     brand_replacement: 'Nintendo'
     model_replacement: '$1'

@@ -8664,10 +8664,16 @@ test_cases:
     minor: '20'
     patch: '1'
 
-  - user_agent_string: 'Mozilla/4.0 (SerenityOS; x86_64) LibWeb+LibJS (Not KHTML, nor Gecko) LibWeb'
-    family: 'SerenityOS Browser'
-    major:
-    minor:
+  - user_agent_string: 'Mozilla/5.0 (Linux; x86_64) LibWeb+LibJS/1.0 Ladybird/1.0'
+    family: 'Ladybird'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; x86_64) Ladybird/1.0'
+    family: 'Ladybird'
+    major: '1'
+    minor: '0'
     patch:
 
   - user_agent_string: 'surveyon/2.7.6 Mobile (Android: 11; MODEL:CPH2127; PRODUCT:CPH2127T2; MANUFACTURER:OPPO;)'
@@ -8691,5 +8697,35 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0; SM-G930V Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 (compatible; Google-Read-Aloud; +https://support.google.com/webmasters/answer/1061943)'
     family: 'Google-Read-Aloud'
     major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/605.1.15 (Ecosia ios@8.1.3.72)'
+    family: 'Ecosia iOS'
+    major: '8'
+    minor: '1'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Redmi 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36 (Ecosia android@101.0.4951.41)'
+    family: 'Ecosia Android'
+    major: '101'
+    minor: '0'
+    patch: '4951'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 MullvadBrowser/102.13.0'
+    family: 'MullvadBrowser'
+    major: '102'
+    minor: '13'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/108 Version/13.0.3 Safari/605.1.15'
+    family: 'Edge Mobile'
+    major: '108'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/102 Version/11.1.1 Safari/605.1.15'
+    family: 'Chrome Mobile iOS'
+    major: '102'
     minor:
     patch:

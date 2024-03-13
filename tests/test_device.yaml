@@ -155,7 +155,12 @@ test_cases:
     brand: 'Meta'
     model: 'Quest 2'
 
-  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Quest'
+    brand: 'Meta'
+    model: 'Quest 3'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest Pro) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 Chrome/110.0.5481.192 VR Safari/537.36'
     family: 'Quest'
     brand: 'Meta'
     model: 'Quest Pro'
@@ -42604,6 +42609,11 @@ test_cases:
     family: 'Nintendo Wii'
     brand: 'Nintendo'
     model: 'Wii'
+
+  - user_agent_string: 'Mozilla/5.0 (Nintendo Switch; WifiWebAuthApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.23.6 NintendoBrowser/5.1.0.23620'
+    family: 'Nintendo Switch'
+    brand: 'Nintendo'
+    model: 'Switch'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 5.0 kitkat; en-US; Nokia-1100 Build/GINGERBREAD) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/9.3.0.321 U3/0.8.0 Mobile Safari/534.31'
     family: 'Nokia-1100'
