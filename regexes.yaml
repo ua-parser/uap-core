@@ -378,6 +378,10 @@ user_agent_parsers:
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
 
+  # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
+  - regex: '((?:B|b)rave(?:\s+Chrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Brave'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'
@@ -613,10 +617,6 @@ user_agent_parsers:
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
   - regex: '(Edge?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge'
-
-  # Brave Browser https://brave.com/
-  - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
-    family_replacement: 'Brave'
 
   # Iron Browser ~since version 50
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]{0,100} Iron[^/]'
