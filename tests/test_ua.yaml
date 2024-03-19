@@ -8406,6 +8406,18 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1 Ddg/17.2'
+    family: 'DuckDuckGo Mobile'
+    major: '17'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15 Ddg/17.2'
+    family: 'DuckDuckGo'
+    major: '17'
+    minor: '2'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 [en] (X11, U; OpenVAS-VT 8.0.9)'
     family: 'OpenVAS Scanner'
     major: '8'

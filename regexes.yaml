@@ -450,8 +450,14 @@ user_agent_parsers:
     family_replacement: 'QQ Browser'
 
   # DuckDuckGo
-  - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(DuckDuckGo)/(\d+)'
+    family_replacement: 'DuckDuckGo'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo'
 
   # Tenta Browser
   - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
