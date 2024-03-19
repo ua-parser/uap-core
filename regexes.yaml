@@ -386,6 +386,10 @@ user_agent_parsers:
   - regex: '(AVG)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'AVG'
 
+  # Avast
+  - regex: '(AvastSecureBrowser|Avast)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avast Secure Browser'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'

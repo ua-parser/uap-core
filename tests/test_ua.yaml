@@ -8747,3 +8747,28 @@ test_cases:
     major: '121'
     minor: '0'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Avast/120.0.0.0'
+    family: 'Avast Secure Browser'
+    major: '120'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; B43du7I2fV; U; in) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.115 Mobile AvastSecureBrowser/7.5.2 Safari/537.36'
+    family: 'Avast Secure Browser'
+    major: '7'
+    minor: '5'
+    patch: '2'
+
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; 0LpRiWjrpo; U; en) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.153 Mobile Avast/7.7.5 Safari/537.36'
+    family: 'Avast Secure Browser'
+    major: '7'
+    minor: '7'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) AvastSecureBrowser/5.3.1 Mobile/15E148 Version/17.0 Safari/605.1.15'
+    family: 'Avast Secure Browser'
+    major: '5'
+    minor: '3'
+    patch: '1'
