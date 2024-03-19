@@ -1385,6 +1385,24 @@ test_cases:
     minor: '0'
     patch: '83'
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.105 Safari/537.36 Vivaldi/1.0.162.9'
+    family: 'Vivaldi'
+    major: '1'
+    minor: '0'
+    patch: '162'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Vivaldi/114'
+    family: 'Vivaldi'
+    major: '114'
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Vivaldi/3.7'
+    family: 'Vivaldi'
+    major: '3'
+    minor: '7'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.9600'
     family: 'Edge'
     major: '12'
