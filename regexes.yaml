@@ -378,6 +378,10 @@ user_agent_parsers:
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
 
+  # Huawei Browser, should go before Safari and Chrome Mobile
+  - regex: '(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Huawei Browser'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'

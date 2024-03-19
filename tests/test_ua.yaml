@@ -8735,3 +8735,9 @@ test_cases:
     major: '102'
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; LGE-AN00; HMSCore 6.12.2.302) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.88 HuaweiBrowser/14.0.5.301 Mobile Safari/537.36'
+    family: 'Huawei Browser'
+    major: '14'
+    minor: '0'
+    patch: '5'
