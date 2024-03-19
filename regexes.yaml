@@ -393,6 +393,10 @@ user_agent_parsers:
   # Instabridge
   - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
+  # Aloha Browser
+  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Aloha Browser'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'
