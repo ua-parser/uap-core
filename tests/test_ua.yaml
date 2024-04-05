@@ -1344,7 +1344,7 @@ test_cases:
     patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; arm_64; Android 13; 23053RN02Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.98 YaBrowser/23.11.5.98.00 SA/3 Mobile Safari/537.36'
-    family: '23'
+    family: 'Yandex Browser'
     major: '11'
     minor: '5'
     patch: '98'
