@@ -1345,9 +1345,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (Linux; arm_64; Android 13; 23053RN02Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.98 YaBrowser/23.11.5.98.00 SA/3 Mobile Safari/537.36'
     family: 'Yandex Browser'
-    major: '11'
-    minor: '5'
-    patch: '98'
+    major: '23'
+    minor: '11'
+    patch: '5'
 
   - user_agent_string: 'Mozilla/5.0 YottaaMonitor;'
     family: 'YottaaMonitor'
