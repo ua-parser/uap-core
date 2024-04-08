@@ -379,7 +379,7 @@ user_agent_parsers:
     family_replacement: 'NetFront NX'
 
   # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
-  - regex: '((?:B|b)rave(?:\s+Chrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+  - regex: '((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Brave'
 
   # Amazon Silk, should go before Safari and Chrome Mobile
