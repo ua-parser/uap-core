@@ -397,6 +397,10 @@ user_agent_parsers:
   - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Aloha Browser'
 
+  # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
+  - regex: '((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Brave'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'
@@ -469,8 +473,14 @@ user_agent_parsers:
     family_replacement: 'QQ Browser'
 
   # DuckDuckGo
-  - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(DuckDuckGo)/(\d+)'
+    family_replacement: 'DuckDuckGo'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo'
 
   # Tenta Browser
   - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
@@ -520,6 +530,8 @@ user_agent_parsers:
 
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Yandex Browser'
+  - regex: '(YaSearchBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
 
   # Mail.ru Amigo/Internet Browser (Chromium-based)
@@ -632,10 +644,6 @@ user_agent_parsers:
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
   - regex: '(Edge?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge'
-
-  # Brave Browser https://brave.com/
-  - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
-    family_replacement: 'Brave'
 
   # Iron Browser ~since version 50
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]{0,100} Iron[^/]'
