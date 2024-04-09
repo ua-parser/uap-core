@@ -379,11 +379,11 @@ user_agent_parsers:
     family_replacement: 'NetFront NX'
 
   # Huawei Browser, should go before Safari and Chrome Mobile
-  - regex: '(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.\d+'
     family_replacement: 'Huawei Browser'
 
   # AVG
-  - regex: '(AVG)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(AVG)/(\d+)\.(\d+)\.(\d+)\.\d+'
     family_replacement: 'AVG'
 
   # Avast
@@ -638,7 +638,7 @@ user_agent_parsers:
     family_replacement: 'Superhuman'
 
   # Vivaldi
-  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
