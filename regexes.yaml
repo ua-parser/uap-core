@@ -378,6 +378,25 @@ user_agent_parsers:
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
 
+  # Huawei Browser, should go before Safari and Chrome Mobile
+  - regex: '(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.\d+'
+    family_replacement: 'Huawei Browser'
+
+  # AVG
+  - regex: '(AVG)/(\d+)\.(\d+)\.(\d+)\.\d+'
+    family_replacement: 'AVG'
+
+  # Avast
+  - regex: '(AvastSecureBrowser|Avast)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avast Secure Browser'
+
+  # Instabridge
+  - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+
+  # Aloha Browser
+  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Aloha Browser'
+
   # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
   - regex: '((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Brave'
@@ -619,7 +638,7 @@ user_agent_parsers:
     family_replacement: 'Superhuman'
 
   # Vivaldi
-  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
