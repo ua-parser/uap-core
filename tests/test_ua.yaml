@@ -1325,6 +1325,30 @@ test_cases:
     minor: '5'
     patch: '1104'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.1239.00 Mobile Safari/537.36'
+    family: 'Yandex Browser'
+    major: '16'
+    minor: '2'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.771 YaBrowser/23.11.2.771 Yowser/2.5 Safari/537.36'
+    family: 'Yandex Browser'
+    major: '23'
+    minor: '11'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; arm; Android 10; M2006C3MNG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 YaApp_Android/23.36.1 YaSearchBrowser/23.36.1 BroPP/1.0 SA/3 Mobile Safari/537.36'
+    family: 'Yandex Browser'
+    major: '23'
+    minor: '36'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; arm_64; Android 13; 23053RN02Y) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.98 YaBrowser/23.11.5.98.00 SA/3 Mobile Safari/537.36'
+    family: 'Yandex Browser'
+    major: '23'
+    minor: '11'
+    patch: '5'
+
   - user_agent_string: 'Mozilla/5.0 YottaaMonitor;'
     family: 'YottaaMonitor'
     major:
@@ -7099,12 +7123,6 @@ test_cases:
     major:
     minor:
     patch:
-
-  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 YaBrowser/16.2.1.1239.00 Mobile Safari/537.36'
-    family: 'Yandex Browser'
-    major: '16'
-    minor: '2'
-    patch: '1'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; SM-G800F Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.135 MobileIron/1.6.0 Mobile Safari/537.36'
     family: 'MobileIron'
