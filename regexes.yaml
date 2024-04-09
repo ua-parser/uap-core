@@ -608,8 +608,8 @@ user_agent_parsers:
   - regex: 'Superhuman'
     family_replacement: 'Superhuman'
 
-  # Vivaldi uses "Vivaldi"
-  - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
+  # Vivaldi
+  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
