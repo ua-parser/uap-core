@@ -1234,6 +1234,12 @@ test_cases:
     minor: '0'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:104.0) Gecko/20100101 Firefox/104.0'
+    family: 'Firefox'
+    major: '104'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l; rv:2.1.1) Gecko/ Firefox/5.0.1'
     family: 'Firefox'
     major: '5'
