@@ -28,6 +28,13 @@ test_cases:
     patch: '2'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 2) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/26.2.0.0.10 SamsungBrowser/4.0 Chrome/110.0.5481.192 VR Safari/537.36'
+    family: 'Android'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Android'
     major:
@@ -2418,6 +2425,41 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'App/0 CFNetwork/1390 Darwin/22.0.0'
+    family: 'iOS'
+    major: '16'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/0 CFNetwork/1399 Darwin/22.1.0'
+    family: 'iOS'
+    major: '16'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/0 CFNetwork/1402 Darwin/22.2.0'
+    family: 'iOS'
+    major: '16'
+    minor: '2'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/0 CFNetwork/1404.0.5 Darwin/22.3.0'
+    family: 'iOS'
+    major: '16'
+    minor: '3'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/0 CFNetwork/1406.0.4 Darwin/22.4.0'
+    family: 'iOS'
+    major: '16'
+    minor: '4'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU 7_0_6 like Mac OS X; en_GB) AppleWebKit (KHTML, like Gecko) Mobile [OKMagazine/4.0.1 (iOS/7.0.6)] [LiteApps]'
     family: 'iOS'
     major: '7'
@@ -3175,7 +3217,7 @@ test_cases:
     patch:
     patch_minor:
 
-  - user_agent_string: 'Mozilla/4.0 (SerenityOS; x86_64) LibWeb+LibJS (Not KHTML, nor Gecko) LibWeb'
+  - user_agent_string: 'Mozilla/5.0 (SerenityOS; x86_64) LibWeb+LibJS/1.0 Ladybird/1.0'
     family: 'SerenityOS'
     major:
     minor:

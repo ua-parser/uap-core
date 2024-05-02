@@ -78,6 +78,9 @@ user_agent_parsers:
   # 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
   - regex: '(PingdomTMS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'PingdomBot'
+  # 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)'
+  - regex: '(PingdomPageSpeed)/(\d+)\.(\d+)'
+    family_replacement: 'PingdomBot'
 
   # PTST / WebPageTest.org crawlers
   - regex: ' (PTST)/(\d+)(?:\.(\d+)|)$'
@@ -214,14 +217,14 @@ user_agent_parsers:
     family_replacement: 'Twitter'
 
   # Phantom app
-  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|android).(\d+)\.(\d+)\.(\d+)'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Phantom'
 
-  # aspiegel.com spider (owned by Huawei)
-  - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
+  # aspiegel.com spider (owned by Huawei, later called PetalBot)
+  - regex: 'Mozilla.{1,100}Mobile.{1,100}(AspiegelBot|PetalBot)'
     family_replacement: 'Spider'
 
-  - regex: 'AspiegelBot'
+  - regex: 'AspiegelBot|PetalBot'
     family_replacement: 'Spider'
 
   # Basilisk
@@ -375,6 +378,29 @@ user_agent_parsers:
   - regex: '(Nintendo 3DS)'
     family_replacement: 'NetFront NX'
 
+  # Huawei Browser, should go before Safari and Chrome Mobile
+  - regex: '(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.\d+'
+    family_replacement: 'Huawei Browser'
+
+  # AVG
+  - regex: '(AVG)/(\d+)\.(\d+)\.(\d+)\.\d+'
+    family_replacement: 'AVG'
+
+  # Avast
+  - regex: '(AvastSecureBrowser|Avast)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avast Secure Browser'
+
+  # Instabridge
+  - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+
+  # Aloha Browser
+  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Aloha Browser'
+
+  # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
+  - regex: '((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Brave'
+
   # Amazon Silk, should go before Safari and Chrome Mobile
   - regex: '(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Amazon Silk'
@@ -385,8 +411,12 @@ user_agent_parsers:
   # Edge Mobile
   - regex: 'Windows Phone .{0,200}(Edge)/(\d+)\.(\d+)'
     family_replacement: 'Edge Mobile'
-  - regex: '(EdgiOS|EdgA)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(EdgiOS|EdgA)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge Mobile'
+
+  # Oculus Browser, should go before Samsung Internet
+  - regex: '(OculusBrowser)/(\d+)\.(\d+).0.0(?:\.([0-9\-]+)|)'
+    family_replacement: 'Oculus Browser'
 
   # Samsung Internet (based on Chrome, but lacking some features)
   - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
@@ -447,12 +477,24 @@ user_agent_parsers:
     family_replacement: 'QQ Browser'
 
   # DuckDuckGo
-  - regex: 'Mobile.{0,200}(DuckDuckGo)/(\d+)'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(DuckDuckGo)/(\d+)'
+    family_replacement: 'DuckDuckGo'
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo Mobile'
+  - regex: 'Mozilla.{1,200}(Ddg)/(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckGo'
 
   # Tenta Browser
   - regex: '(Tenta/)(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Tenta Browser'
+
+  # Ecosia on iOS / Android
+  - regex: '(Ecosia) ios@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Ecosia iOS'
+  - regex: '(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Ecosia Android'
 
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
@@ -461,7 +503,7 @@ user_agent_parsers:
     family_replacement: 'Chrome Mobile WebView'
   - regex: '(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile'
-  - regex: '(CriOS)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(CriOS)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Chrome Mobile iOS'
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)'
     family_replacement: 'Chrome Mobile'
@@ -492,6 +534,8 @@ user_agent_parsers:
 
   # Yandex Browser
   - regex: '(YaBrowser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Yandex Browser'
+  - regex: '(YaSearchBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Yandex Browser'
 
   # Mail.ru Amigo/Internet Browser (Chromium-based)
@@ -597,17 +641,13 @@ user_agent_parsers:
   - regex: 'Superhuman'
     family_replacement: 'Superhuman'
 
-  # Vivaldi uses "Vivaldi"
-  - regex: '(Vivaldi)/(\d+)\.(\d+)\.(\d+)'
+  # Vivaldi
+  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
   - regex: '(Edge?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge'
-
-  # Brave Browser https://brave.com/
-  - regex: '(brave)/(\d+)\.(\d+)\.(\d+) Chrome'
-    family_replacement: 'Brave'
 
   # Iron Browser ~since version 50
   - regex: '(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]{0,100} Iron[^/]'
@@ -925,7 +965,7 @@ user_agent_parsers:
   # AFTER THE EDGE CASES ABOVE!
   # AFTER IE11
   # BEFORE all other IE
-  - regex: '(Firefox)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Firefox)/(\d+)\.(\d+)(?:\.(\d+)|$)'
   - regex: '(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)'
 
 
@@ -965,7 +1005,9 @@ user_agent_parsers:
   - regex: '(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Python aiohttp'
 
-  - regex: '(Java)[/ ]?\d+\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
+  - regex: '(Java)[/ ]?\d{1}\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)'
+
+  - regex: '(Java)[/ ]?(\d+)\.(\d+)\.(\d+)'
 
   # minio-go (https://github.com/minio/minio-go)
   - regex: '(minio-go)/v(\d+)\.(\d+)\.(\d+)'
@@ -1017,10 +1059,12 @@ user_agent_parsers:
   # HTTrack crawler
   - regex: '\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)'
 
-  # SerenityOS (https://serenityos.org)
-  # https://github.com/SerenityOS/serenity/blob/2e1bbcb0faeae92d7595b8e0b022a8cdcecca07e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L27
-  - regex: 'SerenityOS'
-    family_replacement: 'SerenityOS Browser'
+  # Ladybird Browser (https://ladybird.dev)
+  # https://github.com/SerenityOS/serenity/blob/6a662e0d43810c1dbd56fbf0c123f258aa1d694e/Userland/Libraries/LibWeb/Loader/ResourceLoader.h#L64
+  - regex: '(Ladybird)\/(\d+)\.(\d+)'
+
+  # MullvadBrowser (https://mullvad.net/en/browser)
+  - regex: '(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
 os_parsers:
   ##########
@@ -1081,8 +1125,8 @@ os_parsers:
   # generic HbbTV, hoping to catch manufacturer name (always after 2nd comma) and the first string that looks like a 2011-2019 year
   - regex: 'HbbTV/\d+\.\d+\.\d+ \(.{0,30}; ?([a-zA-Z]+) ?;.{0,30}(201[1-9]).{0,30}\)'
 
-  # aspiegel.com spider (owned by Huawei)
-  - regex: 'AspiegelBot'
+  # aspiegel.com spider (owned by Huawei, later renamed PetalBot)
+  - regex: 'AspiegelBot|PetalBot'
     os_replacement: 'Other'
 
   ##########
@@ -1147,6 +1191,12 @@ os_parsers:
 
   # Salesforce
   - regex: '(android)\s(?:mobile\/)(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Android'
+
+  ##########
+  # Meta Quest
+  ##########
+  - regex: 'Quest'
     os_replacement: 'Android'
 
   ##########
@@ -1599,6 +1649,29 @@ os_parsers:
   - regex: 'CFNetwork/.{0,100} Darwin/(21)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '15'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.0\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
+    os_v2_replacement: '0'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.1\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
+    os_v2_replacement: '1'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.2\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
+    os_v2_replacement: '2'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.3\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
+    os_v2_replacement: '3'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.4\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
+    os_v2_replacement: '4'
+  - regex: 'CFNetwork/.{0,100} Darwin/(22)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '16'
   - regex: 'CFNetwork/.{0,100} Darwin/'
     os_replacement: 'iOS'
 
@@ -1827,11 +1900,11 @@ device_parsers:
     brand_replacement: 'Spider'
 
   # aspiegel.com spider (owned by Huawei)
-  - regex: 'Mozilla.{1,100}Mobile.{1,100}AspiegelBot'
+  - regex: 'Mozilla.{1,100}Mobile.{1,100}(AspiegelBot|PetalBot)'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Smartphone'
-  - regex: 'Mozilla.{0,200}AspiegelBot'
+  - regex: 'Mozilla.{0,200}(AspiegelBot|PetalBot)'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
@@ -3543,6 +3616,30 @@ device_parsers:
     device_replacement: 'Meizu $1'
     brand_replacement: 'Meizu'
     model_replacement: '$1'
+
+  #########
+  # Meta
+  # @ref: https://www.meta.com
+  #########
+  - regex: 'Quest 3'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 3'
+
+  - regex: 'Quest 2'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest 2'
+
+  - regex: 'Quest Pro'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest Pro'
+
+  - regex: 'Quest'
+    device_replacement: 'Quest'
+    brand_replacement: 'Meta'
+    model_replacement: 'Quest'
 
   #########
   # Micromax
@@ -5553,7 +5650,7 @@ device_parsers:
     device_replacement: 'Motorola$2'
     brand_replacement: 'Motorola'
     model_replacement: '$2'
-  
+
 
   ##########
   # nintendo
@@ -5562,7 +5659,7 @@ device_parsers:
     device_replacement: 'Nintendo Wii U'
     brand_replacement: 'Nintendo'
     model_replacement: 'Wii U'
-  - regex: 'Nintendo (DS|3DS|DSi|Wii);'
+  - regex: 'Nintendo (Switch|DS|3DS|DSi|Wii);'
     device_replacement: 'Nintendo $1'
     brand_replacement: 'Nintendo'
     model_replacement: '$1'
