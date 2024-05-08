@@ -2783,8 +2783,41 @@ test_cases:
     patch: '1'
     patch_minor:
 
+  # Android-based Chromecast (Google TV)
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 12.0; Build/STTL.240206.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.0 Safari/537.36 CrKey/1.56.500000 DeviceType/AndroidTV'
+    family: 'Chromecast Android'
+    major: '12'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  # Fuchsia-based Chromecast (Nest Hub)
+  - user_agent_string: 'Mozilla/5.0 (Fuchsia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.56.500000'
+    family: 'Chromecast Fuchsia'
+    major: '1'
+    minor: '56'
+    patch: '500000'
+    patch_minor:
+
+  # Linux-based Chromecast smart speaker, different OS from other Linux-based Chromecasts
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/SmartSpeaker'
+    family: 'Chromecast SmartSpeaker'
+    major: '1'
+    minor: '56'
+    patch: '500000'
+    patch_minor:
+
+  # Latest hardware and firmware, Linux-based Chromecast
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/Chromecast'
+    family: 'Chromecast Linux'
+    major: '1'
+    minor: '56'
+    patch: '500000'
+    patch_minor:
+
+  # Older hardware and firmware, Linux-based Chromecast
   - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.22.74257'
-    family: 'Chromecast'
+    family: 'Chromecast Linux'
     major: '1'
     minor: '22'
     patch: '74257'

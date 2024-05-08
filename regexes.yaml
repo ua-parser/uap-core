@@ -1146,6 +1146,29 @@ os_parsers:
   - regex: 'ArcGISRuntime-(?:Android|iOS)\/\d+\.\d+(?:\.\d+|) \((Android|iOS) (\d+)(?:\.(\d+)(?:\.(\d+)|)|);'
 
   ##########
+  # Chromecast
+  ##########
+  # Ex: Mozilla/5.0 (Linux; Android 12.0; Build/STTL.240206.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.0 Safari/537.36 CrKey/1.56.500000 DeviceType/AndroidTV
+  # These are the newer Android-based "Google TV" Chromecast devices.
+  # Google stopped updating the Chromecast firmware version in these, so they always say CrKey/1.56.500000.  Therefore we extract the more useful Android version instead.
+  - regex: '(Android) (\d+)(?:\.(\d+)).*CrKey'
+    os_replacement: 'Chromecast Android'
+
+  # Ex: Mozilla/5.0 (Fuchsia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.56.500000
+  # These are some intermediate "Nest Hub" Chromecast devices running Fuchsia.
+  - regex: 'Fuchsia.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Chromecast Fuchsia'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/SmartSpeaker
+  - regex: 'Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|).*DeviceType/SmartSpeaker'
+    os_replacement: 'Chromecast SmartSpeaker'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/Chromecast
+  # These are the oldest Chromecast devices that ran Linux.
+  - regex: 'Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Chromecast Linux'
+
+  ##########
   # Android
   # can actually detect rooted android os. do we care?
   ##########
@@ -1827,12 +1850,6 @@ os_parsers:
   - regex: '(WebTV)/(\d+).(\d+)'
 
   ##########
-  # Chromecast
-  ##########
-  - regex: '(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
-    os_replacement: 'Chromecast'
-
-  ##########
   # Misc mobile
   ##########
   - regex: '(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -2464,6 +2481,39 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'ChangJia'
     model_replacement: '$1'
+
+  ##########
+  # Chromecast
+  # @ref: https://en.wikipedia.org/wiki/Chromecast#Hardware_and_design
+  ##########
+  # Ex: Mozilla/5.0 (Linux; Android 12.0; Build/STTL.240206.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.0 Safari/537.36 CrKey/1.56.500000 DeviceType/AndroidTV
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/SmartSpeaker
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/Chromecast
+  # These are the newer Chromecast devices, such as smart speakers, Google TVs, etc. that have an explicit device type.
+  - regex: 'CrKey.*DeviceType/([^/]*)'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: '$1'
+
+  # Ex: Mozilla/5.0 (Fuchsia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.56.500000
+  # These are some intermediate "Nest Hub" Chromecast devices running Fuchsia.
+  - regex: 'Fuchsia.*CrKey'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: 'Nest Hub'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.47 Safari/537.36 CrKey/1.36.159268
+  # These are the first generation of Chromecast devices that ran Linux.  They don't specify a device type.
+  - regex: 'Linux.*CrKey/1.36'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: 'First Generation'
+
+  # We have no data on the user agent strings of other models, except that they all report CrKey/
+  - regex: 'CrKey/'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: null
 
   #########
   # Cloudfone
