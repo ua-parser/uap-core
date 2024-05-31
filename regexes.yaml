@@ -1308,6 +1308,10 @@ os_parsers:
   ##########
   - regex: '(Tizen)[/ ](\d+)\.(\d+)'
 
+  # Chrome and Edge on iOS with desktop mode contains Mac OS X, so it must be before any Mac OS check
+  - regex: 'Intel Mac OS X.+(CriOS|EdgiOS)/\d+'
+    os_replacement: 'iOS'
+
   ##########
   # Mac OS
   # @ref: http://en.wikipedia.org/wiki/Mac_OS_X#Versions

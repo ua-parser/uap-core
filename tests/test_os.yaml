@@ -2762,6 +2762,20 @@ test_cases:
     patch: '3'
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/102 Version/11.1.1 Safari/605.1.15'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/125 Version/13.0.3 Safari/605.1.15'
+    family: 'iOS'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU IPhone OS 9_2_1 Like Mac OS X) AppleWebKit/601.1.46 (KHTML, Like Gecko) Mobile/13D15 [FBAN/FBIOS;FBAV/52.0.0.46.157;FBBV/26424168;FBDV/iPhone6,2;FBMD/iPhone;FBSN/iPhone OS;FBSV/9.2.1;FBSS/2; FBCR/Globe;FBID/phone;FBLC/en_US;FBOP/5]'
     family: 'iOS'
     major: '9'
