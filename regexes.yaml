@@ -2513,7 +2513,7 @@ device_parsers:
   - regex: 'CrKey/'
     brand_replacement: 'Google'
     device_replacement: 'Chromecast'
-    model_replacement: null
+    model_replacement: 'Chromecast'
 
   #########
   # Cloudfone

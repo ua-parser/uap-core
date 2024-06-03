@@ -7763,7 +7763,7 @@ test_cases:
   - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l) CrKey/1'
     family: 'Chromecast'
     brand: 'Google'
-    model: null
+    model: 'Chromecast'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.5; En-gb; Cloudfone_Excite320e Build/GRJ90) AppleWebKit/533.1 (KHTML, Like Gecko) Version/4.0 Mobile Safari/533.1'
     family: 'Cloudfone Excite 320e'
