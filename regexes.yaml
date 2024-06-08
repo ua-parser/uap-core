@@ -1062,6 +1062,9 @@ user_agent_parsers:
   # MullvadBrowser (https://mullvad.net/en/browser)
   - regex: '(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
+  # Iframely robot (https://iframely.com/docs/about)
+  - regex: '(Iframely)/(\d+)\.(\d+)\.(\d+)'
+
 os_parsers:
   ##########
   # HbbTV vendors
@@ -1922,6 +1925,12 @@ device_parsers:
     brand_replacement: 'Spider'
     model_replacement: 'Smartphone'
   - regex: 'Mozilla.{0,200}(AspiegelBot|PetalBot)'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+    model_replacement: 'Desktop'
+
+  # Iframely robot (https://iframely.com/docs/about)
+  - regex: 'Iframely/'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
