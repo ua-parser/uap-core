@@ -1,123 +1,182 @@
 # ua-parser Specification
 
-Version 0.2 Draft
+Version 0.3 Draft
 
-This document describes the specification on how a parser must implement the `regexes.yaml` file for correctly parsing user-agent strings on basis of that file.
+This document describes the contents of the `regexes.yaml` file and
+how it should be used to extract information from user-agent strings.
 
-This specification intends to help maintainers and contributors to correctly use the provided information within the `regexes.yaml` file for obtaining information from the different user-agent strings. Furthermore this specification tries to be the basis for discussions on evolving the projects and the needed parsing algorithms.
+This document does not prescribe how to actually implement the
+ua-parser project, and retrieval of user agent strings itself is out
+of scope.
 
-This document will not provide any information on how to implement the ua-parser project on your server and how to retrieve the user-agent string for further processing.
+## `regexes.yaml`
 
-# `regexes.yaml`
+`regexes.yaml` is a mapping of a category name to a sequence of
+category entries.
 
-Any information which can be obtained from a user-agent string may contain information on:
+Category entries follow the category's schema in order to process user
+agent strings and extract the relevant information. Parser categories
+are the following:
 
-* User-Agent aka “the browser”
-* OS (Operating System) the User-Agent currently uses (or runs on)
-* Device information by means of the physical device the User-Agent is using
+* The [User Agent](#user-agent) aka “the browser”, under the key
+  `user_agent_parsers`
+* The [Operating System (OS)](#os), which the User Agent uses (runs
+  on), under the key `os_parsers`
+* The [Device](#device), the physical device which the User Agent uses
+  (runs on), under the key `device_parsers`
 
-This information is provided within the `regexes.yaml` file. Each kind of information requires a different parser which extracts the related type. These are:
+Category schemas are series of fields which can be extracted, with the
+following attributes:
 
-* `user_agent_parser`
-* `os_parsers`
-* `device_parsers`
+- a field name (indicative, not notmative)
+- a [replacement field](#templated-replacement-fields), which allows
+  either statically defining a value, or templating based on extracted
+  data
+- an optional [capturing group index](#regex), which defines the
+  field's value if no replacement is provided (groups are specified
+  using 1-indexing from the first capturing group)
+- a requirement flag, a required field must either have a non-empty
+  capture or a non-empty replacement
+- a failure fallback, used for the entire category in case a user
+  agent string matched no entry
 
-Each parser contains a list of regular-expressions which are named `regex`. For each `regex` replacements specific to the parser can be named to attribute or change information. A replacement may require a match from the regular-expression which is extracted by an expression enclosed in parenthesis `"()"`. Each match can be addressed with `$1` to `$9` and used in a parser specific replacement.
+These elements are used uniformly in order to extract the data
+specified by the category. As such, the parsing method can be defined
+
+### Parsing Algorithm
+
+In order to extract data from a user-agent string, for a given
+category:
+
+- for each entry, traversed in-order, the `regex` is matched
+  (case-sensitive, un-anchored) against the user-agent string
+  - at the first matching `regex`,
+    - for each field of the category
+      - if the field has a replacement
+        - [template substitution](#templated-replacement-fields) shall
+          be applied, and the result set as the field's value
+      - otherwise if the field has a *capturing group* declared, the
+        corresponding data shall be set as the field's value
+      - otherwise if the field is non-required, its value shall be empty
+    - the parser shall successfully return providing the extracted
+      field values
+- if all parser entries are traversed without finding a match, the
+  parser shall abort, returning the `failure` value for each field
+  which has one
+
+### Entry Fields
+
+Each parser entry contains:
+
+- a regex regular expression field named `regex`
+- a number of templated *replacement fields*
+
+#### `regex`
+
+The regex fields contain a regular expression in perl-compatible
+syntax, using a limited subset of the Perl / PCRE syntax:
+
+- the regex are evaluated entirely in ASCII mode
+- metacharacters can be escaped using `\` for literal matching
+- `.` will match any single character (**TODO**: byte? code unit? codepoint?)
+- `^` will match the start of the string exclusively
+- `$` will match the end of the string exclusively
+- `\d` will match any single ASCII digit (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+- `\w` will match any single ASCII word component (a-zA-Z0-9_)
+- `\s` will match any single ASCII whitespace character (space, tab)
+- `?` matches 0 or 1 instances of the preceding match-able (optional)
+- `*` matches a repetition of 0 to infinite number of the preceding match-able
+- `+` matches a repetition of 1 to infinite number of the preceding match-able
+- `{a, b}` matches `a` to `b` (inclusive) repetitions of the preceding
+  match-able, if `b` is not provided it is equal to `a`
+- `[]` enclosing a set of characters or character classes allows
+  matching any one of them
+  - two characters separated by `-` inside of a set means the range
+    between the first and last, inclusive, in ASCII
+- `()` matches whatever is contained within defining a *group*, by
+  default groups are *capturing groups* and the contents will be extracted
+  - `|` provides alternation within a group, that is either side can be matched
+  - `?:` makes the group *non-capturing*, meaning the contents will not be extracted
 
 **TODO**: Provide some insights into the used chars. E.g. escape `"."` as `"\."` and `"("` as `"\("`. `"/"` does not need to be escaped.
 
-## `user_agent_parsers`
+#### Templated replacement fields
 
-The `user_agent_parsers` returns information of the `family` type of the User-Agent.
-If available the version information specifying the `family` may be extracted as well if available.
-Here major, minor and patch version information can be addressed or overwritten.
+A replacement field can be either a static value, which always
+provides the exact value of the corresponding field in case of `regex`
+match, or a *template*.
 
-| match in regex | default replacement | placeholder in replacement | note    |
-| ---- | ------------------- | ---- | --------------------------------------- |
-| 1    | family_replacement  | $1   | specifies the User-Agents family        |
-| 2    | v1_replacement      | $2   | major version number/info of the family |
-| 3    | v2_replacement      | $3   | minor version number/info of the family |
-| 4    | v3_replacement      | $4   | patch version number/info of the family |
+A template contains placeholders `$x` where `x` is a number between 1
+and 9.
 
-In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within parenthesis) is given, the `family_replacement` shall be returned.
-To overwrite the respective value the replacement value needs to be named for a `regex`-item.
+During the post-processing phase of a `regex` match, each template
+placeholder is replaced by the value captured by the corresponding
+*capturing group*. If a capturing group did not match, its value
+should be `""` (an empty string).
 
-**Parser Implementation:**
+Following template substitution, the replacement value shall be
+trimmed (all leading and trailing whitespace removed) before being
+returned.
 
-The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive but not anchored.
+### User Agent
 
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `family`, the second `major`, the third `minor`and the fourth `patch` information.
-If a `*_replacement` string is specified it shall overwrite or replace the match.
-
-As placeholder for inserting matched characters use within
-* `family_replacement`: `$1`
-* `v1_replacement`: `$2`
-* `v2_replacement`: `$3`
-* `v3_replacement`: `$4`
-
-If no matching `regex` is found the value for `family` shall be “Other”. The version information `major`, `minor` and `patch` shall not be defined.
+| field        | replacement        | group | required | failure |
+|--------------|--------------------|-------|----------|---------|
+| family       | family-replacement |     1 | yes      | "Other" |
+| major        | v1_replacement     |     2 |          |         |
+| minor        | v2_replacement     |     3 |          |         |
+| patch        | v3_replacement     |     4 |          |         |
+| patch_minor  | v4_replacement     |     5 |          |         |
 
 **Example:**
 
 For the User-Agent: `Mozilla/5.0 (Windows; Windows NT 5.1; rv:2.0b3pre) Gecko/20100727 Minefield/4.0.1pre`
 the matching `regex`:
 
-```
+```yaml
   - regex: '(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)\.(\d+(?:pre)?)'
     family_replacement: 'Firefox ($1)'
 ```
 
+captured groups:
+
+1. `Minefield`
+2. `4`
+3. `0`
+4. `1pre`
+
 resolves to:
 
 ```
-  family: Firefox (Minefield)
-  major : 4
-  minor : 0
-  patch : 1pre
+family: Firefox (Minefield)
+major : 4
+minor : 0
+patch : 1pre
 ```
 
-## `os_parsers`
+### OS
 
-The `os_parsers` return information of the `os` type of the Operating System (OS) the User-Agent runs.
-If available the version information specifying the `os` may be extracted as well if available.
-Here major, minor and patch version information can be addressed or overwritten.
-
-| match in regex | default replacement | placeholder in replacement | note   |
-| ---- | ----------------- | ---- | ---------------------------------------- |
-| 1    | os_replacement    | $1   | specifies the OS                         |
-| 2    | os_v1_replacement | $2   | major version number/info of OS          |
-| 3    | os_v2_replacement | $3   | minor version number/info of the OS      |
-| 4    | os_v3_replacement | $4   | patch version number/info of the OS      |
-| 5    | os_v4_replacement | $5   | patchMinor version number/info of the OS |
-
-In case that no replacement is specified, the association is given by order of the match. If in the `regex` no first match (within normal brackets) is given, the `os_replacement` shall be specified!
-To overwrite the respective value the replacement value needs to be named for a `regex`-item.
-
-**Parser Implementation:**
-
-The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
-
-In case that no replacement for a match is specified for a `regex`-item, the first match defines the `os` family, the second `major`, the third `minor`, the forth `patch` and the fifth `patchMinor` version information.
-If a `*_replacement` string is specified it shall overwrite or replace the match.
-
-As placeholder for inserting matched characters use within
-* `os_replacement`: `$1`
-* `os_v1_replacement`: `$2`
-* `os_v2_replacement`: `$3`
-* `os_v3_replacement`: `$4`
-* `os_v4_replacement`: `$5`
-
-In case that no matching `regex` is found the value for `os` shall be “Other”. The version information `major`, `minor`, `patch` and `patchMinor` shall not be defined.
+| field      | replacement       | group | required | failure |
+|------------|-------------------|-------|----------|---------|
+| family     | os_replacement    |     1 | yes      | "Other" |
+| major      | os_v1_replacement |     2 |          |         |
+| minor      | os_v2_replacement |     3 |          |         |
+| patch      | os_v3_replacement |     4 |          |         |
+| patchMinor | os_v4_replacement |     5 |          |         |
 
 **Example:**
 
 For the User-Agent: `Mozilla/5.0 (Windows; U; Win95; en-US; rv:1.1) Gecko/20020826`
 the matching `regex`:
 
-```
+```yaml
   - regex: 'Win(95|98|3.1|NT|ME|2000)'
     os_replacement: 'Windows $1'
 ```
+
+captured groups:
+
+1. `95`
 
 resolves to:
 
@@ -125,35 +184,19 @@ resolves to:
   os: Windows 95
 ```
 
-## `device_parsers`
+### Device
 
-The `device_parsers` return information of the device `family` the User-Agent runs on.
-Furthermore `brand` and `model` of the device can be specified.
-`brand` names the manufacturer of the device, where model specifies the model of the device.
+| field  | replacement        | group | required | failure |
+|--------|--------------------|-------|----------|---------|
+| family | device_replacement |     1 | yes      | "Other" |
+| brand  | brand_replacement  |       |          |         |
+| model  | model_replacement  |     1 |          |         |
 
-| match in regex | default replacement | placeholder in replacement | note   |
-| ---- | ------------------ | ------- | ---------------------------------------- |
-| 1    | device_replacement | $1...$9 | specifies the device family              |
-| any  | brand_replacement  | $1...$9 | major version number/info of OS          |
-| 1    | model_replacement  | $1...$9 | minor version number/info of the OS      |
+Device parsers have an additional metadata field `regex_flag`.
 
-In case that no replacement is specified the association is given by order of the match.
-If in the `regex` no first match (within normal brackets) is given the `device_replacement` together with the `model_replacement` shall be specified!
-To overwrite the respective value the replacement value needs to be named for a given `regex`.
-
-For the `device_parsers` some `regex` require case insensitive parsing for proper matching. (E.g. Generic Feature Phones). To distinguish this from the case sensitive default case, the value `regex_flag: 'i'` is used to indicate that the regular-expression matching shall be case-insensitive for this regular expression.
-
-**Parser Implementation:**
-
-The list of regular-expressions `regex` shall be evaluated for a given user-agent string beginning with the first `regex`-item in the list to the last item. The first matching `regex` stops processing the list. Regex-matching shall be case sensitive.
-
-In case that no replacement for a match is given, the first match defines the `family` and the `model`.
-If a `*_replacement` string is specified it shall overwrite or replace the match.
-
-As placeholder for inserting matched characters `$1` to `$9` can be used to insert the matched characters from the regex into the replacement string.
-
-In case that no matching `regex` is found the value for `family` shall be “Other”. `brand` and `model` shall not be defined.
-Leading and tailing whitespaces shall be trimmed from the result.
+If this field is set to the value `i` (a string with a single
+character U+0069 "LATIN SMALL LETTER I"), then `regex` is matched
+case-insensitively rather than the default.
 
 **Example:**
 
@@ -166,39 +209,97 @@ the matching `regex`:
     brand_replacement: 'Odys'
     model_replacement: '$1 $2 $3'
 ```
+captured groups:
+
+1. `PEDI`
+2. `PLUS`
+3. `W`
 
 resolves to:
-
 ```
   family: 'Odys PEDI PLUS W'
   brand: 'Odys'
   model: 'PEDI PLUS W'
 ```
 
-# Parser Output
+## Parser Output
 
-To allow interoperability with code that builds upon ua-parser, it is recommended to provide the parser output in a standardized way. The structure defined in [WebIDL](http://www.w3.org/TR/WebIDL/) may follow:
+This section is non-normative.
 
-```
-interface ua-parser-output {
-  attribute string string;      // The "user-agent" string
-  object ua: {                  // The "user_agent_parsers" result
-    attribute string family;
-    attribute string major;
-    attribute string minor;
-    attribute string patch;
-  };
-  object os: {                 	// The "os_parsers" result
-    attribute string family;
-    attribute string major;
-    attribute string minor;
-    attribute string patch;
-    attribute string patchMinor;
-  };
-  object device: {              // The "device_parsers" result
-    attribute string family;
-    attribute string brand;
-    attribute string model;
-  };
+For better portability and user experience across ua-parser
+implementations, it is recommended to use somewhat standardised
+output.
+
+The following is the recommendation, defined in
+[WebIDL](http://www.w3.org/TR/WebIDL/):
+
+```idl
+dictionary UaParserOutput {
+    required string string;
+    required UserAgent ua;
+    required OS os;
+    required Device device;
+};
+
+dictionary UserAgent {
+    required string family;
+    string major;
+    string minor;
+    string patch;
+};
+
+dictionary OS {
+    required string family;
+    string major;
+    string minor;
+    string patch;
+    string patchMinor;
+};
+
+dictionary Device {
+    required string family;
+    string brand;
+    string model;
 };
 ```
+
+## Changelog
+
+### 0.3
+
+- Reified concept of *template* remplacement fields (applies to all of
+  them).
+- All replacement fields converted to "full" templates.
+
+  This unifies implementations and parsers as the current behaviour is
+  inconsistent on both axis.
+
+  - The test suite contains cases where the `$1` template value is
+    used in other fields than `OS#os_replacement` (despite spec):
+
+    ```yaml
+    - regex: 'Mac OS X\s.{1,50}\s(\d+).(\d+).(\d+)'
+      os_replacement: 'Mac OS X'
+      os_v1_replacement: '$1'
+      os_v2_replacement: '$2'
+      os_v3_replacement: '$3'
+    - regex: 'Win(?:dows)? ?(95|98|3.1|NT|ME|2000|XP|Vista|7|CE)'
+      os_replacement: 'Windows'
+      os_v1_replacement: '$1'
+    - regex: '^Box.{0,200}Windows/([\d.]+);'
+      os_replacement: 'Windows'
+      os_v1_replacement: '$1'
+    ```
+
+  - The reference implementation's OS fields were all made into full
+    templates in ua-parser/uap-ref-impl#11.
+  - The Python implementation followed suite in ua-parser/uap-python#74.
+  - The C# implementation uses a bunch of special cases.
+
+  The biggest change is that UA fields are now full templates, whereas
+  implementations generally only support restricted templating of
+  `UserAgent#family`, despite spec of all replacement fields being
+  restricted templates.
+- the `Device#model_replacement` field is not required ("Opera/9.80
+  (BlackBerry; Opera Mini/7.0.31437/28.3030; U; en) Presto/2.8.119
+  Version/11.10"), default implementation has no fallback for model
