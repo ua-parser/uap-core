@@ -786,6 +786,13 @@ user_agent_parsers:
   # AnyConnect
   - regex: '(AnyConnect)\/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
 
+  # Sonos
+  # @ref: https://docs.sonos.com/docs/soap-requests-and-responses#user-agent-header
+  - regex: '(Sonos)/(\d+)\.(\d+)()-[^(]+\((ACR|ICRU|MDCR|WDCR)'
+    family_replacement: 'SonosApp'
+  - regex: '(Sonos)/(\d+)\.(\d+)-[^(]+\(ZP'
+    family_replacement: 'SonosPlayer'
+
   # Monitis
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
@@ -4439,6 +4446,16 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Motorola'
     model_replacement: 'XT902'
+
+  #########
+  # Sonos
+  # @ref: https://docs.sonos.com/docs/soap-requests-and-responses#user-agent-header
+  # @ref: https://explore.whatismybrowser.com/useragents/explore/software_name/sonos-player/
+  #########
+  - regex: 'Sonos/\d+[^(]+\((ZP[^)]+)\)'
+    brand_replacement: 'Sonos'
+    device_replacement: 'Player'
+    model_replacement: '$1'
 
   #########
   # Trekstor
