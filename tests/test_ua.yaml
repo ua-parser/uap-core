@@ -2496,6 +2496,11 @@ test_cases:
     minor: '6'
     patch: '4'
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)'
+    family: 'CensysInspect'
+    major: '1'
+    minor: '1'
+
   - user_agent_string: 'Mozilla/5.0 (compatible; Charlotte/1.0b; charlotte@beta.spider.com)'
     family: 'Charlotte'
     major: '1'
