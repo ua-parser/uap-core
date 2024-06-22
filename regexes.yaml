@@ -492,6 +492,12 @@ user_agent_parsers:
   - regex: '(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Ecosia Android'
 
+  # VivoBrowser
+  - regex: '(VivoBrowser)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+
+  # HiBrowser
+  - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
