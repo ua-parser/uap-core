@@ -218,6 +218,13 @@ user_agent_parsers:
   # Twitter
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
+  # TikTok
+  - regex: '(musical_ly) app_version\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TikTok'
+  - regex: '(musical_ly_)(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TikTok'
+  - regex: '(BytedanceWebview)\/[a-z0-9]+'
+    family_replacement: 'TikTok'
 
   # Phantom app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
