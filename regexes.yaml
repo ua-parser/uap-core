@@ -487,9 +487,9 @@ user_agent_parsers:
     family_replacement: 'Tenta Browser'
 
   # Ecosia on iOS / Android
-  - regex: '(Ecosia) ios@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Ecosia) ios@(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Ecosia iOS'
-  - regex: '(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Ecosia) android@(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Ecosia Android'
 
   # Chrome Mobile
