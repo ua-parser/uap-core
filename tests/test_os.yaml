@@ -3284,3 +3284,25 @@ test_cases:
     minor: '1'
     patch: '1'
     patch_minor:
+  
+  - user_agent_string: 'Boto3/1.28.62 md/Botocore#1.31.62 ua/2.0 os/macos#22.4.0 md/arch#arm64 lang/python#3.11.6 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.31.62'
+    family: 'Mac OS X'
+    major: '22'
+    minor: '4'
+    patch: '0'
+    patch_minor:
+  
+  - user_agent_string: 'APN/1.0 HashiCorp/1.0 Terraform/1.8.1 (+https://www.terraform.io) terraform-provider-aws/4.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.18.0 os/macos lang/go/1.19.8 md/GOOS/darwin md/GOARCH/arm64 api/identitystore/1.16.11'
+    family: 'Mac OS X'
+    major:
+    minor: 
+    patch: 
+    patch_minor:
+  
+  - user_agent_string: 'APN/1.0 HashiCorp/1.0 Terraform/1.8.0 (+https://www.terraform.io) terraform-provider-aws/4.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.261 (go1.19.8; darwin; arm64)'
+    family: 'Mac OS X'
+    major:
+    minor: 
+    patch: 
+    patch_minor:
+
