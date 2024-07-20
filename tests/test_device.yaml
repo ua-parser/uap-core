@@ -80350,6 +80350,16 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-InspectionTool/1.0;)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.201 Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0;)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Smartphone'
+
   - user_agent_string: 'Mozilla/5.0 (compatible; Qwantify/2.4w; +https://www.qwant.com/)/2.4w'
     family: 'Spider'
     brand: 'Spider'
