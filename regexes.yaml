@@ -460,6 +460,10 @@ user_agent_parsers:
   - regex: '(TopBuzz)/(\d+).(\d+).(\d+)'
     family_replacement: 'TopBuzz'
 
+  # Mail+ must go before Chrome Mobile WebView
+  - regex: 'TheMailApp_(iOS|Android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Mail+ App'
+
   # Google Search App on Android, eg:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
