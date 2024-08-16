@@ -8889,3 +8889,9 @@ test_cases:
     minor: '3'
     patch: '0'
     patch_minor: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux x86_64; python-requests/2.32.3; RecipeRadar/0.1; +https://www.reciperadar.com)'
+    family: 'RecipeRadar'
+    major: '0'
+    minor: '1'
+    patch:
