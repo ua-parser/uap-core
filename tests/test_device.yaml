@@ -80619,5 +80619,7 @@ test_cases:
     brand: 'Motorola'
     model: 'motorola moto g play (2021)'
 
-
-  
+  - user_agent_string: 'Mozilla/5.0 (compatible; Linux x86_64; python-requests/2.32.3; RecipeRadar/0.1; +https://www.reciperadar.com)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
