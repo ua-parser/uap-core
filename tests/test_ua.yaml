@@ -7264,7 +7264,13 @@ test_cases:
     patch: '3'
 
   - user_agent_string: 'Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.41 (KHTML, like Gecko) Large Screen WebAppManager Safari/537.41'
-    family: 'Safari'
+    family: 'LG'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Linux mips; Enseo/HD3300) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36'
+    family: 'Enseo'
     major:
     minor:
     patch:
