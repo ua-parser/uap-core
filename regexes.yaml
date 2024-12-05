@@ -1915,6 +1915,13 @@ os_parsers:
     os_v2_replacement: '$2'
     os_v3_replacement: '$3'
 
+  # Huawei HarmonyOS
+  - regex: 'HarmonyOS\s?(\d*).?(\d*).?(\d*)'
+    os_replacement: 'Harmony'
+    os_v1_replacement: '$1'
+    os_v2_replacement: '$2'
+    os_v3_replacement: '$3'
+
 device_parsers:
 
   #########
