@@ -1916,7 +1916,7 @@ os_parsers:
     os_v3_replacement: '$3'
 
   # Huawei HarmonyOS
-  - regex: '(HarmonyOS)\s?(\d+|)\.?(\d+|)\.?(\d+|)'
+  - regex: '(HarmonyOS)[\s;]+(\d+|)\.?(\d+|)\.?(\d+|)'
 
 device_parsers:
 
