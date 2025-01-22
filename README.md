@@ -11,6 +11,8 @@ Maintainers
 * [Com Menthol](https://github.com/commenthol)
 * [Lindsey Simon](https://github.com/elsigh) ([@elsigh](https://twitter.com/elsigh))
 * [Tobie Langel](https://github.com/tobie) ([@tobie](https://twitter.com/tobie))
+* [Louis Barthonet](https://github.com/lbarthon)
+* [Miguel de Moura](https://github.com/migueldemoura)
 
 Communication channels
 -----------------------
