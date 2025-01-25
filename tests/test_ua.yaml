@@ -7863,11 +7863,11 @@ test_cases:
     minor: '3'
     patch: '1'
 
-  - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36 KAKAOTALK/11.3.1 (INAPP)'
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/131.0.0.0 Mobile Safari/537.36 KAKAOTALK/10.2.3 (INAPP)'
     family: 'KakaoTalk'
-    major: '11'
-    minor: '3'
-    patch: '1'
+    major: '10'
+    minor: '2'
+    patch: '3'
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 Flipboard/4.2.2'
     family: 'Flipboard'
