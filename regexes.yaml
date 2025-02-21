@@ -600,6 +600,14 @@ user_agent_parsers:
   # Norton
   - regex: '(Norton)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Norton'
+
+  # Quark
+  - regex: '(Quark)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Quark'
+  # Quark PC
+  - regex: '(QuarkPC)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Quark PC'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

@@ -8967,3 +8967,15 @@ test_cases:
     major: '131'
     minor: '0'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.80 Safari/537.36 Quark/7.8.0.750'
+    family: 'Quark'
+    major: '7'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 QuarkPC/2.0.7.222'
+    family: 'Quark PC'
+    major: '2'
+    minor: '0'
+    patch: '7'
