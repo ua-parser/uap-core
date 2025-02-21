@@ -589,6 +589,10 @@ user_agent_parsers:
   - regex: '(115Browser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: '115 Browser'
 
+ # Avira
+  - regex: '(Avira)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avira'
+    
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
