@@ -8997,3 +8997,15 @@ test_cases:
     major: '26'
     minor: '0'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.85 Safari/537.36 QIHU 360SEi18n'
+    family: '360 Secure Browser'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36 QIHU 360ENT'
+    family: '360 Secure Browser'
+    major:
+    minor:
+    patch:

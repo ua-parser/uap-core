@@ -616,6 +616,10 @@ user_agent_parsers:
   - regex: '(Atom)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Atom Browser'
 
+  # 360 Secure Browser
+  - regex: '(Chrome)/\d+\.\d+\.\d+\.\d+ .* QIHU 360(?:SEi18n|ENT)'
+    family_replacement: '360 Secure Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
