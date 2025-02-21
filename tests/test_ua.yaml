@@ -87,7 +87,13 @@ test_cases:
     family: 'Oculus Browser'
     major: '26'
     minor: '2'
-    patch: '10'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/36.6.0.9.50.692136875 Chrome/130.0.6723.191 VR Safari/537.36'
+    family: 'Oculus Browser'
+    major: '36'
+    minor: '6'
+    patch: '0'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_3; en-us; Silk/1.1.0-80) AppleWebKit/533.16 (KHTML, like Gecko) Version/5.0 Safari/533.16 Silk-Accelerated=true'
     family: 'Amazon Silk'
