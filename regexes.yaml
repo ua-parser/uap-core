@@ -585,6 +585,10 @@ user_agent_parsers:
   - regex: '^(surveyon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Surveyon'
 
+  # 115 Browser
+  - regex: '(115Browser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: '115 Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
