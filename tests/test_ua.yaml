@@ -8991,3 +8991,9 @@ test_cases:
     major: '9'
     minor: '0'
     patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Atom/26.0.0.0 Safari/537.36'
+    family: 'Atom Browser'
+    major: '26'
+    minor: '0'
+    patch: '0'

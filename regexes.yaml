@@ -611,6 +611,10 @@ user_agent_parsers:
   # Smart Lenovo Browser
   - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
     family_replacement: 'Smart Lenovo Browser'
+  
+  # Atom Browser
+  - regex: '(Atom)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Atom Browser'
 
   #### END SPECIAL CASES TOP ####
 
