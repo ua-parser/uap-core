@@ -624,6 +624,10 @@ user_agent_parsers:
   - regex: '(Decentr)'
     family_replacement: 'Decentr Web3 Browser'
 
+  # Sparrow Browser
+  - regex: '(Sparrow)'
+    family_replacement: 'Sparrow Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
