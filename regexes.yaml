@@ -620,6 +620,10 @@ user_agent_parsers:
   - regex: '(Chrome)/\d+\.\d+\.\d+\.\d+ .* QIHU 360(?:SEi18n|ENT)'
     family_replacement: '360 Secure Browser'
 
+  # Decentr Web3 Browser
+  - regex: '(Decentr)'
+    family_replacement: 'Decentr Web3 Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

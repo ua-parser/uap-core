@@ -9009,3 +9009,9 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Decentr Safari/537.36'
+    family: 'Decentr Web3 Browser'
+    major:
+    minor:
+    patch:
