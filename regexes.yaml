@@ -628,6 +628,10 @@ user_agent_parsers:
   - regex: '(Sparrow)'
     family_replacement: 'Sparrow Browser'
 
+  # Chromium GOST Browser
+  - regex: '(Chromium GOST)'
+    family_replacement: 'Chromium GOST Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
