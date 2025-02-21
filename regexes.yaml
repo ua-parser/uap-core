@@ -608,6 +608,10 @@ user_agent_parsers:
   - regex: '(QuarkPC)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Quark PC'
 
+  # Smart Lenovo Browser
+  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
+    family_replacement: 'Smart Lenovo Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

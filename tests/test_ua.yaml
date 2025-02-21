@@ -8979,3 +8979,9 @@ test_cases:
     major: '2'
     minor: '0'
     patch: '7'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.12181 SLBChan/105 SLBVPV/64-bit'
+    family: 'Smart Lenovo Browser'
+    major: '9'
+    minor: '0'
+    patch: '5'
