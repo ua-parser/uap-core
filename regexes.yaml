@@ -640,6 +640,10 @@ user_agent_parsers:
   - regex: '(Hola)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Hola Browser'
 
+  # Craving Explorer Browser
+  - regex: '(CravingExplorer)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Craving Explorer Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

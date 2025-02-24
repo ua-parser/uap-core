@@ -9039,3 +9039,9 @@ test_cases:
     major: '1'
     minor: '233'
     patch: '355'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 CravingExplorer/2.10.7'
+    family: 'Craving Explorer Browser'
+    major: '2'
+    minor: '10'
+    patch: '7'
