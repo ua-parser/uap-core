@@ -9047,7 +9047,13 @@ test_cases:
     patch: '7'
 
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Talon'
-    family: 'Talon Cyber Secuirty Browser'
+    family: 'Talon Cyber Security Browser'
+    major:
+    minor:
+    patch:
+  
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
+    family: 'QAX Browser'
     major:
     minor:
     patch:

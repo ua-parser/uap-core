@@ -644,9 +644,13 @@ user_agent_parsers:
   - regex: '(CravingExplorer)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Craving Explorer Browser'
 
-  # Talon Cyber Secuirty Browser
+  # Talon Cyber Security Browser
   - regex: '(Talon)'
-    family_replacement: 'Talon Cyber Secuirty Browser'
+    family_replacement: 'Talon Cyber Security Browser'
+
+  # QAX Browser
+  - regex: '(Qaxbrowser)'
+    family_replacement: 'QAX Browser'
 
   #### END SPECIAL CASES TOP ####
 
