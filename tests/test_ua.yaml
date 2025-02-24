@@ -9033,3 +9033,9 @@ test_cases:
     major: '123'
     minor: '0'
     patch: '6312'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Hola/1.233.355'
+    family: 'Hola Browser'
+    major: '1'
+    minor: '233'
+    patch: '355'

@@ -636,6 +636,10 @@ user_agent_parsers:
   - regex: '(AOLShield)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'AOL Shield Browser'
 
+  # Hola Browser
+  - regex: '(Hola)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Hola Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
