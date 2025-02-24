@@ -632,6 +632,10 @@ user_agent_parsers:
   - regex: '(Chromium GOST)'
     family_replacement: 'Chromium GOST Browser'
 
+  # AOL Shield Browser
+  - regex: '(AOLShield)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Shield Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

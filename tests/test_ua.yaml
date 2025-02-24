@@ -9027,3 +9027,9 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.123 Safari/537.36 AOLShield/123.0.6312.6-818'
+    family: 'AOL Shield Browser'
+    major: '123'
+    minor: '0'
+    patch: '6312'
