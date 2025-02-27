@@ -404,7 +404,7 @@ user_agent_parsers:
   - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Aloha Browser
-  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(AlohaBrowser|ABB)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Aloha Browser'
 
   # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
