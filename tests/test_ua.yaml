@@ -9075,3 +9075,9 @@ test_cases:
     major: '21'
     minor: '0'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.1.2 Safari/537.36 JiSu/118.0.1.2'
+    family: 'JiSu Browser'
+    major: '118'
+    minor: '0'
+    patch: '1'
