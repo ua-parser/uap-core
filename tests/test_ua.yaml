@@ -9069,3 +9069,9 @@ test_cases:
     major: '11'
     minor: '1'
     patch: '4777'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 SberBrowser/21.0.0.0'
+    family: 'Sber Browser'
+    major: '21'
+    minor: '0'
+    patch: '0'
