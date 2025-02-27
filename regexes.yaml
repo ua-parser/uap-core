@@ -652,6 +652,10 @@ user_agent_parsers:
   - regex: '(Qaxbrowser)'
     family_replacement: 'QAX Browser'
 
+  # AOL Desktop Gold Browser
+  - regex: '(ADG)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Desktop Gold Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
