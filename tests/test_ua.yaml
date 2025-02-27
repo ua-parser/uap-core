@@ -9027,3 +9027,57 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.123 Safari/537.36 AOLShield/123.0.6312.6-818'
+    family: 'AOL Shield Browser'
+    major: '123'
+    minor: '0'
+    patch: '6312'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Hola/1.233.355'
+    family: 'Hola Browser'
+    major: '1'
+    minor: '233'
+    patch: '355'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 CravingExplorer/2.10.7'
+    family: 'Craving Explorer Browser'
+    major: '2'
+    minor: '10'
+    patch: '7'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Talon'
+    family: 'Talon Cyber Security Browser'
+    major:
+    minor:
+    patch:
+  
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
+    family: 'QAX Browser'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36 ABB/3.7.1'
+    family: 'Aloha Browser'
+    major: '3'
+    minor: '7'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.6778.109 ADG/11.1.4777 Safari/537.36'
+    family: 'AOL Desktop Gold Browser'
+    major: '11'
+    minor: '1'
+    patch: '4777'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 SberBrowser/21.0.0.0'
+    family: 'Sber Browser'
+    major: '21'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.1.2 Safari/537.36 JiSu/118.0.1.2'
+    family: 'JiSu Browser'
+    major: '118'
+    minor: '0'
+    patch: '1'

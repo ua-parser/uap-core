@@ -404,7 +404,7 @@ user_agent_parsers:
   - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Aloha Browser
-  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(AlohaBrowser|ABB)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Aloha Browser'
 
   # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
@@ -631,6 +631,38 @@ user_agent_parsers:
   # Chromium GOST Browser
   - regex: '(Chromium GOST)'
     family_replacement: 'Chromium GOST Browser'
+
+  # AOL Shield Browser
+  - regex: '(AOLShield)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Shield Browser'
+
+  # Hola Browser
+  - regex: '(Hola)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Hola Browser'
+
+  # Craving Explorer Browser
+  - regex: '(CravingExplorer)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Craving Explorer Browser'
+
+  # Talon Cyber Security Browser
+  - regex: '(Talon)'
+    family_replacement: 'Talon Cyber Security Browser'
+
+  # QAX Browser
+  - regex: '(Qaxbrowser)'
+    family_replacement: 'QAX Browser'
+
+  # AOL Desktop Gold Browser
+  - regex: '(ADG)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Desktop Gold Browser'
+
+  # Sber Browser
+  - regex: '(SberBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Sber Browser'
+
+  # JiSu Browser
+  - regex: '(JiSu)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'JiSu Browser'
 
   #### END SPECIAL CASES TOP ####
 
