@@ -614,7 +614,7 @@ user_agent_parsers:
   # Smart Lenovo Browser
   - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
     family_replacement: 'Smart Lenovo Browser'
-  
+
   # Atom Browser
   - regex: '(Atom)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Atom Browser'
@@ -1485,7 +1485,7 @@ os_parsers:
   # Box Drive and Box Sync on Mac OS X use OSX version numbers, not Darwin
   - regex: '^Box.{0,200};(Darwin)/(10)\.(1\d)(?:\.(\d+)|)'
     os_replacement: 'Mac OS X'
-  
+
   ##########
   # Hashicorp API
   # APN/1.0 HashiCorp/1.0 Terraform/1.8.0 (+https://www.terraform.io) terraform-provider-aws/4.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.261 (go1.19.8; darwin; arm64)
@@ -3215,7 +3215,7 @@ device_parsers:
     device_replacement: 'HTC $1'
     brand_replacement: 'HTC'
     model_replacement: '$1'
-  - regex: '; {0,2}(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.{1,200}?)(?:[/;\)]|Build|MIUI|1\.0)'
+  - regex: '; {0,2}(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.{1,200}?)(?:[/;\)]|Build|MIUI|1\.0)'
     regex_flag: 'i'
     device_replacement: 'HTC $1 $2'
     brand_replacement: 'HTC'
