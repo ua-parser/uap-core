@@ -525,6 +525,20 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-InspectionTool/1.0;)'
+    family: 'Other'
+    major:
+    minor:
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6367.201 Mobile Safari/537.36 (compatible; Google-InspectionTool/1.0;)'
+    family: 'Android'
+    major: '6'
+    minor: '0'
+    patch: '1'
+    patch_minor:
+
   - user_agent_string: 'Bunjalloo/0.7.6(Nintendo DS;U;en)'
     family: 'Other'
     major:
