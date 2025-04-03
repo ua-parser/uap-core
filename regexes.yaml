@@ -1160,6 +1160,10 @@ user_agent_parsers:
   # MullvadBrowser (https://mullvad.net/en/browser)
   - regex: '(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
+  # GaiaGPS (https:www.gaiagps.com)
+  - regex: '(Gaia GPS|GaiaGPS)( |\/)(\d+)\.(\d+)'
+    family_replacement: 'GaiaGPS'
+
 os_parsers:
   ##########
   # HbbTV vendors

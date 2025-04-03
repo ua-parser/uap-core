@@ -7853,9 +7853,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 BytedanceWebview/d8a21c6 trill_34.9.0 JsSdk/2.0 NetType/4G Channel/App Store ByteLocale/en Region/MY FalconTag/31CFA6E0-CAE5-4ECF-A13A-ADFCAFC2428F'
     family: 'TikTok'
-    major: 
-    minor: 
-    patch: 
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 KAKAOTALK/11.3.1 (INAPP)'
     family: 'KakaoTalk'
@@ -8085,7 +8085,7 @@ test_cases:
     major: '1'
     minor: '4'
     patch: '12'
-  
+
   - user_agent_string: 'aws-sdk-go-v2/1.24.1 os/linux lang/go#1.20.4 md/GOOS#linux md/GOARCH#arm64 api/sts#1.26.7'
     family: 'aws-sdk-go-v2'
     major: '1'
@@ -9069,7 +9069,7 @@ test_cases:
     major:
     minor:
     patch:
-  
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
     family: 'QAX Browser'
     major:
@@ -9099,3 +9099,15 @@ test_cases:
     major: '118'
     minor: '0'
     patch: '1'
+
+  - user_agent_string: 'Gaia GPS 2024.8 (BV9500Pro; Android 8.1.0; en_US)'
+    family: 'GaiaGPS'
+    major: '2024'
+    minor: '8'
+    patch:
+
+  - user_agent_string: 'GaiaGPS/20250311.1658 CFNetwork/3826.400.120 Darwin/24.3.0'
+    family: 'GaiaGPS'
+    major: '20250311'
+    minor: '1658'
+    patch:
