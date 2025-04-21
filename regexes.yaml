@@ -443,12 +443,6 @@ user_agent_parsers:
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Coc Coc'
 
-  # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
-  - regex: '(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
-    family_replacement: 'Baidu Browser'
-  - regex: '(FlyFlow)/(\d+)\.(\d+)'
-    family_replacement: 'Baidu Explorer'
-
   # MxBrowser is Maxthon. Must go before Mobile Chrome for Android
   - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Maxthon'
@@ -476,6 +470,12 @@ user_agent_parsers:
   # Google Search App on Android, eg:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
+
+  # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
+  - regex: '(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Baidu Browser'
+  - regex: '(FlyFlow|flyflow|baiduboxapp)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Baidu Explorer'
 
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
@@ -592,7 +592,7 @@ user_agent_parsers:
   - regex: '(115Browser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: '115 Browser'
 
- # Avira
+  # Avira
   - regex: '(Avira)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Avira'
 
@@ -5623,7 +5623,6 @@ device_parsers:
     brand_replacement: 'Asus'
     model_replacement: '$1'
 
-
   ##########
   # Bird
   ##########
@@ -5822,7 +5821,6 @@ device_parsers:
     device_replacement: 'Motorola$2'
     brand_replacement: 'Motorola'
     model_replacement: '$2'
-
 
   ##########
   # nintendo

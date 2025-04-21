@@ -191,6 +191,18 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/2.74.0 main%2F1.0 matrixstyle/0 flyflow/6.12.3.32 info baiduboxapp/6.12.3.32 (Baidu; P2 18.5) NABar/1.0 themeUA=Theme/default'
+    family: 'Baidu Explorer'
+    major: '6'
+    minor: '12'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 SP-engine/3.35.0 main/1.0 baiduboxapp/15.8.0.10 (Baidu; P2 18.5) NABar/1.0 themeUA=Theme/default'
+    family: 'Baidu Explorer'
+    major: '15'
+    minor: '8'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.15 Safari/535.11 QQBrowser/6.13.13719.201'
     family: 'QQ Browser'
     major: '6'
