@@ -477,6 +477,12 @@ user_agent_parsers:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
 
+  # Weibo
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboliteiOS|WeiboIntliOS)'
+    family_replacement: 'Weibo'
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
