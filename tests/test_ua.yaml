@@ -8765,6 +8765,13 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 QQ/9.1.65.602 V1_IPH_SQ_9.1.65_1_APP_A Pixel/1206 MiniAppEnable SimpleUISwitch/0 StudyMode/0 CurrentMode/0 CurrentFontScale/1.000000 QQTheme/1000 AppId/537277312 Core/WKWebView Device/Apple(iPhone X) NetType/WIFI QBWebViewType/1 WKType/1'
+    family: 'QQ'
+    major: '9'
+    minor: '1'
+    patch: '65'
+    patch_minor: '602'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Pandora/1902.1'
     family: 'Pandora'
     major: '1902'
