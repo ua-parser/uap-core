@@ -511,6 +511,13 @@ user_agent_parsers:
   # HiBrowser
   - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
+  # Weibo
+  # Must before Chrome Mobile WebView
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboliteiOS|WeiboIntliOS)'
+    family_replacement: 'Weibo'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
