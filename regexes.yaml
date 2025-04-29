@@ -892,6 +892,10 @@ user_agent_parsers:
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
 
+  # Evernote
+  - regex: '(Evernote)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Evernote'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
