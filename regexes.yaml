@@ -506,7 +506,7 @@ user_agent_parsers:
     family_replacement: 'Ecosia Android'
 
   # VivoBrowser
-  - regex: '(VivoBrowser)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(VivoBrowser)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # HiBrowser
   - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
