@@ -511,6 +511,10 @@ user_agent_parsers:
   # HiBrowser
   - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
+  # Search Craft
+  - regex: '(SearchCraft)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Search Craft'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
