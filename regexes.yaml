@@ -664,6 +664,10 @@ user_agent_parsers:
   - regex: '(JiSu)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'JiSu Browser'
 
+  # Wolvic Browser
+  - regex: '(Wolvic)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Wolvic Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
