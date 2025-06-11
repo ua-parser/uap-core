@@ -9099,3 +9099,9 @@ test_cases:
     major: '118'
     minor: '0'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Android 14; Mobile VR; rv:128.0) Gecko/128.0 Firefox/128.0 Wolvic/1.8.1'
+    family: 'Wolvic Browser'
+    major: '1'
+    minor: '8'
+    patch: '1'
