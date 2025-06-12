@@ -225,6 +225,15 @@ user_agent_parsers:
     family_replacement: 'TikTok'
   - regex: '(BytedanceWebview)\/[a-z0-9]+'
     family_replacement: 'TikTok'
+  # BiliBili
+  - regex: '(BiliApp)\/'
+    family_replacement: 'BiliBili'
+  # Douban
+  - regex: '(com.douban.frodo)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Douban'
+  # NewsArticle
+  - regex: '(NewsArticle)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'NewsArticle'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
@@ -484,6 +493,14 @@ user_agent_parsers:
     family_replacement: 'QQ Browser Mobile'
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
+  
+  # DingTalk
+  - regex: '(DingTalk)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DingTalk'
+
+  # Oppo Browser
+  - regex: '(OppoBrowser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Oppo Browser'
 
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
