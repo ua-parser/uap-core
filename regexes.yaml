@@ -225,6 +225,9 @@ user_agent_parsers:
     family_replacement: 'TikTok'
   - regex: '(BytedanceWebview)\/[a-z0-9]+'
     family_replacement: 'TikTok'
+  # Tieba
+  - regex: '(tieba)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Tieba'
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
