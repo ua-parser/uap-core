@@ -235,6 +235,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Evernote/10.8.38 (com.yinxiang.iPhone; build:380507; iOS 15.5.0) Alamofire/4.9.1'
+    family: 'Evernote'
+    major: '10'
+    minor: '8'
+    patch: '38'
+
   - user_agent_string: 'Mozilla/5.0 (BB10; Touch) AppleWebKit/537.3+ (KHTML, like Gecko) Version/10.0.9.388 Mobile Safari/537.3+'
     family: 'BlackBerry WebKit'
     major: '10'
@@ -1634,6 +1640,8 @@ test_cases:
     minor:
     patch:
     patch_minor:
+
+
 
   - user_agent_string: 'Dolphin 6.5.1 (iPad; iPhone OS 6.1.3; de_DE)'
     family: 'Dolphin'

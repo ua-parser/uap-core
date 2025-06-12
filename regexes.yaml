@@ -485,6 +485,10 @@ user_agent_parsers:
   - regex: '(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)'
     family_replacement: 'QQ Browser'
 
+  # Evernote
+  - regex: '(Evernote)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Evernote'
+
   # DuckDuckGo
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)'
     family_replacement: 'DuckDuckGo Mobile'
