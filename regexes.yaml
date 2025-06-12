@@ -218,6 +218,9 @@ user_agent_parsers:
   # Twitter
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
+  # TIM
+  - regex: '(TIM)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TIM'
   # TikTok
   - regex: '(musical_ly) app_version\/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'TikTok'
