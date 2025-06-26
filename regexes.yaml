@@ -892,6 +892,10 @@ user_agent_parsers:
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
 
+  # QQ
+  - regex: '(QQ)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'QQ'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
