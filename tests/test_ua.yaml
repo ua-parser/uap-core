@@ -9135,3 +9135,17 @@ test_cases:
     major: '1'
     minor: '8'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) ClientID/YBJdb1UyFQJwh_nS ThunderBrowser/5.70.1.66449 Safari/605.1.15'
+    family: 'Thunder Browser'
+    major: '5'
+    minor: '70'
+    patch: '1'
+    patch_minor: '66449'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 iThunder XLCloud(TDMVideo;com.xunlei.mvideo;2.3.30;build:14885;iOS 18.5) Net/WiFiBrowser'
+    family: 'Thunder Browser'
+    major:
+    minor:
+    patch:
+    patch_minor:
