@@ -8765,6 +8765,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Evernote/10.8.38 (com.yinxiang.iPhone; build:380507; iOS 15.5.0) Alamofire/4.9.1'
+    family: 'Evernote'
+    major: '10'
+    minor: '8'
+    patch: '38'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Pandora/1902.1'
     family: 'Pandora'
     major: '1902'
