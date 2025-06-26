@@ -337,6 +337,13 @@ test_cases:
     minor: '10'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-cn; OPPO A57 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.134 Mobile Safari/537.36 OppoBrowser/4.3.8'
+    family: 'Oppo Browser'
+    major: '4'
+    minor: '3'
+    patch: '8'
+    patch_minor:
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
     family: 'Chrome Mobile WebView'
     major: '68'
@@ -8764,6 +8771,46 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/615.3.12.11.2 (KHTML, like Gecko) Mobile/22G90 BiliApp/36601100 os/ios model/iPad Pro 12.9-Inch 3G mobi_app/ipad build/36601100 osVer/16.6 network/2 channel/AppStore Buvid/Y65AF76CD250F2FD5D938E938DAD17C8C306 c_locale/zh-Hans_CN s_locale/zh-Hans_CH sessionID/a95eff62 disable_rcmd/0'
+    family: 'BiliBili'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 com.douban.frodo/7.98.0 udid/52477d156ce998d7fb9fec2c0018765870794a2a'
+    family: 'Douban'
+    major: '7'
+    minor: '98'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 NewsArticle/12.8.2.20 GoldBrowser/12.8.2.20 JsSdk/2.0 NetType/WIFI (Browser 12.8.2 18.000000)'
+    family: 'NewsArticle'
+    major: '12'
+    minor: '8'
+    patch: '2'
+    patch_minor: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 bytedancewebview/d8a21c6 aid/13 NewsArticle/11.5.0.20 JsSdk/2.0 NetType/WIFI (News 11.5.0 18.400000) FalconTag/64CBB441-E021-4C59-B3AF-2C9A67F7974F'
+    family: 'NewsArticle'
+    major: '11'
+    minor: '5'
+    patch: '0'
+    patch_minor: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21H16 AliApp(DingTalk/7.6.55.1) dd.work.exclusive4aliding/44764899 Channel/exclusive_dingtalk_21001 Device/exclusive_dingtalk_21001 exclusive_dingtalk_21001/7.6.55.1 2ndType/exclusive language/zh-Hans-CN UT4Aplus/0.0.6 WK'
+    family: 'DingTalk'
+    major: '7'
+    minor: '6'
+    patch: '55'
+    patch_minor: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_7_9 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/19H365 AliApp(DingTalk/7.0.21) com.laiwang.DingTalk/29047899 Channel/201200 language/zh-Hans-CN UT4Aplus/0.0.6 WK'
+    family: 'DingTalk'
+    major: '7'
+    minor: '0'
+    patch: '21'
+    patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Pandora/1902.1'
     family: 'Pandora'

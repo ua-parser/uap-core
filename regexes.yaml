@@ -511,6 +511,11 @@ user_agent_parsers:
   # HiBrowser
   - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
 
+  # Oppo Browser
+  # Must be before Chrome Mobile
+  - regex: '(OppoBrowser)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Oppo Browser'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
@@ -891,6 +896,22 @@ user_agent_parsers:
   # Monitis
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
+
+  # BiliBili
+  - regex: '(BiliApp)\/'
+    family_replacement: 'BiliBili'
+
+  # Douban
+  - regex: '(com.douban.frodo)\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Douban'
+
+  # NewsArticle
+  - regex: '(NewsArticle)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'NewsArticle'
+  
+  # DingTalk
+  - regex: '(DingTalk)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DingTalk'
 
   #### END MAIN CASES ####
 
