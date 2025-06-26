@@ -337,6 +337,19 @@ test_cases:
     minor: '10'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.0; MI 6 Build/OPR1.170623.027; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)'
+    family: 'Search Craft'
+    major: '2'
+    minor: '6'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 ChatSearch/1.0 SearchCraft/5.12.1.11 (Baidu; P2 18.4.1)'
+    family: 'Search Craft'
+    major: '5'
+    minor: '12'
+    patch: '1'
+    patch_minor: '11'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; Pixel 2 XL Build/PPP5.180610.010; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.85 Mobile Safari/537.36'
     family: 'Chrome Mobile WebView'
     major: '68'
