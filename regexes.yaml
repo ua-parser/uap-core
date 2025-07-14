@@ -678,6 +678,12 @@ user_agent_parsers:
   - regex: '(Wolvic)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Wolvic Browser'
 
+  # Thunder Browsers
+  - regex: '(ThunderBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Thunder Browser'
+  - regex: '(iThunder)'
+    family_replacement: 'Thunder Browser'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
