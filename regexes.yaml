@@ -477,6 +477,15 @@ user_agent_parsers:
   - regex: '(FlyFlow|flyflow|baiduboxapp)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Baidu Explorer'
 
+  # WeChat
+  # Must before QQ Browsers
+  - regex: '(MacWechat)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat'
+  - regex: '(WindowsWechat)'
+    family_replacement: 'WeChat'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat'
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
