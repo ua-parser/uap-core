@@ -470,6 +470,18 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mastodon/4.4.3 (http.rb/5.3.1; +https://mastodon.world/) Bot'
+    family: 'Mastodon'
+    major: '4'
+    minor: '4'
+    patch: '3'
+
+  - user_agent_string: 'Mastodon/4.5.0-alpha.1 (http.rb/5.3.1; +https://aus.social/)'
+    family: 'Mastodon'
+    major: '4'
+    minor: '5'
+    patch: '0-apha.1'
+
   - user_agent_string: 'WhatsApp/2.17.70 W'
     family: 'WhatsApp'
     major: '2'
