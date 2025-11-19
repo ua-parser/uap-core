@@ -4320,7 +4320,7 @@ test_cases:
   - user_agent_string: 'Screaming Frog SEO Spider/2,01'
     family: 'Screaming Frog SEO Spider'
     major: '2'
-    minor:
+    minor: '01'
     patch:
 
   - user_agent_string: 'SearchSpider/1.2.10'
@@ -9165,3 +9165,387 @@ test_cases:
     major: '1'
     minor: '8'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ChatGPT-User/1.0; +http://example.com)'
+    family: 'ChatGPT-User'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ChatGPT-User; +http://example.com)'
+    family: 'ChatGPT-User'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; OAI-SearchBot/1.0; +http://example.com)'
+    family: 'OAI-SearchBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; OAI-SearchBot; +http://example.com)'
+    family: 'OAI-SearchBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ClaudeBot/1.0; +http://example.com)'
+    family: 'ClaudeBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; ClaudeBot; +http://example.com)'
+    family: 'ClaudeBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Claude-Web/1.0; +http://example.com)'
+    family: 'Claude-Web'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Claude-Web; +http://example.com)'
+    family: 'Claude-Web'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-Extended/1.0; +http://example.com)'
+    family: 'Google-Extended'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-Extended; +http://example.com)'
+    family: 'Google-Extended'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; GeminiBot/1.0; +http://example.com)'
+    family: 'GeminiBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; GeminiBot; +http://example.com)'
+    family: 'GeminiBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-CloudVertexBot/1.0; +http://example.com)'
+    family: 'Google-CloudVertexBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Google-CloudVertexBot; +http://example.com)'
+    family: 'Google-CloudVertexBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PerplexityBot/1.0; +http://example.com)'
+    family: 'PerplexityBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; PerplexityBot; +http://example.com)'
+    family: 'PerplexityBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Meta-ExternalAgent/1.0; +http://example.com)'
+    family: 'Meta-ExternalAgent'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Meta-ExternalAgent; +http://example.com)'
+    family: 'Meta-ExternalAgent'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; FacebookBot/1.0; +http://example.com)'
+    family: 'FacebookBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; FacebookBot; +http://example.com)'
+    family: 'FacebookBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; CCBot/1.0; +http://example.com)'
+    family: 'CCBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; CCBot; +http://example.com)'
+    family: 'CCBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Amazonbot/1.0; +http://example.com)'
+    family: 'Amazonbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Amazonbot; +http://example.com)'
+    family: 'Amazonbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Applebot-Extended/1.0; +http://example.com)'
+    family: 'Applebot-Extended'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Applebot-Extended; +http://example.com)'
+    family: 'Applebot-Extended'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Applebot/1.0; +http://example.com)'
+    family: 'Applebot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Applebot; +http://example.com)'
+    family: 'Applebot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MistralAI-User/1.0; +http://example.com)'
+    family: 'MistralAI-User'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; MistralAI-User; +http://example.com)'
+    family: 'MistralAI-User'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DeepSeekBot/1.0; +http://example.com)'
+    family: 'DeepSeekBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DeepSeekBot; +http://example.com)'
+    family: 'DeepSeekBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Bytespider/1.0; +http://example.com)'
+    family: 'Bytespider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Bytespider; +http://example.com)'
+    family: 'Bytespider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DuckDuckBot/1.0; +http://example.com)'
+    family: 'DuckDuckBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DuckDuckBot; +http://example.com)'
+    family: 'DuckDuckBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Baiduspider/1.0; +http://example.com)'
+    family: 'Baiduspider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Baiduspider; +http://example.com)'
+    family: 'Baiduspider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Sogou web spider/1.0; +http://example.com)'
+    family: 'Sogou web spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Sogou web spider; +http://example.com)'
+    family: 'Sogou web spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; AhrefsBot/1.0; +http://example.com)'
+    family: 'AhrefsBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; AhrefsBot; +http://example.com)'
+    family: 'AhrefsBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DotBot/1.0; +http://example.com)'
+    family: 'DotBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DotBot; +http://example.com)'
+    family: 'DotBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Barkrowler/1.0; +http://example.com)'
+    family: 'Barkrowler'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Barkrowler; +http://example.com)'
+    family: 'Barkrowler'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DataForSeoBot/1.0; +http://example.com)'
+    family: 'DataForSeoBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; DataForSeoBot; +http://example.com)'
+    family: 'DataForSeoBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; BLEXBot/1.0; +http://example.com)'
+    family: 'BLEXBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; BLEXBot; +http://example.com)'
+    family: 'BLEXBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; serpstatbot/1.0; +http://example.com)'
+    family: 'serpstatbot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; serpstatbot; +http://example.com)'
+    family: 'serpstatbot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; AwarioBot/1.0; +http://example.com)'
+    family: 'AwarioBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; AwarioBot; +http://example.com)'
+    family: 'AwarioBot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SnapchatAds/1.0; +http://example.com)'
+    family: 'SnapchatAds'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SnapchatAds; +http://example.com)'
+    family: 'SnapchatAds'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Snap URL Preview/1.0; +http://example.com)'
+    family: 'Snap URL Preview'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Snap URL Preview; +http://example.com)'
+    family: 'Snap URL Preview'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Screaming Frog SEO Spider/1.0; +http://example.com)'
+    family: 'Screaming Frog SEO Spider'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Screaming Frog SEO Spider; +http://example.com)'
+    family: 'Screaming Frog SEO Spider'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Better Uptime Bot/1.0; +http://example.com)'
+    family: 'Better Uptime Bot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; Better Uptime Bot; +http://example.com)'
+    family: 'Better Uptime Bot'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SeekportBot/1.0; +http://example.com)'
+    family: 'SeekportBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (compatible; SeekportBot; +http://example.com)'
+    family: 'SeekportBot'
+    major:
+    minor:
+    patch:
