@@ -150,6 +150,168 @@ user_agent_parsers:
   # Bots
   - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|GoogleOther|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PHPCrawl|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer|GPTBot|Google-InspectionTool)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
 
+
+  # LLM and AI Bots (Added via script)
+  # OpenAI
+  - regex: '(ChatGPT-User)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ChatGPT-User'
+  - regex: '(ChatGPT-User)'
+    family_replacement: 'ChatGPT-User'
+  # OpenAI
+  - regex: '(OAI-SearchBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'OAI-SearchBot'
+  - regex: '(OAI-SearchBot)'
+    family_replacement: 'OAI-SearchBot'
+  # Anthropic
+  - regex: '(ClaudeBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'ClaudeBot'
+  - regex: '(ClaudeBot)'
+    family_replacement: 'ClaudeBot'
+  # Anthropic
+  - regex: '(Claude-Web)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Claude-Web'
+  - regex: '(Claude-Web)'
+    family_replacement: 'Claude-Web'
+  # Google
+  - regex: '(Google-Extended)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Google-Extended'
+  - regex: '(Google-Extended)'
+    family_replacement: 'Google-Extended'
+  # Google
+  - regex: '(GeminiBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'GeminiBot'
+  - regex: '(GeminiBot)'
+    family_replacement: 'GeminiBot'
+  # Google
+  - regex: '(Google-CloudVertexBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Google-CloudVertexBot'
+  - regex: '(Google-CloudVertexBot)'
+    family_replacement: 'Google-CloudVertexBot'
+  # Perplexity
+  - regex: '(PerplexityBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'PerplexityBot'
+  - regex: '(PerplexityBot)'
+    family_replacement: 'PerplexityBot'
+  # Meta
+  - regex: '(Meta-ExternalAgent)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Meta-ExternalAgent'
+  - regex: '(Meta-ExternalAgent)'
+    family_replacement: 'Meta-ExternalAgent'
+  # Meta
+  - regex: '(FacebookBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'FacebookBot'
+  - regex: '(FacebookBot)'
+    family_replacement: 'FacebookBot'
+  # Common Crawl
+  - regex: '(CCBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'CCBot'
+  - regex: '(CCBot)'
+    family_replacement: 'CCBot'
+  # Amazon
+  - regex: '(Amazonbot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Amazonbot'
+  - regex: '(Amazonbot)'
+    family_replacement: 'Amazonbot'
+  # Apple
+  - regex: '(Applebot-Extended)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Applebot-Extended'
+  - regex: '(Applebot-Extended)'
+    family_replacement: 'Applebot-Extended'
+  # Apple
+  - regex: '(Applebot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Applebot'
+  - regex: '(Applebot)'
+    family_replacement: 'Applebot'
+  # Mistral
+  - regex: '(MistralAI-User)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'MistralAI-User'
+  - regex: '(MistralAI-User)'
+    family_replacement: 'MistralAI-User'
+  # DeepSeek
+  - regex: '(DeepSeekBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DeepSeekBot'
+  - regex: '(DeepSeekBot)'
+    family_replacement: 'DeepSeekBot'
+  # ByteDance
+  - regex: '(Bytespider)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Bytespider'
+  - regex: '(Bytespider)'
+    family_replacement: 'Bytespider'
+  # DuckDuckGo
+  - regex: '(DuckDuckBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DuckDuckBot'
+  - regex: '(DuckDuckBot)'
+    family_replacement: 'DuckDuckBot'
+  # Baidu
+  - regex: '(Baiduspider)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Baiduspider'
+  - regex: '(Baiduspider)'
+    family_replacement: 'Baiduspider'
+  # Sogou
+  - regex: '(Sogou web spider)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Sogou web spider'
+  - regex: '(Sogou web spider)'
+    family_replacement: 'Sogou web spider'
+  # Ahrefs
+  - regex: '(AhrefsBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'AhrefsBot'
+  - regex: '(AhrefsBot)'
+    family_replacement: 'AhrefsBot'
+  # Moz
+  - regex: '(DotBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DotBot'
+  - regex: '(DotBot)'
+    family_replacement: 'DotBot'
+  # Babbar
+  - regex: '(Barkrowler)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Barkrowler'
+  - regex: '(Barkrowler)'
+    family_replacement: 'Barkrowler'
+  # DataForSEO
+  - regex: '(DataForSeoBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'DataForSeoBot'
+  - regex: '(DataForSeoBot)'
+    family_replacement: 'DataForSeoBot'
+  # WebMeUp
+  - regex: '(BLEXBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'BLEXBot'
+  - regex: '(BLEXBot)'
+    family_replacement: 'BLEXBot'
+  # Serpstat
+  - regex: '(serpstatbot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'serpstatbot'
+  - regex: '(serpstatbot)'
+    family_replacement: 'serpstatbot'
+  # Awario
+  - regex: '(AwarioBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'AwarioBot'
+  - regex: '(AwarioBot)'
+    family_replacement: 'AwarioBot'
+  # Snapchat
+  - regex: '(SnapchatAds)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'SnapchatAds'
+  - regex: '(SnapchatAds)'
+    family_replacement: 'SnapchatAds'
+  # Snapchat
+  - regex: '(Snap URL Preview)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Snap URL Preview'
+  - regex: '(Snap URL Preview)'
+    family_replacement: 'Snap URL Preview'
+  # Screaming Frog
+  - regex: '(Screaming Frog SEO Spider)/(\d+)[\.,](\d+)'
+    family_replacement: 'Screaming Frog SEO Spider'
+  - regex: '(Screaming Frog SEO Spider)'
+    family_replacement: 'Screaming Frog SEO Spider'
+  # Better Uptime
+  - regex: '(Better Uptime Bot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Better Uptime Bot'
+  - regex: '(Better Uptime Bot)'
+    family_replacement: 'Better Uptime Bot'
+  # Seekport
+  - regex: '(SeekportBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'SeekportBot'
+  - regex: '(SeekportBot)'
+    family_replacement: 'SeekportBot'
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
   - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|go-v\d|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
