@@ -512,6 +512,10 @@ user_agent_parsers:
   - regex: '(H[Ii]Browser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'HiBrowser'
 
+  # Honor Browser
+  - regex: '(bdhonorbrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Honor Browser'
+
   # Weibo
   # Must before Chrome Mobile WebView
   - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
@@ -682,7 +686,6 @@ user_agent_parsers:
   # HeyTap Browser
   - regex: '(HeyTapBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'HeyTap Browser'
-
 
   #### END SPECIAL CASES TOP ####
 
