@@ -9201,3 +9201,15 @@ test_cases:
     major: '3'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090c33) XWEB/14315'
+    family: 'WeChat Browser'
+    major: '7'
+    minor: '0'
+    patch: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541510) XWEB/17071'
+    family: 'WeChat Browser'
+    major: '7'
+    minor: '0'
+    patch: '20'

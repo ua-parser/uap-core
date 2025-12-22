@@ -691,6 +691,10 @@ user_agent_parsers:
   - regex: '(Thano)/(\d+)\.(\d+)'
     family_replacement: 'SmartTV WebBrowser'
 
+  # WeChat Browser
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat Browser'
+
 
   #### END SPECIAL CASES TOP ####
 
