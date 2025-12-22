@@ -9165,3 +9165,15 @@ test_cases:
     major: '1'
     minor: '8'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.13.4.1 Chrome/125.0.6422.72'
+    family: 'HeyTap Browser'
+    major: '45'
+    minor: '13'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.13.5.0.3beta Chrome/125.0.6422.72'
+    family: 'HeyTap Browser'
+    major: '45'
+    minor: '13'
+    patch: '5'
