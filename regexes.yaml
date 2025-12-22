@@ -509,7 +509,8 @@ user_agent_parsers:
   - regex: '(VivoBrowser)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # HiBrowser
-  - regex: '(HiBrowser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(H[Ii]Browser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'HiBrowser'
 
   # Weibo
   # Must before Chrome Mobile WebView

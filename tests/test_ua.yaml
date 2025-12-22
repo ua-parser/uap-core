@@ -337,6 +337,12 @@ test_cases:
     minor: '10'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.34 Safari/537.36 HIBrowser/v2.25.7.1'
+    family: 'HiBrowser'
+    major: '2'
+    minor: '25'
+    patch: '7'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148 Weibo (iPhone17,1__weibo__15.4.1__iphone__os18.5)'
     family: 'Weibo'
     major: '15'
