@@ -9195,3 +9195,9 @@ test_cases:
     major: '9'
     minor: '6'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Smart TV) AppleWebKit/537.36 (KHTML, like Gecko) Thano/3.0 Chrome/143.0.7499.34 Safari/537.36'
+    family: 'SmartTV WebBrowser'
+    major: '3'
+    minor: '0'
+    patch:
