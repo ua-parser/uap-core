@@ -337,6 +337,12 @@ test_cases:
     minor: '10'
     patch: '1'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.34 Safari/537.36 HIBrowser/v2.25.7.1'
+    family: 'HiBrowser'
+    major: '2'
+    minor: '25'
+    patch: '7'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko)  Mobile/15E148 Weibo (iPhone17,1__weibo__15.4.1__iphone__os18.5)'
     family: 'Weibo'
     major: '15'
@@ -9165,3 +9171,45 @@ test_cases:
     major: '1'
     minor: '8'
     patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.13.4.1 Chrome/125.0.6422.72'
+    family: 'HeyTap Browser'
+    major: '45'
+    minor: '13'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.13.5.0.3beta Chrome/125.0.6422.72'
+    family: 'HeyTap Browser'
+    major: '45'
+    minor: '13'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 14; FNE-AN00 Build/HONORFNE-AN00;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.38 SP-engine/2.76.0 languageType/0 bdh_dvt/0 bdh_de/1 bdh_ds/1 bdapp/1.0 (bdhonorbrowser; bdhonorbrowser) bdhonorbrowser/9.6.0.4 (P1 14) NABar/1.0'
+    family: 'Honor Browser'
+    major: '9'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.98 Safari/537.36 T7/13.38 languageType/0 bdh_dvt/0 bdh_de/0 bdh_ds/0 bdhonorbrowser/9.6.0.4 (P1 16)'
+    family: 'Honor Browser'
+    major: '9'
+    minor: '6'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Smart TV) AppleWebKit/537.36 (KHTML, like Gecko) Thano/3.0 Chrome/143.0.7499.34 Safari/537.36'
+    family: 'SmartTV WebBrowser'
+    major: '3'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090c33) XWEB/14315'
+    family: 'WeChat Browser'
+    major: '7'
+    minor: '0'
+    patch: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/7.0.20.1781(0x6700143B) WindowsWechat(0x63090a13) UnifiedPCWindowsWechat(0xf2541510) XWEB/17071'
+    family: 'WeChat Browser'
+    major: '7'
+    minor: '0'
+    patch: '20'
