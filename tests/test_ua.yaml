@@ -9213,3 +9213,15 @@ test_cases:
     major: '7'
     minor: '0'
     patch: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) PHX/19.7'
+    family: 'Phoenix Browser'
+    major: '19'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 15; ar-eg; RMX3760 Build/AP3A.240905.015.A2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 PHX/20.0'
+    family: 'Phoenix Browser'
+    major: '20'
+    minor: '0'
+    patch:

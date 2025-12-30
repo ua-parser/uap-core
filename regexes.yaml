@@ -523,6 +523,10 @@ user_agent_parsers:
   - regex: '(WeiboliteiOS|WeiboIntliOS)'
     family_replacement: 'Weibo'
 
+  # Phoenix Browser
+  - regex: '(PHX)/(\d+)\.(\d+)'
+    family_replacement: 'Phoenix Browser'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
@@ -694,7 +698,6 @@ user_agent_parsers:
   # WeChat Browser
   - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
-
 
   #### END SPECIAL CASES TOP ####
 
