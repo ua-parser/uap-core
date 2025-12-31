@@ -128,6 +128,10 @@ user_agent_parsers:
   - regex: '(Twitterbot)/(\d+)\.(\d+)'
     family_replacement: 'Twitterbot'
 
+  # Mastodon
+  - regex: '(Mastodon)\/(\d+)\.(\d+)\.(\d+(-\S*)?)'
+    family_replacement: 'Mastodon'
+
   # Bots Pattern 'name/0.0.0'
   - regex: '/((?:Ant-|)Nutch|[A-z]+[Bb]ot|[A-z]+[Ss]pider|Axtaris|fetchurl|Isara|ShopSalad|Tailsweep)[ \-](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
   # Bots Pattern 'name/0.0.0'
