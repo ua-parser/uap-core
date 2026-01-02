@@ -80633,3 +80633,8 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
+
+  - user_agent_string: 'Iframely/1.3.1 (+https://iframely.com/docs/about)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
