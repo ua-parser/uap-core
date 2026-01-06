@@ -148,11 +148,11 @@ user_agent_parsers:
     family_replacement: 'Pinterestbot'
 
   # Bots
-  - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PHPCrawl|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
+  - regex: '(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|GoogleOther|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PHPCrawl|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer|GPTBot|Google-InspectionTool)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)'
 
   # AWS S3 Clients
   # must come before "Bots General matcher" to catch "boto"/"boto3" before "bot"
-  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|go-v\d|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # SAFE FME
   - regex: '(FME)\/(\d+\.\d+)\.(\d+)\.(\d+)'
@@ -178,6 +178,9 @@ user_agent_parsers:
   # Sometimes Facebook does not specify a version (FBAV)
   - regex: '\[FB.{0,300};'
     family_replacement: 'Facebook'
+
+  # RecipeRadar crawler
+  - regex: '(RecipeRadar)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   # Bots General matcher 'name/0.0'
   - regex: '^.{0,200}?(?:\/[A-Za-z0-9\.]{0,50}|) {0,2}([A-Za-z0-9 \-_\!\[\]:]{0,50}(?:[Aa]rchiver|[Ii]ndexer|[Ss]craper|[Bb]ot|[Ss]pider|[Cc]rawl[a-z]{0,50}))[/ ](\d+)(?:\.(\d+)(?:\.(\d+)|)|)'
@@ -215,6 +218,16 @@ user_agent_parsers:
   # Twitter
   - regex: '(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)'
     family_replacement: 'Twitter'
+  # TikTok
+  - regex: '(musical_ly) app_version\/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TikTok'
+  - regex: '(musical_ly_)(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TikTok'
+  - regex: '(BytedanceWebview)\/[a-z0-9]+'
+    family_replacement: 'TikTok'
+  # KakaoTalk
+  - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'KakaoTalk'
 
   # Phantom app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
@@ -394,7 +407,7 @@ user_agent_parsers:
   - regex: '(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Aloha Browser
-  - regex: '(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+  - regex: '(AlohaBrowser|ABB)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Aloha Browser'
 
   # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
@@ -415,7 +428,7 @@ user_agent_parsers:
     family_replacement: 'Edge Mobile'
 
   # Oculus Browser, should go before Samsung Internet
-  - regex: '(OculusBrowser)/(\d+)\.(\d+).0.0(?:\.([0-9\-]+)|)'
+  - regex: '(OculusBrowser)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Oculus Browser'
 
   # Samsung Internet (based on Chrome, but lacking some features)
@@ -429,12 +442,6 @@ user_agent_parsers:
   # Coc Coc browser, based on Chrome (used in Vietnam)
   - regex: '(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Coc Coc'
-
-  # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
-  - regex: '(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
-    family_replacement: 'Baidu Browser'
-  - regex: '(FlyFlow)/(\d+)\.(\d+)'
-    family_replacement: 'Baidu Explorer'
 
   # MxBrowser is Maxthon. Must go before Mobile Chrome for Android
   - regex: '(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -468,6 +475,12 @@ user_agent_parsers:
   - regex: 'Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Google'
 
+  # Baidu Browsers (desktop spoofs chrome & IE, explorer is mobile)
+  - regex: '(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Baidu Browser'
+  - regex: '(FlyFlow|flyflow|baiduboxapp)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Baidu Explorer'
+
   # QQ Browsers
   - regex: '(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)'
     family_replacement: 'QQ Browser Mini'
@@ -491,10 +504,32 @@ user_agent_parsers:
     family_replacement: 'Tenta Browser'
 
   # Ecosia on iOS / Android
-  - regex: '(Ecosia) ios@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Ecosia) ios@(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Ecosia iOS'
-  - regex: '(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Ecosia) android@(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Ecosia Android'
+
+  # VivoBrowser
+  - regex: '(VivoBrowser)\/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # HiBrowser
+  - regex: '(H[Ii]Browser)\/v(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'HiBrowser'
+
+  # Honor Browser
+  - regex: '(bdhonorbrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Honor Browser'
+
+  # Weibo
+  # Must before Chrome Mobile WebView
+  - regex: '(weibo)__(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Weibo'
+  - regex: '(WeiboliteiOS|WeiboIntliOS)'
+    family_replacement: 'Weibo'
+
+  # Phoenix Browser
+  - regex: '(PHX)/(\d+)\.(\d+)'
+    family_replacement: 'Phoenix Browser'
 
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
@@ -572,6 +607,101 @@ user_agent_parsers:
   # Surveyon https://www.surveyon.com/
   - regex: '^(surveyon)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Surveyon'
+
+  # 115 Browser
+  - regex: '(115Browser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: '115 Browser'
+
+  # Avira
+  - regex: '(Avira)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Avira'
+
+  # CCleaner Browser
+  - regex: '(CCleaner)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'CCleaner'
+
+  # Norton
+  - regex: '(Norton)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Norton'
+
+  # Quark
+  - regex: '(Quark)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Quark'
+  # Quark PC
+  - regex: '(QuarkPC)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Quark PC'
+
+  # Smart Lenovo Browser
+  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
+    family_replacement: 'Smart Lenovo Browser'
+
+  # Atom Browser
+  - regex: '(Atom)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Atom Browser'
+
+  # 360 Secure Browser
+  - regex: '(Chrome)/\d+\.\d+\.\d+\.\d+ .* QIHU 360(?:SEi18n|ENT)'
+    family_replacement: '360 Secure Browser'
+
+  # Decentr Web3 Browser
+  - regex: '(Decentr)'
+    family_replacement: 'Decentr Web3 Browser'
+
+  # Sparrow Browser
+  - regex: '(Sparrow)'
+    family_replacement: 'Sparrow Browser'
+
+  # Chromium GOST Browser
+  - regex: '(Chromium GOST)'
+    family_replacement: 'Chromium GOST Browser'
+
+  # AOL Shield Browser
+  - regex: '(AOLShield)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Shield Browser'
+
+  # Hola Browser
+  - regex: '(Hola)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Hola Browser'
+
+  # Craving Explorer Browser
+  - regex: '(CravingExplorer)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Craving Explorer Browser'
+
+  # Talon Cyber Security Browser
+  - regex: '(Talon)'
+    family_replacement: 'Talon Cyber Security Browser'
+
+  # QAX Browser
+  - regex: '(Qaxbrowser)'
+    family_replacement: 'QAX Browser'
+
+  # AOL Desktop Gold Browser
+  - regex: '(ADG)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'AOL Desktop Gold Browser'
+
+  # Sber Browser
+  - regex: '(SberBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Sber Browser'
+
+  # JiSu Browser
+  - regex: '(JiSu)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'JiSu Browser'
+
+  # Wolvic Browser
+  - regex: '(Wolvic)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Wolvic Browser'
+
+  # HeyTap Browser
+  - regex: '(HeyTapBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'HeyTap Browser'
+
+  # SmartTV WebBrowser
+  - regex: '(Thano)/(\d+)\.(\d+)'
+    family_replacement: 'SmartTV WebBrowser'
+
+  # WeChat Browser
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'WeChat Browser'
 
   #### END SPECIAL CASES TOP ####
 
@@ -1150,6 +1280,29 @@ os_parsers:
   - regex: 'ArcGISRuntime-(?:Android|iOS)\/\d+\.\d+(?:\.\d+|) \((Android|iOS) (\d+)(?:\.(\d+)(?:\.(\d+)|)|);'
 
   ##########
+  # Chromecast
+  ##########
+  # Ex: Mozilla/5.0 (Linux; Android 12.0; Build/STTL.240206.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.0 Safari/537.36 CrKey/1.56.500000 DeviceType/AndroidTV
+  # These are the newer Android-based "Google TV" Chromecast devices.
+  # Google stopped updating the Chromecast firmware version in these, so they always say CrKey/1.56.500000.  Therefore we extract the more useful Android version instead.
+  - regex: '(Android) (\d+)(?:\.(\d+)).*CrKey'
+    os_replacement: 'Chromecast Android'
+
+  # Ex: Mozilla/5.0 (Fuchsia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.56.500000
+  # These are some intermediate "Nest Hub" Chromecast devices running Fuchsia.
+  - regex: 'Fuchsia.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Chromecast Fuchsia'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/SmartSpeaker
+  - regex: 'Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|).*DeviceType/SmartSpeaker'
+    os_replacement: 'Chromecast SmartSpeaker'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/Chromecast
+  # These are the oldest Chromecast devices that ran Linux.
+  - regex: 'Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
+    os_replacement: 'Chromecast Linux'
+
+  ##########
   # Android
   # can actually detect rooted android os. do we care?
   ##########
@@ -1312,6 +1465,10 @@ os_parsers:
   ##########
   - regex: '(Tizen)[/ ](\d+)\.(\d+)'
 
+  # Chrome and Edge on iOS with desktop mode contains Mac OS X, so it must be before any Mac OS check
+  - regex: 'Intel Mac OS X.+(CriOS|EdgiOS)/\d+'
+    os_replacement: 'iOS'
+
   ##########
   # Mac OS
   # @ref: http://en.wikipedia.org/wiki/Mac_OS_X#Versions
@@ -1363,6 +1520,13 @@ os_parsers:
 
   # Box Drive and Box Sync on Mac OS X use OSX version numbers, not Darwin
   - regex: '^Box.{0,200};(Darwin)/(10)\.(1\d)(?:\.(\d+)|)'
+    os_replacement: 'Mac OS X'
+
+  ##########
+  # Hashicorp API
+  # APN/1.0 HashiCorp/1.0 Terraform/1.8.0 (+https://www.terraform.io) terraform-provider-aws/4.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.261 (go1.19.8; darwin; arm64)
+  ##########
+  - regex: 'darwin; arm64'
     os_replacement: 'Mac OS X'
 
   ##########
@@ -1649,29 +1813,27 @@ os_parsers:
   - regex: 'CFNetwork/.{0,100} Darwin/(21)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '15'
-  - regex: 'CFNetwork/.{0,100} Darwin/22\.0\.\d+'
+  - regex: 'CFNetwork/.{0,100} Darwin/22\.([0-5])\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '16'
-    os_v2_replacement: '0'
-  - regex: 'CFNetwork/.{0,100} Darwin/22\.1\.\d+'
-    os_replacement: 'iOS'
-    os_v1_replacement: '16'
-    os_v2_replacement: '1'
-  - regex: 'CFNetwork/.{0,100} Darwin/22\.2\.\d+'
-    os_replacement: 'iOS'
-    os_v1_replacement: '16'
-    os_v2_replacement: '2'
-  - regex: 'CFNetwork/.{0,100} Darwin/22\.3\.\d+'
-    os_replacement: 'iOS'
-    os_v1_replacement: '16'
-    os_v2_replacement: '3'
-  - regex: 'CFNetwork/.{0,100} Darwin/22\.4\.\d+'
-    os_replacement: 'iOS'
-    os_v1_replacement: '16'
-    os_v2_replacement: '4'
+    os_v2_replacement: '$1'
   - regex: 'CFNetwork/.{0,100} Darwin/(22)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '16'
+  - regex: 'CFNetwork/.{0,100} Darwin/23\.([0-5])\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '17'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100} Darwin/(23)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '17'
+  - regex: 'CFNetwork/.{0,100} Darwin/24\.([0-5])\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '18'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100} Darwin/(24)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '18'
   - regex: 'CFNetwork/.{0,100} Darwin/'
     os_replacement: 'iOS'
 
@@ -1827,12 +1989,6 @@ os_parsers:
   - regex: '(WebTV)/(\d+).(\d+)'
 
   ##########
-  # Chromecast
-  ##########
-  - regex: '(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)'
-    os_replacement: 'Chromecast'
-
-  ##########
   # Misc mobile
   ##########
   - regex: '(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -1872,13 +2028,28 @@ os_parsers:
   # Roku Digital-Video-Players https://www.roku.com/
   - regex: '^(Roku)/DVP-(\d+)\.(\d+)'
 
+  ##########
+  # Amazon S3 client boto3
+  # Hasicorp API
+  # Boto3/1.28.62 md/Botocore#1.31.62 ua/2.0 os/macos#22.4.0 md/arch#arm64 lang/python#3.11.6 md/pyimpl#CPython cfg/retry-mode#legacy Botocore/1.31.62
+  # APN/1.0 HashiCorp/1.0 Terraform/1.8.1 (+https://www.terraform.io) terraform-provider-aws/4.67.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.18.0 os/macos lang/go/1.19.8 md/GOOS/darwin md/GOARCH/arm64 api/identitystore/1.16.11
+  ##########
+  - regex: 'os\/macos[#]?(\d*)[.]?(\d*)[.]?(\d*)'
+    os_replacement: 'Mac OS X'
+    os_v1_replacement: '$1'
+    os_v2_replacement: '$2'
+    os_v3_replacement: '$3'
+
+  # Huawei HarmonyOS
+  - regex: '(HarmonyOS)[\s;]+(\d+|)\.?(\d+|)\.?(\d+|)'
+
 device_parsers:
 
   #########
   # Mobile Spiders
   # Catch the mobile crawler before checking for iPhones / Androids.
   #########
-  - regex: '^.{0,100}?(?:(?:iPhone|Windows CE|Windows Phone|Android).{0,300}(?:(?:Bot|Yeti)-Mobile|YRSpider|BingPreview|bots?/\d|(?:bot|spider)\.html)|AdsBot-Google-Mobile.{0,200}iPhone)'
+  - regex: '^.{0,100}?(?:(?:iPhone|Windows CE|Windows Phone|Android).{0,300}(?:(?:Bot|Yeti)-Mobile|YRSpider|BingPreview|bots?/\d|(?:bot|spider)\.html|Google-InspectionTool)|AdsBot-Google-Mobile.{0,200}iPhone)'
     regex_flag: 'i'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
@@ -2465,6 +2636,39 @@ device_parsers:
     brand_replacement: 'ChangJia'
     model_replacement: '$1'
 
+  ##########
+  # Chromecast
+  # @ref: https://en.wikipedia.org/wiki/Chromecast#Hardware_and_design
+  ##########
+  # Ex: Mozilla/5.0 (Linux; Android 12.0; Build/STTL.240206.002) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.0 Safari/537.36 CrKey/1.56.500000 DeviceType/AndroidTV
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/SmartSpeaker
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.225 Safari/537.36 CrKey/1.56.500000 DeviceType/Chromecast
+  # These are the newer Chromecast devices, such as smart speakers, Google TVs, etc. that have an explicit device type.
+  - regex: 'CrKey.*DeviceType/([^/]*)'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: '$1'
+
+  # Ex: Mozilla/5.0 (Fuchsia) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.56.500000
+  # These are some intermediate "Nest Hub" Chromecast devices running Fuchsia.
+  - regex: 'Fuchsia.*CrKey'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: 'Nest Hub'
+
+  # Ex: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.47 Safari/537.36 CrKey/1.36.159268
+  # These are the first generation of Chromecast devices that ran Linux.  They don't specify a device type.
+  - regex: 'Linux.*CrKey/1.36'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: 'First Generation'
+
+  # We have no data on the user agent strings of other models, except that they all report CrKey/
+  - regex: 'CrKey/'
+    brand_replacement: 'Google'
+    device_replacement: 'Chromecast'
+    model_replacement: 'Chromecast'
+
   #########
   # Cloudfone
   # @ref: http://www.cloudfonemobile.com/
@@ -3047,7 +3251,7 @@ device_parsers:
     device_replacement: 'HTC $1'
     brand_replacement: 'HTC'
     model_replacement: '$1'
-  - regex: '; {0,2}(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.{1,200}?)(?:[/;\)]|Build|MIUI|1\.0)'
+  - regex: '; {0,2}(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.{1,200}?)(?:[/;\)]|Build|MIUI|1\.0)'
     regex_flag: 'i'
     device_replacement: 'HTC $1 $2'
     brand_replacement: 'HTC'
@@ -5451,7 +5655,6 @@ device_parsers:
     brand_replacement: 'Asus'
     model_replacement: '$1'
 
-
   ##########
   # Bird
   ##########
@@ -5855,7 +6058,7 @@ device_parsers:
   ##########
   # Spiders (this is a hack...)
   ##########
-  - regex: '^.{0,100}(bot|BUbiNG|zao|borg|DBot|oegp|silk|Xenu|zeal|^NING|CCBot|crawl|htdig|lycos|slurp|teoma|voila|yahoo|Sogou|CiBra|Nutch|^Java/|^JNLP/|Daumoa|Daum|Genieo|ichiro|larbin|pompos|Scrapy|snappy|speedy|spider|msnbot|msrbot|vortex|^vortex|crawler|favicon|indexer|Riddler|scooter|scraper|scrubby|WhatWeb|WinHTTP|bingbot|BingPreview|openbot|gigabot|furlbot|polybot|seekbot|^voyager|archiver|Icarus6j|mogimogi|Netvibes|blitzbot|altavista|charlotte|findlinks|Retreiver|TLSProber|WordPress|SeznamBot|ProoXiBot|wsr\-agent|Squrl Java|EtaoSpider|PaperLiBot|SputnikBot|A6\-Indexer|netresearch|searchsight|baiduspider|YisouSpider|ICC\-Crawler|http%20client|Python-urllib|dataparksearch|converacrawler|Screaming Frog|AppEngine-Google|YahooCacheSystem|fast\-webcrawler|Sogou Pic Spider|semanticdiscovery|Innovazion Crawler|facebookexternalhit|Google.{0,200}/\+/web/snippet|Google-HTTP-Java-Client|BlogBridge|IlTrovatore-Setaccio|InternetArchive|GomezAgent|WebThumbnail|heritrix|NewsGator|PagePeeker|Reaper|ZooShot|holmes|NL-Crawler|Pingdom|StatusCake|WhatsApp|masscan|Google Web Preview|Qwantify|Yeti|OgScrper)'
+  - regex: '^.{0,100}(bot|BUbiNG|zao|borg|DBot|oegp|silk|Xenu|zeal|^NING|CCBot|crawl|htdig|lycos|slurp|teoma|voila|yahoo|Sogou|CiBra|Nutch|^Java/|^JNLP/|Daumoa|Daum|Genieo|ichiro|larbin|pompos|Scrapy|snappy|speedy|spider|msnbot|msrbot|vortex|^vortex|crawler|favicon|indexer|Riddler|scooter|scraper|scrubby|WhatWeb|WinHTTP|bingbot|BingPreview|openbot|gigabot|furlbot|polybot|seekbot|^voyager|archiver|Icarus6j|mogimogi|Netvibes|blitzbot|altavista|charlotte|findlinks|Retreiver|TLSProber|WordPress|SeznamBot|ProoXiBot|wsr\-agent|Squrl Java|EtaoSpider|PaperLiBot|SputnikBot|A6\-Indexer|netresearch|searchsight|baiduspider|YisouSpider|ICC\-Crawler|http%20client|Python-urllib|dataparksearch|converacrawler|Screaming Frog|AppEngine-Google|YahooCacheSystem|fast\-webcrawler|Sogou Pic Spider|semanticdiscovery|Innovazion Crawler|facebookexternalhit|Google.{0,200}/\+/web/snippet|Google-HTTP-Java-Client|BlogBridge|IlTrovatore-Setaccio|InternetArchive|GomezAgent|WebThumbnail|heritrix|NewsGator|PagePeeker|Reaper|ZooShot|holmes|NL-Crawler|Pingdom|StatusCake|WhatsApp|masscan|Google Web Preview|Qwantify|Yeti|OgScrper|RecipeRadar|GPTBot|Google-InspectionTool)'
     regex_flag: 'i'
     device_replacement: 'Spider'
     brand_replacement: 'Spider'
