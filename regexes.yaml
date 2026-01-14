@@ -695,6 +695,9 @@ user_agent_parsers:
   - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
 
+  # Odin Browser
+  - regex: '(Odin)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Odin'
 
   #### END SPECIAL CASES TOP ####
 
