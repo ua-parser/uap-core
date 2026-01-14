@@ -9219,3 +9219,9 @@ test_cases:
     major: '111'
     minor: '5563'
     patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0'
+    family: 'NetCast Smart TV'
+    major: '2'
+    minor: '0'
+    patch: 
