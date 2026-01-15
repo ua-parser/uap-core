@@ -1067,6 +1067,12 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Datadog/Synthetics'
+    family: 'DatadogSynthetics'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     family: 'Planetweb'
     major: '2'
@@ -7919,9 +7925,9 @@ test_cases:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 BytedanceWebview/d8a21c6 trill_34.9.0 JsSdk/2.0 NetType/4G Channel/App Store ByteLocale/en Region/MY FalconTag/31CFA6E0-CAE5-4ECF-A13A-ADFCAFC2428F'
     family: 'TikTok'
-    major: 
-    minor: 
-    patch: 
+    major:
+    minor:
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 KAKAOTALK/11.3.1 (INAPP)'
     family: 'KakaoTalk'
@@ -8151,7 +8157,7 @@ test_cases:
     major: '1'
     minor: '4'
     patch: '12'
-  
+
   - user_agent_string: 'aws-sdk-go-v2/1.24.1 os/linux lang/go#1.20.4 md/GOOS#linux md/GOARCH#arm64 api/sts#1.26.7'
     family: 'aws-sdk-go-v2'
     major: '1'
@@ -9135,7 +9141,7 @@ test_cases:
     major:
     minor:
     patch:
-  
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.200 Safari/537.36 Qaxbrowser'
     family: 'QAX Browser'
     major:
