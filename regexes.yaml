@@ -699,6 +699,14 @@ user_agent_parsers:
   - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
 
+  # Odin Browser
+  - regex: '(Odin)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Odin'
+  
+  # NetCast Smart TV
+  - regex: '(Colt)/(\d+)\.(\d+)'
+    family_replacement: 'NetCast Smart TV'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
