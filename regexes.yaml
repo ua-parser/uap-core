@@ -5963,6 +5963,14 @@ device_parsers:
     brand_replacement: '$1'
     model_replacement: '$2'
 
+  ##########
+  # Xiaomi
+  ##########
+  - regex: 'XIAOMI(?:; |[ -/])([A-Za-z0-9\-]+)'
+    device_replacement: 'Xiaomi $1'
+    brand_replacement: 'Xiaomi'
+    model_replacement: '$1'
+
   #########
   # Puffin Browser Device detect
   # A=Android, I=iOS, P=Phone, T=Tablet
