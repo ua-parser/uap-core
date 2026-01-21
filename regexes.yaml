@@ -928,6 +928,10 @@ user_agent_parsers:
   - regex: 'compatible; monitis'
     family_replacement: 'Monitis'
 
+  # TIM
+  - regex: '(TIM)\/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'TIM'
+
   #### END MAIN CASES ####
 
   #### SPECIAL CASES ####
