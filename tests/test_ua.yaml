@@ -8801,6 +8801,13 @@ test_cases:
     minor:
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 tieba/12.81.5.0 uniqueId/870FAFCDD9BE1B62D65EB64AB416761500DE7C03AOSBMNLOMGC skin/default'
+    family: 'Tieba'
+    major: '12'
+    minor: '81'
+    patch: '5'
+    patch_minor: '0'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Pandora/1902.1'
     family: 'Pandora'
     major: '1902'
