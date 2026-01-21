@@ -3096,6 +3096,10 @@ device_parsers:
     device_replacement: 'Hisense $1'
     brand_replacement: 'Hisense'
     model_replacement: '$1'
+  - regex: 'Model\/(?:Hisense|VIDAA)-([^;/\s]{1,100}) VIDAA/[\d\.]+\(Hisense;SmartTV;'
+    device_replacement: 'Hisense $1'
+    brand_replacement: 'Hisense'
+    model_replacement: '$1'
 
   #########
   # hitech
