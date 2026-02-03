@@ -9184,6 +9184,12 @@ test_cases:
     minor: '13'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 15; en-gb; CPH2617 Build/AP3A.240617.008) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.6422.72 Mobile Safari/537.36 HeyTapBrowser/45.13.6.1'
+    family: 'HeyTap Browser'
+    major: '45'
+    minor: '13'
+    patch: '6'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 14; FNE-AN00 Build/HONORFNE-AN00;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/97.0.4692.98 Mobile Safari/537.36 T7/13.38 SP-engine/2.76.0 languageType/0 bdh_dvt/0 bdh_de/1 bdh_ds/1 bdapp/1.0 (bdhonorbrowser; bdhonorbrowser) bdhonorbrowser/9.6.0.4 (P1 14) NABar/1.0'
     family: 'Honor Browser'
     major: '9'
@@ -9195,6 +9201,12 @@ test_cases:
     major: '9'
     minor: '6'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.114 HonorBrowser/3.0.9.303 Safari/537.36'
+    family: 'Honor Browser'
+    major: '3'
+    minor: '0'
+    patch: '9'
 
   - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Smart TV) AppleWebKit/537.36 (KHTML, like Gecko) Thano/3.0 Chrome/143.0.7499.34 Safari/537.36'
     family: 'SmartTV WebBrowser'
@@ -9213,3 +9225,45 @@ test_cases:
     major: '7'
     minor: '0'
     patch: '20'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.7(0x13080710) XWEB/1191'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/144.0.7559.59 Safari/534.24 Lite Browser/4.12'
+    family: 'Lite Browser'
+    major: '4'
+    minor: '12'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Andr0id 12; BRAVIA 4K VH2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 Safari/537.36 OMI/4.25.1.92.StableAVB_Sony.1'
+    family: 'Vewd Browser'
+    major: '4'
+    minor: '25'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Andr0id 12; MMI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.128 Safari/537.36 OMI/4.24.3.102.Daimos.11 Model/AU-AU401 TiVoAuto'
+    family: 'Vewd Browser'
+    major: '4'
+    minor: '24'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.128 Safari/537.36 OMI/4.24.3.93.MIKE.221 Model/Vestel-MB180 VSTVB MB100 FVC/9.0 (BUSH; MB180; ) TiVoOS/1.0.0 (Vestel MB180 BUSH) SmartTvA/3.0.0'
+    family: 'Vewd Browser'
+    major: '4'
+    minor: '24'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 5.1; rv:102.0) Gecko/20100101 Firefox/102.0 Mypal/74.1.4'
+    family: 'Mypal Browser'
+    major: '74'
+    minor: '1'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0 Mypal/74.1.4'
+    family: 'Mypal Browser'
+    major: '74'
+    minor: '1'
+    patch: '4'

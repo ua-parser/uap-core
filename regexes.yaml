@@ -513,8 +513,16 @@ user_agent_parsers:
     family_replacement: 'HiBrowser'
 
   # Honor Browser
+  - regex: '(HonorBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Honor Browser'
+
+  # Honor Browser
   - regex: '(bdhonorbrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Honor Browser'
+
+  # HeyTap Browser
+  - regex: '(HeyTapBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'HeyTap Browser'
 
   # Weibo
   # Must before Chrome Mobile WebView
@@ -683,18 +691,25 @@ user_agent_parsers:
   - regex: '(Wolvic)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Wolvic Browser'
 
-  # HeyTap Browser
-  - regex: '(HeyTapBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
-    family_replacement: 'HeyTap Browser'
-
   # SmartTV WebBrowser
   - regex: '(Thano)/(\d+)\.(\d+)'
     family_replacement: 'SmartTV WebBrowser'
 
   # WeChat Browser
-  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
 
+  # Lite Browser
+  - regex: '(Lite Browser)/(\d+)\.(\d+)'
+    family_replacement: 'Lite Browser'
+
+  # Vewd Browser
+  - regex: '(OMI)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Vewd Browser'
+
+  # Mypal
+  - regex: '(Mypal)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Mypal Browser'
 
   #### END SPECIAL CASES TOP ####
 
