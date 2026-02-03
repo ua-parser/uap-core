@@ -7156,6 +7156,19 @@ test_cases:
     minor:
     patch:
 
+  # Brave iOS, checks for (Brave) or Brave at end
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 Brave'
+    family: 'Brave'
+    major:
+    minor:
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Safari/604.1 (Brave)'
+    family: 'Brave'
+    major:
+    minor:
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome Safari/537.36'
     family: 'HeadlessChrome'
     major:
