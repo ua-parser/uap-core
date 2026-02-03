@@ -410,8 +410,12 @@ user_agent_parsers:
   - regex: '(AlohaBrowser|ABB)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Aloha Browser'
 
-  # Brave Browser https://brave.com/ , should go before Safari and Chrome Mobile
+  # Brave Browser, should go before Safari and Chrome Mobile
   - regex: '((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
+    family_replacement: 'Brave'
+
+  # Brave iOS Browser, checks for (Brave) or Brave at end
+  - regex: '(?:\()?Brave(?:\))?\s*$'
     family_replacement: 'Brave'
 
   # Amazon Silk, should go before Safari and Chrome Mobile
