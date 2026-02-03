@@ -531,6 +531,10 @@ user_agent_parsers:
   - regex: '(WeiboliteiOS|WeiboIntliOS)'
     family_replacement: 'Weibo'
 
+  # Phoenix Browser
+  - regex: '(PHX)/(\d+)\.(\d+)'
+    family_replacement: 'Phoenix Browser'
+
   # Chrome Mobile
   - regex: 'Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Chrome Mobile WebView'
@@ -698,7 +702,6 @@ user_agent_parsers:
   # WeChat Browser
   - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'WeChat Browser'
-
   # Lite Browser
   - regex: '(Lite Browser)/(\d+)\.(\d+)'
     family_replacement: 'Lite Browser'
@@ -710,6 +713,14 @@ user_agent_parsers:
   # Mypal
   - regex: '(Mypal)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mypal Browser'
+
+# Odin Browser
+  - regex: '(Odin)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Odin'
+  
+  # NetCast Smart TV
+  - regex: '(Colt)/(\d+)\.(\d+)'
+    family_replacement: 'NetCast Smart TV'
 
   #### END SPECIAL CASES TOP ####
 

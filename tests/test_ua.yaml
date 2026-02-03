@@ -9267,3 +9267,26 @@ test_cases:
     major: '74'
     minor: '1'
     patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Odin/111.5563.5.1 Safari/537.36'
+    family: 'Odin'
+    major: '111'
+    minor: '5563'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; NetCast; U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 SmartTV/10.0 Colt/2.0'
+    family: 'NetCast Smart TV'
+    major: '2'
+    minor: '0'
+    patch: 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) PHX/19.7'
+    family: 'Phoenix Browser'
+    major: '19'
+    minor: '7'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 15; ar-eg; RMX3760 Build/AP3A.240905.015.A2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36 PHX/20.0'
+    family: 'Phoenix Browser'
+    major: '20'
+    minor: '0'
+    patch:
