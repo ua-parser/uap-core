@@ -893,6 +893,10 @@ user_agent_parsers:
   # R2Client - R2Games game launcher embedded browser (CEF-based)
   - regex: '(R2Client)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
+  # OBS Studio embedded browser (CEF-based, used for browser sources/docks)
+  - regex: '(OBS)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'OBS Studio'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 

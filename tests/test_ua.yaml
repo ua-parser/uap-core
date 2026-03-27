@@ -1665,6 +1665,24 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/32.0.4 Safari/537.36'
+    family: 'OBS Studio'
+    major: '32'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/32.0.2 Safari/537.36'
+    family: 'OBS Studio'
+    major: '32'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/31.0.3 NAVER(pc; prism; prism-pc; 5.0.1;) Safari/537.36'
+    family: 'OBS Studio'
+    major: '31'
+    minor: '0'
+    patch: '3'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
