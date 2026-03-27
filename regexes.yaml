@@ -308,7 +308,7 @@ user_agent_parsers:
 
   # UC Browser
   # we need check it before opera. In other case case UC Browser detected look like Opera Mini
-  - regex: '(UC? ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
+  - regex: '(UC? ?Browser|UCWEB|UCMobile|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
 
   # Opera will stop at 9.80 and hide the real version in the Version string.
@@ -849,6 +849,10 @@ user_agent_parsers:
 
   # Browser/major_version.minor_version
   - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Qt Web Engine embedded browser, must be before Chrome
+  - regex: '(QtWebEngine)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Qt Web Engine'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'

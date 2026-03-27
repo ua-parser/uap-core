@@ -1401,6 +1401,18 @@ test_cases:
     minor: '7'
     patch: '14488'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; en-US; SM-S918B Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.80 UCMobile/15.0.7.1383 Mobile Safari/537.36'
+    family: 'UC Browser'
+    major: '15'
+    minor: '0'
+    patch: '7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; en-US; SM-G988U Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.80 UCMobile/15.0.7.1383 Mobile Safari/537.36'
+    family: 'UC Browser'
+    major: '15'
+    minor: '0'
+    patch: '7'
+
   - user_agent_string: 'Alcatel-OH5/1.0 UP.Browser/6.1.0.7.7 (GUI) MMP/1.0'
     family: 'UP.Browser'
     major: '6'
@@ -1484,6 +1496,30 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.10.1 Chrome/134.0.0.0 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '6'
+    minor: '10'
+    patch: '1'
+
+  - user_agent_string: 'BrightSign/9.0.211 (XC4055) Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
+
+  - user_agent_string: 'BrightSign/USD41V000770/9.0.189 (XT1145) Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
+
+  - user_agent_string: 'BrightSign/8.5.53.2 (XT1144) Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
