@@ -206,7 +206,12 @@ user_agent_parsers:
   - regex: '\[(Pinterest)/[^\]]{1,50}\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet|)|)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
   # Instagram app
+  # iOS Instagram embeds the token inside a full WebKit UA:
+  #   Mozilla/5.0 (iPhone; ...) Mobile/... Instagram VERSION (...)
+  # Android Instagram uses a bare format with no browser wrapper:
+  #   Instagram VERSION Android (...)
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Instagram).(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Instagram) (\d+)\.(\d+)\.(\d+)'
   # Flipboard app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Flipboard).(\d+)\.(\d+)\.(\d+)'
   # Flipboard-briefing app
