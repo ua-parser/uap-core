@@ -854,6 +854,10 @@ user_agent_parsers:
   - regex: '(QtWebEngine)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Qt Web Engine'
 
+  # OpenWave browser (Chromium-based), must be before Chrome
+  - regex: '(OpenWave)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Open Wave'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
