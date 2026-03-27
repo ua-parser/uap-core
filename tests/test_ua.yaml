@@ -1707,6 +1707,18 @@ test_cases:
     minor: '2607'
     patch: '7'
 
+  - user_agent_string: 'AncestryAndroid/13.5 (deviceType=tablet/6.86)'
+    family: 'AncestryAndroid'
+    major: '13'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'AncestryAndroid/11.7.3020 (deviceType=tablet/10.90)'
+    family: 'AncestryAndroid'
+    major: '11'
+    minor: '7'
+    patch: '3020'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'

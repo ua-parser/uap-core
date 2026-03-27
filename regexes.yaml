@@ -760,6 +760,9 @@ user_agent_parsers:
   # Roadrunner iOS app (not the legacy Time Warner Cable ISP identifier)
   - regex: '(Roadrunner)/IOS/\d+/(\d+)\.(\d+)\.(\d+)'
 
+  # Ancestry.com Android app
+  - regex: '(AncestryAndroid)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
