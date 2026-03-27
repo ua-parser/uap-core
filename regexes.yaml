@@ -881,6 +881,9 @@ user_agent_parsers:
   # Viewer - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
   - regex: '(Viewer)/(\d+)\.(\d+)\.(\d+)'
 
+  # LikeWise - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
+  - regex: '(LikeWise)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 

@@ -1617,6 +1617,18 @@ test_cases:
     minor: '9'
     patch: '8959'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 LikeWise/94.6.7545.46'
+    family: 'LikeWise'
+    major: '94'
+    minor: '6'
+    patch: '7545'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.115 Safari/537.36 LikeWise/97.6.1745.46'
+    family: 'LikeWise'
+    major: '97'
+    minor: '6'
+    patch: '1745'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
