@@ -868,33 +868,65 @@ user_agent_parsers:
   - regex: '(OpenWave)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Open Wave'
 
-  # Trailer browser (Chromium-based), must be before Chrome
+  # AtContent - confirmed APT29/Nobelium (Cozy Bear) C2 malware marker. The implant
+  # (AcroSup.dll, side-loaded via Adobe WCChromeNativeMessagingHost.exe) uses a hardcoded
+  # UA of the form 'Chrome/100.0.4896.75 Safari/537.36 AtContent/91.5.2444.45' to
+  # communicate with Dropbox C2. Also observed appended after Edg/ tokens.
+  # Source: Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022
+  # (https://www.duskrise.com/2022/05/13/cozy-smuggled-into-the-box-apt29-abusing-legitimate-software-for-targeted-operations-in-europe/)
+
+  - regex: '(AtContent)/(\d+)\.(\d+)\.(\d+)'
+  # Trailer - suspicious fake UA token appended to Chrome/Edge/Opera UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(Trailer)/(\d+)\.(\d+)\.(\d+)'
 
-  # Agency browser (Chromium-based), must be before Chrome
+  # Agency - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(Agency)/(\d+)\.(\d+)\.(\d+)'
 
-  # Herring browser (Chromium-based), must be before Chrome
+  # Herring - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(Herring)/(\d+)\.(\d+)\.(\d+)'
 
-  # AtContent - fake UA token used by APT29/Cozy Bear malware to disguise C2 traffic
-  - regex: '(AtContent)/(\d+)\.(\d+)\.(\d+)'
-
-  # Config - unidentified fake UA token appended to Chrome UA strings; no known legitimate
-  # browser uses this. Structurally identical to AtContent (APT29/Cozy Bear C2 spoofing).
+  # Config - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(Config)/(\d+)\.(\d+)\.(\d+)'
 
-  # Viewer - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
+  # Viewer - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(Viewer)/(\d+)\.(\d+)\.(\d+)'
 
-  # LikeWise - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
+  # LikeWise - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
   - regex: '(LikeWise)/(\d+)\.(\d+)\.(\d+)'
+
+  # Unique - suspicious fake UA token appended to Chrome/Opera UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Unique)/(\d+)\.(\d+)\.(\d+)'
 
   # CitizenFX - embedded Chromium browser in FiveM/RedM (GTA V / RDR2 game mod frameworks)
   - regex: '(CitizenFX)/(\d+)\.(\d+)\.(\d+)'
-
-  # Unique - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
-  - regex: '(Unique)/(\d+)\.(\d+)\.(\d+)'
 
   # R2Client - R2Games game launcher embedded browser (CEF-based)
   - regex: '(R2Client)/(\d+)\.(\d+)(?:\.(\d+)|)'
@@ -906,6 +938,17 @@ user_agent_parsers:
   # Adobe CEP - embedded Chromium runtime for extension panels in Adobe CC apps
   - regex: '(AdobeCEP)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Adobe CEP'
+
+  # Steam embedded browsers; version from Chrome. Must be before Chrome.
+  # GameOverlay = in-game overlay browser (Shift+Tab)
+  - regex: 'Valve Steam (GameOverlay).{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam GameOverlay'
+  # Steam Deck built-in browser
+  - regex: 'Valve Steam (Gamepad)/Steam Deck.{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam Deck'
+  # Steam desktop client browser
+  - regex: '(Valve(?: Steam|) Client).{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam Client'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'

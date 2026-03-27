@@ -1719,6 +1719,30 @@ test_cases:
     minor: '7'
     patch: '3020'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam GameOverlay/default/1769025840) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam GameOverlay'
+    major: '126'
+    minor: '0'
+    patch: '6478'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Client/default/1769025840) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam Client'
+    major: '126'
+    minor: '0'
+    patch: '6478'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam Client/default/1690583737) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    family: 'Steam Client'
+    major: '85'
+    minor: '0'
+    patch: '4183'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Valve Steam Gamepad/Steam Deck [Steam Deck Stable]/default/0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam Deck'
+    major: '126'
+    minor: '0'
+    patch: '6478'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
