@@ -887,6 +887,9 @@ user_agent_parsers:
   # CitizenFX - embedded Chromium browser in FiveM/RedM (GTA V / RDR2 game mod frameworks)
   - regex: '(CitizenFX)/(\d+)\.(\d+)\.(\d+)'
 
+  # Unique - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
+  - regex: '(Unique)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 

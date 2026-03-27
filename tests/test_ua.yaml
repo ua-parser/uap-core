@@ -1641,6 +1641,18 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5238.167 Safari/537.36 Unique/95.7.6476.77'
+    family: 'Unique'
+    major: '95'
+    minor: '7'
+    patch: '6476'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Unique/97.7.6814.65'
+    family: 'Unique'
+    major: '97'
+    minor: '7'
+    patch: '6814'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
