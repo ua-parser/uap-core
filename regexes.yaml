@@ -861,6 +861,9 @@ user_agent_parsers:
   # Trailer browser (Chromium-based), must be before Chrome
   - regex: '(Trailer)/(\d+)\.(\d+)\.(\d+)'
 
+  # Agency browser (Chromium-based), must be before Chrome
+  - regex: '(Agency)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
