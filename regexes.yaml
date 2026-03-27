@@ -878,6 +878,9 @@ user_agent_parsers:
   # browser uses this. Structurally identical to AtContent (APT29/Cozy Bear C2 spoofing).
   - regex: '(Config)/(\d+)\.(\d+)\.(\d+)'
 
+  # Viewer - unidentified fake UA token; same pattern as AtContent/Config (cf. APT29)
+  - regex: '(Viewer)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
