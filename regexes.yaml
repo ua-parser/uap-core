@@ -757,6 +757,9 @@ user_agent_parsers:
   - regex: '(RobloxApp)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Roblox App'
 
+  # Roadrunner iOS app (not the legacy Time Warner Cable ISP identifier)
+  - regex: '(Roadrunner)/IOS/\d+/(\d+)\.(\d+)\.(\d+)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

@@ -1695,6 +1695,18 @@ test_cases:
     minor: '0'
     patch: '1'
 
+  - user_agent_string: 'Roadrunner/IOS/896/4.2606.6'
+    family: 'Roadrunner'
+    major: '4'
+    minor: '2606'
+    patch: '6'
+
+  - user_agent_string: 'Roadrunner/IOS/908/4.2607.7'
+    family: 'Roadrunner'
+    major: '4'
+    minor: '2607'
+    patch: '7'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
