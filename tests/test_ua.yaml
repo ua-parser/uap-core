@@ -7930,6 +7930,24 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.180 Safari/537.36 Telegram-Android/12.3.1 (Xiaomi 2304FPN6DG; Android 9; SDK 28; AVERAGE)'
+    family: 'Telegram'
+    major: '12'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.109 Safari/537.36 Telegram-Android/12.3.1 (Samsung SM-X115; Android 16; SDK 36; AVERAGE)'
+    family: 'Telegram'
+    major: '12'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.132 Safari/537.36 Telegram-Android/12.4.1 (Xiaomi 2405CRPFDG; Android 15; SDK 35; HIGH)'
+    family: 'Telegram'
+    major: '12'
+    minor: '4'
+    patch: '1'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E148 Safari/604.1 musical_ly_34.3.1 JsSdk/2.0 NetType/4G Channel/App Store ByteLocale/en Region/US isDarkMode/1 WKWebView/1 RevealType/Dialog'
     family: 'TikTok'
     major: '34'

@@ -233,6 +233,9 @@ user_agent_parsers:
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
+  # Telegram
+  - regex: '(Telegram-Android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Telegram'
 
   # Phantom app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
