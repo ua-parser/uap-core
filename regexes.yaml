@@ -337,6 +337,10 @@ user_agent_parsers:
   - regex: '(OPX)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Opera GX'
 
+  # Opera Touch uses "OPT"
+  - regex: '(OPT)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Opera Touch'
+
   # Opera Coast
   - regex: '(Coast)/(\d+).(\d+).(\d+)'
     family_replacement: 'Opera Coast'
