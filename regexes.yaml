@@ -867,6 +867,9 @@ user_agent_parsers:
   # Herring browser (Chromium-based), must be before Chrome
   - regex: '(Herring)/(\d+)\.(\d+)\.(\d+)'
 
+  # AtContent - fake UA token used by APT29/Cozy Bear malware to disguise C2 traffic
+  - regex: '(AtContent)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
