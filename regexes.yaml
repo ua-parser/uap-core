@@ -537,7 +537,7 @@ user_agent_parsers:
     family_replacement: 'HiBrowser'
 
   # Honor Browser
-  - regex: '(HonorBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(HonorBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Honor Browser'
 
   # Honor Browser
