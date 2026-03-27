@@ -9149,6 +9149,18 @@ test_cases:
     minor: '0'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.12181 SLBChan/ SLBVPV/64-bit'
+    family: 'Smart Lenovo Browser'
+    major: '9'
+    minor: '0'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/'
+    family: 'Smart Lenovo Browser'
+    major: '7'
+    minor: '0'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Atom/26.0.0.0 Safari/537.36'
     family: 'Atom Browser'
     major: '26'

@@ -656,7 +656,7 @@ user_agent_parsers:
     family_replacement: 'Quark PC'
 
   # Smart Lenovo Browser
-  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
+  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Smart Lenovo Browser'
 
   # Atom Browser
