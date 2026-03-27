@@ -1683,6 +1683,18 @@ test_cases:
     minor: '0'
     patch: '3'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 AdobeCEP/12.0.1 Safari/537.36'
+    family: 'Adobe CEP'
+    major: '12'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 AdobeCEP/12.0.1 Safari/537.36'
+    family: 'Adobe CEP'
+    major: '12'
+    minor: '0'
+    patch: '1'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'

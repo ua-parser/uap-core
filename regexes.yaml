@@ -897,6 +897,10 @@ user_agent_parsers:
   - regex: '(OBS)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'OBS Studio'
 
+  # Adobe CEP - embedded Chromium runtime for extension panels in Adobe CC apps
+  - regex: '(AdobeCEP)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Adobe CEP'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
