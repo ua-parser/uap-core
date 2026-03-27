@@ -858,6 +858,9 @@ user_agent_parsers:
   - regex: '(OpenWave)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Open Wave'
 
+  # Trailer browser (Chromium-based), must be before Chrome
+  - regex: '(Trailer)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
