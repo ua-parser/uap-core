@@ -716,7 +716,7 @@ user_agent_parsers:
     family_replacement: 'SmartTV WebBrowser'
 
   # WeChat Browser
-  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'WeChat Browser'
 
   # Odin Browser

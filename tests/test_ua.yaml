@@ -9311,6 +9311,24 @@ test_cases:
     minor: '8'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.10(0x13080a10) XWEB/1227'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.101 Safari/537.36 Language/zh ColorScheme/Light wxwork/5.0.3 (MicroMessenger/6.2) WindowsWechat MailPlugin_Electron WeMail embeddisk wwmver/3.26.503.665 noMediaCs/false'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.101 Safari/537.36 Language/zh ColorScheme/Light wxwork/5.0.2 (MicroMessenger/6.2) WindowsWechat MailPlugin_Electron WeMail embeddisk wwmver/3.26.502.625 noMediaCs/false'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '2'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/144.0.7559.59 Safari/534.24 Lite Browser/4.12'
     family: 'Lite Browser'
     major: '4'
