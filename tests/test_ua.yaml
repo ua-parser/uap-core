@@ -9161,6 +9161,24 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Chesscom-Android/4.9.21-googleplay (Android/15; SM-A165F; ru_RU; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '21'
+
+  - user_agent_string: 'Chesscom-Android/4.9.7-huawei (Android/12; STG-LX2; ru_RU; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '7'
+
+  - user_agent_string: 'Chesscom-Android/4.9.24-googleplay (Android/15; motorola edge 50 fusion; en_IN; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '24'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Atom/26.0.0.0 Safari/537.36'
     family: 'Atom Browser'
     major: '26'

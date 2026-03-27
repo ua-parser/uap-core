@@ -742,6 +742,9 @@ user_agent_parsers:
   - regex: '(Mypal)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mypal Browser'
 
+  # Chess.com native app
+  - regex: '(Chesscom-Android)/(\d+)\.(\d+)\.(\d+)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
