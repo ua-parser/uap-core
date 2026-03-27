@@ -260,6 +260,10 @@ user_agent_parsers:
   - regex: '(PaleMoon)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Pale Moon'
 
+  # Camoufox - anti-detect Firefox fork for web scraping/automation; replaces the
+  # Firefox version token with "Camoufox Camoufox VERSION" in the UA string
+  - regex: '(Camoufox) Camoufox (\d+)\.(\d+)'
+
   # Firefox
   - regex: '(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
     family_replacement: 'Firefox Mobile'

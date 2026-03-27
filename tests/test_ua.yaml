@@ -1061,6 +1061,18 @@ test_cases:
     minor: '1'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:Camoufox Camoufox 140.0) Gecko/20100101 Firefox/Camoufox Camoufox 140.0'
+    family: 'Camoufox'
+    major: '140'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:Camoufox Camoufox 140.0) Gecko/20100101 Firefox/Camoufox Camoufox 140.0'
+    family: 'Camoufox'
+    major: '140'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (LG-T500 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     family: 'Phantom Browser'
     major: '2'
