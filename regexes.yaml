@@ -749,6 +749,10 @@ user_agent_parsers:
   # Chess.com native app
   - regex: '(Chesscom-Android)/(\d+)\.(\d+)\.(\d+)'
 
+  # Roblox native app
+  - regex: '(RobloxApp)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Roblox App'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####

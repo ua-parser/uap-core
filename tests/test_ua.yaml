@@ -9197,6 +9197,24 @@ test_cases:
     minor: '9'
     patch: '24'
 
+  - user_agent_string: 'Mozilla/5.0 (4096MB; 1280x720; 200x200; 1024x576; OnePlus CPH2413; 13) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.706.750 Tablet Hybrid() GooglePlayStore RobloxApp/2.706.750 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '706'
+    patch: '750'
+
+  - user_agent_string: 'Mozilla/5.0 (1897MB; 576x1158; 215x215; 384x772; ZTE Z2466; 14) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.708.880 Phone Hybrid() GooglePlayStore RobloxApp/2.708.880 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '708'
+    patch: '880'
+
+  - user_agent_string: 'Mozilla/5.0 (7665MB; 720x1600; 254x254; 360x800; Xiaomi 25078PC3EG; 15) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.707.734 Phone Hybrid() GooglePlayStore RobloxApp/2.707.734 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '707'
+    patch: '734'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Atom/26.0.0.0 Safari/537.36'
     family: 'Atom Browser'
     major: '26'
