@@ -1073,6 +1073,24 @@ test_cases:
     minor: '0'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/80.0.3987.87 Safari/537.36 RuxitSynthetic/1.0 v3111153639319797883 t6205049005192687891'
+    family: 'Ruxit Synthetic'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 RuxitSynthetic/1.0 v1090987875435353284 t2300697156056581802 ath1fb31b7a altpriv cvcv=2 cexpw=1 smf=0'
+    family: 'Ruxit Synthetic'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.133 Safari/537.36 RuxitSynthetic/1.0 v148429737999 t4519022964667904509 ath959a1831 altpub cvcv=2'
+    family: 'Ruxit Synthetic'
+    major: '1'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/98 Safari/537.4 (StatusCake)'
     family: 'StatusCakeBot'
     major:

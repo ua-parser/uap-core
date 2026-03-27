@@ -93,6 +93,10 @@ user_agent_parsers:
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
 
+  # Dynatrace/Ruxit synthetic monitor
+  - regex: '(RuxitSynthetic)/(\d+)\.(\d+)'
+    family_replacement: 'Ruxit Synthetic'
+
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
