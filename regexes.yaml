@@ -864,6 +864,9 @@ user_agent_parsers:
   # Agency browser (Chromium-based), must be before Chrome
   - regex: '(Agency)/(\d+)\.(\d+)\.(\d+)'
 
+  # Herring browser (Chromium-based), must be before Chrome
+  - regex: '(Herring)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
