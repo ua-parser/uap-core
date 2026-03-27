@@ -870,6 +870,10 @@ user_agent_parsers:
   # AtContent - fake UA token used by APT29/Cozy Bear malware to disguise C2 traffic
   - regex: '(AtContent)/(\d+)\.(\d+)\.(\d+)'
 
+  # Config - unidentified fake UA token appended to Chrome UA strings; no known legitimate
+  # browser uses this. Structurally identical to AtContent (APT29/Cozy Bear C2 spoofing).
+  - regex: '(Config)/(\d+)\.(\d+)\.(\d+)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
