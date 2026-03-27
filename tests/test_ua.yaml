@@ -975,6 +975,18 @@ test_cases:
     minor: '0'
     patch: '1689'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; SM-X210 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.132 Safari/537.36 OPX/3.1'
+    family: 'Opera GX'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.109 Safari/537.36 OPX/3.1'
+    family: 'Opera GX'
+    major: '3'
+    minor: '1'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.0.79792 Mobile/11B511 Safari/7534.48.3'
     family: 'Opera Coast'
     major: '3'

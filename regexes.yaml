@@ -329,6 +329,10 @@ user_agent_parsers:
   - regex: '(?:Chrome).{1,300}(OPR)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Opera'
 
+  # Opera GX uses "OPX" instead of "OPR"
+  - regex: '(OPX)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Opera GX'
+
   # Opera Coast
   - regex: '(Coast)/(\d+).(\d+).(\d+)'
     family_replacement: 'Opera Coast'
