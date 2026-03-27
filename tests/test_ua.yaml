@@ -1653,6 +1653,18 @@ test_cases:
     minor: '7'
     patch: '6814'
 
+  - user_agent_string: 'Mozilla/5.0(WindowsNT 10.0; Win64;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683 R2Client/1.2'
+    family: 'R2Client'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CEF/128.4.12 Chrome/128.0.6613.138 EOSOverlay/1.3.3.1200 UnrealEngine/EOS-SDK/1.17.1.3-44532354 (Windows/10.0.19041.5915.64bit) R2Client/1.0.0 Safari/537.36'
+    family: 'R2Client'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
     major: '1'
