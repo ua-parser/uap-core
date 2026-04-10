@@ -334,7 +334,8 @@ user_agent_parsers:
     family_replacement: 'Opera Mobile'
 
   # Opera >=15 for Desktop is similar to Chrome but includes an "OPR" Version string.
-  - regex: '(?:Chrome).{1,300}(OPR)/(\d+)\.(\d+)\.(\d+)'
+  # Opera with chromium OPR/major_version.minor_version.patch.minor_patch
+  - regex: '(OPR)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Opera'
 
   # Opera GX uses "OPX" instead of "OPR"
@@ -832,7 +833,8 @@ user_agent_parsers:
     family_replacement: 'Superhuman'
 
   # Vivaldi
-  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
+  # Vivaldi with chromium Vivaldi/major_version.minor_version.patch.minor_patch
+  - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
 
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
