@@ -975,6 +975,36 @@ test_cases:
     minor: '0'
     patch: '1689'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; SM-X210 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.132 Safari/537.36 OPX/3.1'
+    family: 'Opera GX'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.109 Safari/537.36 OPX/3.1'
+    family: 'Opera GX'
+    major: '3'
+    minor: '1'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; SM-X115 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.79 Safari/537.36 OPT/2.9'
+    family: 'Opera Touch'
+    major: '2'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; SM-X115 Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.7632.122 Safari/537.36 OPT/2.9'
+    family: 'Opera Touch'
+    major: '2'
+    minor: '9'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.196 Safari/537.36 OPT/2.9'
+    family: 'Opera Touch'
+    major: '2'
+    minor: '9'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Coast/3.1.0.79792 Mobile/11B511 Safari/7534.48.3'
     family: 'Opera Coast'
     major: '3'
@@ -1031,6 +1061,18 @@ test_cases:
     minor: '1'
     patch: '0'
 
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; rv:Camoufox Camoufox 140.0) Gecko/20100101 Firefox/Camoufox Camoufox 140.0'
+    family: 'Camoufox'
+    major: '140'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:Camoufox Camoufox 140.0) Gecko/20100101 Firefox/Camoufox Camoufox 140.0'
+    family: 'Camoufox'
+    major: '140'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'Mozilla/5.0 (LG-T500 AppleWebkit/531 Browser/Phantom/V2.0 Widget/LGMW/3.0 MMS/LG-MMS-V1.0/1.2 Java/ASVM/1.1 Profile/MIDP-2.1 Configuration/CLDC-1.1)'
     family: 'Phantom Browser'
     major: '2'
@@ -1057,6 +1099,24 @@ test_cases:
 
   - user_agent_string: 'NewRelicPinger/1.0 (1025794)'
     family: 'NewRelicPingerBot'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/80.0.3987.87 Safari/537.36 RuxitSynthetic/1.0 v3111153639319797883 t6205049005192687891'
+    family: 'Ruxit Synthetic'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 RuxitSynthetic/1.0 v1090987875435353284 t2300697156056581802 ath1fb31b7a altpriv cvcv=2 cexpw=1 smf=0'
+    family: 'Ruxit Synthetic'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.133 Safari/537.36 RuxitSynthetic/1.0 v148429737999 t4519022964667904509 ath959a1831 altpub cvcv=2'
+    family: 'Ruxit Synthetic'
     major: '1'
     minor: '0'
     patch:
@@ -1353,6 +1413,18 @@ test_cases:
     minor: '7'
     patch: '14488'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; en-US; SM-S918B Build/BP2A.250605.031.A3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.80 UCMobile/15.0.7.1383 Mobile Safari/537.36'
+    family: 'UC Browser'
+    major: '15'
+    minor: '0'
+    patch: '7'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 13; en-US; SM-G988U Build/TP1A.220624.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.80 UCMobile/15.0.7.1383 Mobile Safari/537.36'
+    family: 'UC Browser'
+    major: '15'
+    minor: '0'
+    patch: '7'
+
   - user_agent_string: 'Alcatel-OH5/1.0 UP.Browser/6.1.0.7.7 (GUI) MMP/1.0'
     family: 'UP.Browser'
     major: '6'
@@ -1436,6 +1508,240 @@ test_cases:
     major:
     minor:
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/6.10.1 Chrome/134.0.0.0 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '6'
+    minor: '10'
+    patch: '1'
+
+  - user_agent_string: 'BrightSign/9.0.211 (XC4055) Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
+
+  - user_agent_string: 'BrightSign/USD41V000770/9.0.189 (XT1145) Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
+
+  - user_agent_string: 'BrightSign/8.5.53.2 (XT1144) Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36'
+    family: 'Qt Web Engine'
+    major: '5'
+    minor: '15'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 OpenWave/93.4.4008.34'
+    family: 'Open Wave'
+    major: '93'
+    minor: '4'
+    patch: '4008'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OpenWave/94.4.4471.39'
+    family: 'Open Wave'
+    major: '94'
+    minor: '4'
+    patch: '4471'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Trailer/100.3.3692.93'
+    family: 'Trailer'
+    major: '100'
+    minor: '3'
+    patch: '3692'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Trailer/97.3.2642.43'
+    family: 'Trailer'
+    major: '97'
+    minor: '3'
+    patch: '2642'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Agency/98.8.8175.80'
+    family: 'Agency'
+    major: '98'
+    minor: '8'
+    patch: '8175'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.5249.91 Safari/537.36 Agency/96.8.6047.48'
+    family: 'Agency'
+    major: '96'
+    minor: '8'
+    patch: '6047'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Herring/95.5.4464.65'
+    family: 'Herring'
+    major: '95'
+    minor: '5'
+    patch: '4464'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.81 Safari/537.36 Herring/90.1.1113.2'
+    family: 'Herring'
+    major: '90'
+    minor: '1'
+    patch: '1113'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 AtContent/95.5.5498.50'
+    family: 'AtContent'
+    major: '95'
+    minor: '5'
+    patch: '5498'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 AtContent/94.5.4743.42'
+    family: 'AtContent'
+    major: '94'
+    minor: '5'
+    patch: '4743'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Config/92.2.2788.20'
+    family: 'Config'
+    major: '92'
+    minor: '2'
+    patch: '2788'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Config/91.2.2116.13'
+    family: 'Config'
+    major: '91'
+    minor: '2'
+    patch: '2116'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Viewer/99.9.8865.88'
+    family: 'Viewer'
+    major: '99'
+    minor: '9'
+    patch: '8865'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Viewer/99.9.8959.89'
+    family: 'Viewer'
+    major: '99'
+    minor: '9'
+    patch: '8959'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 LikeWise/94.6.7545.46'
+    family: 'LikeWise'
+    major: '94'
+    minor: '6'
+    patch: '7545'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.115 Safari/537.36 LikeWise/97.6.1745.46'
+    family: 'LikeWise'
+    major: '97'
+    minor: '6'
+    patch: '1745'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.141 CitizenFX/1.0.0.26197 Safari/537.36'
+    family: 'CitizenFX'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.141 CitizenFX/1.0.0.25775 Safari/537.36'
+    family: 'CitizenFX'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5238.167 Safari/537.36 Unique/95.7.6476.77'
+    family: 'Unique'
+    major: '95'
+    minor: '7'
+    patch: '6476'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Unique/97.7.6814.65'
+    family: 'Unique'
+    major: '97'
+    minor: '7'
+    patch: '6814'
+
+  - user_agent_string: 'Mozilla/5.0(WindowsNT 10.0; Win64;) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683 R2Client/1.2'
+    family: 'R2Client'
+    major: '1'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) CEF/128.4.12 Chrome/128.0.6613.138 EOSOverlay/1.3.3.1200 UnrealEngine/EOS-SDK/1.17.1.3-44532354 (Windows/10.0.19041.5915.64bit) R2Client/1.0.0 Safari/537.36'
+    family: 'R2Client'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/32.0.4 Safari/537.36'
+    family: 'OBS Studio'
+    major: '32'
+    minor: '0'
+    patch: '4'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/32.0.2 Safari/537.36'
+    family: 'OBS Studio'
+    major: '32'
+    minor: '0'
+    patch: '2'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.120 OBS/31.0.3 NAVER(pc; prism; prism-pc; 5.0.1;) Safari/537.36'
+    family: 'OBS Studio'
+    major: '31'
+    minor: '0'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 AdobeCEP/12.0.1 Safari/537.36'
+    family: 'Adobe CEP'
+    major: '12'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 AdobeCEP/12.0.1 Safari/537.36'
+    family: 'Adobe CEP'
+    major: '12'
+    minor: '0'
+    patch: '1'
+
+  - user_agent_string: 'Roadrunner/IOS/896/4.2606.6'
+    family: 'Roadrunner'
+    major: '4'
+    minor: '2606'
+    patch: '6'
+
+  - user_agent_string: 'Roadrunner/IOS/908/4.2607.7'
+    family: 'Roadrunner'
+    major: '4'
+    minor: '2607'
+    patch: '7'
+
+  - user_agent_string: 'AncestryAndroid/13.5 (deviceType=tablet/6.86)'
+    family: 'AncestryAndroid'
+    major: '13'
+    minor: '5'
+    patch:
+
+  - user_agent_string: 'AncestryAndroid/11.7.3020 (deviceType=tablet/10.90)'
+    family: 'AncestryAndroid'
+    major: '11'
+    minor: '7'
+    patch: '3020'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam GameOverlay/default/1769025840) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam GameOverlay'
+    major: '126'
+    minor: '0'
+    patch: '6478'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Client/default/1769025840) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam Client'
+    major: '126'
+    minor: '0'
+    patch: '6478'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; Valve Steam Client/default/1690583737) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36'
+    family: 'Steam Client'
+    major: '85'
+    minor: '0'
+    patch: '4183'
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64; Valve Steam Gamepad/Steam Deck [Steam Deck Stable]/default/0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36'
+    family: 'Steam Deck'
+    major: '126'
+    minor: '0'
+    patch: '6478'
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.6.0 Safari/534.34'
     family: 'PhantomJS'
@@ -7918,6 +8224,36 @@ test_cases:
     minor: '0'
     patch: '0'
 
+  - user_agent_string: 'Instagram 415.0.0.36.76 Android (33/13; 320dpi; 720x1600; samsung; SM-A032M; a3core; m168; pt_BR; 874816631)'
+    family: 'Instagram'
+    major: '415'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Instagram 416.0.0.47.66 Android (36/16; 306dpi; 1008x2244; Google/google; Pixel 9 Pro XL; komodo; komodo; en_US; 879745420)'
+    family: 'Instagram'
+    major: '416'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 9; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.7204.180 Safari/537.36 Telegram-Android/12.3.1 (Xiaomi 2304FPN6DG; Android 9; SDK 28; AVERAGE)'
+    family: 'Telegram'
+    major: '12'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 16; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.109 Safari/537.36 Telegram-Android/12.3.1 (Samsung SM-X115; Android 16; SDK 36; AVERAGE)'
+    family: 'Telegram'
+    major: '12'
+    minor: '3'
+    patch: '1'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 15; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.7559.132 Safari/537.36 Telegram-Android/12.4.1 (Xiaomi 2405CRPFDG; Android 15; SDK 35; HIGH)'
+    family: 'Telegram'
+    major: '12'
+    minor: '4'
+    patch: '1'
+
   - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E148 Safari/604.1 musical_ly_34.3.1 JsSdk/2.0 NetType/4G Channel/App Store ByteLocale/en Region/US isDarkMode/1 WKWebView/1 RevealType/Dialog'
     family: 'TikTok'
     major: '34'
@@ -9089,6 +9425,54 @@ test_cases:
     minor: '0'
     patch: '5'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.12181 SLBChan/ SLBVPV/64-bit'
+    family: 'Smart Lenovo Browser'
+    major: '9'
+    minor: '0'
+    patch: '5'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/'
+    family: 'Smart Lenovo Browser'
+    major: '7'
+    minor: '0'
+    patch: '0'
+
+  - user_agent_string: 'Chesscom-Android/4.9.21-googleplay (Android/15; SM-A165F; ru_RU; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '21'
+
+  - user_agent_string: 'Chesscom-Android/4.9.7-huawei (Android/12; STG-LX2; ru_RU; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '7'
+
+  - user_agent_string: 'Chesscom-Android/4.9.24-googleplay (Android/15; motorola edge 50 fusion; en_IN; contact #android in Slack)'
+    family: 'Chesscom-Android'
+    major: '4'
+    minor: '9'
+    patch: '24'
+
+  - user_agent_string: 'Mozilla/5.0 (4096MB; 1280x720; 200x200; 1024x576; OnePlus CPH2413; 13) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.706.750 Tablet Hybrid() GooglePlayStore RobloxApp/2.706.750 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '706'
+    patch: '750'
+
+  - user_agent_string: 'Mozilla/5.0 (1897MB; 576x1158; 215x215; 384x772; ZTE Z2466; 14) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.708.880 Phone Hybrid() GooglePlayStore RobloxApp/2.708.880 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '708'
+    patch: '880'
+
+  - user_agent_string: 'Mozilla/5.0 (7665MB; 720x1600; 254x254; 360x800; Xiaomi 25078PC3EG; 15) AppleWebKit/537.36 (KHTML, like Gecko) ROBLOX Android App 2.707.734 Phone Hybrid() GooglePlayStore RobloxApp/2.707.734 (GlobalDist; GooglePlayStore)'
+    family: 'Roblox App'
+    major: '2'
+    minor: '707'
+    patch: '734'
+
   - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Atom/26.0.0.0 Safari/537.36'
     family: 'Atom Browser'
     major: '26'
@@ -9221,6 +9605,18 @@ test_cases:
     minor: '0'
     patch: '9'
 
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.114 HonorBrowser/3.1.3.303 Safari/537.36'
+    family: 'Honor Browser'
+    major: '3'
+    minor: '1'
+    patch: '3'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 15; REA-AN00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.114 HonorBrowser/1.0.0 Mobile Safari/537.36'
+    family: 'Honor Browser'
+    major: '1'
+    minor: '0'
+    patch: '0'
+
   - user_agent_string: 'Mozilla/5.0 (SMART-TV; Linux; Smart TV) AppleWebKit/537.36 (KHTML, like Gecko) Thano/3.0 Chrome/143.0.7499.34 Safari/537.36'
     family: 'SmartTV WebBrowser'
     major: '3'
@@ -9268,6 +9664,24 @@ test_cases:
     major: '6'
     minor: '8'
     patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 NetType/WIFI MicroMessenger/6.8.0(0x16080000) MacWechat/3.8.10(0x13080a10) XWEB/1227'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '8'
+    patch: '0'
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.101 Safari/537.36 Language/zh ColorScheme/Light wxwork/5.0.3 (MicroMessenger/6.2) WindowsWechat MailPlugin_Electron WeMail embeddisk wwmver/3.26.503.665 noMediaCs/false'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '2'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.101 Safari/537.36 Language/zh ColorScheme/Light wxwork/5.0.2 (MicroMessenger/6.2) WindowsWechat MailPlugin_Electron WeMail embeddisk wwmver/3.26.502.625 noMediaCs/false'
+    family: 'WeChat Browser'
+    major: '6'
+    minor: '2'
+    patch:
 
   - user_agent_string: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/144.0.7559.59 Safari/534.24 Lite Browser/4.12'
     family: 'Lite Browser'

@@ -93,6 +93,10 @@ user_agent_parsers:
   - regex: '(NewRelicPinger)/(\d+)\.(\d+)'
     family_replacement: 'NewRelicPingerBot'
 
+  # Dynatrace/Ruxit synthetic monitor
+  - regex: '(RuxitSynthetic)/(\d+)\.(\d+)'
+    family_replacement: 'Ruxit Synthetic'
+
   # Tableau
   - regex: '(Tableau)/(\d+)\.(\d+)'
     family_replacement: 'Tableau'
@@ -206,7 +210,12 @@ user_agent_parsers:
   - regex: '\[(Pinterest)/[^\]]{1,50}\]'
   - regex: '(Pinterest)(?: for Android(?: Tablet|)|)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
   # Instagram app
+  # iOS Instagram embeds the token inside a full WebKit UA:
+  #   Mozilla/5.0 (iPhone; ...) Mobile/... Instagram VERSION (...)
+  # Android Instagram uses a bare format with no browser wrapper:
+  #   Instagram VERSION Android (...)
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Instagram).(\d+)\.(\d+)\.(\d+)'
+  - regex: '(Instagram) (\d+)\.(\d+)\.(\d+)'
   # Flipboard app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Flipboard).(\d+)\.(\d+)\.(\d+)'
   # Flipboard-briefing app
@@ -228,6 +237,9 @@ user_agent_parsers:
   # KakaoTalk
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(KAKAOTALK)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'KakaoTalk'
+  # Telegram
+  - regex: '(Telegram-Android)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Telegram'
 
   # Phantom app
   - regex: 'Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)'
@@ -247,6 +259,10 @@ user_agent_parsers:
   # Pale Moon
   - regex: '(PaleMoon)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Pale Moon'
+
+  # Camoufox - anti-detect Firefox fork for web scraping/automation; replaces the
+  # Firefox version token with "Camoufox Camoufox VERSION" in the UA string
+  - regex: '(Camoufox) Camoufox (\d+)\.(\d+)'
 
   # Firefox
   - regex: '(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)'
@@ -296,7 +312,7 @@ user_agent_parsers:
 
   # UC Browser
   # we need check it before opera. In other case case UC Browser detected look like Opera Mini
-  - regex: '(UC? ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
+  - regex: '(UC? ?Browser|UCWEB|UCMobile|U3)[ /]?(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'UC Browser'
 
   # Opera will stop at 9.80 and hide the real version in the Version string.
@@ -320,6 +336,14 @@ user_agent_parsers:
   # Opera >=15 for Desktop is similar to Chrome but includes an "OPR" Version string.
   - regex: '(?:Chrome).{1,300}(OPR)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Opera'
+
+  # Opera GX uses "OPX" instead of "OPR"
+  - regex: '(OPX)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Opera GX'
+
+  # Opera Touch uses "OPT"
+  - regex: '(OPT)/(\d+)\.(\d+)(?:\.(\d+)|)'
+    family_replacement: 'Opera Touch'
 
   # Opera Coast
   - regex: '(Coast)/(\d+).(\d+).(\d+)'
@@ -517,7 +541,7 @@ user_agent_parsers:
     family_replacement: 'HiBrowser'
 
   # Honor Browser
-  - regex: '(HonorBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)'
+  - regex: '(HonorBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'Honor Browser'
 
   # Honor Browser
@@ -640,7 +664,7 @@ user_agent_parsers:
     family_replacement: 'Quark PC'
 
   # Smart Lenovo Browser
-  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+) SLBChan/(\d+)'
+  - regex: '(SLBrowser)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Smart Lenovo Browser'
 
   # Atom Browser
@@ -704,7 +728,7 @@ user_agent_parsers:
     family_replacement: 'SmartTV WebBrowser'
 
   # WeChat Browser
-  - regex: '(MicroMessenger)/(\d+)\.(\d+)\.(\d+)'
+  - regex: '(MicroMessenger)/(\d+)\.(\d+)(?:\.(\d+)|)'
     family_replacement: 'WeChat Browser'
 
   # Odin Browser
@@ -725,6 +749,19 @@ user_agent_parsers:
   # Mypal
   - regex: '(Mypal)/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Mypal Browser'
+
+  # Chess.com native app
+  - regex: '(Chesscom-Android)/(\d+)\.(\d+)\.(\d+)'
+
+  # Roblox native app
+  - regex: '(RobloxApp)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Roblox App'
+
+  # Roadrunner iOS app (not the legacy Time Warner Cable ISP identifier)
+  - regex: '(Roadrunner)/IOS/\d+/(\d+)\.(\d+)\.(\d+)'
+
+  # Ancestry.com Android app
+  - regex: '(AncestryAndroid)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
   #### END SPECIAL CASES TOP ####
 
@@ -822,6 +859,96 @@ user_agent_parsers:
 
   # Browser/major_version.minor_version
   - regex: '(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Qt Web Engine embedded browser, must be before Chrome
+  - regex: '(QtWebEngine)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Qt Web Engine'
+
+  # OpenWave browser (Chromium-based), must be before Chrome
+  - regex: '(OpenWave)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Open Wave'
+
+  # AtContent - confirmed APT29/Nobelium (Cozy Bear) C2 malware marker. The implant
+  # (AcroSup.dll, side-loaded via Adobe WCChromeNativeMessagingHost.exe) uses a hardcoded
+  # UA of the form 'Chrome/100.0.4896.75 Safari/537.36 AtContent/91.5.2444.45' to
+  # communicate with Dropbox C2. Also observed appended after Edg/ tokens.
+  # Source: Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022
+  # (https://www.duskrise.com/2022/05/13/cozy-smuggled-into-the-box-apt29-abusing-legitimate-software-for-targeted-operations-in-europe/)
+
+  - regex: '(AtContent)/(\d+)\.(\d+)\.(\d+)'
+  # Trailer - suspicious fake UA token appended to Chrome/Edge/Opera UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Trailer)/(\d+)\.(\d+)\.(\d+)'
+
+  # Agency - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Agency)/(\d+)\.(\d+)\.(\d+)'
+
+  # Herring - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Herring)/(\d+)\.(\d+)\.(\d+)'
+
+  # Config - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Config)/(\d+)\.(\d+)\.(\d+)'
+
+  # Viewer - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Viewer)/(\d+)\.(\d+)\.(\d+)'
+
+  # LikeWise - suspicious fake UA token appended to Chrome UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(LikeWise)/(\d+)\.(\d+)\.(\d+)'
+
+  # Unique - suspicious fake UA token appended to Chrome/Opera UA strings
+  # (TOKEN/MAJOR.MINOR.BUILD.PATCH). No known legitimate browser uses this token.
+  # Structurally identical to AtContent (confirmed APT29/Nobelium C2 marker; see
+  # Cluster25/DuskRise 'Cozy Smuggled Into the Box', May 2022). Unconfirmed attribution;
+  # may be same actor rotating token names or a copycat using the same spoofing technique.
+  - regex: '(Unique)/(\d+)\.(\d+)\.(\d+)'
+
+  # CitizenFX - embedded Chromium browser in FiveM/RedM (GTA V / RDR2 game mod frameworks)
+  - regex: '(CitizenFX)/(\d+)\.(\d+)\.(\d+)'
+
+  # R2Client - R2Games game launcher embedded browser (CEF-based)
+  - regex: '(R2Client)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # OBS Studio embedded browser (CEF-based, used for browser sources/docks)
+  - regex: '(OBS)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'OBS Studio'
+
+  # Adobe CEP - embedded Chromium runtime for extension panels in Adobe CC apps
+  - regex: '(AdobeCEP)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Adobe CEP'
+
+  # Steam embedded browsers; version from Chrome. Must be before Chrome.
+  # GameOverlay = in-game overlay browser (Shift+Tab)
+  - regex: 'Valve Steam (GameOverlay).{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam GameOverlay'
+  # Steam Deck built-in browser
+  - regex: 'Valve Steam (Gamepad)/Steam Deck.{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam Deck'
+  # Steam desktop client browser
+  - regex: '(Valve(?: Steam|) Client).{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Steam Client'
 
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
