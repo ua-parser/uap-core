@@ -950,6 +950,9 @@ user_agent_parsers:
   - regex: '(Valve(?: Steam|) Client).{1,200}Chrome/(\d+)\.(\d+)\.(\d+)'
     family_replacement: 'Steam Client'
 
+  # Ladybird
+  - regex: '(Ladybird)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
   # Chrome/Chromium/major_version.minor_version
   - regex: '(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
