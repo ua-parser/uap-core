@@ -85,7 +85,7 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X Mach-O; en-en; rv:1.9.0.12) Gecko/2009070609 Firefox/3.0.12,gzip(gfe),gzip(gfe)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major:
     minor:
     patch:
