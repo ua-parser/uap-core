@@ -9724,3 +9724,9 @@ test_cases:
     major: '1'
     minor: '0'
     patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0 Teams/26106.2110.4675.2592 (50)'
+    family: 'Microsoft Teams'
+    major: '26106'
+    minor: '2110'
+    patch: '4675'

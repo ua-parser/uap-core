@@ -834,6 +834,10 @@ user_agent_parsers:
   # Vivaldi
   - regex: '(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)'
 
+  # Microsoft Teams embedded browser (needs to be before Edge and Chrome)
+  - regex: '.{0,200}(Teams)/(\d+)\.(\d+)\.(\d+)'
+    family_replacement: 'Microsoft Teams'
+
   # Edge/major_version.minor_version
   # Edge with chromium Edg/major_version.minor_version.patch.minor_patch
   - regex: '(Edge?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
