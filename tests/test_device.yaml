@@ -80633,3 +80633,8 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)'
+    family: 'Spider'
+    brand: 'Spider'
+    model:
