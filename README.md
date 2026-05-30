@@ -13,6 +13,7 @@ Maintainers
 * [Tobie Langel](https://github.com/tobie) ([@tobie](https://twitter.com/tobie))
 * [Louis Barthonet](https://github.com/lbarthon)
 * [Miguel de Moura](https://github.com/migueldemoura)
+* [Your Name](https://github.com/your-username)
 
 Communication channels
 -----------------------
