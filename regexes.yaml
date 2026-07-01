@@ -1788,6 +1788,31 @@ os_parsers:
     os_replacement: 'Mac OS X'
     os_v1_replacement: '10'
     os_v2_replacement: '11'
+  # explicit "macOS" token; matched before the iOS ladder as the Darwin major is
+  # shared. version comes from Darwin, not the CFNetwork build after "macOS/"
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/26\.([0-5])\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '27'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/(26)\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '27'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/25\.([0-5])\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '26'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/(25)\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '26'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/24\.([0-5])\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '15'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/(24)\.\d+'
+    os_replacement: 'macOS'
+    os_v1_replacement: '15'
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/'
+    os_replacement: 'macOS'
   ##########
   # CFNetwork iOS Apps
   # @ref: https://en.wikipedia.org/wiki/Darwin_(operating_system)#Release_history
@@ -1991,6 +2016,20 @@ os_parsers:
   - regex: 'CFNetwork/.{0,100} Darwin/(24)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '18'
+  - regex: 'CFNetwork/.{0,100} Darwin/25\.([0-5])\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '26'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100} Darwin/(25)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '26'
+  - regex: 'CFNetwork/.{0,100} Darwin/26\.([0-5])\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '27'
+    os_v2_replacement: '$1'
+  - regex: 'CFNetwork/.{0,100} Darwin/(26)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '27'
   - regex: 'CFNetwork/.{0,100} Darwin/'
     os_replacement: 'iOS'
 
@@ -5755,6 +5794,12 @@ device_parsers:
   # @note: newer desktop applications don't show device info
   # This is here so as to not have them recorded as iOS-Device
   - regex: 'CFNetwork/.{0,100} Darwin/\d+\.\d+\.\d+ \(x86_64\)'
+    device_replacement: 'Mac'
+    brand_replacement: 'Apple'
+    model_replacement: 'Mac'
+  # @note: apps with an explicit "macOS" token are Macs; arm64 Macs lack the
+  # "(x86_64)" marker above and would otherwise be recorded as iOS-Device
+  - regex: 'CFNetwork/.{0,100}macOS/.{0,100} Darwin/\d'
     device_replacement: 'Mac'
     brand_replacement: 'Apple'
     model_replacement: 'Mac'

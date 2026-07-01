@@ -80633,3 +80633,9 @@ test_cases:
     family: 'Spider'
     brand: 'Spider'
     model: 'Desktop'
+
+  # CFNetwork apps with an explicit "macOS" token are Macs, not iOS-Device
+  - user_agent_string: 'Self Service+/7570 CFNetwork/macOS/3860.600.21 Darwin/25.5.0'
+    family: 'Mac'
+    brand: 'Apple'
+    model: 'Mac'
