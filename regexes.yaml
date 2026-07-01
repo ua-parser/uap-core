@@ -2199,6 +2199,7 @@ os_parsers:
 
   # Huawei HarmonyOS
   - regex: '(HarmonyOS)[\s;]+(\d+|)\.?(\d+|)\.?(\d+|)'
+  - regex: '(OpenHarmony)[\s;]+(\d+|)\.?(\d+|)\.?(\d+|)'
 
 device_parsers:
 
@@ -6264,3 +6265,7 @@ device_parsers:
     device_replacement: 'Mac'
     brand_replacement: 'Apple'
     model_replacement: 'Mac'
+
+  - regex: 'Phone;\s*OpenHarmony'
+    device_replacement: 'Phone'
+    brand_replacement: 'OpenHarmony'
