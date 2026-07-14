@@ -4303,11 +4303,11 @@ device_parsers:
   # OnePlus
   # @ref https://oneplus.net/
   #########
-  - regex: '; (ONE [a-zA-Z]\d+)(?: Build|\) AppleWebKit)'
+  - regex: '; (ONE [a-zA-Z]\d+)(?: Build|;? {0,2}\) AppleWebKit)'
     device_replacement: 'OnePlus $1'
     brand_replacement: 'OnePlus'
     model_replacement: '$1'
-  - regex: '; (ONEPLUS [a-zA-Z]\d+)(?: Build|\) AppleWebKit)'
+  - regex: '; (ONEPLUS [a-zA-Z]\d+)(?: Build|;? {0,2}\) AppleWebKit)'
     device_replacement: 'OnePlus $1'
     brand_replacement: 'OnePlus'
     model_replacement: '$1'
