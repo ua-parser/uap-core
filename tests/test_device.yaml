@@ -80270,6 +80270,16 @@ test_cases:
     brand: 'OnePlus'
     model: 'ONEPLUS A5010'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 10; ONEPLUS A7010; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36'
+    family: 'OnePlus ONEPLUS A7010'
+    brand: 'OnePlus'
+    model: 'ONEPLUS A7010'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 6.0.1; ONE E1003; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Mobile Safari/537.36'
+    family: 'OnePlus ONE E1003'
+    brand: 'OnePlus'
+    model: 'ONE E1003'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel Build/OPM1.171019.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36'
     family: 'Pixel'
     brand: 'Google'
