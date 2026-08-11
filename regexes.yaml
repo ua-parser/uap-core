@@ -763,6 +763,18 @@ user_agent_parsers:
   # Ancestry.com Android app
   - regex: '(AncestryAndroid)/(\d+)\.(\d+)(?:\.(\d+)|)'
 
+  # Sentry CLI
+  # @ref: https://docs.sentry.io/cli/
+  - regex: '(sentry-cli)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Sentry MCP Server
+  # @ref: https://mcp.sentry.dev/
+  - regex: '(sentry-mcp)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
+  # Sentry Uptime Bot
+  # @ref: https://radar.cloudflare.com/bots/directory/sentry-uptime-monitoring
+  - regex: '(SentryUptimeBot)/(\d+)\.(\d+)(?:\.(\d+)|)'
+
   #### END SPECIAL CASES TOP ####
 
   #### MAIN CASES - this catches > 50% of all browsers ####
