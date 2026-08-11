@@ -435,35 +435,35 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X; en-us) AppleWebKit/418.8 (KHTML, like Gecko) Safari/419.3'
-    family: 'Mac OS X'
+    family: 'macOS'
     major:
     minor:
     patch:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_7; en-us) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Safari/530.17 Skyfire/2.0'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '5'
     patch: '7'
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_5; en-us) AppleWebKit/533.18.1 (KHTML, like Gecko) Version/5.0.2 Safari/533.18.5'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '6'
     patch: '5'
     patch_minor:
 
   - user_agent_string: 'Mozilla/4.0 (compatible; MSIE 5.17; Mac_PowerPC)'
-    family: 'Mac OS'
+    family: 'macOS'
     major:
     minor:
     patch:
     patch_minor:
 
   - user_agent_string: 'MacOutlook/16.12.0.180401 (Intelx64 Mac OS X Version 10.12.6 (build 16G29))'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '12'
     patch: '6'
@@ -1915,42 +1915,42 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Safari5530.17 CFNetwork/438.12 Darwin/9.7.0 (i386) (Macmini2,1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '5'
     patch: '7'
     patch_minor:
 
   - user_agent_string: 'Safari5531.21.10 CFNetwork/438.14 Darwin/9.8.0 (i386) (MacBook5%2C2)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '5'
     patch: '8'
     patch_minor:
 
   - user_agent_string: 'Safari/6533.18.5 CFNetwork/454.9.8 Darwin/10.4.0 (i386) (MacBookPro7,1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '6'
     patch: '4'
     patch_minor:
 
   - user_agent_string: 'Safari/7536.30.1 CFNetwork/520.5.1 Darwin/11.4.2 (i386) (MacBook3,1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '7'
     patch: '4'
     patch_minor:
 
   - user_agent_string: 'Reader Notifier/5 CFNetwork/596.3.3 Darwin/12.3.0 (x86_64) (MacBookPro7,1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '8'
     patch: '3'
     patch_minor:
 
   - user_agent_string: 'Safari/9537.71 CFNetwork/673.0.2 Darwin/13.0.1 (x86_64) (MacBookPro11,1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '9'
     patch: '0'
@@ -1964,21 +1964,21 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Safari/10600.3.18 CFNetwork/720.2.4 Darwin/14.1.0 (x86_64)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '10'
     patch: '2'
     patch_minor:
 
   - user_agent_string: 'com.apple.geod/1077.0.18 CFNetwork/720.4 Darwin/14.4.0 (x86_64)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '10'
     patch: '4'
     patch_minor:
 
   - user_agent_string: 'Mac OS X/10.10.4 (14E11f)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '10'
     patch: '4'
@@ -2167,7 +2167,7 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Bloodhound/2.1 CFNetwork/673.4 Darwin/13.3.0 (x86_64) (MacBookPro10%2C1)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '9'
     patch: '3'
@@ -2608,28 +2608,28 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'MacAppStore/2.0 (Macintosh; OS X 10.10.2; 14C81f) AppleWebKit/0600.3.10.2'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '10'
     patch: '2'
     patch_minor:
 
   - user_agent_string: 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '9'
     patch: '2'
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; MacOS X 10_10_2; en-US; Valve Steam Client/1424305157; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.86 Safari/537.36'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '10'
     patch: '2'
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; U; Mac OS X Mach-O; en-US; rv:2.0a) Gecko/20040614 Firefox/3.0.0'
-    family: 'Mac OS X'
+    family: 'macOS'
     major:
     minor:
     patch:
@@ -2915,35 +2915,35 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/52.0.2743.116+Safari/537.36'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '11'
     patch: '6'
     patch_minor:
 
   - user_agent_string: 'Safari/12602.2.14.0.7 CFNetwork/807.1.3 Darwin/16.1.0 (x86_64)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '12'
     patch:
     patch_minor:
 
   - user_agent_string: 'Box Sync/4.0.7848;Darwin/10.13;i386/64bit'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '13'
     patch:
     patch_minor:
 
   - user_agent_string: 'Box/1.2.93;Darwin/10.13;i386/64bit'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '13'
     patch:
     patch_minor:
 
   - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) BoxNotes/1.3.0 Chrome/56.0.2924.87 Electron/1.6.8 Safari/537.36'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '13'
     patch: '0'
@@ -3048,7 +3048,7 @@ test_cases:
     patch_minor:
 
   - user_agent_string: 'MyApp/1.0 CFNetwork/893.13.1 Darwin/17.3.0 (x86_64)'
-    family: 'Mac OS X'
+    family: 'macOS'
     major: '10'
     minor: '13'
     patch:
