@@ -2237,6 +2237,11 @@ device_parsers:
     brand_replacement: 'Spider'
     model_replacement: 'Desktop'
 
+  # TikTok spider
+  - regex: 'Bytespider;'
+    device_replacement: 'Spider'
+    brand_replacement: 'Spider'
+
   #########
   # WebBrowser for SmartWatch
   # @ref: https://play.google.com/store/apps/details?id=se.vaggan.webbrowser&hl=en
