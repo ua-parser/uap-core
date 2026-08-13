@@ -455,13 +455,13 @@ user_agent_parsers:
   - regex: '(EdgiOS|EdgA)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)'
     family_replacement: 'Edge Mobile'
 
-  # Oculus Browser, should go before Samsung Internet
+  # Oculus Browser, should go before Samsung Browser
   - regex: '(OculusBrowser)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)'
     family_replacement: 'Oculus Browser'
 
-  # Samsung Internet (based on Chrome, but lacking some features)
+  # Samsung Browser (based on Chrome, but lacking some features)
   - regex: '(SamsungBrowser)/(\d+)\.(\d+)'
-    family_replacement: 'Samsung Internet'
+    family_replacement: 'Samsung Browser'
 
   # Seznam.cz browser (based on WebKit)
   - regex: '(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+)|)'
