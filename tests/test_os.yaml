@@ -3389,3 +3389,12 @@ test_cases:
     minor: '0'
     patch: '0'
     patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (Phone; OpenHarmony 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 ArkWeb/6.0.0.46SP3 Mobile MicroMessenger/8.0.18.37(0xf3801225) Weixin NetType/WIFI Language/zh_CN MMWEBID/6638 MMWEBSDK/202605040005 XWEB/1320217'
+    family: 'OpenHarmony'
+    major: '6'
+    minor: '1'
+    patch:
+    patch_minor:
+
+
