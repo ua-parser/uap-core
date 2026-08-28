@@ -3389,3 +3389,48 @@ test_cases:
     minor: '0'
     patch: '0'
     patch_minor:
+
+  # CFNetwork apps with an explicit "macOS" token; version from Darwin
+  - user_agent_string: 'Self Service+/7570 CFNetwork/macOS/3860.600.21 Darwin/25.5.0'
+    family: 'macOS'
+    major: '26'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Cal/1.0 CFNetwork/macOS/3860.100.1 Darwin/24.4.0'
+    family: 'macOS'
+    major: '15'
+    minor: '4'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'Self Service+/8100 CFNetwork/macOS/3900.100.1 Darwin/26.1.0'
+    family: 'macOS'
+    major: '27'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  # CFNetwork iOS apps on Darwin 25 (iOS 26)
+  - user_agent_string: 'App/1.0 CFNetwork/1568.100.1 Darwin/25.0.0'
+    family: 'iOS'
+    major: '26'
+    minor: '0'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'App/1.0 CFNetwork/1568.200.51 Darwin/25.5.0'
+    family: 'iOS'
+    major: '26'
+    minor: '5'
+    patch:
+    patch_minor:
+
+  # CFNetwork iOS apps on Darwin 26 (iOS 27)
+  - user_agent_string: 'App/1.0 CFNetwork/1600.100.1 Darwin/26.0.0'
+    family: 'iOS'
+    major: '27'
+    minor: '0'
+    patch:
+    patch_minor:
