@@ -4239,6 +4239,12 @@ test_cases:
     minor: '2'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)'
+    family: 'Censys'
+    major: '1'
+    minor: '1'
+    patch:
+
   - user_agent_string: 'Hatena::Crawler/0.01'
     family: 'Hatena::Crawler'
     major: '0'

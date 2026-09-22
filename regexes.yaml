@@ -703,6 +703,10 @@ user_agent_parsers:
   - regex: '(Talon)'
     family_replacement: 'Talon Cyber Security Browser'
 
+  # Censys Security Scanner
+  - regex: '(CensysInspect)/(\d+)\.(\d+)'
+    family_replacement: 'Censys'
+
   # QAX Browser
   - regex: '(Qaxbrowser)'
     family_replacement: 'QAX Browser'
