@@ -452,6 +452,12 @@ test_cases:
     minor: '1'
     patch:
 
+  - user_agent_string: 'Grammarly/1.0 (http://www.grammarly.com)'
+    family: 'Grammarly'
+    major: '1'
+    minor: '0'
+    patch:
+
   - user_agent_string: 'LinkedInBot/1.0 (compatible; Mozilla/5.0; Jakarta Commons-HttpClient/3.1 +http://www.linkedin.com)'
     family: 'LinkedInBot'
     major: '1'
