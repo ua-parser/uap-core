@@ -80529,6 +80529,21 @@ test_cases:
     brand: 'Spider'
     model: 'Desktop'
 
+  - user_agent_string: 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
+  - user_agent_string: 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Perplexity-User/1.0; +https://perplexity.ai/perplexity-user)'
+    family: 'Spider'
+    brand: 'Spider'
+    model: 'Desktop'
+
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; AspiegelBot)'
     family: 'Spider'
     brand: 'Spider'
